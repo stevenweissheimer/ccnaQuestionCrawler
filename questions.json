@@ -1739,6 +1739,7 @@
     "questionText": "Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.",
     "answersDescription": "After the enable command is issued, the show running-configuration command or the show ip interfaces brief command will display the IP address of the switch virtual interface (SVI).",
     "questionImage": "9290229582.jpg",
+    "questionFile" : "9290229582.pka",
     "answers": [
       {
         "id": 7296328171,
@@ -4375,6 +4376,7 @@
     "questionText": "Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.",
     "answersDescription": "Issuing the command ipconfig /all from the PC0 command prompt displays the IPv4 address and MAC address. When the IPv4 address 10.1.1.5 is pinged from PC0, the switch stores the source MAC address (from PC0) along with the port to which PC0 is connected. When the destination reply is received, the switch takes the destination MAC address and compares to MAC addresses stored in the MAC address table. Issuing the show mac-address-table on the PC0 Terminal application displays two dynamic MAC address entries. The MAC address and port entry that does not belong to PC0 must be the MAC address and port of the destination with the IPv4 address 10.1.1.5.",
     "questionImage": "7581728453.jpg",
+    "questionFile" : "7581728453.pka",
     "answers": [
       {
         "id": 4534198747,
@@ -7121,6 +7123,7 @@
     "questionText": "Open the PT activity. Perform the tasks in the activity instructions and then answer the question.",
     "answersDescription": "The command to use for this activity is show ip interface brief in each router. The active and operational interfaces are represented by the value “up” in the “Status” and “Protocol” columns. The interfaces in R1 with these characteristics are G0/0 and S0/0/0. In R2 they are G0/1 and S0/0/0.",
     "questionImage": "9582665020.jpg",
+    "questionFile" : "",
     "answers": [
       {
         "id": 8885494307,
