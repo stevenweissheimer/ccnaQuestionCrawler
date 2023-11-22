@@ -88,6 +88,101 @@
                 "categoryId" : 6153814481,
                 "name" : "Final Exam Questions"
             }]
+        },{
+            "subCourseId": 3157811956,
+            "name": "Security (off Topic)",
+            "categories": [{
+                "categoryId" : 6123811459,
+                "name" : "Chapter 1"
+            },{
+                "categoryId" : 72778647901,
+                "name" : "Chapter 2"
+            },{
+                "categoryId" : 3153672299,
+                "name" : "Chapter 3"
+            },{
+                "categoryId" : 8348115878,
+                "name" : "Chapter 4"
+            },{
+                "categoryId" : 1367915914,
+                "name" : "Chapter 5"
+            },{
+                "categoryId" : 8147919104,
+                "name" : "Chapter 6"
+            },{
+                "categoryId" : 4227423812,
+                "name" : "Chapter 7"
+            },{
+                "categoryId" : 7203010808,
+                "name" : "Chapter 8"
+            },{
+                "categoryId" : 8204091805,
+                "name" : "Chapter 9"
+            },{
+                "categoryId" : 9200410091,
+                "name" : "Chapter 11"
+            },{
+                "categoryId" : 7123710408,
+                "name" : "Practice Final Questions"
+            },{
+                "categoryId" : 3254790802,
+                "name" : "Certification Practice Questions"
+            },{
+                "categoryId" : 7363913491,
+                "name" : "Final Questions"
+            }]
+        },{
+            "subCourseId": 3157811956,
+            "name": "Cybersecurity Operations (off Topic)",
+            "categories": [{
+                "categoryId" : 3123913451,
+                "name" : "Chapter 1"
+            },{
+                "categoryId" : 62758637925,
+                "name" : "Chapter 2"
+            },{
+                "categoryId" : 1753642239,
+                "name" : "Chapter 3"
+            },{
+                "categoryId" : 9348118821,
+                "name" : "Chapter 4"
+            },{
+                "categoryId" : 5366945215,
+                "name" : "Chapter 5"
+            },{
+                "categoryId" : 1137618134,
+                "name" : "Chapter 6"
+            },{
+                "categoryId" : 7247225829,
+                "name" : "Chapter 7"
+            },{
+                "categoryId" : 6243611851,
+                "name" : "Chapter 8"
+            },{
+                "categoryId" : 5234591859,
+                "name" : "Chapter 9"
+            },{
+                "categoryId" : 6230512067,
+                "name" : "Chapter 11"
+            },{
+                "categoryId" : 6136260809,
+                "name" : "Chapter 12"
+            },{
+                "categoryId" : 8254190006,
+                "name" : "Chapter 13"
+            },{
+                "categoryId" : 9343511451,
+                "name" : "Practice Final Questions"
+            },{
+                "categoryId" : 2563512497,
+                "name" : "SECFND - Dumps – Certification Practice Questions"
+            },{
+                "categoryId" : 7765983199,
+                "name" : "SECOPS - Dumps – Certification Practice Questions"
+            },{
+                "categoryId" : 8343611405,
+                "name" : "Final Questions"
+            }]
         }] 
     }]
 }

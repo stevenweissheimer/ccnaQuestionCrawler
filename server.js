@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
@@ -71,13 +71,14 @@ app.post('/addQuestion', upload.fields([
     const selectedCourse = courses.find(course => course.courseId === parseInt(courseId));
     const selectedSubcourse = selectedCourse.subcourses.find(subcourse => subcourse.subCourseId === parseInt(subCourseId));
     const selectedCategory = selectedSubcourse.categories.find(category => category.categoryId === parseInt(categoryId));
-
+    
     const timestamp = new Date(); // Aktuelles Datum und Uhrzeit
 
     const newQuestion = {
         courseId: selectedCourse.courseId,
         subCourseId: selectedSubcourse.subCourseId,
         categoryId: selectedCategory.categoryId,
+        questionType: 3719829076,
         timestamp: timestamp.toISOString(), // ISO-Format für den Timestamp
         question,
         questionText,
