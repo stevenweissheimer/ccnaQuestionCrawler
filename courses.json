@@ -1,0 +1,93 @@
+{
+    "courses": [{
+        "courseId": 7836270919,
+        "name": "CCNAv7",
+        "industryId": "200-301",
+        "owner": [9999999999],
+        "sharedWith" : [9999999999],
+        "timestamp": "2023-11-22T14:50:59.745Z",
+        "subcourses": [{
+            "subCourseId": 8273629076,
+            "name": "ITN",
+            "categories": [{
+                "categoryId" : 3123446799,
+                "name" : "Basic Network Connectivity and Communications"
+            },{
+                "categoryId" : 3633686239,
+                "name" : "Ethernet Concepts"
+            },{
+                "categoryId" : 6653876239,
+                "name" : "Communicating Between Networks Exam Answers"
+            },{
+                "categoryId" : 7683274839,
+                "name" : "IP Addressing"
+            },{
+                "categoryId" : 9184678239,
+                "name" : "Network Application Communications"
+            },{
+                "categoryId" : 3623348239,
+                "name" : "Practice Questions"
+            },{
+                "categoryId" : 3683446239,
+                "name" : "Final Questions"
+            }]
+        },{
+            "subCourseId": 3124557850,
+            "name": "SRWE",
+            "categories": [{
+                "categoryId" : 6133417493,
+                "name" : "Switching Concepts, VLANs, and InterVLAN Routing"
+            },{
+                "categoryId" : 9137015792,
+                "name" : "Redundant Networks"
+            },{
+                "categoryId" : 1123712890,
+                "name" : "Available and Reliable Networks"
+            },{
+                "categoryId" : 6137315861,
+                "name" : "L2 Security and WLANs"
+            },{
+                "categoryId" : 8123413890,
+                "name" : "Routing Concepts and Configuration"
+            },{
+                "categoryId" : 6224893814,
+                "name" : "Practice Questions"
+            },{
+                "categoryId" : 5323513991,
+                "name" : "Final Questions"
+            }]
+        },{
+            "subCourseId": 7147581853,
+            "name": "ENSA",
+            "categories": [{
+                "categoryId" : 8133512493,
+                "name" : "OSPF Concepts and Configuration"
+            },{
+                "categoryId" : 1127965796,
+                "name" : "Network Security"
+            },{
+                "categoryId" : 4153612892,
+                "name" : "WAN Concepts"
+            },{
+                "categoryId" : 7147216868,
+                "name" : "Optimize, Monitor, and Troubleshoot Networks"
+            },{
+                "categoryId" : 2193515891,
+                "name" : "Emerging Network Technologies"
+            },{
+                "categoryId" : 8224593819,
+                "name" : "Practice Questions"
+            },{
+                "categoryId" : 9323413997,
+                "name" : "Final Questions"
+            }]
+        },{
+            "subCourseId": 6135842189,
+            "name": "CCNAv7",
+            "categories": [{
+                "categoryId" : 6153814481,
+                "name" : "Final Exam Questions"
+            }]
+        }] 
+    }]
+}

@@ -1,0 +1,388 @@
+<p><strong>1. Which information is used by routers to forward a data packet toward its destination?</strong></p>
+<ul>
+<li>source IP address</li>
+<li><span style="color: #ff0000;"><strong>destination IP address</strong></span></li>
+<li>source data-link address</li>
+<li>destination data-link address</li>
+</ul>
+<p><strong>2. A computer has to send a packet to a destination host in the same LAN. How will the packet be sent?</strong></p>
+<ul>
+<li>The packet will be sent to the default gateway first, and then, depending on the response from the gateway, it may be sent to the destination host.</li>
+<li><span style="color: #ff0000;"><strong>The packet will be sent directly to the destination host.</strong></span></li>
+<li>The packet will first be sent to the default gateway, and then from the default gateway it will be sent directly to the destination host.</li>
+<li>The packet will be sent only to the default gateway.</li>
+</ul>
+<p><strong>3. A router receives a packet from the Gigabit 0/0 interface and determines that the packet needs to be forwarded out the Gigabit 0/1 interface. What will the router do next?</strong></p>
+<ul>
+<li>route the packet out the Gigabit 0/1 interface</li>
+<li><span style="color: #ff0000;"><strong>create a new Layer 2 Ethernet frame to be sent to the destination</strong></span></li>
+<li>look into the ARP cache to determine the destination IP address</li>
+<li>look into the routing table to determine if the destination network is in the routing table</li>
+</ul>
+<p><strong>4. Which IPv4 address can a host use to ping the loopback interface?</strong></p>
+<ul>
+<li>126.0.0.1</li>
+<li>127.0.0.0</li>
+<li>126.0.0.0</li>
+<li><span style="color: #ff0000;"><strong>127.0.0.1</strong></span></li>
+</ul>
+<p><strong>5. A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?</strong></p>
+<ul>
+<li>The cable is not connected properly to the NIC.</li>
+<li>The computer has an invalid IP address.</li>
+<li>The computer has an incorrect subnet mask.</li>
+<li><strong><span style="color: #ff0000;">The computer has an invalid default gateway address.</span></strong></li>
+</ul>
+<p><strong>6. Which statement describes a feature of the IP protocol?</strong></p>
+<ul>
+<li>IP encapsulation is modified based on network media.</li>
+<li>IP relies on Layer 2 protocols for transmission error control.</li>
+<li>MAC addresses are used during the IP packet encapsulation.</li>
+<li><strong><span style="color: #ff0000;">IP relies on upper layer services to handle situations of missing or out-of-order packets.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> IP protocol is a connection-less protocol, considered unreliable in terms of end-to-end delivery. It does not provide error control in the cases where receiving packets are out-of-order or in cases of missing packets. It relies on upper layer services, such as TCP, to resolve these issues.</p></div>
+<p><strong>7. Why is NAT not needed in IPv6?​</strong></p>
+<ul>
+<li>Because IPv6 has integrated security, there is no need to hide the IPv6 addresses of internal networks.​</li>
+<li><span style="color: #ff0000;"><strong>Any host or user can get a public IPv6 network address because the number of available IPv6 addresses is extremely large.​</strong></span></li>
+<li>The problems that are induced by NAT applications are solved because the IPv6 header improves packet handling by intermediate routers.​</li>
+<li>The end-to-end connectivity problems that are caused by NAT are solved because the number of routes increases with the number of nodes that are connected to the Internet.</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The large number of public IPv6 addresses eliminates the need for NAT. Sites from the largest enterprises to single households can get public IPv6 network addresses. This avoids some of the NAT-induced application problems that are experienced by applications that require end-to-end connectivity.</p></div>
+<p><strong>8. Which parameter does the router use to choose the path to the destination when there are multiple routes available?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">the lower metric value that is associated with the destination network</span></strong></li>
+<li>the lower gateway IP address to get to the destination network</li>
+<li>the higher metric value that is associated with the destination network</li>
+<li>the higher gateway IP address to get to the destination network</li>
+</ul>
+<p><strong>9. What are two services provided by the OSI network layer? (Choose two.)</strong></p>
+<ul>
+<li>performing error detection</li>
+<li><strong><span style="color: #ff0000;">routing packets toward the destination</span></strong></li>
+<li><strong><span style="color: #ff0000;">encapsulating PDUs from the transport layer</span></strong></li>
+<li>placement of frames on the media</li>
+<li>collision detection</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The OSI network layer provides several services to allow communication between devices:</p>
+<ul>
+<li>addressing</li>
+<li>encapsulation</li>
+<li>routing</li>
+<li>de-encapsulation</li>
+</ul>
+<p>Error detection, placing frames on the media, and collision detection are all functions of the data ink layer.</p></div>
+<p><strong>10. Within a production network, what is the purpose of configuring a switch with a default gateway address?</strong></p>
+<ul>
+<li>Hosts that are connected to the switch can use the switch default gateway address to forward packets to a remote destination.</li>
+<li>A switch must have a default gateway to be accessible by Telnet and SSH.</li>
+<li><strong><span style="color: #ff0000;">The default gateway address is used to forward packets originating from the switch to remote networks.</span></strong></li>
+<li>It provides a next-hop address for all traffic that flows through the switch.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A default gateway address allows a switch to forward packets that originate on the switch to remote networks. A default gateway address on a switch does not provide Layer 3 routing for PCs that are connected on that switch. A switch can still be accessible from Telnet as long as the source of the Telnet connection is on the local network.</p></div>
+<p><strong>11. What is a basic characteristic of the IP protocol?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">connectionless</span></strong></li>
+<li>media dependent</li>
+<li>user data segmentation</li>
+<li>reliable end-to-end delivery</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Internet Protocol (IP) is a network layer protocol that does not require initial exchange of control information to establish an end-to-end connection before packets are forwarded. Thus, IP is connectionless and does not provide reliable end-to-end delivery by itself. IP is media independent. User data segmentation is a service provided at the transport layer.</p></div>
+<p><strong>12. Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Time-to-Live</span></strong></li>
+<li>Sequence Number</li>
+<li>Acknowledgment Number</li>
+<li>Differentiated Services</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The value of the Time-to-Live (TTL) field in the IPv4 header is used to limit the lifetime of a packet. The sending host sets the initial TTL value; which is decreased by one each time the packet is processed by a router. If the TTL field decrements to zero, the router discards the packet and sends an Internet Control Message Protocol (ICMP) Time Exceeded message to the source IP address. The Differentiated Services (DS) field is used to determine the priority of each packet. Sequence Number and Acknowledgment Number are two fields in the TCP header.</p></div>
+<p><strong>13. What is one advantage that the IPv6 simplified header offers over IPv4?</strong></p>
+<ul>
+<li>smaller-sized header</li>
+<li>little requirement for processing checksums</li>
+<li>smaller-sized source and destination IP addresses</li>
+<li><strong><span style="color: #ff0000;">efficient packet handling</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The IPv6 simplified header offers several advantages over IPv4:</p>
+<ul>
+<li>Better routing efficiency and efficient packet handling for performance and forwarding-rate scalability</li>
+<li>No requirement for processing checksums</li>
+<li>Simplified and more efficient extension header mechanisms (as opposed to the IPv4 Options field)</li>
+<li>A Flow Label field for per-flow processing with no need to open the transport inner packet to identify the various traffic flows</li>
+</ul>
+<p></p></div>
+<p><strong>14. What IPv4 header field identifies the upper layer protocol carried in the packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Protocol</span></strong></li>
+<li>Identification</li>
+<li>Version</li>
+<li>Differentiated Services</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> It is the Protocol field in the IP header that identifies the upper-layer protocol the packet is carrying. The Version field identifies the IP version. The Differential Services field is used for setting packet priority. The Identification field is used to reorder fragmented packets.</p></div>
+<p><strong>15. Refer to the exhibit. Match the packets with their destination IP address to the exiting interfaces on the router. (Not all targets are used.)</strong><br />
+<img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-51226" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/CCNA-v7-Modul-8-10_Qns-15-Exten-exhibit-1594760765.9811.png" alt="" width="591" height="269" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/CCNA-v7-Modul-8-10_Qns-15-Exten-exhibit-1594760765.9811.png 591w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/CCNA-v7-Modul-8-10_Qns-15-Exten-exhibit-1594760765.9811-300x137.png 300w" sizes="(max-width: 591px) 100vw, 591px" /></p>
+<p><img decoding="async" class="aligncenter size-full wp-image-47985" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-001-3.png" alt="" width="1280" height="814" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-001-3.png 1280w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-001-3-300x191.png 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-001-3-1024x651.png 1024w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-001-3-768x488.png 768w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-001-3-20x13.png 20w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<div class="message_box success"><p><strong>Explanation:</strong> Packets with a destination of 172.17.6.15 are forwarded through Fa0/0. Packets with a destination of 172.17.10.5 are forwarded through Fa1/1. Packets with a destination of 172.17.12.10 are forwarded through Fa1/0. Packets with a destination of 172.17.14.8 are forwarded through Fa0/1. Because network 172.17.8.0 has no entry in the routing table, it will take the gateway of last resort, which means that packets with a destination of 172.17.8.20 are forwarded through Serial0/0/0. Because a gateway of last resort exists, no packets will be dropped.</p></div>
+<p><strong>16. What information does the loopback test provide?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">The TCP/IP stack on the device is working correctly.</span></strong></li>
+<li>The device has end-to-end connectivity.</li>
+<li>DHCP is working correctly.</li>
+<li>The Ethernet cable is working correctly.</li>
+<li>The device has the correct IP address on the network.</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Because the loopback test sends packets back to the host device, it does not provide information about network connectivity to other hosts. The loopback test verifies that the host NIC, drivers, and TCP/IP stack are functioning.</p></div>
+<p><strong>17. What routing table entry has a next hop address associated with a destination network?</strong></p>
+<ul>
+<li>directly-connected routes</li>
+<li>local routes</li>
+<li><strong><span style="color: #ff0000;">remote routes</span></strong></li>
+<li>C and L source routes</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Routing table entries for remote routes will have a next hop IP address. The next hop IP address is the address of the router interface of the next device to be used to reach the destination network. Directly-connected and local routes have no next hop, because they do not require going through another router to be reached.</p></div>
+<p><strong>18. How do hosts ensure that their packets are directed to the correct network destination?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">They have to keep their own local routing table that contains a route to the loopback interface, a local network route, and a remote default route.​</span></strong></li>
+<li>They always direct their packets to the default gateway, which will be responsible for the packet delivery.</li>
+<li>They search in their own local routing table for a route to the network destination address and pass this information to the default gateway.</li>
+<li>They send a query packet to the default gateway asking for the best route.</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Hosts must maintain their own local routing table to ensure that network layer packets are directed to the correct destination network. This local table typically contains a route to the loopback interface, a route to the network that the host is connected to, and a local default route, which represents the route that packets must take to reach all remote network addresses.</p></div>
+<p><strong>19. When transporting data from real-time applications, such as streaming audio and video, which field in the IPv6 header can be used to inform the routers and switches to maintain the same path for the packets in the same conversation?</strong></p>
+<ul>
+<li>Next Header</li>
+<li><strong><span style="color: #ff0000;">Flow Label</span></strong></li>
+<li>Traffic Class</li>
+<li>Differentiated Services</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The Flow Label in IPv6 header is a 20-bit field that provides a special service for real-time applications. This field can be used to inform routers and switches to maintain the same path for the packet flow so that packets will not be reordered.</p></div>
+<p><strong>20. What statement describes the function of the Address Resolution Protocol?</strong></p>
+<ul>
+<li>ARP is used to discover the IP address of any host on a different network.</li>
+<li>ARP is used to discover the IP address of any host on the local network.</li>
+<li>ARP is used to discover the MAC address of any host on a different network.</li>
+<li><strong><span style="color: #ff0000;">ARP is used to discover the MAC address of any host on the local network.</span></strong></li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> When a PC wants to send data on the network, it always knows the IP address of the destination. However, it also needs to discover the MAC address of the destination. ARP is the protocol that is used to discover the MAC address of a host that belongs to the same network.</p></div>
+<p><strong>21. Under which two circumstances will a switch flood a frame out of every port except the port that the frame was received on? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">The frame has the broadcast address as the destination address.</span></strong></li>
+<li><strong><span style="color: #ff0000;">The destination address is unknown to the switch.</span></strong></li>
+<li>The source address in the frame header is the broadcast address.</li>
+<li>The source address in the frame is a multicast address.</li>
+<li>The destination address in the frame is a known unicast address.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A switch will flood a frame out of every port, except the one that the frame was received from, under two circumstances. Either the frame has the broadcast address as the destination address, or the destination address is unknown to the switch.</p></div>
+<p><strong>22. Which statement describes the treatment of ARP requests on the local link?</strong></p>
+<ul>
+<li>They must be forwarded by all routers on the local network.</li>
+<li><strong><span style="color: #ff0000;">They are received and processed by every device on the local network.</span></strong></li>
+<li>They are dropped by all switches on the local network.</li>
+<li>They are received and processed only by the target device.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> One of the negative issues with ARP requests is that they are sent as a broadcast. This means all devices on the local link must receive and process the request.</p></div>
+<p><strong>23. Which destination address is used in an ARP request frame?</strong></p>
+<ul>
+<li>0.0.0.0</li>
+<li>255.255.255.255</li>
+<li><strong><span style="color: #ff0000;">FFFF.FFFF.FFFF</span></strong></li>
+<li>AAAA.AAAA.AAAA</li>
+<li>the physical address of the destination host</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The purpose of an ARP request is to find the MAC address of the destination host on an Ethernet LAN. The ARP process sends a Layer 2 broadcast to all devices on the Ethernet LAN. The frame contains the IP address of the destination and the broadcast MAC address, FFFF.FFFF.FFFF. The host with the IP address that matches the IP address in the ARP request will reply with a unicast frame that includes the MAC address of the host. Thus the original sending host will obtain the destination IP and MAC address pair to continue the encapsulation process for data transmission.</p></div>
+<p><strong>24. A network technician issues the arp -d * command on a PC after the router that is connected to the LAN is reconfigured. What is the result after this command is issued?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">The ARP cache is cleared.</span></strong></li>
+<li>The current content of the ARP cache is displayed.</li>
+<li>The detailed information of the ARP cache is displayed.</li>
+<li>The ARP cache is synchronized with the router interface.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Issuing the <strong>arp –d *</strong> command on a PC will clear the ARP cache content. This is helpful when a network technician wants to ensure the cache is populated with updated information.</p></div>
+<p><strong>25. Refer to the exhibit. The exhibit shows a small switched network and the contents of the MAC address table of the switch. PC1 has sent a frame addressed to PC3. What will the switch do with the frame?</strong></p>
+<p><img decoding="async" class="aligncenter wp-image-37482" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i275394v1n1_207267.png" alt="" width="542" height="332" /></p>
+<ul>
+<li>The switch will discard the frame.</li>
+<li>The switch will forward the frame only to port 2.</li>
+<li><strong><span style="color: #ff0000;">The switch will forward the frame to all ports except port 4.</span></strong></li>
+<li>The switch will forward the frame to all ports.</li>
+<li>The switch will forward the frame only to ports 1 and 3.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The MAC address of PC3 is not present in the MAC table of the switch. Because the switch does not know where to send the frame that is addressed to PC3, it will forward the frame to all the switch ports, except for port 4, which is the incoming port.</p></div>
+<p><strong>26. Which two types of IPv6 messages are used in place of ARP for address resolution?</strong></p>
+<ul>
+<li>anycast</li>
+<li>broadcast</li>
+<li>echo reply</li>
+<li>echo request</li>
+<li><strong><span style="color: #ff0000;">neighbor solicitation</span></strong></li>
+<li><strong><span style="color: #ff0000;">neighbor advertisement</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> IPv6 does not use ARP. Instead, ICMPv6 neighbor discovery is used by sending neighbor solicitation and neighbor advertisement messages.</p></div>
+<p><strong>27. What is the aim of an ARP spoofing attack?</strong></p>
+<ul>
+<li>to flood the network with ARP reply broadcasts</li>
+<li>to fill switch MAC address tables with bogus addresses</li>
+<li><strong><span style="color: #ff0000;">to associate IP addresses to the wrong MAC address</span></strong></li>
+<li>to overwhelm network hosts with ARP requests</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> In an ARP spoofing attack, a malicious host intercepts ARP requests and replies to them so that network hosts will map an IP address to the MAC address of the malicious host.</p></div>
+<p><strong>28. Refer to the exhibit. PC1 attempts to connect to File_server1 and sends an ARP request to obtain a destination MAC address. Which MAC address will PC1 receive in the ARP reply?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37483" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-11_210907.jpg" alt="" width="378" height="288" /></p>
+<ul>
+<li>the MAC address of S1</li>
+<li><strong><span style="color: #ff0000;">the MAC address of the G0/0 interface on R1</span></strong></li>
+<li>the MAC address of the G0/0 interface on R2</li>
+<li>the MAC address of S2</li>
+<li>the MAC address of File_server1</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> PC1 must have a MAC address to use as a destination Layer 2 address. PC1 will send an ARP request as a broadcast and R1 will send back an ARP reply with its G0/0 interface MAC address. PC1 can then forward the packet to the MAC address of the default gateway, R1.</p></div>
+<p><strong>29. Where are IPv4 address to Layer 2 Ethernet address mappings maintained on a host computer?</strong></p>
+<ul>
+<li>neighbor table</li>
+<li><strong><span style="color: #ff0000;">ARP cache</span></strong></li>
+<li>routing table</li>
+<li>MAC address table</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The ARP cache is used to store IPv4 addresses and the Ethernet physical addresses or MAC addresses to which the IPv4 addresses are mapped. Incorrect mappings of IP addresses to MAC addresses can result in loss of end-to-end connectivity.</p></div>
+<p><strong>30. What important information is examined in the Ethernet frame header by a Layer 2 device in order to forward the data onward?</strong></p>
+<ul>
+<li>source MAC address</li>
+<li>source IP address</li>
+<li><strong><span style="color: #ff0000;">destination MAC address</span></strong></li>
+<li>Ethernet type</li>
+<li>destination IP address</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The Layer 2 device, such as a switch, uses the destination MAC address to determine which path (interface or port) should be used to send the data onward to the destination device.</p></div>
+<p><strong>31. Match the commands to the correct actions. (Not all options are used.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-47986" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-002-3.png" alt="" width="1280" height="786" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-002-3.png 1280w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-002-3-300x184.png 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-002-3-1024x629.png 1024w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-002-3-768x472.png 768w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-002-3-324x200.png 324w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-002-3-20x12.png 20w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<p><strong>32. A new network administrator has been asked to enter a banner message on a Cisco device. What is the fastest way a network administrator could test whether the banner is properly configured?</strong></p>
+<ul>
+<li>Reboot the device.</li>
+<li>Enter CTRL-Z at the privileged mode prompt.</li>
+<li>Exit global configuration mode.</li>
+<li>Power cycle the device.</li>
+<li><strong><span style="color: #ff0000;">Exit privileged EXEC mode and press Enter.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> While at the privileged mode prompt such as Router#, type <strong>exit,press Enter,</strong> and the banner message appears. Power cycling a network device that has had the <strong>banner motd</strong> command issued will also display the banner message, but this is not a quick way to test the configuration.</p></div>
+<p><strong>33. A network administrator requires access to manage routers and switches locally and remotely. Match the description to the access method. (Not all options are used.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-47987" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-003-3.png" alt="" width="1280" height="794" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-003-3.png 1280w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-003-3-300x186.png 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-003-3-1024x635.png 1024w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-003-3-768x476.png 768w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-003-3-324x200.png 324w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-003-3-20x12.png 20w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<div class="message_box success"><p><strong>Explanation:</strong> Both the console and AUX ports can be used to directly connect to a Cisco network device for management purposes. However, it is more common to use the console port. The AUX port is more often used for remote access via a dial up connection. SSH and Telnet are both remote access methods that depend on an active network connection. SSH uses a stronger password authentication than Telnet uses and also uses encryption on transmitted data.</p></div>
+<p><strong>34. Match the phases to the functions during the boot up process of a Cisco router. (Not all options are used.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-47988" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-004-3.png" alt="" width="1280" height="633" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-004-3.png 1280w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-004-3-300x148.png 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-004-3-1024x506.png 1024w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-004-3-768x380.png 768w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-004-3-20x10.png 20w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<div class="message_box success"><p><strong>Explanation:</strong> There are three major phases to the bootup process of a Cisco router:</p>
+<ol>
+<li>Perform the POST and load the bootstrap program.</li>
+<li>Locate and load the Cisco IOS software.</li>
+<li>Locate and load the startup configuration file</li>
+</ol>
+<p>If a startup configuration file cannot be located, the router will enter setup mode by displaying the setup mode prompt.</p></div>
+<p><strong>35. Match the command with the device mode at which the command is entered. (Not all options are used.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-47989" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-005-3.png" alt="" width="1280" height="809" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-005-3.png 1280w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-005-3-300x190.png 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-005-3-1024x647.png 1024w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-005-3-768x485.png 768w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-005-3-20x13.png 20w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<div class="message_box success"><p><strong>Explanation:</strong> The <b>enable </b>command is entered in R1&gt; mode. The <b>login</b> command is entered in R1(config-line)# mode. The <b>copy running-config startup-config </b>command is entered in R1# mode. The <b>ip address 192.168.4.4 255.255.255.0</b> command is entered in R1(config-if)# mode. The <b>service password-encryption</b> command is entered in global configuration mode.</p></div>
+<p><strong>36. What are two functions of NVRAM? (Choose two.)</strong></p>
+<ul>
+<li>to store the routing table</li>
+<li><span style="color: #ff0000;"><strong>to retain contents when power is removed</strong></span></li>
+<li><span style="color: #ff0000;"><strong>to store the startup configuration file</strong></span></li>
+<li>to contain the running configuration file</li>
+<li>to store the ARP table</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> NVRAM is permanent memory storage, so the startup configuration file is preserved even if the router loses power.</p></div>
+<p><strong>37. A router boots and enters setup mode. What is the reason for this?</strong></p>
+<ul>
+<li>The IOS image is corrupt.</li>
+<li>Cisco IOS is missing from flash memory.</li>
+<li><strong><span style="color: #ff0000;">The configuration file is missing from NVRAM.</span></strong></li>
+<li>The POST process has detected hardware failure.</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> If a router cannot locate the startup-config file in NVRAM, it will enter setup mode to allow the configuration to be entered from the console device.</p></div>
+<p><strong>38. The global configuration command ip default-gateway 172.16.100.1 is applied to a switch. What is the effect of this command?</strong></p>
+<ul>
+<li>The switch will have a management interface with the address 172.16.100.1.</li>
+<li><strong><span style="color: #ff0000;">The switch can be remotely managed from a host on another network.</span></strong></li>
+<li>The switch can communicate with other hosts on the 172.16.100.0 network.</li>
+<li>The switch is limited to sending and receiving frames to and from the gateway 172.16.100.1.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A default gateway address is typically configured on all devices to allow them to communicate beyond just their local network.In a switch this is achieved using the command ip default-gateway &lt;ip address&gt;.</p></div>
+<p><strong>39. What happens when the transport input ssh command is entered on the switch vty lines?</strong></p>
+<ul>
+<li>The SSH client on the switch is enabled.</li>
+<li><strong><span style="color: #ff0000;">Communication between the switch and remote users is encrypted.</span></strong></li>
+<li>The switch requires a username/password combination for remote access.</li>
+<li>The switch requires remote connections via a proprietary client software.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The <b>transport input ssh</b> command when entered on the switch vty (virtual terminal lines) will encrypt all inbound controlled telnet connections.</p></div>
+<p><strong>40. Refer to the exhibit. A user PC has successfully transmitted packets to www.cisco.com. Which IP address does the user PC target in order to forward its data off the local network?</strong></p>
+<p><img loading="lazy" decoding="async" class=" wp-image-37490 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i207589v1n1_207589.png" alt="" width="433" height="224" /></p>
+<ul>
+<li>172.24.255.17</li>
+<li>172.24.1.22</li>
+<li><strong><span style="color: #ff0000;">172.20.0.254</span></strong></li>
+<li>172.24.255.4</li>
+<li>172.20.1.18</li>
+</ul>
+<p><strong>41. Match the configuration mode with the command that is available in that mode. (Not all options are used.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-47990" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-006.png" alt="" width="1280" height="625" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-006.png 1280w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-006-300x146.png 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-006-1024x500.png 1024w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-006-768x375.png 768w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/CCNA1-v7-ITN-Communicating-Between-Networks-Exam-Answers-006-20x10.png 20w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<div class="message_box success"><p><strong>Explanation:</strong> The <b>enable </b>command is entered at the R1&gt; prompt. The <b>login</b> command is entered at the R1(config-line)# prompt. The <b>copy running-config startup-config </b>command is entered at the R1# prompt. The <b>interface fastethernet 0/0 </b>command is entered at the R1(config)# prompt.</p></div>
+<p><strong>42. Which three commands are used to set up secure access to a router through a connection to the console interface? (Choose three.)</strong></p>
+<ul>
+<li>interface fastethernet 0/0</li>
+<li>line vty 0 4</li>
+<li><strong><span style="color: #ff0000;">line console 0</span></strong></li>
+<li>enable secret cisco</li>
+<li><span style="color: #ff0000;"><strong>login</strong></span></li>
+<li><span style="color: #ff0000;"><strong>password cisco</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The three commands needed to password protect the console port are as follows:</p>
+<ul>
+<li><strong>line console 0</strong></li>
+<li><strong>password cisco</strong></li>
+<li><strong>login</strong></li>
+</ul>
+<p>The <strong>interface fastethernet 0/0</strong> command is commonly used to access the configuration mode used to apply specific parameters such as the IP address to the Fa0/0 port. The <strong>line vty 0 4</strong> command is used to access the configuration mode for Telnet. The0and 4 parameters specify ports 0 through 4, or a maximum of five simultaneous Telnet connections. The <strong>enable secret</strong> command is used to apply a password used on the router to access the privileged mode.</p></div>
+<p><strong>43. Refer to the exhibit. Consider the IP address configuration shown from PC1. What is a description of the default gateway address?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37493" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i206397v1n2_206397.png" alt="" width="520" height="346" /></p>
+<ul>
+<li>It is the IP address of the Router1 interface that connects the company to the Internet.</li>
+<li><strong><span style="color: #ff0000;">It is the IP address of the Router1 interface that connects the PC1 LAN to Router1.</span></strong></li>
+<li>It is the IP address of Switch1 that connects PC1 to other devices on the same LAN.</li>
+<li>It is the IP address of the ISP network device located in the cloud.</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The default gateway is used to route packets destined for remote networks. The default gateway IP address is the address of the first Layer 3 device (the router interface) that connects to the same network.</p></div>
+<p><strong>44. Which two functions are primary functions of a router? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">packet forwarding</span></strong></li>
+<li>microsegmentation</li>
+<li>domain name resolution</li>
+<li><span style="color: #ff0000;"><strong>path selection</strong></span></li>
+<li>flow control</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A router accepts a packet and accesses its routing table to determine the appropriate exit interface based on the destination address. The router then forwards the packet out of that interface. </p></div>
+<p><strong>45. What is the effect of using the Router# copy running-config startup-config command on a router?</strong></p>
+<ul>
+<li>The contents of ROM will change.</li>
+<li>The contents of RAM will change.</li>
+<li><strong><span style="color: #ff0000;">The contents of NVRAM will change.</span></strong></li>
+<li>The contents of flash will change.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The command <strong>copy running-config startup-config</strong> copies the running-configuration file from RAM into NVRAM and saves it as the startup-configuration file. Since NVRAM is none-volatile memory it will be able to retain the configuration details when the router is powered off.</p></div>
+<p><strong>46. What will happen if the default gateway address is incorrectly configured on a host?</strong></p>
+<ul>
+<li>The host cannot communicate with other hosts in the local network.</li>
+<li>The switch will not forward packets initiated by the host.</li>
+<li>The host will have to use ARP to determine the correct address of the default gateway.</li>
+<li><span style="color: #ff0000;"><strong>The host cannot communicate with hosts in other networks.</strong></span></li>
+<li>A ping from the host to 127.0.0.1 would not be successful.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When a host needs to send a message to another host located on the same network, it can forward the message directly. However, when a host needs to send a message to a remote network, it must use the router, also known as the default gateway. This is because the data link frame address of the remote destination host cannot be used directly. Instead, the IP packet has to be sent to the router (default gateway) and the router will forward the packet toward its destination. Therefore, if the default gateway is incorrectly configured, the host can communicate with other hosts on the same network, but not with hosts on remote networks.</p></div>
+<p><strong>47. What are two potential network problems that can result from ARP operation? (Choose two.)</strong></p>
+<ul>
+<li>Manually configuring static ARP associations could facilitate ARP poisoning or MAC address spoofing.</li>
+<li><span style="color: #ff0000;"><strong>On large networks with low bandwidth, multiple ARP broadcasts could cause data communication delays.</strong></span></li>
+<li><span style="color: #ff0000;"><strong>Network attackers could manipulate MAC address and IP address mappings in ARP messages with the intent of intercepting network traffic.</strong></span></li>
+<li>Large numbers of ARP request broadcasts could cause the host MAC address table to overflow and prevent the host from communicating on the network.</li>
+<li>Multiple ARP replies result in the switch MAC address table containing entries that match the MAC addresses of hosts that are connected to the relevant switch port.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Large numbers of ARP broadcast messages could cause momentary data communications delays. Network attackers could manipulate MAC address and IP address mappings in ARP messages with the intent to intercept network traffic. ARP requests and replies cause entries to be made into the ARP table, not the MAC address table. ARP table overflows are very unlikely. Manually configuring static ARP associations is a way to prevent, not facilitate, ARP poisoning and MAC address spoofing. Multiple ARP replies resulting in the switch MAC address table containing entries that match the MAC addresses of connected nodes and are associated with the relevant switch port are required for normal switch frame forwarding operations. It is not an ARP caused network problem.</p></div>
+<p><strong>48. Open the PT activity. Perform the tasks in the activity instructions and then answer the question.</strong></p>
+<div id="attachment_37798" style="width: 682px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-37798" class="size-full wp-image-37798" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/CCNA-1-v7-Modules-8-10-Communicating-Between-Networks-Exam.jpg" alt="CCNA 1 v7 Modules 8 - 10 Communicating Between Networks Exam" width="672" height="406" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/CCNA-1-v7-Modules-8-10-Communicating-Between-Networks-Exam.jpg 672w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/CCNA-1-v7-Modules-8-10-Communicating-Between-Networks-Exam-300x181.jpg 300w" sizes="(max-width: 672px) 100vw, 672px" /><p id="caption-attachment-37798" class="wp-caption-text">CCNA 1 v7 Modules 8 &#8211; 10 Communicating Between Networks Exam</p></div>

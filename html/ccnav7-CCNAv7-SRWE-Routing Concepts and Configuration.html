@@ -1,0 +1,755 @@
+<p><strong>1. Which feature on a Cisco router permits the forwarding of traffic for which there is no specific route?</strong></p>
+<ul>
+<li>next-hop</li>
+<li><span style="color: #ff0000;"><strong>gateway of last resort</strong></span></li>
+<li>route source</li>
+<li>outgoing interface</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> A default static route is used as a gateway of last resort to forward unknown destination traffic to a next hop/exit interface. The next-hop or exit interface is the destination to send traffic to on a network after the traffic is matched in a router. The route source is the location a route was learned from.</p></div>
+<p><strong>2. Which three advantages are provided by static routing? (Choose three.)</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>Static routing does not advertise over the network, thus providing better security.</strong></span></li>
+<li>Configuration of static routes is error-free.</li>
+<li>Static routes scale well as the network grows.</li>
+<li><span style="color: #ff0000;"><strong>Static routing typically uses less network bandwidth and fewer CPU operations than dynamic routing does.</strong></span></li>
+<li><span style="color: #ff0000;"><strong>The path a static route uses to send data is known.</strong></span></li>
+<li>No intervention is required to maintain changing route information.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Static routes are prone to errors from incorrect configuration by the administrator. They do not scale well, because the routes must be manually reconfigured to accommodate a growing network. Intervention is required each time a route change is necessary. They do provide better security, use less bandwidth, and provide a known path to the destination.</p></div>
+<p><strong>3. What are two functions of dynamic routing protocols? (Choose two.)</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>to maintain routing tables</strong></span></li>
+<li>to assure low router overhead</li>
+<li>to avoid exposing network information</li>
+<li><span style="color: #ff0000;"><strong>to discover the network</strong></span></li>
+<li>to choose the path that is specified by the administrator</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Dynamic routing protocols exist to discover the network, maintain routing tables, and calculate the best path. Having low levels of routing overhead, using the path specified by the administrator, and avoiding the exposure of network information are functions of static routing.</p></div>
+<p><strong>4. What is an advantage of using dynamic routing protocols instead of static routing?</strong></p>
+<ul>
+<li>easier to implement</li>
+<li>more secure in controlling routing updates</li>
+<li>fewer router resource overhead requirements</li>
+<li><span style="color: #ff0000;"><strong>ability to actively search for new routes if the current path becomes unavailable​</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Dynamic routing has the ability to search and find a new best path if the current path is no longer available. The other options are actually the advantages of static routing.</p></div>
+<p><strong>5. What happens to a static route entry in a routing table when the outgoing interface associated with that route goes into the down state?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">The static route is removed from the routing table.</span></strong></li>
+<li>The router polls neighbors for a replacement route.</li>
+<li>The router automatically redirects the static route to use another interface.</li>
+<li>The static route remains in the table because it was defined as static.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When the interface associated with a static route goes down, the router will remove the route because it is no longer valid.</p></div>
+<p><strong>6. What is a characteristic of a static route that matches all packets?</strong></p>
+<ul>
+<li>It uses a single network address to send multiple static routes to one destination address.</li>
+<li><span style="color: #ff0000;"><strong>It identifies the gateway IP address to which the router sends all IP packets for which it does not have a learned or static route.</strong></span></li>
+<li>It backs up a route already discovered by a dynamic routing protocol.</li>
+<li>It is configured with a higher administrative distance than the original dynamic routing protocol has.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A default static route is a route that matches all packets. It identifies the gateway IP address to which the router sends all IP packets for which it does not have a learned or static route. A default static route is simply a static route with 0.0.0.0/0 as the destination IPv4 address. Configuring a default static route creates a gateway of last resort.</p></div>
+<p><strong>7. When would it be more beneficial to use a dynamic routing protocol instead of static routing?</strong></p>
+<ul>
+<li>in an organization where routers suffer from performance issues</li>
+<li>on a stub network that has a single exit point</li>
+<li>in an organization with a smaller network that is not expected to grow in size</li>
+<li><strong><span style="color: #ff0000;">on a network where there is a lot of topology changes</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Dynamic routing protocols consume more router resources, are suitable for larger networks, and are more useful on networks that are growing and changing.</p></div>
+<p><strong>8. Which route would be used to forward a packet with a source IP address of 192.168.10.1 and a destination IP address of 10.1.1.1?</strong></p>
+<ul>
+<li>C 192.168.10.0/30 is directly connected, GigabitEthernet0/1</li>
+<li><strong><span style="color: #ff0000;">O 10.1.1.0/24 [110/65] via 192.168.200.2, 00:01:20, Serial0/1/0</span></strong></li>
+<li>S* 0.0.0.0/0 [1/0] via 172.16.1.1</li>
+<li>S 10.1.0.0/16 is directly connected, GigabitEthernet0/0</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Even though OSPF has a higher administrative distance value (less trustworthy), the best match is the route in the routing table that has the most number of far left matching bits.</p></div>
+<p><strong>9. Refer to the exhibit. What is the administrative distance value of the route for router R1 to reach the destination IPv6 address of 2001:DB8:CAFE:4::A?</strong></p>
+<p><img fetchpriority="high" decoding="async" class="size-full wp-image-37868 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i281319v1n3_281319.png" alt="" width="569" height="200" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i281319v1n3_281319.png 569w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i281319v1n3_281319-300x105.png 300w" sizes="(max-width: 569px) 100vw, 569px" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">120</span></strong></li>
+<li>110</li>
+<li>1</li>
+<li>4</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The RIP route with the source code R is used to forward data to the destination IPv6 address of 2001:DB8:CAFE:4::A. This route has an AD value of 120.</p></div>
+<p><strong>10. Which value in a routing table represents trustworthiness and is used by the router to determine which route to install into the routing table when there are multiple routes toward the same destination?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">administrative distance</span></strong></li>
+<li>metric</li>
+<li>outgoing interface</li>
+<li>routing protocol</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The administrative distance represents the trustworthiness of a particular route. The lower an administrative distance, the more trustworthy the learned route is. When a router learns multiple routes toward the same destination, the router uses the administrative distance value to determine which route to place into the routing table. A metric is used by a routing protocol to compare routes received from the routing protocol. An exit interface is the interface used to send a packet in the direction of the destination network. A routing protocol is used to exchange routing updates between two or more adjacent routers.</p></div>
+<p><strong>12. Refer to the graphic. Which command would be used on router A to configure a static route to direct traffic from LAN A that is destined for LAN C?</strong></p>
+<p><img decoding="async" class="aligncenter wp-image-37869" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215013v1n1_215013.png" alt="" width="449" height="253" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215013v1n1_215013.png 516w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215013v1n1_215013-300x169.png 300w" sizes="(max-width: 449px) 100vw, 449px" /></p>
+<ul>
+<li>A(config)# ip route 192.168.3.0 255.255.255.0 192.168.3.1</li>
+<li>A(config)# ip route 192.168.3.2 255.255.255.0 192.168.4.0</li>
+<li>A(config)# ip route 192.168.4.0 255.255.255.0 192.168.5.2</li>
+<li>A(config)# ip route 192.168.5.0 255.255.255.0 192.168.3.2</li>
+<li><strong><span style="color: #ff0000;">A(config)# ip route 192.168.4.0 255.255.255.0 192.168.3.2</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The destination network on LAN C is 192.168.4.0 and the next-hop address from the perspective of router A is 192.168.3.2.</p></div>
+<p><strong>13. On which two routers would a default static route be configured? (Choose two.)</strong></p>
+<ul>
+<li>any router where a backup route to dynamic routing is needed for reliability</li>
+<li>the router that serves as the gateway of last resort</li>
+<li>any router running an IOS prior to 12.0</li>
+<li><strong><span style="color: #ff0000;">stub router connection to the rest of the corporate or campus network</span></strong></li>
+<li><strong><span style="color: #ff0000;">edge router connection to the ISP</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A stub router or an edge router connected to an ISP has only one other router as a connection. A default static route works in those situations because all traffic will be sent to one destination. The destination router is the gateway of last resort. The default route is not configured on the gateway, but on the router sending traffic to the gateway. The router IOS does not matter.</p></div>
+<p><strong>14. Refer to the exhibit. This network has two connections to the ISP, one via router C and one via router B. The serial link between router A and router C supports EIGRP and is the primary link to the Internet. If the primary link fails, the administrator needs a floating static route that avoids recursive route lookups and any potential next-hop issues caused by the multiaccess nature of the Ethernet segment with router B. What should the administrator configure?</strong></p>
+<p><img decoding="async" class="aligncenter size-full wp-image-37870" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i223702v1n1_Exhibit1.png" alt="" width="493" height="198" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i223702v1n1_Exhibit1.png 493w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i223702v1n1_Exhibit1-300x120.png 300w" sizes="(max-width: 493px) 100vw, 493px" /></p>
+<ul>
+<li>Create a static route pointing to 10.1.1.1 with an AD of 95.</li>
+<li>Create a fully specified static route pointing to Fa0/0 with an AD of 1.</li>
+<li><strong><span style="color: #ff0000;">Create a fully specified static route pointing to Fa0/0 with an AD of 95.</span></strong></li>
+<li>Create a static route pointing to 10.1.1.1 with an AD of 1.</li>
+<li>Create a static route pointing to Fa0/0 with an AD of 1.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A floating static route is a static route with an administrative distance higher than that of another route already in the routing table. If the route in the table disappears, the floating static route will be put into the routing table in its place. Internal EIGRP has an AD of 90, so a floating static route in this scenario would need to have an AD higher than 90. Also, when creating a static route to a multiaccess interface like a FastEthernet segment a fully specified route should be used, with both a next-hop IP address and an exit interface. This prevents the router from doing a recursive lookup, but still ensures the correct next-hop device on the multiaccess segment forwards the packet.</p></div>
+<p><strong>15. What is a characteristic of a floating static route?</strong></p>
+<ul>
+<li>When it is configured, it creates a gateway of last resort.​</li>
+<li>It is used to provide load balancing between static routes.</li>
+<li>It is simply a static route with 0.0.0.0/0 as the destination IPv4 address.</li>
+<li><strong><span style="color: #ff0000;">It is configured with a higher administrative distance than the original dynamic routing protocol has.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Floating static routes are static routes used to provide a backup path to a primary static or dynamic route, in the event of a link failure. They must be configured with a higher administrative distance than the original dynamic routing protocol has. A default static route is simply a static route with 0.0.0.0/0 as the destination IPv4 address. Configuring a default static route creates a gateway of last resort.</p></div>
+<p><strong>16. What network prefix and prefix-length combination is used to create a default static route that will match any IPv6 destination?</strong></p>
+<ul>
+<li>FFFF::/128</li>
+<li>::1/64</li>
+<li>::/128</li>
+<li><strong><span style="color: #ff0000;">::/0</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A default static route configured for IPv6, is a network prefix of all zeros and a prefix mask of 0 which is expressed as ::/0.</p></div>
+<p><strong>17. Consider the following command:</strong></p>
+<p><em>ip route 192.168.10.0 255.255.255.0 10.10.10.2 5</em></p>
+<p><strong>What does the 5 at the end of the command signify?</strong></p>
+<ul>
+<li>exit interface</li>
+<li>maximum number of hops to the 192.168.10.0/24 network</li>
+<li>metric</li>
+<li><strong><span style="color: #ff0000;">administrative distance</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The 5 at the end of the command signifies administrative distance. This value is added to floating static routes or routes that only appear in the routing table when the preferred route has gone down. The 5 at the end of the command signifies administrative distance configured for the static route. This value indicates that the floating static route will appear in the routing table when the preferred route (with an administrative distance less than 5) is down.</p></div>
+<p><strong>18. Refer to the exhibit. The routing table for R2 is as follows:</strong></p>
+<p><strong>Gateway of last resort is not set</strong></p>
+<p>10.0.0.0/30 is subnetted, 2 subnets<br />
+C 10.0.0.0 is directly connected, Serial0/0/0<br />
+C 10.0.0.4 is directly connected, Serial0/0/1<br />
+192.168.10.0/26 is subnetted, 3 subnets<br />
+S 192.168.10.0 is directly connected, Serial0/0/0<br />
+C 192.168.10.64 is directly connected, FastEthernet0/0<br />
+S 192.168.10.128 [1/0] via 10.0.0.6</p>
+<p><strong>What will router R2 do with a packet destined for 192.168.10.129?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37871" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282908v1n1_282908.png" alt="" width="503" height="329" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282908v1n1_282908.png 553w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282908v1n1_282908-300x196.png 300w" sizes="(max-width: 503px) 100vw, 503px" /></p>
+<ul>
+<li>send the packet out interface FastEthernet0/0</li>
+<li><strong><span style="color: #ff0000;">send the packet out interface Serial0/0/1</span></strong></li>
+<li>drop the packet</li>
+<li>send the packet out interface Serial0/0/0</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When a static route is configured with the next hop address (as in the case of the 192.168.10.128 network), the output of the <strong>show ip route</strong> command lists the route as &#8220;via&#8221; a particular IP address. The router has to look up that IP address to determine which interface to send the packet out. Because the IP address of 10.0.0.6 is part of network 10.0.0.4, the router sends the packet out interface Serial0/0/1.</p></div>
+<p><strong>19. An administrator issues the ipv6 route 2001:db8:acad:1::/32 gigabitethernet0/0 2001:db8:acad:6::1 100 command on a router. What administrative distance is assigned to this route?</strong></p>
+<ul>
+<li>0</li>
+<li>1</li>
+<li>32</li>
+<li><strong><span style="color: #ff0000;">100</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The command <strong>ipv6 route 2001:db8:acad:1::/32 gigabitethernet0/0 2001:db8:acad:6::1 100</strong> will configure a floating static route on a router. The 100 at the end of the command specifies the administrative distance of 100 to be applied to the route.</p></div>
+<p><strong>20. Refer to the exhibit. Which default static route command would allow R1 to potentially reach all unknown networks on the Internet?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37872" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_095442.jpg" alt="" width="514" height="301" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_095442.jpg 757w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_095442-300x176.jpg 300w" sizes="(max-width: 514px) 100vw, 514px" /></p>
+<ul>
+<li>R1(config)# ipv6 route 2001:db8:32::/64 G0/0</li>
+<li>R1(config)# ipv6 route ::/0 G0/0 fe80::2</li>
+<li>R1(config)# ipv6 route 2001:db8:32::/64 G0/1 fe80::2</li>
+<li><strong><span style="color: #ff0000;">R1(config)# ipv6 route ::/0 G0/1 fe80::2</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> To route packets to unknown IPv6 networks a router will need an IPv6 default route. The static route ipv6 route ::/0 G0/1 fe80::2 will match all networks and send packets out the specified exit interface G0/1 toward R2.</p></div>
+<p><strong>21. Refer to the exhibit. The network engineer for the company that is shown wants to use the primary ISP connection for all external connectivity. The backup ISP connection is used only if the primary ISP connection fails. Which set of commands would accomplish this goal?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37873" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210877v1n1_210877.jpg" alt="" width="411" height="303" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210877v1n1_210877.jpg 411w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210877v1n1_210877-300x221.jpg 300w" sizes="(max-width: 411px) 100vw, 411px" /></p>
+<ul>
+<li>ip route 0.0.0.0 0.0.0.0 s0/0/0<br />
+ip route 0.0.0.0 0.0.0.0 s0/1/0</li>
+<li><strong><span style="color: #ff0000;">ip route 0.0.0.0 0.0.0.0 s0/0/0</span></strong><br />
+<strong><span style="color: #ff0000;">ip route 0.0.0.0 0.0.0.0 s0/1/0 10</span></strong></li>
+<li>ip route 198.133.219.24 255.255.255.252<br />
+ip route 64.100.210.80 255.255.255.252 10</li>
+<li>ip route 198.133.219.24 255.255.255.252<br />
+ip route 64.100.210.80 255.255.255.252</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A static route that has no administrative distance added as part of the command has a default administrative distance of 1. The backup link should have a number higher than 1. The correct answer has an administrative distance of 10. The other quad zero route would load balance packets across both links and both links would appear in the routing table. The remaining answers are simply static routes (either a default route or a floating static default route).</p></div>
+<p><strong>22. Refer to the exhibit. Which set of commands will configure static routes that will allow the Park and the Alta routers to a) forward packets to each LAN and b) direct all other traffic to the Internet?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37874" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i350307v1n2_214999.png" alt="" width="513" height="386" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i350307v1n2_214999.png 513w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i350307v1n2_214999-300x226.png 300w" sizes="(max-width: 513px) 100vw, 513px" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1</span></strong><br />
+<strong><span style="color: #ff0000;">Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2</span></strong><br />
+<strong><span style="color: #ff0000;">Alta(config)# ip route 0.0.0.0 0.0.0.0 s0/0/0</span></strong></li>
+<li>Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1<br />
+Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2<br />
+Alta(config)# ip route 198.18.222.0 255.255.255.255 s0/0/0</li>
+<li>Park(config)# ip route 172.16.67.0 255.255.255.0 192.168.14.1<br />
+Park(config)# ip route 0.0.0.0 0.0.0.0 192.168.14.1<br />
+Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2</li>
+<li>Park(config)# ip route 172.16.67.0 255.255.255.0 192.168.14.1<br />
+Alta(config)# ip route 10.0.234.0 255.255.255.0 192.168.14.2<br />
+Alta(config)# ip route 0.0.0.0 0.0.0.0 s0/0/1</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The LAN connected to the router Park is a stud network, therefore, a default route should be used to forward network traffic destined to non-local networks. The router Alta connects to both the internet and the Park router, it would require two static routes configured, one toward the internet and the other toward the LAN connected to the router Park.</p></div>
+<p><strong>23. Refer to the exhibit. The small company shown uses static routing. Users on the R2 LAN have reported a problem with connectivity. What is the issue?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37876" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210869v1n2_210869.png" alt="" width="683" height="426" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210869v1n2_210869.png 683w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210869v1n2_210869-300x187.png 300w" sizes="(max-width: 683px) 100vw, 683px" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">R1 needs a static route to the R2 LAN.</span></strong></li>
+<li>R2 needs a static route to the R1 LANs.</li>
+<li>R1 needs a default route to R2.</li>
+<li>R2 needs a static route to the Internet.</li>
+<li>R1 and R2 must use a dynamic routing protocol.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> R1 has a default route to the Internet. R2 has a default route to R1. R1 is missing a static route for the 10.0.60.0 network. Any traffic that reached R1 and is destined for 10.0.60.0/24 will be routed to the ISP.</p></div>
+<p><strong>24. Refer to the exhibit. An administrator is attempting to install an IPv6 static route on router R1 to reach the network attached to router R2. After the static route command is entered, connectivity to the network is still failing. What error has been made in the static route configuration?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37877" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_100010.jpg" alt="" width="602" height="259" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_100010.jpg 978w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_100010-300x129.jpg 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_100010-768x331.jpg 768w" sizes="(max-width: 602px) 100vw, 602px" /></p>
+<ul>
+<li>The next hop address is incorrect.</li>
+<li><strong><span style="color: #ff0000;">The interface is incorrect.</span></strong></li>
+<li>The destination network is incorrect.</li>
+<li>The network prefix is incorrect.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In this example the interface in the static route is incorrect. The interface should be the exit interface on R1, which is s0/0/0.</p></div>
+<p><strong>25. Refer to the exhibit. How was the host route 2001:DB8:CAFE:4::1/128 installed in the routing table?</strong></p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-37878 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282903v1n1_Routing5.png" alt="" width="433" height="405" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282903v1n1_Routing5.png 433w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282903v1n1_Routing5-300x281.png 300w" sizes="(max-width: 433px) 100vw, 433px" /></p>
+<ul>
+<li>The route was dynamically created by router R1.</li>
+<li>The route was dynamically learned from another router.</li>
+<li><strong><span style="color: #ff0000;">The route was manually entered by an administrator.</span></strong></li>
+<li>The route was automatically installed when an IP address was configured on an active interface.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A host route is an IPv6 route with a 128-bit mask. A host route can be installed in a routing table automatically when an IP address is configured on a router interface or manually if a static route is created.</p></div>
+<p><strong>26. Refer to the exhibit. HostA is attempting to contact ServerB. Which two statements correctly describe the addressing that HostA will generate in the process? (Choose two.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37879" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i214638v1n1_214638.png" alt="" width="332" height="271" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i214638v1n1_214638.png 392w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i214638v1n1_214638-300x245.png 300w" sizes="(max-width: 332px) 100vw, 332px" /></p>
+<ul>
+<li>A packet with the destination IP address of RouterA.</li>
+<li>A frame with the destination MAC address of SwitchA.</li>
+<li><strong><span style="color: #ff0000;">A packet with the destination IP address of ServerB.</span></strong></li>
+<li><strong><span style="color: #ff0000;">A frame with the destination MAC address of RouterA.</span></strong></li>
+<li>A frame with the destination MAC address of ServerB.</li>
+<li>A packet with the destination IP address of RouterB.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In order to send data to ServerB, HostA will generate a packet that contains the IP address of the destination device on the remote network and a frame that contains the MAC address of the default gateway device on the local network.</p></div>
+<p><strong>27. Refer to the exhibit. A ping from R1 to 10.1.1.2 is successful, but a ping from R1 to any address in the 192.168.2.0 network fails. What is the cause of this problem?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37880" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i222884v1n1_222884.jpg" alt="" width="612" height="380" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i222884v1n1_222884.jpg 612w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i222884v1n1_222884-300x186.jpg 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i222884v1n1_222884-324x200.jpg 324w" sizes="(max-width: 612px) 100vw, 612px" /></p>
+<ul>
+<li>There is no gateway of last resort at R1.</li>
+<li><strong><span style="color: #ff0000;">The static route for 192.168.2.0 is incorrectly configured.</span></strong></li>
+<li>A default route is not configured on R1.</li>
+<li>The serial interface between the two routers is down.</li>
+</ul>
+<p><strong>28. Refer to the exhibit. An administrator is attempting to install a default static route on router R1 to reach the Site B network on router R2. After entering the static route command, the route is still not showing up in the routing table of router R1. What is preventing the route from installing in the routing table?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37881" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_100314.jpg" alt="" width="593" height="355" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_100314.jpg 961w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_100314-300x179.jpg 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-17_100314-768x459.jpg 768w" sizes="(max-width: 593px) 100vw, 593px" /></p>
+<ul>
+<li>The netmask is incorrect.</li>
+<li>The exit interface is missing.</li>
+<li><strong><span style="color: #ff0000;">The next hop address is incorrect.</span></strong></li>
+<li>The destination network is incorrect.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The next hop address is incorrect. From R1 the next hop address should be that of the serial interface of R2, 209.165.202.130.</p></div>
+<p><strong>29. Refer to the exhibit. The Branch Router has an OSPF neighbor relationship with the HQ router over the 198.51.0.4/30 network. The 198.51.0.8/30 network link should serve as a backup when the OSPF link goes down. The floating static route command ip route 0.0.0.0 0.0.0.0 S0/1/1 100 was issued on Branch and now traffic is using the backup link even when the OSPF link is up and functioning. Which change should be made to the static route command so that traffic will only use the OSPF link when it is up?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37882" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i260064v1n1_210868-ISO1-260064.png" alt="" width="482" height="237" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i260064v1n1_210868-ISO1-260064.png 575w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i260064v1n1_210868-ISO1-260064-300x148.png 300w" sizes="(max-width: 482px) 100vw, 482px" /></p>
+<ul>
+<li>Add the next hop neighbor address of 198.51.0.8.</li>
+<li>Change the administrative distance to 1.</li>
+<li>Change the destination network to 198.51.0.5.</li>
+<li><strong><span style="color: #ff0000;">Change the administrative distance to 120.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The problem with the current floating static route is that the administrative distance is set too low. The administrative distance will need to be higher than that of OSPF, which is 110, so that the router will only use the OSPF link when it is up.</p></div>
+<p><strong>30. What characteristic completes the following statement?</strong><br />
+<strong>When an IPv6 static route is configured, the next-hop address can be &#8230;&#8230;</strong></p>
+<ul>
+<li>a destination host route with a /128 prefix.</li>
+<li>the &#8220;show ipv6 route static&#8221; command.</li>
+<li><strong><span style="color: #ff0000;">an IPv6 link-local address on the adjacent router.</span></strong></li>
+<li>the interface type and interface number.</li>
+</ul>
+<p><strong>31. Gateway of last resort is not set.</strong></p>
+<p>172.19.115.0/26 is variously subnetted, 7 subnets, 3 masks<br />
+O 172.19.115.0/26 [110/10] via 172.19.39.1, 00:00:24, Serial0/0/0<br />
+O 172.19.115.64/26 [110/20] via 172.19.39.6, 00:00:56, Serial 0/0/1<br />
+O 172.19.115.128/26 [110/10] via 172.19.39.1, 00:00:24, Serial 0/0/0<br />
+C 172.19.115.192/27 is directly connected, GigabitEthernet0/0<br />
+L 172.19.115.193/27 is directly connected, GigabitEthernet0/0<br />
+C 172.19.115.224/27 is directly connected, GigabitEthernet0/1<br />
+L 172.19.115.225/27 is directly connected, GigabitEthernet0/1<br />
+172.19.39.0/24 is variably subnetted, 4 subnets, 2 masks<br />
+C 172.19.39.0/30 is directly connected, Serial0/0/0<br />
+L 172.19.39.2/32 is directly connected, Serial0/0/0<br />
+C 172.19.39.4/30 is directly connected, Serial0/0/1<br />
+L 172.19.39.5/32 is directly connected, Serial0/0/1<br />
+S 172.19.40.0/26 [1/0] via 172.19.39.1, 00:00:24, Serial0/0/0<br />
+R1#</p>
+<p><strong>Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 172.19.115.206?</strong></p>
+<ul>
+<li>GigabitEthernet0/1</li>
+<li>None, the packet will be dropped.</li>
+<li><span style="color: #ff0000;"><strong>GigabitEthernet0/0</strong></span></li>
+<li>Serial0/0/1</li>
+</ul>
+<p><strong>32. Refer to the exhibit. What routing solution will allow both PC A and PC B to access the Internet with the minimum amount of router CPU and network bandwidth utilization?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37883" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i246266v1n3_246266.gif" alt="" width="617" height="394" /></p>
+<ul>
+<li>Configure a dynamic routing protocol between R1 and Edge and advertise all routes.</li>
+<li>Configure a static route from R1 to Edge and a dynamic route from Edge to R1.</li>
+<li><strong><span style="color: #ff0000;">Configure a static default route from R1 to Edge, a default route from Edge to the Internet, and a static route from Edge to R1.</span></strong></li>
+<li>Configure a dynamic route from R1 to Edge and a static route from Edge to R1.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Two routes have to be created: a default route in R1 to reach Edge and a static route in Edge to reach R1 for the return traffic. This is a best solution once PC A and PC B belong to stub networks. Moreover, static routing consumes less bandwidth than dynamic routing.</p></div>
+<p><strong>33. Refer to the exhibit. What would happen after the IT administrator enters the new static route?</strong></p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-37884 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282901v1n1_Routing2.png" alt="" width="554" height="354" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282901v1n1_Routing2.png 554w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282901v1n1_Routing2-300x192.png 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
+<ul>
+<li>The 172.16.1.0 static route would be entered into the running-config but not shown in the routing table.</li>
+<li><strong><span style="color: #ff0000;">The 172.16.1.0 route learned from RIP would be replaced with the 172.16.1.0 static route.</span></strong></li>
+<li>The 0.0.0.0 default route would be replaced with the 172.16.1.0 static route.</li>
+<li>The 172.16.1.0 static route is added to the existing routes in the routing table.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A route will be installed in a routing table if there is not another routing source with a lower administrative distance. If a route with a lower administrative distance to the same destination network as a current route is entered, the route with the lower administrative distance will replace the route with a higher administrative distance.</p></div>
+<p><strong>34. What two pieces of information are needed in a fully specified static route to eliminate recursive lookups? (Choose two.)</strong></p>
+<ul>
+<li>the interface ID of the next-hop neighbor</li>
+<li><strong><span style="color: #ff0000;">the interface ID exit interface</span></strong></li>
+<li>the IP address of the exit interface</li>
+<li><span style="color: #ff0000;"><strong>the IP address of the next-hop neighbor</strong></span></li>
+<li>the administrative distance for the destination network</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A fully specified static route can be used to avoid recursive routing table lookups by the router. A fully specified static route contains both the IP address of the next-hop router and the ID of the exit interface.</p></div>
+<p><strong>35. Refer to the exhibit. Which command will properly configure an IPv6 static route on R2 that will allow traffic from PC2 to reach PC1 without any recursive lookups by router R2?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37885" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210866v1n3_210866.gif" alt="" width="503" height="370" /></p>
+<ul>
+<li>R2(config)# ipv6 route ::/0 2001:db8:32::1</li>
+<li><strong><span style="color: #ff0000;">R2(config)# ipv6 route 2001:db8:10:12::/64 S0/0/0</span></strong></li>
+<li>R2(config)# ipv6 route 2001:db8:10:12::/64 2001:db8:32::1</li>
+<li>R2(config)# ipv6 route 2001:db8:10:12::/64 S0/0/1</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A nonrecursive route must have an exit interface specified from which the destination network can be reached. In this example 2001:db8:10:12::/64 is the destination network and R2 will use exit interface S0/0/0 to reach that network. Therefore, the static route would be ipv6 route 2001:db8:10:12::/64 S0/0/0.</p></div>
+<p><strong>36. Refer to the exhibit. Which static route would an IT technician enter to create a backup route to the 172.16.1.0 network that is only used if the primary RIP learned route fails?</strong></p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-37886 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282902v1n1_Routing3.png" alt="" width="554" height="317" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282902v1n1_Routing3.png 554w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i282902v1n1_Routing3-300x172.png 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
+<ul>
+<li>ip route 172.16.1.0 255.255.255.0 s0/0/0</li>
+<li><strong><span style="color: #ff0000;">ip route 172.16.1.0 255.255.255.0 s0/0/0 121</span></strong></li>
+<li>ip route 172.16.1.0 255.255.255.0 s0/0/0 111</li>
+<li>ip route 172.16.1.0 255.255.255.0 s0/0/0 91</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A backup static route is called a floating static route. A floating static route has an administrative distance greater than the administrative distance of another static route or dynamic route.</p></div>
+<p><strong>37. Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.</strong></p>
+<div id="attachment_38011" style="width: 675px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-38011" class="size-full wp-image-38011" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/14-16-1.jpg" alt="Modules 14 – 16: Routing Concepts and Configuration Exam" width="665" height="385" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/14-16-1.jpg 665w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/14-16-1-300x174.jpg 300w" sizes="(max-width: 665px) 100vw, 665px" /><p id="caption-attachment-38011" class="wp-caption-text">Modules 14 – 16: Routing Concepts and Configuration Exam</p></div>
+<p><strong>A user reports that PC0 cannot visit the web server www.server.com . Troubleshoot the network configuration to identify the problem.</strong></p>
+<p><strong>What is the cause of the problem?</strong></p>
+<ul>
+<li>The clock rate on one of the serial links is configured incorrectly.</li>
+<li>A serial interface on Branch is configured incorrectly.</li>
+<li>The DNS server address on PC0 is configured incorrectly.</li>
+<li><strong><span style="color: #ff0000;">Routing between HQ and Branch is configured incorrectly.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In order to allow communication to remote networks, proper routing, either static or dynamic, is necessary. Both routers must be configured with a routing method.</p></div>
+<p><strong>38. Match the routing table entry to the corresponding function. (Not all options are used.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-38096" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-22_110729.jpg" alt="" width="581" height="520" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-22_110729.jpg 581w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-22_110729-300x269.jpg 300w" sizes="(max-width: 581px) 100vw, 581px" /></p>
+<p><strong>39. Refer to the exhibit. PC A sends a request to Server B. What IPv4 address is used in the destination field in the packet as the packet leaves PC A?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-38102" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215037v1n1_215037.jpg" alt="" width="682" height="392" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215037v1n1_215037.jpg 682w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215037v1n1_215037-300x172.jpg 300w" sizes="(max-width: 682px) 100vw, 682px" /></p>
+<ul>
+<li>192.168.11.1</li>
+<li>192.168.10.1</li>
+<li><strong><span style="color: #ff0000;">192.168.12.16</span></strong></li>
+<li>192.168.10.10</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The destination IP address in packets does not change along the path between the source and destination.</p></div>
+<p><strong>40. What does R1 use as the MAC address of the destination when constructing the frame that will go from R1 to Server B?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-38103" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215038v1n1_215038.jpg" alt="" width="616" height="379" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215038v1n1_215038.jpg 616w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215038v1n1_215038-300x185.jpg 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215038v1n1_215038-324x200.jpg 324w" sizes="(max-width: 616px) 100vw, 616px" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">If the destination MAC address that corresponds to the IPv4 address is not in the ARP cache, R1 sends an ARP request.</span></strong></li>
+<li>R1 uses the destination MAC address of S1.</li>
+<li>The packet is encapsulated into a PPP frame, and R1 adds the PPP destination address to the frame.</li>
+<li>R1 leaves the field blank and forwards the data to the PC.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Communication inside a local network uses Address Resolution Protocol to obtain a MAC address from a known IPv4 address. A MAC address is needed to construct the frame in which the packet is encapsulated.</p></div>
+<p><strong>41. What route would have the lowest administrative distance?</strong></p>
+<ul>
+<li>a route received through the OSPF routing protocol</li>
+<li><strong><span style="color: #ff0000;">a directly connected network</span></strong></li>
+<li>a static route</li>
+<li>a route received through the EIGRP routing protocol</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The most believable route or the route with the lowest administrative distance is one that is directly connected to a router.</p></div>
+<p><strong>42. What characteristic completes the following statement?<br />
+When an IPv6 static route is configured, as a backup route to a static route in the routing table, the &#8220;distance&#8221; command is used with &#8230;&#8230;</strong></p>
+<ul>
+<li>the &#8220;show ipv6 route static&#8221; command.</li>
+<li><strong><span style="color: #ff0000;">an administrative distance of 2.</span></strong></li>
+<li>a destination host route with a /128 prefix.</li>
+<li>the interface type and interface number.</li>
+</ul>
+<p><strong>43. A router has used the OSPF protocol to learn a route to the 172.16.32.0/19 network. Which command will implement a backup floating static route to this network?</strong></p>
+<ul>
+<li>ip route 172.16.0.0 255.255.224.0 S0/0/0 100</li>
+<li>ip route 172.16.0.0 255.255.240.0 S0/0/0 200</li>
+<li><strong><span style="color: #ff0000;">ip route 172.16.32.0 255.255.224.0 S0/0/0 200</span></strong></li>
+<li>ip route 172.16.32.0 255.255.0.0 S0/0/0 100</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> OSPF has an administrative distance of 110, so the floating static route must have an administrative distance higher than 110. Because the target network is 172.16.32.0/19, that static route must use the network 172.16.32.0 and a netmask of 255.255.224.0.</p></div>
+<p><strong>44. Consider the following command:</strong></p>
+<pre>ip route 192.168.10.0 255.255.255.0 10.10.10.2 5</pre>
+<p><strong>How would an administrator test this configuration?</strong></p>
+<ul>
+<li>Delete the default gateway route on the router.</li>
+<li><strong><span style="color: #ff0000;">Manually shut down the router interface used as a primary route.</span></strong></li>
+<li>Ping from the 192.168.10.0 network to the 10.10.10.2 address.</li>
+<li>Ping any valid address on the 192.168.10.0/24 network.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A floating static is a backup route that only appears in the routing table when the interface used with the primary route is down. To test a floating static route, the route must be in the routing table. Therefore, shutting down the interface used as a primary route would allow the floating static route to appear in the routing table.</p></div>
+<p><strong>45. Refer to the exhibit. Which type of IPv6 static route is configured in the exhibit?</strong></p>
+<p><img loading="lazy" decoding="async" class=" wp-image-38104 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i283600v1n1_36758.gif" alt="" width="367" height="44" /></p>
+<ul>
+<li>floating static route</li>
+<li>fully specified static route</li>
+<li><strong><span style="color: #ff0000;">recursive static route</span></strong></li>
+<li>directly attached static route</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The route provided points to another address that must be looked up in the routing table. This makes the route a recursive static route.</p></div>
+<p><strong>46. What characteristic completes the following statement?</strong><br />
+<strong>When an IPv6 static route is configured, it is first necessary to configure &#8230;&#8230;</strong></p>
+<ul>
+<li>the next-hop address of two different adjacent routers.</li>
+<li><strong><span style="color: #ff0000;">the &#8220;ipv6 unicast-routing&#8221; command.</span></strong></li>
+<li>an IPv6 link-local address on the adjacent router.</li>
+<li>an administrative distance of 2.</li>
+</ul>
+<p><strong>47. Gateway of last resort is not set.</strong></p>
+<pre>172.18.109.0/26 is variously subnetted, 7 subnets, 3 masks
+
+O 172.18.109.0/26 [110/10] via 172.18.32.1, 00:00:24, Serial0/0/0
+
+O 172.18.109.64/26 [110/20] via 172.18.32.6, 00:00:56, Serial 0/0/1
+
+O 172.18.109.128/26 [110/10] via 172.18.32.1, 00:00:24, Serial 0/0/0
+
+C 172.18.109.192/27 is directly connected, GigabitEthernet0/0
+
+L 172.18.109.193/27 is directly connected, GigabitEthernet0/0
+
+C 172.18.109.224/27 is directly connected, GigabitEthernet0/1
+
+L 172.18.109.225/27 is directly connected, GigabitEthernet0/1
+
+172.18.32.0/24 is variably subnetted, 4 subnets, 2 masks
+
+C 172.18.32.0/30 is directly connected, Serial0/0/0
+
+L 172.18.32.2/32 is directly connected, Serial0/0/0
+
+C 172.18.32.4/30 is directly connected, Serial0/0/1
+
+L 172.18.32.5/32 is directly connected, Serial0/0/1
+
+S 172.18.33.0/26 [1/0] via 172.18.32.1, 00:00:24, Serial0/0/0
+
+R1#</pre>
+<p><strong>Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 172.18.109.152?</strong></p>
+<ul>
+<li>GigabitEthernet0/0</li>
+<li>GigabitEthernet0/1</li>
+<li><strong><span style="color: #ff0000;">Serial0/0/0</span></strong></li>
+<li>None, the packet will be dropped.</li>
+</ul>
+<p><b>48. Refer to the exhibit. What will the router do with a packet that has a destination IP address of 192.168.12.227?</b><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-44380" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i209407v1n1_209408.jpg" alt="" width="546" height="209" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i209407v1n1_209408.jpg 546w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i209407v1n1_209408-300x115.jpg 300w" sizes="(max-width: 546px) 100vw, 546px" /></p>
+<ul>
+<li>Drop the packet.</li>
+<li>Send the packet out the GigabitEthernet0/0 interface.</li>
+<li><span style="color: #ff0000;"><strong>Send the packet out the Serial0/0/0 interface.</strong></span></li>
+<li>Send the packet out the GigabitEthernet0/1 interface.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> After a router determines the destination network by ANDing the destination IP address with the subnet mask, the router examines the routing table for the resulting destination network number. When a match is found, the packet is sent to the interface associated with the network number. When no routing table entry is found for the particular network, the default gateway or gateway of last resort (if configured or known) is used. If there is no gateway of last resort, the packet is dropped. In this instance, the 192.168.12.224 network is not found in the routing table and the router uses the gateway of last resort. The gateway of last resort is the IP address of 209.165.200.226. The router knows this is an IP address that is associated with the 209.165.200.224 network. The router then proceeds to transmit the packet out the Serial0/0/0 interface, or the interface that is associated with 209.165.200.224.</p></div>
+<p><strong>49. Consider the following command:</strong></p>
+<pre>ip route 192.168.10.0 255.255.255.0 10.10.10.2 5</pre>
+<p>Which route would have to go down in order for this static route to appear in the routing table?</p>
+<ul>
+<li>a default route</li>
+<li><span style="color: red;"><strong>a static route to the 192.168.10.0/24 network</strong></span></li>
+<li>an OSPF-learned route to the 192.168.10.0/24 network</li>
+<li>an EIGRP-learned route to the 192.168.10.0/24 network</li>
+</ul>
+<div class="message_box success"><p>The administrative distance of 5 added to the end of the static route creates a floating static situation for a static route that goes down. Static routes have a default administrative distance of 1. This route that has an administrative distance of 5 will not be placed into the routing table unless the previously entered static route to the 192.168.10.0/24 goes down or was never entered. The administrative distance of 5 added to the end of the static route configuration creates a floating static route that will be placed in the routing table when the primary route to the same destination network goes down. By default, a static route to the 192.168.10.0/24 network has an administrative distance of 1. Therefore, the floating route with an administrative distance of 5 will not be placed into the routing table unless the previously entered static route to the 192.168.10.0/24 goes down or was never entered. Because the floating route has an administrative distance of 5, the route is preferred to an OSPF-learned route (with the administrative distance of 110) or an EIGRP-learned route (with the administrative distance of 110) to the same destination network.<br />
+</p></div>
+<p><strong>50. What are two advantages of static routing over dynamic routing? (Choose two.)</strong></p>
+<ul>
+<li><span style="color: red;"><strong>Static routing is more secure because it does not advertise over the network.</strong></span></li>
+<li>Static routing scales well with expanding networks.</li>
+<li>Static routing requires very little knowledge of the network for correct implementation.</li>
+<li><span style="color: red;"><strong>Static routing uses fewer router resources than dynamic routing.</strong></span></li>
+<li>Static routing is relatively easy to configure for large networks.</li>
+</ul>
+<div class="message_box success"><p>Static routing requires a thorough understanding of the entire network for proper implementation. It can be prone to errors and does not scale well for large networks. Static routing uses fewer router resources, because no computing is required for updating routes. Static routing can also be more secure because it does not advertise over the network.<br />
+</p></div>
+<p><strong>51. What characteristic completes the following statement?<br />
+When an IPv6 static route is configured, it is possible that the same IPv6 link-local address is used for &#8230; </strong></p>
+<ul>
+<li>a destination host route with a /128 prefix.</li>
+<li>the “ipv6 unicast-routing” command.</li>
+<li><span style="color: red;"><strong>the next-hop address of two different adjacent routers.</strong></span></li>
+<li>an administrative distance of 2.</li>
+</ul>
+<p><strong>52. A network administrator configures the interface fa0/0 on the router R1 with the command ip address 172.16.1.254 255.255.255.0. However, when the administrator issues the command show ip route, the routing table does not show the directly connected network. What is the possible cause of the problem?</strong></p>
+<ul>
+<li>The subnet mask is incorrect for the IPv4 address.</li>
+<li>The configuration needs to be saved first.</li>
+<li><span style="color: #ff0000;"><strong>The interface fa0/0 has not been activated.</strong></span></li>
+<li>No packets with a destination network of 172.16.1.0 have been sent to R1.</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> A directly connected network will be added to the routing table when these three conditions are met: (1) the interface is configured with a valid IP address; (2) it is activated with no shutdown command; and (3) it receives a carrier signal from another device that is connected to the interface. An incorrect subnet mask for an IPv4 address will not prevent its appearance in the routing table, although the error may prevent successful communications.</p></div><br />
+<strong>53. Refer to the exhibit. What command would be used to configure a static route on R1 so that traffic from both LANs can reach the 2001:db8:1:4::/64 remote network?</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-44381" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i209413v1n2_209413.jpg" alt="" width="451" height="224" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i209413v1n2_209413.jpg 451w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i209413v1n2_209413-300x149.jpg 300w" sizes="(max-width: 451px) 100vw, 451px" /></p>
+<ul>
+<li>ipv6 route 2001:db8:1:4::/64 2001:db8:1:3::1</li>
+<li>ipv6 route 2001:db8:1::/65 2001:db8:1:3::1</li>
+<li>ipv6 route ::/0 serial0/0/0</li>
+<li><span style="color: #ff0000;"><strong>ipv6 route 2001:db8:1:4::/64 2001:db8:1:3::2</strong></span></li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> To configure an IPv6 static route, use the ipv6 route command followed by the destination network. Then add either the IP address of the adjacent router or the interface R1 will use to transmit a packet to the 2001:db8:1:4::/64 network.</p></div><br />
+<strong>54. Refer to the exhibit. What two commands will change the next-hop address for the 10.0.0.0/8 network from 172.16.40.2 to 192.168.1.2? (Choose two.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-44382" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i283590v1n1_14284.jpg" alt="" width="346" height="224" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i283590v1n1_14284.jpg 346w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i283590v1n1_14284-300x194.jpg 300w" sizes="(max-width: 346px) 100vw, 346px" /></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>A(config)# ip route 10.0.0.0 255.0.0.0 192.168.1.2</strong></span></li>
+<li>A(config)# ip route 10.0.0.0 255.0.0.0 s0/0/0</li>
+<li>A(config)# no ip address 10.0.0.1 255.0.0.0 172.16.40.2</li>
+<li>A(config)# no network 10.0.0.0 255.0.0.0 172.16.40.2</li>
+<li><span style="color: #ff0000;"><strong>A(config)# no ip route 10.0.0.0 255.0.0.0 172.16.40.2</strong></span></li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> The two required commands are A(config)# no ip route 10.0.0.0 255.0.0.0 172.16.40.2 and A(config)# ip route 10.0.0.0 255.0.0.0 192.168.1.2.</p></div><br />
+<strong>55. Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 192.168.139.244?</strong></p>
+<pre>Gateway of last resort is not set.
+
+192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks
+
+O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0
+
+O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1
+
+O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0
+
+C 192.168.139.192/27 is directly connected, GigabitEthernet0/0
+
+L 192.168.139.193/27 is directly connected, GigabitEthernet0/0
+
+C 192.168.139.224/27 is directly connected, GigabitEthernet0/1
+
+L 192.168.139.225/27 is directly connected, GigabitEthernet0/1
+
+192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks
+
+C 192.168.70.0/30 is directly connected, Serial0/0/0
+
+L 192.168.70.2/32 is directly connected, Serial0/0/0
+
+C 192.168.70.4/30 is directly connected, Serial0/0/1
+
+L 192.168.70.5/32 is directly connected, Serial0/0/1
+
+S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0
+
+R1#</pre>
+<ul>
+<li><span style="color: #ff0000;"><strong>GigabitEthernet0/1</strong></span></li>
+<li>None, the packet will be dropped.</li>
+<li>Serial0/0/1</li>
+<li>GigabitEthernet0/0</li>
+</ul>
+<p><b>56. What characteristic completes the following statement?<br />
+When an IPv6 static route is configured, a fully-specified configuration should be used with &#8230; </b></p>
+<ul>
+<li>::/0.</li>
+<li>the &#8220;ipv6 unicast-routing&#8221; command.</li>
+<li>the next-hop address of two different adjacent routers.</li>
+<li><span style="color: #ff0000;"><strong>a directly connected multiaccess network.</strong></span></li>
+</ul>
+<p><b>57. Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 192.168.71.52?</b></p>
+<pre>Gateway of last resort is not set.
+
+192.168.139.0/26 is variously subnetted, 7 subnets, 3 masks
+
+O 192.168.139.0/26 [110/10] via 192.168.70.1, 00:00:24, Serial0/0/0
+
+O 192.168.139.64/26 [110/20] via 192.168.70.6, 00:00:56, Serial 0/0/1
+
+O 192.168.139.128/26 [110/10] via 192.168.70.1, 00:00:24, Serial 0/0/0
+
+C 192.168.139.192/27 is directly connected, GigabitEthernet0/0
+
+L 192.168.139.193/27 is directly connected, GigabitEthernet0/0
+
+C 192.168.139.224/27 is directly connected, GigabitEthernet0/1
+
+L 192.168.139.225/27 is directly connected, GigabitEthernet0/1
+
+192.168.70.0/24 is variably subnetted, 4 subnets, 2 masks
+
+C 192.168.70.0/30 is directly connected, Serial0/0/0
+
+L 192.168.70.2/32 is directly connected, Serial0/0/0
+
+C 192.168.70.4/30 is directly connected, Serial0/0/1
+
+L 192.168.70.5/32 is directly connected, Serial0/0/1
+
+S 192.168.71.0/26 [1/0] via 192.168.70.1, 00:00:24, Serial0/0/0
+
+R1#</pre>
+<ul>
+<li>The packet will take the gateway of last resort.</li>
+<li>GigabitEthernet0/1</li>
+<li><span style="color: #ff0000;"><strong>Serial0/0/0</strong></span></li>
+<li>None, the packet will be dropped.</li>
+</ul>
+<p><b>58. What characteristic completes the following statement?<br />
+When an IPv6 static route is configured, the installation of the route can be verified with &#8230;&#8230;</b></p>
+<ul>
+<li>a destination host route with a /128 prefix.</li>
+<li>the interface type and interface number.</li>
+<li><strong><span style="color: #ff0000;">the &#8220;show ipv6 route static&#8221; command.</span></strong></li>
+<li>an administrative distance of 2.</li>
+</ul>
+<p><b>59. Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 10.55.99.78?</b></p>
+<pre>Gateway of last resort is not set.
+
+10.55.99.0/26 is variously subnetted, 7 subnets, 3 masks
+
+O 10.55.99.0/26 [110/10] via 10.55.18.1, 00:00:24, Serial0/0/0
+
+O 10.55.99.64/26 [110/20] via 10.55.18.6, 00:00:56, Serial 0/0/1
+
+O 10.55.99.128/26 [110/10] via 10.55.18.1, 00:00:24, Serial 0/0/0
+
+C 10.55.99.192/27 is directly connected, GigabitEthernet0/0
+
+L 10.55.99.193/27 is directly connected, GigabitEthernet0/0
+
+C 10.55.99.224/27 is directly connected, GigabitEthernet0/1
+
+L 10.55.99.225/27 is directly connected, GigabitEthernet0/1
+
+10.55.18.0/24 is variably subnetted, 4 subnets, 2 masks
+
+C 10.55.18.0/30 is directly connected, Serial0/0/0
+
+L 10.55.18.2/32 is directly connected, Serial0/0/0
+
+C 10.55.18.4/30 is directly connected, Serial0/0/1
+
+L 10.55.18.5/32 is directly connected, Serial0/0/1
+
+S 10.55.19.0/26 [1/0] via 10.55.18.1, 00:00:24, Serial0/0/0
+
+R1#</pre>
+<ul>
+<li>None, the packet will be dropped.</li>
+<li>GigabitEthernet0/0</li>
+<li>GigabitEthernet0/1</li>
+<li><span style="color: #ff0000;"><strong>Serial0/0/1</strong></span></li>
+</ul>
+<p><b>60. A network administrator configures the interface fa0/0 on the router R1 with the command ip address 172.16.1.254 255.255.255.0 . However, when the administrator issues the command show ip route , the routing table does not show the directly connected network. What is the possible cause of the problem?</b></p>
+<ul>
+<li>The subnet mask is incorrect for the IPv4 address.</li>
+<li>No packets with a destination network of 172.16.1.0 have been sent to R1.</li>
+<li>The configuration needs to be saved first.</li>
+<li><span style="color: #ff0000;"><strong>The interface fa0/0 has not been activated.</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A directly connected network will be added to the routing table when these three conditions are met: (1) the interface is configured with a valid IP address; (2) it is activated with no shutdown command; and (3) it receives a carrier signal from another device that is connected to the interface. An incorrect subnet mask for an IPv4 address will not prevent its appearance in the routing table, although the error may prevent successful communications.</p></div>
+<p><strong>61. Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 10.3.86.2?</strong></p>
+<pre>Gateway of last resort is not set.
+
+10.3.86.0/26 is variously subnetted, 7 subnets, 3 masks
+
+O 10.3.86.0/26 [110/10] via 10.3.2.1, 00:00:24, Serial0/0/0
+
+O 10.3.86.64/26 [110/20] via 10.3.2.6, 00:00:56, Serial 0/0/1
+
+O 10.3.86.128/26 [110/10] via 10.3.2.1, 00:00:24, Serial 0/0/0
+
+C 10.3.86.192/27 is directly connected, GigabitEthernet0/0
+
+L 10.3.86.193/27 is directly connected, GigabitEthernet0/0
+
+C 10.3.86.224/27 is directly connected, GigabitEthernet0/1
+
+L 10.3.86.225/27 is directly connected, GigabitEthernet0/1
+
+10.3.2.0/24 is variably subnetted, 4 subnets, 2 masks
+
+C 10.3.2.0/30 is directly connected, Serial0/0/0
+
+L 10.3.2.2/32 is directly connected, Serial0/0/0
+
+C 10.3.2.4/30 is directly connected, Serial0/0/1
+
+L 10.3.2.5/32 is directly connected, Serial0/0/1
+
+S 10.3.3.0/26 [1/0] via 10.3.2.1, 00:00:24, Serial0/0/0
+
+R1#</pre>
+<ul>
+<li>GigabitEthernet0/1</li>
+<li>Serial0/0/1</li>
+<li>GigabitEthernet0/0</li>
+<li><span style="color: #ff0000;"><strong>Serial0/0/0</strong></span></li>
+</ul>
+<p><strong>62. Match the characteristic to the corresponding type of routing. (Not all options are used.)</strong><br />
+<img loading="lazy" decoding="async" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/07/2022-05-03_093140.jpg" alt="" width="700" height="550" class="aligncenter size-full wp-image-76060" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/07/2022-05-03_093140.jpg 700w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/07/2022-05-03_093140-300x236.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /><br />
+<div class="message_box success"><p><b>Explanation:</b> Both static and dynamic routing could be used when more than one router is involved. Dynamic routing is when a routing protocol is used. Static routing is when every remote route is entered manually by an administrator into every router in the network topology.</p></div></p>
+<p><b>63. Refer to the exhibit. Which interface will be the exit interface to forward a data packet that has the destination IP address 172.25.128.244?</b></p>
+<pre>Gateway of last resort is not set.
+
+172.25.128.0/26 is variously subnetted, 7 subnets, 3 masks
+
+O 172.25.128.0/26 [110/10] via 172.25.56.1, 00:00:24, Serial0/0/0
+
+O 172.25.128.64/26 [110/20] via 172.25.56.6, 00:00:56, Serial 0/0/1
+
+O 172.25.128.128/26 [110/10] via 172.25.56.1, 00:00:24, Serial 0/0/0
+
+C 172.25.128.192/27 is directly connected, GigabitEthernet0/0
+
+L 172.25.128.193/27 is directly connected, GigabitEthernet0/0
+
+C 172.25.128.224/27 is directly connected, GigabitEthernet0/1
+
+L 172.25.128.225/27 is directly connected, GigabitEthernet0/1
+
+172.25.56.0/24 is variably subnetted, 4 subnets, 2 masks
+
+C 172.25.56.0/30 is directly connected, Serial0/0/0
+
+L 172.25.56.2/32 is directly connected, Serial0/0/0
+
+C 172.25.56.4/30 is directly connected, Serial0/0/1
+
+L 172.25.56.5/32 is directly connected, Serial0/0/1
+
+S 172.25.57.0/26 [1/0] via 172.25.56.1, 00:00:24, Serial0/0/0
+
+R1#</pre>
+<ul>
+<li>GigabitEthernet0/0</li>
+<li><span style="color: #ff0000;"><strong>GigabitEthernet0/1</strong></span></li>
+<li>None, the packet will be dropped.</li>
+<li>Serial0/0/1</li>
+</ul>
+<p><b>64. Ipv6 route 2001:0DB8::/32 2001:0DB8:3000::1<br />
+Which static route is configured here?</b></p>
+<ul>
+<li>Floating static</li>
+<li><span style="color: #ff0000;"><strong>Recursive static</strong></span></li>
+<li>Directly attached static</li>
+<li>Fully specified static</li>
+</ul>
+<div class="message_box success"><p><strong>Explain:</strong> The Router has to look up in the routing table twice to find the exit interface. The first is shown in the Question now the router has to lookup what interface ex.s0/0/0 that the 3000::1 address is associated with. route table ex. 2001:0DB8:3000::1 is directly connected, Serial0/0/0. This is the 2nd lookup in the table to find out that the packet needs to exit the s0/0/0 interface making the first route a recursive and 2nd route a direct. </p></div>

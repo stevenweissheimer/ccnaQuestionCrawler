@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link-Liste</title>
+</head>
+
+<body>
+    <h1>Link-Liste</h1>
+
+    <form action="/add" method="post">
+        <label for="newUrl">URL:</label>
+        <input type="text" id="newUrl" name="newUrl" required>
+
+        <label for="newCourse">Course:</label>
+        <input type="text" id="newCourse" name="newCourse" required>
+
+        <label for="newSection">Abschnitt:</label>
+        <input type="text" id="newSection" name="newSection" required>
+
+        <label for="newCrawlMode">Crawl-Modus:</label>
+        <input type="text" id="newCrawlMode" name="newCrawlMode" required>
+
+        <button type="submit">Hinzufügen</button>
+    </form>
+    <br>
+    <table class="minimalistBlack">
+        <tr>
+            <th>URL</th>
+            <th>Course</th>
+            <th>Abschnitt</th>
+            <th>Crawl-Modus</th>
+            <th>Aktionen</th>
+        </tr>
+        <% if (Array.isArray(links)) { %>
+        <% links.forEach(link => { %>
+        <tr>
+            <td><%= link.url %></td>
+            <td><%= link.course %></td>
+            <td><%= link.section %></td>
+            <td><%= link.crawlMode %></td>
+            <td>
+                <form action="/delete" method="post">
+                    <input type="hidden" name="link" value="<%= link.url %>">
+                    <button type="submit">Löschen</button>
+                </form>
+            </td>
+        </tr>
+        <% }); %>
+        <% } else { %>
+        <tr>
+            <td colspan="4">Keine Links vorhanden</td>
+        </tr>
+        <% } %>
+    </table>
+</body>
+<style>
+    table.minimalistBlack {
+        border: 3px solid #000000;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    table.minimalistBlack td,
+    table.minimalistBlack th {
+        border: 1px solid #000000;
+        padding: 5px 4px;
+    }
+
+    table.minimalistBlack tbody td {
+        font-size: 13px;
+    }
+
+    table.minimalistBlack thead {
+        background: #CFCFCF;
+        background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+        background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+        background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+        border-bottom: 3px solid #000000;
+    }
+
+    table.minimalistBlack thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+        text-align: left;
+    }
+
+    table.minimalistBlack tfoot {
+        font-size: 14px;
+        font-weight: bold;
+        color: #000000;
+        border-top: 3px solid #000000;
+    }
+
+    table.minimalistBlack tfoot td {
+        font-size: 14px;
+    }
+</style>
+
+</html>

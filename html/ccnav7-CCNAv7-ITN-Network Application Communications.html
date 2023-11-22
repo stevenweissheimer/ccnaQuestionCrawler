@@ -1,0 +1,527 @@
+<p><strong>1. Which action is performed by a client when establishing communication with a server via the use of UDP at the transport layer?</strong></p>
+<ul>
+<li>The client sets the window size for the session.</li>
+<li>The client sends an ISN to the server to start the 3-way handshake.</li>
+<li><span style="color: #ff0000;"><strong>The client randomly selects a source port number.</strong></span></li>
+<li>The client sends a synchronization segment to begin the session.</li>
+</ul>
+<p><strong>2. Which transport layer feature is used to guarantee session establishment?</strong></p>
+<ul>
+<li>UDP ACK flag</li>
+<li><span style="color: #ff0000;"><strong>TCP 3-way handshake</strong></span></li>
+<li>UDP sequence number</li>
+<li>TCP port number</li>
+</ul>
+<p><strong>3. What is the complete range of TCP and UDP well-known ports?</strong></p>
+<ul>
+<li>0 to 255</li>
+<li><span style="color: #ff0000;"><strong>0 to 1023</strong></span></li>
+<li>256 &#8211; 1023</li>
+<li>1024 &#8211; 49151</li>
+</ul>
+<p><strong>4. What is a socket?</strong></p>
+<ul>
+<li>the combination of the source and destination IP address and source and destination Ethernet address</li>
+<li><span style="color: #ff0000;"><strong>the combination of a source IP address and port number or a destination IP address and port number</strong></span></li>
+<li>the combination of the source and destination sequence and acknowledgment numbers</li>
+<li>the combination of the source and destination sequence numbers and port numbers</li>
+</ul>
+<p><strong>5. A PC is downloading a large file from a server. The TCP window is 1000 bytes. The server is sending the file using 100-byte segments. How many segments will the server send before it requires an acknowledgment from the PC?</strong></p>
+<ul>
+<li>1 segment</li>
+<li><strong><span style="color: #ff0000;">10 segments</span></strong></li>
+<li>100 segments</li>
+<li>1000 segments</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> With a window of 1000 bytes, the destination host accepts segments until all 1000 bytes of data have been received. Then the destination host sends an acknowledgment.</p></div><br />
+<strong>6. Which factor determines TCP window size?</strong></p>
+<ul>
+<li>the amount of data to be transmitted</li>
+<li>the number of services included in the TCP segment</li>
+<li><strong><span style="color: #ff0000;">the amount of data the destination can process at one time</span></strong></li>
+<li>the amount of data the source is capable of sending at one time</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Window is the number of bytes that the sender will send prior to expecting an acknowledgement from the destination device. The initial window is agreed upon during the session startup via the three-way handshake between source and destination. It is determined by how much data the destination device of a TCP session is able to accept and process at one time.</p></div>
+<p><strong>7. What does a client do when it has UDP datagrams to send?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">It just sends the datagrams.</span></strong></li>
+<li>It queries the server to see if it is ready to receive data.</li>
+<li>It sends a simplified three-way handshake to the server.</li>
+<li>It sends to the server a segment with the SYN flag set to synchronize the conversation.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When a client has UDP datagrams to send, it just sends the datagrams.</p></div>
+<p><strong>8. Which three fields are used in a UDP segment header? (Choose three.)</strong></p>
+<ul>
+<li>Window Size</li>
+<li><span style="color: #ff0000;"><strong>Length</strong></span></li>
+<li><span style="color: #ff0000;"><strong>Source Port</strong></span></li>
+<li>Acknowledgment Number</li>
+<li><span style="color: #ff0000;"><strong>Checksum</strong></span></li>
+<li>Sequence Number</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A UDP header consists of only the Source Port, Destination Port, Length, and Checksum fields. Sequence Number, Acknowledgment Number, and Window Size are TCP header fields.</p></div>
+<p><strong>9. What are two roles of the transport layer in data communication on a network? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">identifying the proper application for each communication stream</span></strong></li>
+<li><strong><span style="color: #ff0000;">tracking the individual communication between applications on the source and destination hosts</span></strong></li>
+<li>providing frame delimiting to identify bits making up a frame</li>
+<li>performing a cyclic redundancy check on the frame for errors</li>
+<li>providing the interface between applications and the underlying network over which messages are transmitted</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The transport layer has several responsibilities. The primary responsibilities include the following:</p>
+<ul>
+<li>Tracking the individual communication streams between applications on the source and destination hosts</li>
+<li>Segmenting data at the source and reassembling the data at the destination</li>
+<li>Identifying the proper application for each communication stream through the use of port numbers</li>
+</ul>
+<p></p></div>
+<p><strong>10. What information is used by TCP to reassemble and reorder received segments?</strong></p>
+<ul>
+<li>port numbers</li>
+<li><strong><span style="color: #ff0000;">sequence numbers</span></strong></li>
+<li>acknowledgment numbers</li>
+<li>fragment numbers</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> At the transport layer, TCP uses the sequence numbers in the header of each TCP segment to reassemble the segments into the correct order.</p></div><br />
+<strong>11. What important information is added to the TCP/IP transport layer header to ensure communication and connectivity with a remote network device?</strong></p>
+<ul>
+<li>timing and synchronization</li>
+<li><strong><span style="color: #ff0000;">destination and source port numbers</span></strong></li>
+<li>destination and source physical addresses</li>
+<li>destination and source logical network addresses</li>
+</ul>
+<p><strong>12. Which two characteristics are associated with UDP sessions? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Destination devices receive traffic with minimal delay.</span></strong></li>
+<li>Transmitted data segments are tracked.</li>
+<li>Destination devices reassemble messages and pass them to an application.</li>
+<li><span style="color: #ff0000;"><strong>Received data is unacknowledged.</strong></span></li>
+<li>Unacknowledged data packets are retransmitted.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong></p>
+<p>TCP:</p>
+<ul>
+<li>Provides tracking of transmitted data segments</li>
+<li>Destination devices will acknowledge received data.</li>
+<li>Source devices will retransmit unacknowledged data.</li>
+</ul>
+<p>UDP</p>
+<ul>
+<li>Destination devices will not acknowledge received data</li>
+<li>Headers use very little overhead and cause minimal delay.​</li>
+</ul>
+<p></p></div>
+<p><strong>13. A client application needs to terminate a TCP communication session with a server. Place the termination process steps in the order that they will occur. (Not all options are used.)</strong><br />
+<img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-45782" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-05-19_095505.jpg" alt="" width="726" height="742" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-05-19_095505.jpg 726w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-05-19_095505-294x300.jpg 294w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-05-19_095505-20x20.jpg 20w" sizes="(max-width: 726px) 100vw, 726px" /><br />
+<div class="message_box success"><p><strong>Explanation:</strong> In order to terminate a TCP session, the client sends to the server a segment with the FIN flag set. The server acknowledges the client by sending a segment with the ACK flag set. The server sends a FIN to the client to terminate the server to client session. The client acknowledges the termination by sending a segment with the ACK flag set.</p></div><br />
+<strong>14. Which flag in the TCP header is used in response to a received FIN in order to terminate connectivity between two network devices?</strong></p>
+<ul>
+<li>FIN</li>
+<li><strong><span style="color: #ff0000;">ACK</span></strong></li>
+<li>SYN</li>
+<li>RST</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> In a TCP session, when a device has no more data to send, it will send a segment with the FIN flag set. The connected device that receives the segment will respond with an ACK to acknowledge that segment. The device that sent the ACK will then send a FIN message to close the connection it has with the other device. The sending of the FIN should be followed with the receipt of an ACK from the other device.​</p></div><br />
+<strong>15. Which protocol or service uses UDP for a client-to-server communication and TCP for server-to-server communication?</strong></p>
+<ul>
+<li>HTTP</li>
+<li>FTP</li>
+<li><strong><span style="color: #ff0000;">DNS</span></strong></li>
+<li>SMTP</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Some applications may use both TCP and UDP. DNS uses UDP when clients send requests to a DNS server, and TCP when two DNS serves directly communicate.</p></div>
+<p><strong>16. What is a characteristic of UDP?</strong></p>
+<ul>
+<li>UDP datagrams take the same path and arrive in the correct order at the destination.​</li>
+<li>Applications that use UDP are always considered unreliable.​</li>
+<li><strong><span style="color: #ff0000;">UDP reassembles the received datagrams in the order they were received.</span></strong></li>
+<li>UDP only passes data to the network when the destination is ready to receive the data.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> UDP has no way to reorder the datagrams into their transmission order, so UDP simply reassembles the data in the order it was received and forwards it to the application.​</p></div>
+<p><strong>17. What kind of port must be requested from IANA in order to be used with a specific application?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">registered port</span></strong></li>
+<li>private port</li>
+<li>dynamic port</li>
+<li>source port</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Registered ports (numbers 1024 to 49151) are assigned by IANA to a requesting entity to use with specific processes or applications. These processes are primarily individual applications that a user has chosen to install, rather than common applications that would receive a well-known port number. For example, Cisco has registered port 1985 for its Hot Standby Routing Protocol (HSRP) process.​</p></div>
+<p><strong>18. Which three application layer protocols use TCP? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">SMTP</span></strong></li>
+<li><strong><span style="color: #ff0000;">FTP</span></strong></li>
+<li>SNMP</li>
+<li><strong><span style="color: #ff0000;">HTTP</span></strong></li>
+<li>TFTP</li>
+<li>DHCP</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Some protocols require the reliable data transport that is provided by TCP. In addition, these protocols do not have real time communication requirements and can tolerate some data loss while minimizing protocol overhead. Examples of these protocols are SMTP, FTP, and HTTP.</p></div>
+<p><strong>19. Which three statements characterize UDP? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">UDP provides basic connectionless transport layer functions.</span></strong></li>
+<li>UDP provides connection-oriented, fast transport of data at Layer 3.</li>
+<li><span style="color: #ff0000;"><strong>UDP relies on application layer protocols for error detection.</strong></span></li>
+<li><span style="color: #ff0000;"><strong>UDP is a low overhead protocol that does not provide sequencing or flow control mechanisms.</strong></span></li>
+<li>UDP relies on IP for error detection and recovery.</li>
+<li>UDP provides sophisticated flow control mechanisms.</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> UDP is a simple protocol that provides the basic transport layer functions. It has much lower overhead than TCP because it is not connection-oriented and does not offer the sophisticated retransmission, sequencing, and flow control mechanisms that provide reliability.</p></div><br />
+<strong>20. Which two fields are included in the TCP header but not in the UDP header? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">window</span></strong></li>
+<li>checksum</li>
+<li>source port</li>
+<li>destination port</li>
+<li><span style="color: #ff0000;"><strong>sequence number</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The sequence number and window fields are included in the TCP header but not in the UDP header.</p></div>
+<p><strong>21. Which field in the TCP header indicates the status of the three-way handshake process?</strong></p>
+<ul>
+<li>window</li>
+<li>reserved</li>
+<li>checksum</li>
+<li><strong><span style="color: #ff0000;">control bits</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The value in the control bits field of theTCP header indicates the progress and status of the connection.</p></div>
+<p><strong>22. Why does HTTP use TCP as the transport layer protocol?</strong></p>
+<ul>
+<li>to ensure the fastest possible download speed</li>
+<li>because HTTP is a best-effort protocol</li>
+<li>because transmission errors can be tolerated easily</li>
+<li><span style="color: #ff0000;"><strong>because HTTP requires reliable delivery</strong></span></li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> When a host requests a web page, transmission reliability and completeness must be guaranteed. Therefore, HTTP uses TCP as its transport layer protocol.</p></div><br />
+<strong>23. Which two types of applications are best suited for UDP? (Choose two.)</strong></p>
+<ul>
+<li>applications that need data flow control</li>
+<li>applications that require reliable delivery</li>
+<li><strong><span style="color: #ff0000;">applications that handle reliability themselves</span></strong></li>
+<li>applications that need the reordering of segments</li>
+<li><span style="color: #ff0000;"><strong>applications that can tolerate some data loss, but require little or no delay</strong></span></li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Applications that can tolerate some data loss, require a simple request and reply, and handle reliability themselves are best suited for UDP. UDP has low overhead and no requirement of reliability. TCP provides services for reliability, controlling data flow, and the reordering of segments.</p></div>
+<p><strong>24. How are port numbers used in the TCP/IP encapsulation process?</strong></p>
+<ul>
+<li>Source port numbers and destination port numbers are not necessary when UDP is the transport layer protocol being used for the communication.</li>
+<li>Source port and destination port numbers are randomly generated.</li>
+<li><span style="color: #ff0000;"><strong>If multiple conversations occur that are using the same service, the source port number is used to track the separate conversations.</strong></span></li>
+<li>Destination port numbers are assigned automatically and cannot be changed.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Both UDP and TCP use port numbers to provide a unique identifier for each conversation. Source port numbers are randomly generated and are used to track different conversations. Destination port numbers identify specific services by using either a default port number for the service or a port number that is assigned manually by a system administrator.</p></div>
+<p><strong>25. In what two situations would UDP be better than TCP as the preferred transport protocol? (Choose two.)</strong></p>
+<ul>
+<li>when applications need to guarantee that a packet arrives intact, in sequence, and unduplicated</li>
+<li><strong><span style="color: #ff0000;">when a faster delivery mechanism is needed</span></strong></li>
+<li>when delivery overhead is not an issue</li>
+<li><span style="color: #ff0000;"><strong>when applications do not need to guarantee delivery of the data</strong></span></li>
+<li>when destination port numbers are dynamic</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> UDP is a very simple transport layer protocol that does not guarantee delivery. Devices on both ends of the conversation are not required to keep track of the conversation. UDP is used as the transport protocol for applications that need a speedy, best-effort delivery.</p></div>
+<p><strong>26. What are three responsibilities of the transport layer? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">meeting the reliability requirements of applications, if any</span></strong></li>
+<li><strong><span style="color: #ff0000;">multiplexing multiple communication streams from many users or applications on the same network</span></strong></li>
+<li><strong><span style="color: #ff0000;">identifying the applications and services on the client and server that should handle transmitted data</span></strong></li>
+<li>directing packets towards the destination network</li>
+<li>formatting data into a compatible form for receipt by the destination devices</li>
+<li>conducting error detection of the contents in frames</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> The transport layer has several responsibilities. Some of the primary responsibilities include the following:<br />
+Tracking the individual communication streams between applications on the source and destination hosts<br />
+Segmenting data at the source and reassembling the data at the destination<br />
+Identifying the proper application for each communication stream through the use of port numbers<br />
+Multiplexing the communications of multiple users or applications over a single network<br />
+Managing the reliability requirements of applications</p></div><br />
+<strong>27. Which three statements describe a DHCP Discover message? (Choose three.)</strong></p>
+<ul>
+<li>The source MAC address is 48 ones (FF-FF-FF-FF-FF-FF).</li>
+<li><strong><span style="color: #ff0000;">The destination IP address is 255.255.255.255.</span></strong></li>
+<li>The message comes from a server offering an IP address.</li>
+<li><strong><span style="color: #ff0000;">The message comes from a client seeking an IP address.</span></strong></li>
+<li><strong><span style="color: #ff0000;">All hosts receive the message, but only a DHCP server replies.</span></strong></li>
+<li>Only the DHCP server receives the message.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When a host configured to use DHCP powers up on a network it sends a DHCPDISCOVER message. FF-FF-FF-FF-FF-FF is the L2 broadcast address. A DHCP server replies with a unicast DHCPOFFER message back to the host.</p></div>
+<p><strong>28. Which two protocols may devices use in the application process that sends email? (Choose two.)</strong></p>
+<ul>
+<li>HTTP</li>
+<li><span style="color: #ff0000;"><strong>SMTP</strong></span></li>
+<li>POP</li>
+<li>IMAP</li>
+<li><span style="color: #ff0000;"><strong>DNS</strong></span></li>
+<li>POP3</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> POP, POP3, and IMAP are protocols that are used to retrieve email from servers. SMTP is the default protocol that is used to send email. DNS may be used by the sender email server to find the address of the destination email server.</p></div>
+<p><strong>29. What is true about the Server Message Block protocol?</strong></p>
+<ul>
+<li>Different SMB message types have a different format.</li>
+<li><strong><span style="color: #ff0000;">Clients establish a long term connection to servers.</span></strong></li>
+<li>SMB messages cannot authenticate a session.</li>
+<li>SMB uses the FTP protocol for communication.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The Server Message Block protocol is a protocol for file, printer, and directory sharing. Clients establish a long term connection to servers and when the connection is active, the resources can be accessed. Every SMB message has the same format. The use of SMB differs from FTP mainly in the length of the sessions. SMB messages can authenticate sessions.</p></div>
+<p><strong>30. What is the function of the HTTP GET message?</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>to request an HTML page from a web server</strong></span></li>
+<li>to send error information from a web server to a web client</li>
+<li>to upload content to a web server from a web client</li>
+<li>to retrieve client email from an email server using TCP port 110</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> There are three common HTTP message types:</p>
+<ul>
+<li>GET &#8211; used by clients to request data from the web server</li>
+<li>POST &#8211; used by clients to upload data to a web server</li>
+<li>PUT &#8211; used by clients to upload data to a web server</li>
+</ul>
+<p></p></div>
+<p><strong>31. Which OSI layer provides the interface between the applications used to communicate and the underlying network over which messages are transmitted?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">application</span></strong></li>
+<li>presentation</li>
+<li>session</li>
+<li>transport</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The application layer is the layer that is closest to the end user and provides the interface between the underlying network and the applications used to communicate.</p></div>
+<p><strong>32. Which networking model is being used when an author uploads one chapter document to a file server of a book publisher?</strong></p>
+<ul>
+<li>peer-to-peer</li>
+<li>master-slave</li>
+<li><strong><span style="color: #ff0000;">client/server</span></strong></li>
+<li>point-to-point</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In the client/server network model, a network device assumes the role of server in order to provide a particular service such as file transfer and storage. In the client/server network model, a dedicated server does not have to be used, but if one is present, the network model being used is the client/server model. In contrast, a peer-to-peer network does not have a dedicated server.</p></div>
+<p><strong>33. What do the client/server and peer-to-peer network models have in common?</strong></p>
+<ul>
+<li>Both models have dedicated servers.</li>
+<li><strong><span style="color: #ff0000;">Both models support devices in server and client roles.</span></strong></li>
+<li>Both models require the use of TCP/IP-based protocols.</li>
+<li>Both models are used only in the wired network environment.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In both the client/server and peer-to-peer network models, clients and servers exist. In peer-to-peer networks, no dedicated server exists, but a device can assume the server role to provide information to a device serving in the client role.</p></div>
+<p><strong>34. In what networking model would eDonkey, eMule, BitTorrent, Bitcoin, and LionShare be used?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">peer-to-peer</span></strong></li>
+<li>client-based</li>
+<li>master-slave</li>
+<li>point-to-point</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In a peer-to-peer networking model, data is exchanged between two network devices without the use of a dedicated server. Peer-to-peer applications such as Shareaz, eDonkey, and Bitcoin allow one network device to assume the role of server, while one or more other network devices assume the role of client using the peer-to-peer application.</p></div>
+<p><strong>35. What is a common protocol that is used with peer-to-peer applications such as WireShare, Bearshare, and Shareaza?</strong></p>
+<ul>
+<li>Ethernet</li>
+<li><strong><span style="color: #ff0000;">Gnutella</span></strong></li>
+<li>POP</li>
+<li>SMTP</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> The Gnutella protocol is used when one user shares an entire file with another user. A person would load a Gnutella-based application such as gtk-gnutella or WireShare and use that application to locate and access resources shared by others.</p></div><br />
+<strong>36. What is a key characteristic of the peer-to-peer networking model?</strong></p>
+<ul>
+<li>wireless networking</li>
+<li>social networking without the Internet</li>
+<li>network printing using a print server</li>
+<li><strong><span style="color: #ff0000;">resource sharing without a dedicated server</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The peer-to-peer (P2P) networking model allows data, printer, and resource sharing without a dedicated server.​​</p></div>
+<p><strong>37. The application layer of the TCP/IP model performs the functions of what three layers of the OSI model? (Choose three.)</strong></p>
+<ul>
+<li>physical</li>
+<li><strong><span style="color: #ff0000;">session</span></strong></li>
+<li>network</li>
+<li><strong><span style="color: #ff0000;">presentation</span></strong></li>
+<li>data link</li>
+<li>transport</li>
+<li><strong><span style="color: #ff0000;">application</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The network access layer of the TCP/IP model performs the same functions as the physical and data link layers of the OSI model. The internetwork layer equates to the network layer of the OSI model. The transport layers are the same in both models. The application layer of the TCP/IP model represents the session, presentation, and application layers of the OSI model.​</p></div>
+<p><strong>38. What is an example of network communication that uses the client-server model?</strong></p>
+<ul>
+<li>A user uses eMule to download a file that is shared by a friend after the file location is determined.</li>
+<li>A workstation initiates an ARP to find the MAC address of a receiving host.</li>
+<li>A user prints a document by using a printer that is attached to a workstation of a coworker.</li>
+<li><strong><span style="color: #ff0000;">A workstation initiates a DNS request when the user types www.cisco.com in the address bar of a web browser.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When a user types a domain name of a website into the address bar of a web browser, a workstation needs to send a DNS request to the DNS server for the name resolution process. This request is a client/server model application. The eMule application is P2P. Sharing a printer on a workstation is a peer-to-peer network. Using ARP is just a broadcast message sent by a host.</p></div>
+<p><strong>39. Which layer in the TCP/IP model is used for formatting, compressing, and encrypting data?</strong></p>
+<ul>
+<li>internetwork</li>
+<li>session</li>
+<li>presentation</li>
+<li><strong><span style="color: #ff0000;">application</span></strong></li>
+<li>network access</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The application layer of the TCP/IP model performs the functions of three layers of the OSI model &#8211; application, presentation, and session. The application layer of the TCP/IP model is the layer that provides the interface between the applications, is responsible for formatting, compressing, and encrypting data, and is used to create and maintain dialogs between source and destination applications.</p></div>
+<p><strong>40. What is an advantage of SMB over FTP?​</strong></p>
+<ul>
+<li>Only with SMB can data transfers occur in both directions.</li>
+<li>Only SMB establishes two simultaneous connections with the client, making the data transfer faster.​</li>
+<li>SMB is more reliable than FTP because SMB uses TCP and FTP uses UDP.​</li>
+<li><strong><span style="color: #ff0000;">SMB clients can establish a long-term connection to the server.​</span></strong></li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> SMB and FTP are client/server protocols that are used for file transfer. SMB allows the connecting device to access resources as if they were on the local client device. SMB and FTP use the TCP protocol for connection establishment and they can transfer data in both directions. FTP requires two connections between the client and the server, one for commands and replies, the other for the actual file transfer.</p></div>
+<p><strong>41. A manufacturing company subscribes to certain hosted services from its ISP. The services that are required include hosted world wide web, file transfer, and e-mail. Which protocols represent these three key applications? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">FTP</span></strong></li>
+<li><strong><span style="color: #ff0000;">HTTP</span></strong></li>
+<li>DNS</li>
+<li>SNMP</li>
+<li>DHCP</li>
+<li><strong><span style="color: #ff0000;">SMTP</span></strong></li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> The ISP uses the HTTP protocol in conjunction with hosting web pages, the FTP protocol with file transfers, and SMTP with e-mail. DNS is used to translate domain names to IP addresses. SNMP is used for network management traffic. DHCP ic commonly used to manage IP addressing.</p></div><br />
+<strong>42. Which application layer protocol uses message types such as GET, PUT, and POST?</strong></p>
+<ul>
+<li>DNS</li>
+<li>DHCP</li>
+<li>SMTP</li>
+<li><strong><span style="color: #ff0000;">HTTP</span></strong></li>
+<li>POP3</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The GET command is a client request for data from a web server. A PUT command uploads resources and content, such as images, to a web server. A POST command uploads data files to a web server.</p></div>
+<p><strong>43. What type of information is contained in a DNS MX record?</strong></p>
+<ul>
+<li>the FQDN of the alias used to identify a service</li>
+<li>the IP address for an FQDN entry</li>
+<li><strong><span style="color: #ff0000;">the domain name mapped to mail exchange servers</span></strong></li>
+<li>the IP address of an authoritative name server</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> MX, or mail exchange messages, are used to map a domain name to several mail exchange servers that all belong to the same domain.</p></div>
+<p><strong>44. Which three protocols operate at the application layer of the TCP/IP model? (Choose three.)</strong></p>
+<ul>
+<li>ARP</li>
+<li>TCP</li>
+<li>UDP</li>
+<li><strong><span style="color: #ff0000;">FTP</span></strong></li>
+<li><strong><span style="color: #ff0000;">POP3</span></strong></li>
+<li><strong><span style="color: #ff0000;">DHCP</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> FTP, DHCP, and POP3 are application layer protocols. TCP and UDP are transport layer protocols. ARP is a network layer protocol.</p></div>
+<p><strong>45. Which protocol is used by a client to communicate securely with a web server?</strong></p>
+<ul>
+<li>SMTP</li>
+<li>SMB</li>
+<li>IMAP</li>
+<li><strong><span style="color: #ff0000;">HTTPS</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> HTTPS is a secure form of HTTP used to access web content hosted by a web server.</p></div>
+<p><strong>46. Which applications or services allow hosts to act as client and server at the same time?</strong></p>
+<ul>
+<li>client/server applications</li>
+<li>email applications</li>
+<li><strong><span style="color: #ff0000;">P2P applications</span></strong></li>
+<li>authentication services</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> P2P applications allow the clients to behave as servers if needed. When using authentication services, email exchange, and client/server applications, one host acts as server and the other acts as client at all times.</p></div><br />
+<strong>47. What are two characteristics of peer-to-peer networks? (Choose two.)</strong></p>
+<ul>
+<li>scalability</li>
+<li>one way data flow</li>
+<li><strong><span style="color: #ff0000;">decentralized resources</span></strong></li>
+<li>centralized user accounts</li>
+<li><span style="color: #ff0000;"><strong>resource sharing without a dedicated server</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Peer-to-peer networks have decentralized resources because every computer can serve as both a server and a client. One computer might assume the role of server for one transaction while acting as a client for another transaction. Peer-to-peer networks can share resources among network devices without the use of a dedicated server.</p></div>
+<p><strong>48. Which scenario describes a function provided by the transport layer?</strong></p>
+<ul>
+<li>A student is using a classroom VoIP phone to call home. The unique identifier burned into the phone is a transport layer address used to contact another network device on the same network.</li>
+<li>A student is playing a short web-based movie with sound. The movie and sound are encoded within the transport layer header.</li>
+<li><strong><span style="color: #ff0000;">A student has two web browser windows open in order to access two web sites. The transport layer ensures the correct web page is delivered to the correct browser window.</span></strong></li>
+<li>A corporate worker is accessing a web server located on a corporate network. The transport layer formats the screen so the web page appears properly no matter what device is being used to view the web site.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The source and destination port numbers are used to identify the correct application and window within that application.</p></div>
+<p><strong>49. Which three layers of the OSI model provide similar network services to those provided by the application layer of the TCP/IP model? (Choose three.)</strong></p>
+<ul>
+<li>physical layer</li>
+<li><strong><span style="color: #ff0000;">session layer</span></strong></li>
+<li>transport layer</li>
+<li><span style="color: #ff0000;"><strong>application layer</strong></span></li>
+<li><span style="color: #ff0000;"><strong>presentation layer</strong></span></li>
+<li>data link layer</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The three upper layers of the OSI model, the session, presentation, and application layers, provide application services similar to those provided by the TCP/IP model application layer. Lower layers of the OSI model are more concerned with data flow.</p></div>
+<p><strong>50. A PC that is communicating with a web server has a TCP window size of 6,000 bytes when sending data and a packet size of 1,500 bytes. Which byte of information will the web server acknowledge after it has received two packets of data from the PC?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">3001</span></strong></li>
+<li>6001</li>
+<li>4500</li>
+<li>6000</li>
+</ul>
+<p><strong>51. A PC that is communicating with a web server has a TCP window size of 6,000 bytes when sending data and a packet size of 1,500 bytes. Which byte of information will the web server acknowledge after it has received three packets of data from the PC?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">4501</span></strong></li>
+<li>6001</li>
+<li>6000</li>
+<li>4500</li>
+</ul>
+<p><strong>52. A PC that is communicating with a web server has a TCP window size of 6,000 bytes when sending data and a packet size of 1,500 bytes. Which byte of information will the web server acknowledge after it has received four packets of data from the PC?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">6001</span></strong></li>
+<li>3001</li>
+<li>1501</li>
+<li>1500</li>
+</ul>
+<p><strong>53. A client creates a packet to send to a server. The client is requesting TFTP service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">69</span></strong></li>
+<li>67</li>
+<li>53</li>
+<li>80</li>
+</ul>
+<p><strong>54. A client creates a packet to send to a server. The client is requesting FTP service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">21</span></strong></li>
+<li>69</li>
+<li>67</li>
+<li>80</li>
+</ul>
+<p><strong>55. A client creates a packet to send to a server. The client is requesting SSH service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">22</span></strong></li>
+<li>69</li>
+<li>67</li>
+<li>80</li>
+</ul>
+<p><strong>56. A client creates a packet to send to a server. The client is requesting HTTP service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">80</span></strong></li>
+<li>67</li>
+<li>53</li>
+<li>69</li>
+</ul>
+<p><strong>57. A client creates a packet to send to a server. The client is requesting POP3 service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">110</span></strong></li>
+<li>67</li>
+<li>53</li>
+<li>69</li>
+<li>443</li>
+<li>161</li>
+<li>80</li>
+</ul>
+<p><strong>58. A client creates a packet to send to a server. The client is requesting telnet service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">23</span></strong></li>
+<li>443</li>
+<li>161</li>
+<li>110</li>
+</ul>
+<p><strong>59. A client creates a packet to send to a server. The client is requesting SNMP service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">161</span></strong></li>
+<li>443</li>
+<li>110</li>
+<li>80</li>
+</ul>
+<p><strong>60. A client creates a packet to send to a server. The client is requesting SMTP service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">25</span></strong></li>
+<li>443</li>
+<li>161</li>
+<li>110</li>
+</ul>
+<p><strong>61. A client creates a packet to send to a server. The client is requesting HTTPS service. What number will be used as the destination port number in the sending packet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">443</span></strong></li>
+<li>161</li>
+<li>110</li>
+<li>80</li>
+</ul>

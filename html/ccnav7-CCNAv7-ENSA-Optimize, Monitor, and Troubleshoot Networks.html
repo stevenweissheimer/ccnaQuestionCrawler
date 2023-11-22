@@ -1,0 +1,551 @@
+<p><strong>1. What is the term used to indicate a variation of delay?</strong></p>
+<ul>
+<li>latency</li>
+<li>serialization delay</li>
+<li>speed mismatch</li>
+<li><span style="color: #ff0000;"><strong>jitter</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Jitter is a phenomenon caused by a variation in delay. Delay (or latency) is the time it takes for the packet to arrive at its destination. Jitter describes how the voice packets arrive at the destination at varying intervals (not in a steady, consistent stream).</p></div>
+<p><strong>2. A network engineer performs a ping test and receives a value that shows the time it takes for a packet to travel from a source to a destination device and return. Which term describes the value?</strong></p>
+<ul>
+<li>jitter</li>
+<li><span style="color: #ff0000;"><strong>latency</strong></span></li>
+<li>priority</li>
+<li>bandwidth</li>
+</ul>
+<p><strong>3. What role do network devices play in the IntServ QoS model?</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>Network devices ensure that resources are available before traffic is allowed to be sent by a host through the network.</strong></span></li>
+<li>Network devices provide a best-effort approach to forwarding traffic.</li>
+<li>Network devices are configured to service multiple classes of traffic and handle traffic as it may arrive.</li>
+<li>Network devices use QoS on a hop-by-hop basis to provide excellent scalability.</li>
+</ul>
+<p><strong>4. Which device would be classified as a trusted endpoint?</strong></p>
+<ul>
+<li>switch</li>
+<li>router</li>
+<li>firewall</li>
+<li><span style="color: #ff0000;"><strong>IP phone</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Trusted endpoints are devices that have the capability to mark application traffic at Layer 2 or Layer 3. Trusted endpoints include the following:<br />
+&#8211; IP phones<br />
+&#8211; Wireless access points<br />
+&#8211; Videoconferencing gateways and systems<br />
+&#8211; IP conferencing stations and more</p></div>
+<p><strong>5. What is the benefit of deploying Layer 3 QoS marking across an enterprise network?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Layer 3 marking can carry the QoS information end-to-end.</span></strong></li>
+<li>Layer 3 marking can carry QoS information on switches that are not IP aware.</li>
+<li>Layer 3 marking can be carried in the 802.1Q fields.</li>
+<li>Layer 3 marking can be used to carry non-IP traffic.</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> Marking traffic at Layer 2 or Layer 3 is very important and will affect how traffic is treated in a network using QoS.</p>
+<ul>
+<li>Layer 2 marking of frames can be performed for non-IP traffic.</li>
+<li>Layer 2 marking of frames is the only QoS option available for switches that are not &#8220;IP aware.&#8221;</li>
+<li>Layer 3 marking will carry the QoS information end-to-end.</p></div></li>
+</ul>
+<p><strong>6. What is the function of a QoS trust boundary?</strong></p>
+<ul>
+<li>A trust boundary identifies the location where traffic cannot be remarked.</li>
+<li>A trust boundary only allows traffic to enter if it has previously been marked.</li>
+<li><strong><span style="color: #ff0000;">A trust boundary identifies which devices trust the marking on packets that enter a network.</span></strong></li>
+<li>A trust boundary only allows traffic from trusted endpoints to enter the network.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Network traffic is classified and marked as close to the source device as possible. The trust boundary is the location where the QoS markings on a packet are trusted as they enter an enterprise network.</p></div>
+<p><strong>7. What are two approaches to prevent packet loss due to congestion on an interface? (Choose two.)</strong></p>
+<ul>
+<li>Decrease buffer space.</li>
+<li>Disable queuing mechanisms.</li>
+<li><strong><span style="color: #ff0000;">Drop lower-priority packets.</span></strong></li>
+<li>Prevent bursts of traffic.</li>
+<li><strong><span style="color: #ff0000;">Increase link capacity.</span></strong></li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> There are three approaches to prevent sensitive traffic from being dropped:</p>
+<ul>
+<li>Increase link capacity to ease or prevent congestion.</li>
+<li>Guarantee enough bandwidth and increase buffer space to accommodate bursts of traffic from fragile flows.</li>
+<li>Prevent congestion by dropping lower-priority packets before congestion occurs.</p></div></li>
+</ul>
+<p><strong>8. What configuration scenario would offer the most protection to SNMP get and set messages?</strong></p>
+<ul>
+<li>SNMPv2 for in-band management with read-write community strings</li>
+<li>SNMPv1 with out-of-band management in a private subnet</li>
+<li><strong><span style="color: #ff0000;">SNMPv3 configured with the auth security level</span></strong></li>
+<li>SNMP community strings</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> SNMPv3 supports authentication and encryption with the auth and priv security levels. SNMPv1 and SNMPv2 do not support authentication or encryption. Using a default community string is not secure because the default string of &#8220;public&#8221; is well known and would allow anyone with SNMP systems to read device MIBs.</p></div>
+<p><strong>9. Refer to the exhibit. The network administrator enters these commands into the R1 router:</strong></p>
+<p><em>R1# copy running-config tftp</em><br />
+<em>Address or name of remote host [ ]?</em></p>
+<p><strong>When the router prompts for an address or remote host name, what IP address should the administrator enter at the prompt?</strong></p>
+<p><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-37957" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i283561v1n1_208760.jpg" alt="" width="532" height="305" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i283561v1n1_208760.jpg 532w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i283561v1n1_208760-300x172.jpg 300w" sizes="(max-width: 532px) 100vw, 532px" /></p>
+<ul>
+<li>192.168.9.254</li>
+<li>192.168.10.2</li>
+<li><strong><span style="color: #ff0000;">192.168.11.252</span></strong></li>
+<li>192.168.11.254</li>
+<li>192.168.10.1</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The requested address is the address of the TFTP server. A TFTP server is an application that can run on a multitude of network devices including a router, server, or even a networked PC.</p></div>
+<p><strong>10. The command ntp server 10.1.1.1 is issued on a router. What impact does this command have?</strong></p>
+<ul>
+<li>determines which server to send system log files to</li>
+<li><strong><span style="color: #ff0000;">synchronizes the system clock with the time source with IP address 10.1.1.1</span></strong></li>
+<li>identifies the server on which to store backup configurations</li>
+<li>ensures that all logging will have a time stamp associated with it</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The <strong>ntp server</strong> <em>ip-address</em> global configuration command configures the NTP server for IOS devices.</p></div>
+<p><strong>11. As the network administrator you have been asked to implement EtherChannel on the corporate network. What does this configuration consist of?</strong></p>
+<ul>
+<li>providing redundant links that dynamically block or forward traffic</li>
+<li>grouping two devices to share a virtual IP address</li>
+<li><strong><span style="color: #ff0000;">grouping multiple physical ports to increase bandwidth between two switches</span></strong></li>
+<li>providing redundant devices to allow traffic to flow in the event of device failure</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> EtherChannel is utilized on a network to increase speed capabilities by grouping multiple physical ports into one or more logical EtherChannel links between two switches. STP is used to provide redundant links that dynamically block or forward traffic between switches. FHRPs are used to group physical devices to provide traffic flow in the event of failure.</p></div>
+<p><strong>12. What is a definition of a two-tier LAN network design?</strong></p>
+<ul>
+<li>access and core layers collapsed into one tier, and the distribution layer on a separate tier</li>
+<li><strong><span style="color: #ff0000;">distribution and core layers collapsed into one tier, and the access layer on a separate tier</span></strong></li>
+<li>access, distribution, and core layers collapsed into one tier, with a separate backbone layer</li>
+<li>access and distribution layers collapsed into one tier, and the core layer on a separate tier</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Maintaining three separate network tiers is not always required or cost-efficient. All network designs require an access layer, but a two-tier design can collapse the distribution and core layers into one layer to serve the needs of a small location with few users.</p></div>
+<p><strong>13. What are two reasons to create a network baseline? (Choose two.)</strong></p>
+<ul>
+<li>to select a routing protocol</li>
+<li>to determine what kind of equipment to implement</li>
+<li>to design a network according to a proper model</li>
+<li><strong><span style="color: #ff0000;">to identify future abnormal network behavior</span></strong></li>
+<li>to evaluate security vulnerabilities in the network</li>
+<li><span style="color: #ff0000;"><strong>to determine if the network can deliver the required policies</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A network baseline is created to provide a comparison point, at the time that the network is performing optimally, to whatever changes are implemented in the infrastructure. A baseline helps to keep track of the performance, to track the traffic patterns, and to monitor network behavior.</p></div>
+<p><strong>14. A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?</strong></p>
+<ul>
+<li>The computer has an incorrect subnet mask.</li>
+<li><strong><span style="color: #ff0000;">The computer has an invalid default gateway address.</span></strong></li>
+<li>The cable is not connected properly to the NIC.</li>
+<li>The computer has an invalid IP address.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The default gateway is the address of the device a host uses to access the Internet or another network. If the default gateway is missing or incorrect, that host will not be able to communicate outside the local network. Because the host can access other hosts on the local network, the network cable and the other parts of the IP configuration are working.</p></div>
+<p><strong>15. In which step of gathering symptoms does the network engineer determine if the problem is at the core, distribution, or access layer of the network?</strong></p>
+<ul>
+<li>Gather information.</li>
+<li><strong><span style="color: #ff0000;">Narrow the scope.</span></strong></li>
+<li>Document the symptoms.</li>
+<li>Determine ownership.</li>
+<li>Determine the symptoms.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In the &#8220;narrow the scope&#8221; step of gathering symptoms, a network engineer will determine if the network problem is at the core, distribution, or access layer of the network. Once this step is complete and the layer is identified, the network engineer can determine which pieces of equipment are the most likely cause.</p></div>
+<p><strong>16. A network administrator is deploying QoS with the ability to provide a special queue for voice traffic so that voice traffic is forwarded before network traffic in other queues. Which queuing method would be the best choice?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">LLQ</span></strong></li>
+<li>CBWFQ</li>
+<li>WFQ</li>
+<li>FIFO</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Low latency queuing (LLQ) allows delay-sensitive data, such as voice traffic, to be defined in a strict priority queue (PQ) and to always be sent first before any packets in any other queue are forwarded.</p></div>
+<p><strong>17. What are two characteristics of voice traffic? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Voice traffic latency should not exceed 150 ms.</span></strong></li>
+<li>Voice traffic is unpredictable and inconsistent.</li>
+<li>Voice traffic requires at least 384 kbs of bandwidth.</li>
+<li>Voice traffic consumes lots of network resources.</li>
+<li><span style="color: #ff0000;"><strong>Dropped voice packets are not retransmitted.</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Voice traffic does not consume a lot of network resources, such as bandwidth. However, it is very sensitive to delay and dropped packets cannot be retransmitted. For good voice quality, the amount of latency should always be less than 150 milliseconds.</p></div>
+<p><strong>18. Which type of network traffic cannot be managed using congestion avoidance tools?</strong></p>
+<ul>
+<li>TCP</li>
+<li>ICMP</li>
+<li>IP</li>
+<li><span style="color: #ff0000;"><strong>UDP</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Queuing and compression techniques can help to reduce and prevent UDP packet loss, but there is no congestion avoidance for User Datagram Protocol (UDP) based traffic.</p></div>
+<p><strong>19. When QoS is implemented in a converged network, which two factors can be controlled to improve network performance for real-time traffic? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">delay</span></strong></li>
+<li>packet addressing</li>
+<li><span style="color: #ff0000;"><strong>jitter</strong></span></li>
+<li>packet routing</li>
+<li>link speed</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Delay is the latency between a sending and receiving device. Jitter is the variation in the delay of the received packets. Both delay and jitter need to be controlled in order to support real-time voice and video traffic.</p></div>
+<p><strong>20. An administrator wants to replace the configuration file on a Cisco router by loading a new configuration file from a TFTP server. What two things does the administrator need to know before performing this task? (Choose two.)</strong></p>
+<ul>
+<li>name of the configuration file that is currently stored on the router</li>
+<li>configuration register value</li>
+<li><strong><span style="color: #ff0000;">name of the configuration file that is stored on the TFTP server</span></strong></li>
+<li>router IP address</li>
+<li><strong><span style="color: #ff0000;">TFTP server IP address</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In order to identify the exact location of the desired configuration file, the IP address of the TFTP server and the name of the configuration file are essential information. Because the file is a new configuration, the name of the current configuration file is not necessary.</p></div>
+<p><strong>21. Refer to the exhibit. Which of the three Cisco IOS images shown will load into RAM?</strong></p>
+<p><img decoding="async" class="size-full wp-image-37958 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i217901v1n1_217901.png" alt="" width="669" height="161" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i217901v1n1_217901.png 669w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i217901v1n1_217901-300x72.png 300w" sizes="(max-width: 669px) 100vw, 669px" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">The router selects an image depending on the boot system command in the configuration.</span></strong></li>
+<li>The router selects an image depending on the value of the configuration register.</li>
+<li>The router selects the third Cisco IOS image because it is the most recent IOS image.</li>
+<li>The router selects the third Cisco IOS image because it contains the advipservicesk9 image.</li>
+<li>The router selects the second Cisco IOS image because it is the smallest IOS image.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When performing an upgrade or testing different IOS versions, the <strong>boot system</strong> command is used to select which image is used to boot the Cisco device.</p></div>
+<p><strong>22. Refer to the exhibit. What two types of devices are connected to R1? (Choose two.)</strong></p>
+<p><img decoding="async" class="size-full wp-image-37959 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210931v1n1_210931.png" alt="" width="633" height="136" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210931v1n1_210931.png 633w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i210931v1n1_210931-300x64.png 300w" sizes="(max-width: 633px) 100vw, 633px" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">switch</span></strong></li>
+<li>hub</li>
+<li><span style="color: #ff0000;"><strong>router</strong></span></li>
+<li>repeater</li>
+<li>Source Route Bridge</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The capabilities of the devices displayed by the output show them to be a Cisco 2811 series router, Cisco 1941 series router, and a Cisco 2960 switch.</p></div>
+<p><strong>23. What are three functions provided by the syslog service? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">to select the type of logging information that is captured</span></strong></li>
+<li>to periodically poll agents for data</li>
+<li>to provide statistics on packets that are flowing through a Cisco device</li>
+<li>to provide traffic analysis</li>
+<li><span style="color: #ff0000;"><strong>to gather logging information for monitoring and troubleshooting</strong></span></li>
+<li><strong><span style="color: #ff0000;">to specify the destinations of captured messages</span></strong></li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> There are three primary functions provided by the syslog service:</p>
+<ol>
+<li>gathering logging information</li>
+<li>selection of the type of information to be logged</li>
+<li>selection of the destination of the logged information</p></div></li>
+</ol>
+<p><strong>24. What is the function of the MIB element as part of a network management system?</strong></p>
+<ul>
+<li>to collect data from SNMP agents</li>
+<li>to send and retrieve network management information</li>
+<li>to change configurations on SNMP agents</li>
+<li><strong><span style="color: #ff0000;">to store data about a device</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The Management Information Base (MIB) resides on a networking device and stores operational data about the device. The SNMP manager can collect information from SNMP agents. The SNMP agent provides access to the information.</p></div>
+<p><strong>25. What network design would contain the scope of disruptions on a network should a failure occur?</strong></p>
+<ul>
+<li>the reduction in the number of redundant devices and connections in the network core</li>
+<li>the installation of only enterprise class equipment throughout the network</li>
+<li><strong><span style="color: #ff0000;">the deployment of distribution layer switches in pairs and the division of access layer switch connections between them</span></strong></li>
+<li>the configuration of all access layer devices to share a single gateway</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> One way to contain the impact of a failure on the network is to implement redundancy. One way this is accomplished is by deploying redundant distribution layer switches and dividing the access layer switch connections between the redundant distribution layer switches. This creates what is called a switch block. Failures in a switch block are contained to that block and do not bring down the whole network.</p></div>
+<p><strong>26. Which action should be taken when planning for redundancy on a hierarchical network design?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">add alternate physical paths for data to traverse the network</span></strong></li>
+<li>continually purchase backup equipment for the network</li>
+<li>implement STP portfast between the switches on the network</li>
+<li>immediately replace a non-functioning module, service or device on a network</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> One method of implementing redundancy is path redundancy, installing alternate physical paths for data to traverse the network. Redundant links in a switched network supports high availability and can be used for load balancing, reducing congestion on the network.</p></div>
+<p><strong>27. What are two benefits of extending access layer connectivity to users through a wireless medium? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">increased flexibility</span></strong></li>
+<li>increased network management options</li>
+<li>decreased number of critical points of failure</li>
+<li><span style="color: #ff0000;"><strong>reduced costs</strong></span></li>
+<li>increased bandwidth availability</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Wireless connectivity at the access layer provides increased flexibility, reduced costs, and the ability to grow and adapt to changing business requirements. Utilizing wireless routers and access points can provide an increase in the number of central points of failure. Wireless routers and access points will not provide an increase in bandwidth availability.</p></div>
+<p><strong>28. What is a basic function of the Cisco Borderless Architecture access layer?</strong></p>
+<ul>
+<li>aggregates Layer 2 broadcast domains</li>
+<li><strong><span style="color: #ff0000;">provides access to the user</span></strong></li>
+<li>aggregates Layer 3 routing boundaries</li>
+<li>provides fault isolation</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A function of the Cisco Borderless Architecture access layer is providing network access to the users. Layer 2 broadcast domain aggregation, Layer 3 routing boundaries aggregation, and high availability are distribution layer functions. The core layer provides fault isolation and high-speed backbone connectivity.</p></div>
+<p><strong>29. Which characteristic would most influence a network design engineer to select a multilayer switch over a Layer 2 switch?</strong></p>
+<ul>
+<li>ability to have multiple forwarding paths through the switched network based on VLAN number(s)</li>
+<li><strong><span style="color: #ff0000;">ability to build a routing table</span></strong></li>
+<li>ability to provide power to directly-attached devices and the switch itself</li>
+<li>ability to aggregate multiple ports for maximum data throughput</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Multilayer switches, also known as Layer 3 switches, can route and build a routing table. This capability is required in a multi-VLAN network and would influence the network designer to select a multilayer switch. The other options are features also available on Layer 2 switches, so they would not influence the decision to select a multilayer switch.</p></div>
+<p><strong>30. Refer to the exhibit. Why are routers R1 and R2 not able to establish an OSPF adjacency?​</strong></p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-37960 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i219570v7n1_219570.gif" alt="" width="700" height="333" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">The serial interfaces are not in the same area.</span></strong></li>
+<li>The process numbers are not the same in both routers.</li>
+<li>A backbone router cannot establish an adjacency with an ABR router.</li>
+<li>The router ID values are not the same in both routers.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> On router R1, the network 192.168.10.0/30 is defined in the wrong area (area 1). It has to be defined in area 0 in order to establish adjacency with router R2, which has the network 192.168.10.0/30 defined in area 0.</p></div>
+<p><strong>31. When is the most appropriate time to measure network operations to establish a network performance baseline?</strong></p>
+<ul>
+<li>whenever high network use is detected, so that how the network performs under stress can be monitored</li>
+<li>during quiet vacation periods, so that the level of non-data traffic can be determined</li>
+<li><span style="color: #ff0000;"><strong>at the same time each day across a set period of average working days, so that typical traffic patterns can be established</strong></span></li>
+<li>at random times during a 10 week period, so that abnormal traffic levels can be detected</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The purpose of establishing a network performance baseline is to provide a reference of normal or average network use to enable data traffic anomalies to be detected and then investigated. Network operations that are not average, or are not normal, cannot be used to establish a network performance baseline.</p></div>
+<p><strong>32. Refer to the exhibit. A user has configured a NIC on the PC as shown but finds that the PC is unable to access the Internet. What is the problem?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37961" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i208776v9n1_208776.png" alt="" width="456" height="411" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i208776v9n1_208776.png 456w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i208776v9n1_208776-300x270.png 300w" sizes="(max-width: 456px) 100vw, 456px" /></p>
+<ul>
+<li>The preferred DNS address is incorrect.</li>
+<li><strong><span style="color: #ff0000;">The default gateway address is incorrect.</span></strong></li>
+<li>The settings were not validated upon exit.</li>
+<li>There should not be an alternate DNS server.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In order for a computer to communicate outside its network, it must have a valid default gateway configured.This address cannot be the same as the IP address of the computer.</p></div>
+<p><strong>33. Refer to the exhibit. A network engineer configured an ACL preventing Telnet and HTTP access to the HQ web server from guest users in the Branch LAN. The address of the web server is 192.168.1.10 and all guest users are assigned addresses in the 192.168.10.0/24 network. After implementing the ACL, no one can access any of the HQ servers. What is the problem?</strong></p>
+<p><img loading="lazy" decoding="async" class=" wp-image-37962 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-18_225619.jpg" alt="" width="554" height="289" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-18_225619.jpg 749w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-18_225619-300x157.jpg 300w" sizes="(max-width: 554px) 100vw, 554px" /></p>
+<ul>
+<li>Inbound ACLs must be routed before they are processed.</li>
+<li><strong><span style="color: #ff0000;">The ACL is implicitly denying access to all the servers.</span></strong></li>
+<li>Named ACLs require the use of port numbers.</li>
+<li>The ACL is applied to the interface using the wrong direction.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Both named and numbered ACLs have an implicit deny ACE at the end of the list. This implicit deny blocks all traffic.</p></div>
+<p><strong>34. Refer to the exhibit. A network administrator has configured OSPFv2 on the two Cisco routers as shown. PC1 is unable to connect to PC2. What should the administrator do first when troubleshooting the OSPFv2 implementation?</strong></p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-37963 aligncenter" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i285128v1n1_NewItem.png" alt="" width="606" height="286" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i285128v1n1_NewItem.png 606w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i285128v1n1_NewItem-300x142.png 300w" sizes="(max-width: 606px) 100vw, 606px" /></p>
+<ul>
+<li>Disconnect the serial link between router R1 and R2.</li>
+<li>Turn off OSPFv2.</li>
+<li>Implement the network 192.168.255.0 0.0.0.3 area 0 command on router R1.</li>
+<li><strong><span style="color: #ff0000;">Test Layer 3 connectivity between the directly connected routers.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A prerequisite for OSPFv2 neighbor relationships to form between two routers is Layer 3 connectivity. A successful ping confirms that a router interface is active and may be able to form an OSPF neighbor adjacency.</p></div>
+<p><strong>35. What type of traffic is described as requiring latency to be no more than 150 milliseconds (ms)?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">voice</span></strong></li>
+<li>video</li>
+<li>data</li>
+</ul>
+<p><strong>36. A network manager wants to add a time to log messages so that there is record of when the message was generated. What command should the administrator use on a Cisco router?</strong></p>
+<ul>
+<li>show cdp interface</li>
+<li>ntp server 10.10.14.9</li>
+<li><strong><span style="color: #ff0000;">service timestamps log datetime</span></strong></li>
+<li>clock timezone PST -7</li>
+</ul>
+<p><strong>37. Match the functions to the corresponding layers. (Not all options are used.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-38056" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_005631.jpg" alt="" width="435" height="591" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_005631.jpg 435w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_005631-221x300.jpg 221w" sizes="(max-width: 435px) 100vw, 435px" /></p>
+<p><strong>38. Match the borderless switched network guideline description to the principle. (Not all options are used.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-38057" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_010036.jpg" alt="" width="1097" height="587" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_010036.jpg 1097w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_010036-300x161.jpg 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_010036-1024x548.jpg 1024w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_010036-768x411.jpg 768w" sizes="(max-width: 1097px) 100vw, 1097px" /></p>
+<p><strong>39. What are two characteristics of the best-effort QoS model? (Choose two.)</strong></p>
+<ul>
+<li>It allows end hosts to signal their QoS needs to the network.</li>
+<li>It uses a connection-oriented approach with QoS.</li>
+<li>It provides preferential treatment for voice packets.</li>
+<li><strong><span style="color: #ff0000;">It does not provide a delivery guarantee for packets.</span></strong></li>
+<li><strong><span style="color: #ff0000;">It treats all network packets in the same way.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The best-effort QoS model provides no guarantees and it is commonly used on the Internet. The best-effort QoS model treats all network packets in the same way.</p></div>
+<p><strong>40. Why is QoS an important issue in a converged network that combines voice, video, and data communications?</strong></p>
+<ul>
+<li>Data communications are sensitive to jitter.</li>
+<li>Legacy equipment is unable to transmit voice and video without QoS.<br />
+Correct Response</li>
+<li><strong><span style="color: #ff0000;">Voice and video communications are more sensitive to latency.</span></strong></li>
+<li>Data communications must be given the first priority.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Without any QoS mechanisms in place, time-sensitive packets, such as voice and video, will be dropped with the same frequency as email and web browsing traffic.</p></div>
+<p><strong>41. A network administrator configures a router with the command sequence:</strong></p>
+<pre>R1(config)# boot system tftp://c1900-universalk9-mz.SPA.152-4.M3.bin
+
+R1(config)# boot system rom</pre>
+<p><strong>What is the effect of the command sequence?</strong></p>
+<ul>
+<li>On next reboot, the router will load the IOS image from ROM.</li>
+<li>The router will search and load a valid IOS image in the sequence of flash, TFTP, and ROM.</li>
+<li>The router will copy the IOS image from the TFTP server and then reboot the system.</li>
+<li><strong><span style="color: #ff0000;">The router will load IOS from the TFTP server. If the image fails to load, it will load the IOS image from ROM.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The <strong>boot system</strong> command is a global configuration command that allows the user to specify the source for the Cisco IOS Software image to load. In this case, the router is configured to boot from the IOS image that is stored on the TFTP server and will use the ROMmon imagethat is located in the ROM if it fails to locate the TFTP server or fails to load a valid image from the TFTP server.</p></div>
+<p><strong>42. Which statement describes SNMP operation?</strong></p>
+<ul>
+<li>An SNMP agent that resides on a managed device collects information about the device and stores that information remotely in the MIB that is located on the NMS.​</li>
+<li><strong><span style="color: #ff0000;">A set request is used by the NMS to change configuration variables in the agent device.</span></strong></li>
+<li>An NMS periodically polls the SNMP agents that are residing on managed devices by using traps to query the devices for data.​</li>
+<li>A get request is used by the SNMP agent to query the device for data.​</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> An SNMP agent that resides on a managed device collects and stores information about the device and its operation. This information is stored by the agent locally in the MIB. An NMS periodically polls the SNMP agents that are residing on managed devices by using the get request to query the devices for data.</p></div>
+<p><strong>43. Refer to the exhibit. A network administrator issues the show lldp neighbors command on a switch. What are two conclusions that can be drawn? (Choose two.)</strong></p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-38174 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i278776v1n1_278776.png" alt="" width="650" height="145" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i278776v1n1_278776.png 650w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i278776v1n1_278776-300x67.png 300w" sizes="(max-width: 650px) 100vw, 650px" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Dev1 is connected to interface Fa0/5 of S1.</span></strong></li>
+<li>Dev1 is a switch with mixed types of interfaces.</li>
+<li><span style="color: #ff0000;"><strong>Dev2 is a switch.</strong></span></li>
+<li>Dev1 is connected to interface Fa0/4 of Dev2.</li>
+<li>S1 has only two interfaces.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In the output from the <strong>show lldp</strong> command, under Capability, R indicates a router and B indicates a bridge (switch). Nothing indicates that Dev1 and Dev2 are connected to one another.</p></div>
+<p><strong>44. What are the three layers of the switch hierarchical design model? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">distribution</span></strong></li>
+<li>network access</li>
+<li>data link</li>
+<li>enterprise</li>
+<li><strong><span style="color: #ff0000;">access</span></strong></li>
+<li><strong><span style="color: #ff0000;">core</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The access layer is the lowest layer and it provides network access to users. The distribution layer has many functions, but it aggregates data from the access layer, provides filtering, policy control, and sets Layer 3 routing boundaries. The core layer provides high speed connectivity.</p></div>
+<p><strong>45. Refer to the exhibit. Which devices exist in the failure domain when switch S3 loses power?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-38175" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i278658v1n1_222708.png" alt="" width="661" height="397" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i278658v1n1_222708.png 661w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i278658v1n1_222708-300x180.png 300w" sizes="(max-width: 661px) 100vw, 661px" /></p>
+<ul>
+<li>S4 and PC_2</li>
+<li>PC_3 and PC_2</li>
+<li><strong><span style="color: #ff0000;">PC_3 and AP_2</span></strong></li>
+<li>S1 and S4</li>
+<li>AP_2 and AP_1</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A failure domain is the area of a network that is impacted when a critical device such as switch S3 has a failure or experiences problems.</p></div>
+<p><strong>46. A network designer is considering whether to implement a switch block on the company network. What is the primary advantage of deploying a switch block?</strong></p>
+<ul>
+<li>This is network application software that prevents the failure of a single network device.</li>
+<li><strong><span style="color: #ff0000;">The failure of a switch block will not impact all end users.</span></strong></li>
+<li>This is a security feature that is available on all new Catalyst switches.</li>
+<li>A single core router provides all the routing between VLANs.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The configuration of a switch block provides redundancy so that the failure of a single network device generally has little or no effect on end users.</p></div>
+<p><strong>47. Which troubleshooting tool would a network administrator use to check the Layer 2 header of frames that are leaving a particular host?</strong></p>
+<ul>
+<li>knowledge base</li>
+<li><strong><span style="color: #ff0000;">protocol analyzer</span></strong></li>
+<li>CiscoView</li>
+<li>baselining tool</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A protocol analyzer such as Wireshark is capable of displaying the headers of data at any OSI Layer.</p></div>
+<p><strong>48. Refer to the exhibit. R1 and R3 are connected to each other via the local serial 0/0/0 interface. Why are they not forming an adjacency?</strong></p>
+<p><img loading="lazy" decoding="async" class="size-full wp-image-38177 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i212841v1n2_212841.jpg" alt="" width="383" height="258" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i212841v1n2_212841.jpg 383w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i212841v1n2_212841-300x202.jpg 300w" sizes="(max-width: 383px) 100vw, 383px" /></p>
+<ul>
+<li>They have different routing processes.</li>
+<li>They have different router IDs.</li>
+<li><strong><span style="color: #ff0000;">They are in different subnets.</span></strong></li>
+<li>The connecting interfaces are configured as passive.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The routers need to be in the same subnet in order to form an adjacency. The routing processes can be different on each router. The router IDs must be different for routers that participate in the same routing domain. The interfaces are not passive.</p></div>
+<p><strong>49. What type of traffic is described as not resilient to loss?</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>video</strong></span></li>
+<li>data</li>
+<li>voice</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Video traffic tends to be unpredictable, inconsistent, and bursty compared to voice traffic. Compared to voice, video is less resilient to loss and has a higher volume of data per packet.</p></div>
+<p><strong>50. A network manager wants lists the contents of flash. What command should the administrator use on a Cisco router?</strong></p>
+<ul>
+<li>show file systems</li>
+<li><strong><span style="color: #ff0000;">dir</span></strong></li>
+<li>lldp enable</li>
+<li>service timestamps log datetime</li>
+</ul>
+<p><strong>51. Voice packets are being received in a continuous stream by an IP phone, but because of network congestion the delay between each packet varies and is causing broken conversations. What term describes the cause of this condition?</strong></p>
+<ul>
+<li>buffering</li>
+<li>latency</li>
+<li>queuing</li>
+<li><span style="color: #ff0000;"><strong>jitter</strong></span></li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Jitter is the variation in the latency or delay of received packets. When data is sent, packets are sent in a continuous stream and are spaced evenly apart. Because of network congestion, the delay between each packet can vary instead of remaining constant.</p></div>
+<p><b>52. A user is unable to reach the website when typing http://www.cisco.com in a web browser, but can reach the same site by typing http://72.163.4.161 . What is the issue?</b></p>
+<ul>
+<li>DHCP</li>
+<li><span style="color: #ff0000;"><strong>DNS</strong></span></li>
+<li>Default Gateway</li>
+<li>TCP/IP Protocol stack</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Domain Name Service (DNS) is used to translate a web address to an IP address. The address of the DNS server is provided via DHCP to host computers.​</p></div>
+<p><b>53. What type of traffic is described as tending to be unpredictable, inconsistent, and bursty?</b></p>
+<ul>
+<li>Audio</li>
+<li><span style="color: #ff0000;"><strong>Video</strong></span></li>
+<li>Data</li>
+<li>Voice</li>
+</ul>
+<p><b>54. A network manager wants to determine the size of the Cisco IOS image file on the networking device. What command should the administrator use on a Cisco router?</b></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>show flash:0</strong></span></li>
+<li>copy flash: tftp:</li>
+<li>config-register 0x2102</li>
+<li>confreg 0x2142</li>
+</ul>
+<p><b>55. What is the principle that is applied when a network technician is troubleshooting a network fault by using the divide-and-conquer method?</b></p>
+<ul>
+<li>Testing is performed at Layer 7 and at Layer 1, then at Layers 6 and 2, and so on, working towards the middle of the stack until all layers are verified as operational.</li>
+<li><span style="color: #ff0000;"><strong>Once it is verified that components in a particular layer are functioning properly, it can then be assumed that components in the layers below it are also functional.</strong></span></li>
+<li>Testing is performed at all layers of the OSI model until a non-functioning component is found.</li>
+<li>Once it is verified that a component in a particular layer is functioning properly, testing can then be performed on any other layer.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The nature of the OSI and TCP/IP layered models is that upper layers are dependent on lower layers. So when troubleshooting, if a particular layer is found to be working correctly then it can be assumed that all layers below it are also functioning correctly.</p></div>
+<p><b>56. Which queuing algorithm has only a single queue and treats all packets equally?</b></p>
+<ul>
+<li>CBWFQ</li>
+<li><span style="color: #ff0000;"><strong>FIFO</strong></span></li>
+<li>LLQ</li>
+<li>WFQ</li>
+</ul>
+<p><b>57. What type of traffic is described as traffic that requires at least 30 Kbps of bandwidth?</b></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>voice</strong></span></li>
+<li>data</li>
+<li>video</li>
+</ul>
+<p><strong>58. What type of traffic is described as being able to tolerate a certain amount of latency, jitter, and loss without any noticeable effects?</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>voice</strong></span></li>
+<li>video</li>
+<li>data</li>
+</ul>
+<p><strong>59. A network manager wants to view the amount of available and free memory, the type of file system, and its permissions. What command should the administrator use on a Cisco router?</strong></p>
+<ul>
+<li>ntp server 10.10.14.9</li>
+<li>lldp enable</li>
+<li>clock timezone PST -7</li>
+<li><span style="color: #ff0000;"><strong>show file systems</strong></span></li>
+</ul>
+<p><strong>60. What type of traffic is described as requiring latency to be no more than 400 milliseconds (ms)?</strong></p>
+<ul>
+<li>voice</li>
+<li>data</li>
+<li><span style="color: #ff0000;"><strong>video</strong></span></li>
+</ul>
+<p><strong>61. What type of traffic is described as consisting of traffic that requires a higher priority if interactive?</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>data</strong></span></li>
+<li>voice</li>
+<li>video</li>
+</ul>
+<p><b>62. A network manager wants to configure the router to load a new image from flash during bootup. What command should the administrator use on a Cisco router?</b></p>
+<ul>
+<li>copy flash: tftp:</li>
+<li><span style="color: #ff0000;"><strong>boot system</strong></span></li>
+<li>clock set 14:25:00 nov 13 2018</li>
+<li>copy tftp startup-config</li>
+</ul>
+<p><b>63. What type of traffic is described as predictable and smooth?</b></p>
+<ul>
+<li>data</li>
+<li>video</li>
+<li><span style="color: #ff0000;"><strong>voice</strong></span></li>
+</ul>
+<p><b>64. A network manager wants to ensure that the device will ignore the startup config file during startup and bypass the required passwords. What command should the administrator use on a Cisco router?</b></p>
+<ul>
+<li>copy usbflash0:/R1-Config</li>
+<li>copy running-config tftp</li>
+<li><span style="color: #ff0000;"><strong>confreg 0x2142</strong></span></li>
+<li>config-register 0x2102</li>
+</ul>
+<p><b>65. What type of traffic is described as having a high volume of data per packet?</b></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>video</strong></span></li>
+<li>voice</li>
+<li>data</li>
+</ul>
+<p><b>66. A network manager wants to backup the running configuration to a file server. What command should the administrator use on a Cisco router?</b></p>
+<ul>
+<li>cd usbflash0:</li>
+<li>show file systems</li>
+<li><span style="color: #ff0000;"><strong>copy running-config tftp</strong></span></li>
+<li>dir</li>
+</ul>
+<p><b>67. What type of traffic is described as consisting of traffic that gets a lower priority if it is not mission-critical?</b></p>
+<ul>
+<li>voice</li>
+<li><span style="color: #ff0000;"><strong>data</strong></span></li>
+<li>video</li>
+</ul>

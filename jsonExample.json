@@ -1,0 +1,163 @@
+[
+    {
+      "questionType": "classic",
+      "courseId": 3782817162,
+      "subCourseId": 3827372287,
+      "categoryId": 12827176261,
+      "questionId": 192827817271727,
+      "question": "Was ist die Hauptstadt von Frankreich?",
+      "image": "imagename.png",
+      "text": "Ein Text",
+      "answerDescription": "Test",
+      "answers": [
+        {
+          "id": 102918271722817,
+          "title": "Berlin",
+          "image": "imagename.png",
+          "correct": false
+        },
+        {
+          "id": 192827281727291,
+          "title": "Madrid",
+          "image": "imagename.png",
+          "correct": false
+        },
+        {
+          "id": 271727281728172,
+          "title": "Paris",
+          "image": "imagename.png",
+          "correct": true
+        },
+        {
+          "id": 382818182827182,
+          "title": "Rom",
+          "image": "imagename.png",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionType": "classic",
+      "courseId": 3782817162,
+      "subCourseId": 3827372287,
+      "categoryId": 12827176261,
+      "questionId": 192827817271728,
+      "question": "Welche Farben hat die deutsche Flagge?",
+      "image": "imagename2.png",
+      "text": "Ein weiterer Text",
+      "answerDescription": "Test",
+      "answers": [
+        {
+          "id": 192827281727293,
+          "title": "Rot",
+          "image": "imagename.png",
+          "correct": true
+        },
+        {
+          "id": 271727281728174,
+          "title": "Grün",
+          "image": "imagename.png",
+          "correct": false
+        },
+        {
+          "id": 382818182827184,
+          "title": "Schwarz",
+          "image": "imagename.png",
+          "correct": true
+        },
+        {
+          "id": 482818182827185,
+          "title": "Gelb",
+          "image": "imagename.png",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionType": "drag",
+      "courseId": 3782817162,
+      "subCourseId": 3827372287,
+      "categoryId": 12827176262,
+      "questionId": 192827817271729,
+      "question": "Ordne die folgenden Zahlen in aufsteigender Reihenfolge:",
+      "image": "imagename3.png",
+      "text": "Ein weiterer Text",
+      "answerDescription": "Test",
+      "answers": [
+        {
+          "id": 192827281727295,
+          "title": "5",
+          "image": "imagename.png"
+        },
+        {
+          "id": 271727281728177,
+          "title": "2",
+          "image": "imagename.png"
+        },
+        {
+          "id": 382818182827187,
+          "title": "8",
+          "image": "imagename.png"
+        },
+        {
+          "id": 482818182827188,
+          "title": "1",
+          "image": "imagename.png"
+        }
+      ],
+      "correctOrder": [
+        482818182827188,
+        271727281728177,
+        192827281727295,
+        382818182827187
+      ]
+    },
+    {
+      "questionType": "sort",
+      "courseId": 3782817162,
+      "subCourseId": 3827372287,
+      "categoryId": 12827176263,
+      "questionId": 192827817271730,
+      "question": "Sortiere in Buchstaben und Zahlen:",
+      "image": "imagename4.png",
+      "text": "Ein weiterer Text",
+      "answerDescription": "Test",
+      "blocks": [
+        {
+          "blockId": "Buchstaben",
+          "title": "Block Buchstaben",
+          "answers": [
+            {
+              "id": 192827281727297,
+              "title": "W",
+              "image": "imagename.png"
+            },
+            {
+              "id": 271727281728179,
+              "title": "S",
+              "image": "imagename.png"
+            }
+          ],
+          "correctOrder": [271727281728179, 192827281727297]
+        },
+        {
+          "blockId": "Zahlen",
+          "title": "Block Zahlen",
+          "answers": [
+            {
+              "id": 382818182827189,
+              "title": "3",
+              "image": "imagename.png"
+            },
+            {
+              "id": 482818182827190,
+              "title": "1",
+              "image": "imagename.png"
+            }
+          ],
+          "correctOrder": [382818182827189, 482818182827190]
+        }
+      ]
+    }
+  ]
+  

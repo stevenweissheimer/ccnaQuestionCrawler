@@ -1,0 +1,578 @@
+<p><strong>1. What is the prefix length notation for the subnet mask 255.255.255.224?</strong></p>
+<ul>
+<li>/25</li>
+<li>/26</li>
+<li><span style="color: #ff0000;"><strong>/27</strong></span></li>
+<li>/28</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The binary format for 255.255.255.224 is 11111111.11111111.11111111.11100000. The prefix length is the number of consecutive 1s in the subnet mask. Therefore, the prefix length is /27.</p></div>
+<p><strong>2. How many valid host addresses are available on an IPv4 subnet that is configured with a /26 mask?</strong></p>
+<ul>
+<li>254</li>
+<li>190</li>
+<li>192</li>
+<li><span style="color: #ff0000;"><strong>62</strong></span></li>
+<li>64</li>
+</ul>
+<p><strong>3. Which subnet mask would be used if 5 host bits are available?</strong></p>
+<ul>
+<li>255.255.255.0</li>
+<li>255.255.255.128</li>
+<li><span style="color: #ff0000;"><strong>255.255.255.224​</strong></span></li>
+<li>255.255.255.240</li>
+</ul>
+<p><strong>4. A network administrator subnets the 192.168.10.0/24 network into subnets with /26 masks. How many equal-sized subnets are created?</strong></p>
+<ul>
+<li>1</li>
+<li>2</li>
+<li><span style="color: #ff0000;"><strong>4</strong></span></li>
+<li>8</li>
+<li>16</li>
+<li>64</li>
+</ul>
+<p><strong>5. Match the subnetwork to a host address that would be included within the subnetwork. (Not all options are used.)</strong><br />
+<img decoding="async" class="aligncenter size-full wp-image-37500" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/CCNA1-v7-ITN-IP-Addressing-Exam-Answers-001-1536x942-1.png" /><br />
+<div class="message_box success"><p><b>Explanation:</b> Subnet 192.168.1.32/27 will have a valid host range from 192.168.1.33 &#8211; 192.168.1.62 with the broadcast address as 192.168.1.63<br />
+Subnet 192.168.1.64/27 will have a valid host range from 192.168.1.65 &#8211; 192.168.1.94 with the broadcast address as 192.168.1.95<br />
+Subnet 192.168.1.96/27 will have a valid host range from 192.168.1.97 &#8211; 192.168.1.126 with the broadcast address as 192.168.1.127</p></div></p>
+<p><strong>6. An administrator wants to create four subnetworks from the network address 192.168.1.0/24. What is the network address and subnet mask of the second useable subnet?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">subnetwork 192.168.1.64</span></strong><br />
+<strong><span style="color: #ff0000;">subnet mask 255.255.255.192</span></strong></li>
+<li>subnetwork 192.168.1.32<br />
+subnet mask 255.255.255.240</li>
+<li>subnetwork 192.168.1.64<br />
+subnet mask 255.255.255.240</li>
+<li>subnetwork 192.168.1.128<br />
+subnet mask 255.255.255.192</li>
+<li>subnetwork 192.168.1.8<br />
+subnet mask 255.255.255.224</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The number of bits that are borrowed would be two, thus giving a total of 4 useable subnets:<br />
+192.168.1.0<br />
+192.168.1.64<br />
+192.168.1.128<br />
+192.168.1.192<br />
+Because 2 bits are borrowed, the new subnet mask would be /26 or 255.255.255.192</p></div>
+<p><strong>7. How many bits must be borrowed from the host portion of an address to accommodate a router with five connected networks?</strong></p>
+<ul>
+<li>two</li>
+<li><strong><span style="color: #ff0000;">three</span></strong></li>
+<li>four</li>
+<li>five</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Each network that is directly connected to an interface on a router requires its own subnet. The formula 2n, where n is the number of bits borrowed, is used to calculate the available number of subnets when borrowing a specific number of bits.</p></div>
+<p><strong>8. How many host addresses are available on the 192.168.10.128/26 network?</strong></p>
+<ul>
+<li>30</li>
+<li>32</li>
+<li>60</li>
+<li><strong><span style="color: #ff0000;">62</span></strong></li>
+<li>64</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A /26 prefix gives 6 host bits, which provides a total of 64 addresses, because 26 = 64. Subtracting the network and broadcast addresses leaves 62 usable host addresses.</p></div>
+<p><strong>9. How many host addresses are available on the network 172.16.128.0 with a subnet mask of 255.255.252.0?</strong></p>
+<ul>
+<li>510</li>
+<li>512</li>
+<li><strong><span style="color: #ff0000;">1022</span></strong></li>
+<li>1024</li>
+<li>2046</li>
+<li>2048</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A mask of 255.255.252.0 is equal to a prefix of /22. A /22 prefix provides 22 bits for the network portion and leaves 10 bits for the host portion. The 10 bits in the host portion will provide 1022 usable IP addresses (210 &#8211; 2 = 1022).</p></div>
+<p><strong>10. Match each IPv4 address to the appropriate address category. (Not all options are used.)</strong></p>
+<p><img decoding="async" class="aligncenter size-full wp-image-37501" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/CCNA1-v7-ITN-IP-Addressing-Exam-Answers-002-1536x1013-1.png" /></p>
+<p><strong>11. What three blocks of addresses are defined by RFC 1918 for private network use? (Choose three.)</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>10.0.0.0/8</strong></span></li>
+<li><span style="color: #ff0000;"><strong>172.16.0.0/12</strong></span></li>
+<li><span style="color: #ff0000;"><strong>192.168.0.0/16</strong></span></li>
+<li>100.64.0.0/14</li>
+<li>169.254.0.0/16</li>
+<li>239.0.0.0/8</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> RFC 1918, Address Allocation for Private Internets, defines three blocks of IPv4 address for private networks that should not be routable on the public Internet.</p>
+<ul>
+<li>10.0.0.0/8</li>
+<li>172.16.0.0/12</li>
+<li>192.168.0.0/16</li>
+</ul>
+<p></p></div>
+<p><strong>12. Refer to the exhibit. An administrator must send a message to everyone on the router A network. What is the broadcast address for network 172.16.16.0/22?</strong></p>
+<p><img fetchpriority="high" decoding="async" class="aligncenter wp-image-37502" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i271962v1n1_211100.png" alt="" width="338" height="222" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i271962v1n1_211100.png 408w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i271962v1n1_211100-300x197.png 300w" sizes="(max-width: 338px) 100vw, 338px" /></p>
+<ul>
+<li>172.16.16.255</li>
+<li>172.16.20.255</li>
+<li><strong><span style="color: #ff0000;">172.16.19.255</span></strong></li>
+<li>172.16.23.255</li>
+<li>172.16.255.255</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The 172.16.16.0/22 network has 22 bits in the network portion and 10 bits in the host portion. Converting the network address to binary yields a subnet mask of 255.255.252.0. The range of addresses in this network will end with the last address available before 172.16.20.0. Valid host addresses for this network range from 172.16.16.1-172.16.19.254, making 172.16.19.255 the broadcast address.</p></div>
+<p><strong>13. A site administrator has been told that a particular network at the site must accommodate 126 hosts. Which subnet mask would be used that contains the required number of host bits?</strong></p>
+<ul>
+<li>255.255.255.0</li>
+<li><strong><span style="color: #ff0000;">255.255.255.128</span></strong></li>
+<li>255.255.255.224</li>
+<li>255.255.255.240</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The subnet mask of 255.255.255.0 has 8 host bits. The mask of 255.255.255.128 results in 7 host bits. The mask of 255.255.255.224 has 5 host bits. Finally, 255.255.255.240 represents 4 host bits.</p></div>
+<p><strong>14. Refer to the exhibit. Considering the addresses already used and having to remain within the 10.16.10.0/24 network range, which subnet address could be assigned to the network containing 25 hosts?</strong></p>
+<p><img decoding="async" class="aligncenter wp-image-37503" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i274512v1n1_274512-300x251-1.png" alt="" width="273" height="229" /></p>
+<ul>
+<li>10.16.10.160/26</li>
+<li>10.16.10.128/28</li>
+<li><strong><span style="color: #ff0000;">10.16.10.64/27</span></strong></li>
+<li>10.16.10.224/26</li>
+<li>10.16.10.240/27</li>
+<li>10.16.10.240/28</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Addresses 10.16.10.0 through 10.16.10.63 are taken for the leftmost network. Addresses 10.16.10.192 through 10.16.10.207 are used by the center network.The address space from 208-255 assumes a /28 mask, which does not allow enough host bits to accommodate 25 host addresses.The address ranges that are available include 10.16.10.64/26 and10.16.10.128/26. To accommodate 25 hosts, 5 host bits are needed, so a /27 mask is necessary. Four possible /27 subnets could be created from the available addresses between 10.16.10.64 and 10.16.10.191:<br />
+10.16.10.64/27<br />
+10.16.10.96/27<br />
+10.16.10.128/27<br />
+10.16.10.160/27</p></div>
+<p><strong>15. What is the usable number of host IP addresses on a network that has a /26 mask?</strong></p>
+<ul>
+<li>256</li>
+<li>254</li>
+<li>64</li>
+<li><strong><span style="color: #ff0000;">62</span></strong></li>
+<li>32</li>
+<li>16</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A /26 mask is the same as 255.255.255.192. The mask leaves 6 host bits. With 6 host bits, 64 IP addresses are possible. One address represents the subnet number and one address represents the broadcast address, which means that 62 addresses can then be used to assign to network devices.</p></div>
+<p><strong>16. Which address prefix range is reserved for IPv4 multicast?</strong></p>
+<ul>
+<li>240.0.0.0 – 254.255.255.255</li>
+<li><strong><span style="color: #ff0000;">224.0.0.0 – 239.255.255.255</span></strong></li>
+<li>169.254.0.0 – 169.254.255.255</li>
+<li>127.0.0.0 – 127.255.255.255</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Multicast IPv4 addresses use the reserved class D address range of 224.0.0.0 to 239.255.255.255.</p></div>
+<p><strong>17. Refer to the exhibit. Match the network with the correct IP address and prefix that will satisfy the usable host addressing requirements for each network.</strong></p>
+<p><img decoding="async" class="aligncenter wp-image-37504" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i304956v6n1_207918.png" alt="" width="567" height="382" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i304956v6n1_207918.png 595w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i304956v6n1_207918-300x202.png 300w" sizes="(max-width: 567px) 100vw, 567px" /></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37505" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/CCNA1-v7-ITN-IP-Addressing-Exam-Answers-003-1536x754-1.png" alt="" width="1849" height="908" /></p>
+<div class="message_box success"><p><strong>Explanation:</strong> Network A needs to use 192.168.0.128 /25, which yields 128 host addresses.<br />
+Network B needs to use 192.168.0.0 /26, which yields 64 host addresses.<br />
+Network C needs to use 192.168.0.96 /27, which yields 32 host addresses.<br />
+Network D needs to use 192.168.0.80/30, which yields 4 host addresses.</p></div>
+<p><strong>18. A high school in New York (school A) is using videoconferencing technology to establish student interactions with another high school (school B) in Russia. The videoconferencing is conducted between two end devices through the Internet. The network administrator of school A configures the end device with the IP address 209.165.201.10. The administrator sends a request for the IP address for the end device in school B and the response is 192.168.25.10. Neither school is using a VPN. The administrator knows immediately that this IP will not work. Why?</strong></p>
+<ul>
+<li>This is a loopback address.</li>
+<li>This is a link-local address.</li>
+<li><strong><span style="color: #ff0000;">This is a private IP address.</span></strong></li>
+<li>There is an IP address conflict.</li>
+</ul>
+<p><strong>19. Which three addresses are valid public addresses? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">198.133.219.17</span></strong></li>
+<li>192.168.1.245</li>
+<li>10.15.250.5</li>
+<li><span style="color: #ff0000;"><strong>128.107.12.117</strong></span></li>
+<li>172.31.1.25</li>
+<li><span style="color: #ff0000;"><strong>64.104.78.227</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The ranges of private IPv4 addresses are as folllows:<br />
+10.0.0.0 – 10.255.255.255<br />
+172.16.0.0 – 172.31.255.255<br />
+192.168.0.0 – 192.168.255.255</p></div>
+<p><strong>20. A message is sent to all hosts on a remote network. Which type of message is it?</strong></p>
+<ul>
+<li>limited broadcast</li>
+<li>multicast</li>
+<li><strong><span style="color: #ff0000;">directed broadcast</span></strong></li>
+<li>unicast</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A directed broadcast is a message sent to all hosts on a specific network. It is useful for sending a broadcast to all hosts on a nonlocal network. A multicast message is a message sent to a selected group of hosts that are part of a subscribing multicast group. A limited broadcast is used for a communication that is limited to the hosts on the local network. A unicast message is a message sent from one host to another.</p></div>
+<p><strong>21. A company has a network address of 192.168.1.64 with a subnet mask of 255.255.255.192. The company wants to create two subnetworks that would contain 10 hosts and 18 hosts respectively. Which two networks would achieve that? (Choose two.)</strong></p>
+<ul>
+<li>192.168.1.16/28</li>
+<li><strong><span style="color: #ff0000;">192.168.1.64/27</span></strong></li>
+<li>192.168.1.128/27</li>
+<li><span style="color: #ff0000;"><strong>192.168.1.96/28</strong></span></li>
+<li>192.168.1.192/28</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Subnet 192.168.1.64 /27 has 5 bits that are allocated for host addresses and therefore will be able to support 32 addresses, but only 30 valid host IP addresses. Subnet 192.168.1.96/28 has 4 bits for host addresses and will be able to support 16 addresses, but only 14 valid host IP addresses.</p></div>
+<p><strong>22. Which address is a valid IPv6 link-local unicast address?</strong></p>
+<ul>
+<li>FEC8:1::FFFF</li>
+<li>FD80::1:1234</li>
+<li><strong><span style="color: #ff0000;">FE80::1:4545:6578:ABC1</span></strong></li>
+<li>FE0A::100:7788:998F</li>
+<li>FC90:5678:4251:FFFF</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> IPv6 LLAs are in the fe80::/10 range. The /10 indicates that the first 10 bits are 1111 1110 10xx xxxx. The first hextet has a range of 1111 1110 1000 0000 (fe80) to 1111 1110 1011 1111 (febf).</p></div>
+<p><strong>23. Which of these addresses is the shortest abbreviation for the IP address: 3FFE:1044:0000:0000:00AB:0000:0000:0057?</strong></p>
+<ul>
+<li>3FFE:1044::AB::57</li>
+<li>3FFE:1044::00AB::0057</li>
+<li><strong><span style="color: #ff0000;">3FFE:1044:0:0:AB::57</span></strong></li>
+<li>3FFE:1044:0:0:00AB::0057</li>
+<li>3FFE:1044:0000:0000:00AB::57</li>
+<li>3FFE:1044:0000:0000:00AB::0057</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The rules for reducing the notation of IPv6 addresses are:<br />
+1. Omit any leading 0s (zeros) in any hextet.<br />
+2. Replace any single, contiguous string of one or more 16-bit hextets consisting of all zeros with a double colon (::) .<br />
+3. The double colon (::) can only be used once within an address.</p></div>
+<p><strong>24. A network administrator has received the IPv6 prefix 2001:DB8::/48 for subnetting. Assuming the administrator does not subnet into the interface ID portion of the address space, how many subnets can the administrator create from the /48 prefix?</strong></p>
+<ul>
+<li>16</li>
+<li>256</li>
+<li>4096</li>
+<li><strong><span style="color: #ff0000;">65536</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> With a network prefix of 48, there will be 16 bits available for subnetting because the interface ID starts at bit 64. Sixteen bits will yield 65536 subnets.</p></div>
+<p><strong>25. Given IPv6 address prefix 2001:db8::/48, what will be the last subnet that is created if the subnet prefix is changed to /52?</strong></p>
+<ul>
+<li>2001:db8:0:f00::/52</li>
+<li>2001:db8:0:8000::/52</li>
+<li>2001:db8:0:f::/52</li>
+<li><strong><span style="color: #ff0000;">2001:db8:0:f000::/52</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Prefix 2001:db8::/48 has 48 network bits. If we subnet to a /52, we are moving the network boundary four bits to the right and creating 16 subnets. The first subnet is 2001:db8::/52 the last subnet is 2001:db8:0:f000::/52.</p></div>
+<p><strong>26. Consider the following range of addresses:</strong></p>
+<p>2001:0DB8:BC15:00A0:0000::<br />
+2001:0DB8:BC15:00A1:0000::<br />
+2001:0DB8:BC15:00A2:0000::<br />
+…<br />
+2001:0DB8:BC15:00AF:0000::</p>
+<p><strong>The prefix-length for the range of addresses is </strong><span style="color: #ff0000;"><strong>  /60 .</strong></span></p>
+<div class="message_box success"><p><strong>Explanation:</strong> All the addresses have the part 2001:0DB8:BC15:00A in common. Each number or letter in the address represents 4 bits, so the prefix-length is /60.</p></div>
+<p><strong>27. What type of IPv6 address is FE80::1?</strong></p>
+<ul>
+<li>loopback</li>
+<li><strong><span style="color: #ff0000;">link-local</span></strong></li>
+<li>multicast</li>
+<li>global unicast</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Link-local IPv6 addresses start with FE80::/10, which is any address from FE80:: to FEBF::. Link-local addresses are used extensively in IPv6 and allow directly connected devices to communicate with each other on the link they share.</p></div>
+<p><strong>28. Refer to the exhibit. A company is deploying an IPv6 addressing scheme for its network. The company design document indicates that the subnet portion of the IPv6 addresses is used for the new hierarchical network design, with the site subsection to represent multiple geographical sites of the company, the sub-site section to represent multiple campuses at each site, and the subnet section to indicate each network segment separated by routers. With such a scheme, what is the maximum number of subnets achieved per sub-site?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37506" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i247454v1n1_207631-300x203-1.png" alt="" width="287" height="195" /><br />
+<strong>Refer to the exhibit. A company is deploying an IPv6 addressing scheme for its network. The company design document indicates that the subnet portion of the IPv6 addresses is used for the new hierarchical network design, with the s ite subsection to represent multiple geographical sites of the company, the s ub-site section to represent multiple campuses at each site, and the s ubnet section to indicate each network segment separated by routers. With such a scheme, what is the maximum number of subnets achieved per sub-site ?</strong></p>
+<ul>
+<li>0</li>
+<li>4</li>
+<li><strong><span style="color: #ff0000;">16</span></strong></li>
+<li>256</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Because only one hexadecimal character is used to represent the subnet, that one character can represent 16 different values 0 through F.</p></div>
+<p><strong>29. What is used in the EUI-64 process to create an IPv6 interface ID on an IPv6 enabled interface?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">the MAC address of the IPv6 enabled interface</span></strong></li>
+<li>a randomly generated 64-bit hexadecimal address</li>
+<li>an IPv6 address that is provided by a DHCPv6 server</li>
+<li>an IPv4 address that is configured on the interface</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The EUI-64 process uses the MAC address of an interface to construct an interface ID (IID). Because the MAC address is only 48 bits in length, 16 additional bits (FF:FE) must be added to the MAC address to create the full 64-bit interface ID.</p></div>
+<p><strong>30. What is the prefix for the host address 2001:DB8:BC15:A:12AB::1/64?</strong></p>
+<ul>
+<li>2001:DB8:BC15</li>
+<li><strong><span style="color: #ff0000;">2001:DB8:BC15:A</span></strong></li>
+<li>2001:DB8:BC15:A:1</li>
+<li>2001:DB8:BC15:A:12</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The network portion, or prefix, of an IPv6 address is identified through the prefix length. A /64 prefix length indicates that the first 64 bits of the IPv6 address is the network portion. Hence the prefix is 2001:DB8:BC15:A.</p></div>
+<p><strong>31. An IPv6 enabled device sends a data packet with the destination address of FF02::1. What is the target of this packet?​</strong></p>
+<ul>
+<li>the one IPv6 device on the link that has been uniquely configured with this address</li>
+<li><strong><span style="color: #ff0000;">all IPv6 enabled devices on the local link​ or network</span></strong></li>
+<li>only IPv6 DHCP servers​</li>
+<li>only IPv6 configured routers</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> This address is one of the assigned IPv6 multicast addresses. Packets addressed to FF02::1 are for all IPv6 enabled devices on the link or network. FF02::2 is for all IPv6 routers that exist on the network.</p></div>
+<p><strong>32. Match the IPv6 address with the IPv6 address type. (Not all options are used.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37507" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/CCNA1-v7-ITN-IP-Addressing-Exam-Answers-004-1536x987-1.png" alt="" width="1906" height="1225" /></p>
+<div class="message_box success"><p><strong>Explanation:</strong> FF02::1:FFAE:F85F is a solicited node multicast address.<br />
+2001:DB8::BAF:3F57:FE94 is a global unicast address.<br />
+FF02::1 is the all node multicast address. Packets sent to this address will be received by all IPv6 hosts on the local link.<br />
+::1 is the IPv6 loopback address.<br />
+There are no examples of link local or unique local addresses provided. </p></div>
+<p><strong>33. Which IPv6 prefix is reserved for communication between devices on the same link?</strong></p>
+<ul>
+<li>FC00::/7</li>
+<li>2001::/32</li>
+<li><strong><span style="color: #ff0000;">FE80::/10</span></strong></li>
+<li>FDFF::/7</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> IPv6 link-local unicast addresses are in the FE80::/10 prefix range and are not routable. They are used only for communications between devices on the same link.</p></div>
+<p><strong>34. Which type of IPv6 address refers to any unicast address that is assigned to multiple hosts?</strong></p>
+<ul>
+<li>unique local</li>
+<li>global unicast</li>
+<li>link-local</li>
+<li><strong><span style="color: #ff0000;">anycast</span></strong></li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The IPv6 specifications include anycast addresses. An anycast address is any unicast IPv6 address that is assigned to multiple devices.</p></div>
+<p><strong>35. What are two types of IPv6 unicast addresses? (Choose two.)</strong></p>
+<ul>
+<li>multicast</li>
+<li><span style="color: #ff0000;"><strong>loopback</strong></span></li>
+<li><span style="color: #ff0000;"><strong>link-local</strong></span></li>
+<li>anycast</li>
+<li>broadcast</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Multicast, anycast, and unicast are types of IPv6 addresses. There is no broadcast address in IPv6. Loopback and link-local are specific types of unicast addresses.</p></div>
+<p><strong>36. Which service provides dynamic global IPv6 addressing to end devices without using a server that keeps a record of available IPv6 addresses?</strong></p>
+<ul>
+<li>stateful DHCPv6</li>
+<li><strong><span style="color: #ff0000;">SLAAC</span></strong></li>
+<li>static IPv6 addressing</li>
+<li>stateless DHCPv6</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Using stateless address autoconfiguration (SLAAC), a PC can solicit a router and receive the prefix length of the network. From this information the PC can then create its own IPv6 global unicast address.</p></div>
+<p><strong>37. Which protocol supports Stateless Address Autoconfiguration (SLAAC) for dynamic assignment of IPv6 addresses to a host?</strong></p>
+<ul>
+<li>ARPv6</li>
+<li>DHCPv6</li>
+<li><strong><span style="color: #ff0000;">ICMPv6</span></strong></li>
+<li>UDP</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> SLAAC uses ICMPv6 messages when dynamically assigning an IPv6 address to a host. DHCPv6 is an alternate method of assigning an IPv6 addresses to a host. ARPv6 does not exist. Neighbor Discovery Protocol (NDP) provides the functionality of ARP for IPv6 networks. UDP is the transport layer protocol used by DHCPv6.</p></div>
+<p><strong>38. Three methods allow IPv6 and IPv4 to co-exist. Match each method with its description. (Not all options are used.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37508" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/CCNA1-v7-ITN-IP-Addressing-Exam-Answers-005-1536x650-1.png" alt="" width="1908" height="807" /></p>
+<p><strong>39. A technician uses the ping 127.0.0.1 command. What is the technician testing?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">the TCP/IP stack on a network host</span></strong></li>
+<li>connectivity between two adjacent Cisco devices</li>
+<li>connectivity between a PC and the default gateway</li>
+<li>connectivity between two PCs on the same network</li>
+<li>physical connectivity of a particular PC and the network</li>
+</ul>
+<p><strong>40. Refer to the exhibit. An administrator is trying to troubleshoot connectivity between PC1 and PC2 and uses the tracert command from PC1 to do it. Based on the displayed output, where should the administrator begin troubleshooting?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-37509" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i210352v1n3_210352.png" alt="" width="586" height="342" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i210352v1n3_210352.png 611w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/i210352v1n3_210352-300x175.png 300w" sizes="(max-width: 586px) 100vw, 586px" /></p>
+<ul>
+<li>PC2</li>
+<li><strong><span style="color: #ff0000;">R1</span></strong></li>
+<li>SW2</li>
+<li>R2</li>
+<li>SW1</li>
+</ul>
+<p><strong>41. Which protocol is used by the traceroute command to send and receive echo-requests and echo-replies?</strong></p>
+<ul>
+<li>SNMP</li>
+<li><strong><span style="color: #ff0000;">ICMP</span></strong></li>
+<li>Telnet</li>
+<li>TCP</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Traceroute uses the ICMP (Internet Control Message Protocol) to send and receive echo-request and echo-reply messages.</p></div>
+<p><strong>42. Which ICMPv6 message is sent when the IPv6 hop limit field of a packet is decremented to zero and the packet cannot be forwarded?</strong></p>
+<ul>
+<li>network unreachable</li>
+<li><strong><span style="color: #ff0000;">time exceeded</span></strong></li>
+<li>protocol unreachable</li>
+<li>port unreachable</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> ICMPv6 uses the hop limit field in the IPv6 packet header to determine if the packet has expired. If the hop limit field has reached zero, a router will send a time exceeded message back towards the source indicating that the router cannot forward the packet.</p></div>
+<p><strong>43. A user executes a traceroute over IPv6. At what point would a router in the path to the destination device drop the packet?</strong></p>
+<ul>
+<li>when the value of the Hop Limit field reaches 255</li>
+<li><strong><span style="color: #ff0000;">when the value of the Hop Limit field reaches zero</span></strong></li>
+<li>when the router receives an ICMP time exceeded message</li>
+<li>when the target host responds with an ICMP echo reply message</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When a traceroute is performed, the value in the Hop Limit field of an IPv6 packet determines how many router hops the packet can travel. Once the Hop Limit field reaches a value of zero, it can no longer be forwarded and the receiving router will drop the packet.</p></div>
+<p><strong>44. What is the purpose of ICMP messages?</strong></p>
+<ul>
+<li>to inform routers about network topology changes</li>
+<li>to ensure the delivery of an IP packet</li>
+<li><strong><span style="color: #ff0000;">to provide feedback of IP packet transmissions</span></strong></li>
+<li>to monitor the process of a domain name to IP address resolution</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The purpose of ICMP messages is to provide feedback about issues that are related to the processing of IP packets.</p></div>
+<p><strong>45. What source IP address does a router use by default when the traceroute command is issued?</strong></p>
+<ul>
+<li>the highest configured IP address on the router</li>
+<li>a loopback IP address</li>
+<li><strong><span style="color: #ff0000;">the IP address of the outbound interface</span></strong></li>
+<li>the lowest configured IP address on the router</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When sending an echo request message, a router will use the IP address of the exit interface as the source IP address. This default behavior can be changed by using an extended ping and specifying a specific source IP address.</p></div>
+<p><strong>46. Match each description with an appropriate IP address. (Not all options are used.)</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-37510" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/CCNA1-v7-ITN-IP-Addressing-Exam-Answers-006-1536x980-1.png" alt="" width="1902" height="1213" /></p>
+<div class="message_box success"><p><strong>Explanation:</strong> Link-Local addresses are assigned automatically by the OS environment and are located in the block 169.254.0.0/16. The private addresses ranges are 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. TEST-NET addresses belong to the range 192.0.2.0/24. The addresses in the block 240.0.0.0 to 255.255.255.254 are reserved as experimental addresses. Loopback addresses belong to the block 127.0.0.0/8.</p></div>
+<p><strong>47. A user issues a ping 192.135.250.103 command and receives a response that includes a code of 1. What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">host unreachable</span></strong></li>
+<li>protocol unreachable</li>
+<li>port unreachable</li>
+<li>network unreachable</li>
+</ul>
+<p><strong>48. Which subnet would include the address 192.168.1.96 as a usable host address?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">192.168.1.64/26</span></strong></li>
+<li>192.168.1.32/27</li>
+<li>192.168.1.32/28</li>
+<li>192.168.1.64/29</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> For the subnet of 192.168.1.64/26, there are 6 bits for host addresses, yielding 64 possible addresses. However, the first and last subnets are the network and broadcast addresses for this subnet. Therefore, the range of host addresses for this subnet is 192.168.1.65 to 192.168.1.126. The other subnets do not contain the address 192.168.1.96 as a valid host address.</p></div>
+<p><strong>49. Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.</strong></p>
+<div id="attachment_37804" style="width: 524px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-37804" class="size-full wp-image-37804" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/01/CCNA-1-v7-Modules-11-13-IP-Addressing-Exam-Answers-Full.jpg" alt="CCNA 1 v7 Modules 11 - 13 IP Addressing Exam Answers Full" width="514" height="333" /><p id="caption-attachment-37804" class="wp-caption-text">CCNA 1 v7 Modules 11 &#8211; 13 IP Addressing Exam Answers Full</p></div>
+<p><strong>What are the three IPv6 addresses displayed when the route from PC1 to PC2 is traced? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">2001:DB8:1:1::1</span></strong></li>
+<li>2001:DB8:1:1::A</li>
+<li>2001:DB8:1:2::2</li>
+<li><span style="color: #ff0000;"><strong>2001:DB8:1:2::1</strong></span></li>
+<li>2001:DB8:1:3::1</li>
+<li><strong><span style="color: #ff0000;">2001:DB8:1:3::2</span></strong></li>
+<li>2001:DB8:1:4::1</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Using the <b>ipv6config</b> command on PC2 displays the IPv6 address of PC2, which is 2001:DB8:1:4::A. The IPV6 link-local address, FE80::260:70FF:FE34:6930, is not used in route tracing. Using the <b>tracert 2001:DB8:1:4::A</b> command on PC1 displays four addresses: 2001:DB8:1:1::1, 2001:DB8:1:2::1 , 2001:DB8:1:3::2, and 2001:DB8:1:4::A.</p></div>
+<p><strong>50. A host is transmitting a broadcast. Which host or hosts will receive it?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">all hosts in the same subnet</span></strong></li>
+<li>a specially defined group of hosts</li>
+<li>the closest neighbor on the same network</li>
+<li>all hosts on the Internet</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A broadcast is delivered to every host that has an IP address within the same network.</p></div>
+<p><strong>51. A host is transmitting a unicast. Which host or hosts will receive it?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">one specific host</span></strong></li>
+<li>a specially defined group of hosts</li>
+<li>all hosts on the Internet</li>
+<li>the closest neighbor on the same network</li>
+</ul>
+<p><strong>52. A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 3. What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">address unreachable</span></strong></li>
+<li>network unreachable</li>
+<li>host unreachable</li>
+<li>protocol unreachable</li>
+</ul>
+<p><strong>53. A host is transmitting a multicast. Which host or hosts will receive it?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">a specially defined group of hosts</span></strong></li>
+<li>the closest neighbor on the same network</li>
+<li>one specific host</li>
+<li>directly connected network devices</li>
+</ul>
+<p><strong>60. Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">2001:db8::a0b0:8:1</span></strong></li>
+<li>2001:db8::ab8:1:0:1000</li>
+<li>2001:db80:0:1::80:1</li>
+<li>2001:db80:::1::80:1</li>
+</ul>
+<p><strong>61. Which is the compressed format of the IPv6 address fe80:09ea:0000:2200:0000:0000:0fe0:0290?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">fe80:9ea:0:2200::fe0:290</span></strong></li>
+<li>fe80:9:20::b000:290</li>
+<li>fe80:9ea0::2020:0:bf:e0:9290</li>
+<li>fe80:9ea0::2020::bf:e0:9290</li>
+</ul>
+<p><strong>62. Which is the compressed format of the IPv6 address 2002:0042:0010:c400:0000:0000:0000:0909?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">2002:42:10:c400::909</span></strong></li>
+<li>200:420:110:c4b::910:0:90</li>
+<li>2002:4200::25:1090:0:99</li>
+<li>2002:42::25:1090:0:99</li>
+</ul>
+<p><strong>63. Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0ab8:0001:0000:1000?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">2001:db8::ab8:1:0:1000</span></strong></li>
+<li>2001:db8::a0b0:8:1</li>
+<li>2001:db8:1::ab8:0:1</li>
+<li>2001:db8:0:1::8:1</li>
+</ul>
+<p><strong>64. Which is the compressed format of the IPv6 address 2002:0420:00c4:1008:0025:0190:0000:0990?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">2002:420:c4:1008:25:190::990</span></strong></li>
+<li>2002:42:10:c400::909</li>
+<li>2002:4200::25:1090:0:99</li>
+<li>2002:42::25:1090:0:99</li>
+</ul>
+<p><strong>65. Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">2001:db8::a0b0:8:1</span></strong></li>
+<li>2001:db8:1::ab8:0:1</li>
+<li>2001:db8::ab8:1:0:1000</li>
+<li>2001:db8:0:1::8:1</li>
+</ul>
+<p><strong>66. Which is the compressed format of the IPv6 address fe80:0000:0000:0000:0220:0b3f:f0e0:0029?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">fe80::220:b3f:f0e0:29</span></strong></li>
+<li>fe80:9ea:0:2200::fe0:290</li>
+<li>fe80:9ea0::2020:0:bf:e0:9290</li>
+<li>fe80:9ea0::2020::bf:e0:9290</li>
+</ul>
+<p><strong>67. Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">2001:db8::a0b0:8:1</span></strong></li>
+<li>2001:db8::ab8:1:0:1000</li>
+<li>2001:db80:0:1::80:1</li>
+<li>2001:db8:0:1::8:1</li>
+</ul>
+<p><strong>68. Which is the compressed format of the IPv6 address 2002:0042:0010:c400:0000:0000:0000:0909?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">2002:42:10:c400::909</span></strong></li>
+<li>2002:4200::25:1090:0:99</li>
+<li>2002:420:c4:1008:25:190::990</li>
+<li>2002:42::25:1090:0:99</li>
+</ul>
+<p><strong>69. Which is the compressed format of the IPv6 address fe80:09ea:0000:2200:0000:0000:0fe0:0290?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">fe80:9ea:0:2200::fe0:290</span></strong></li>
+<li>fe80:9ea0::2020:0:bf:e0:9290</li>
+<li>fe80::220:b3f:f0e0:29</li>
+<li>fe80::0220:0b3f:f0e0:0029</li>
+</ul>
+<p><strong>70. A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 2 . What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">beyond scope of the source address</span></strong></li>
+<li>communication with the destination administratively prohibited</li>
+<li>address unreachable</li>
+<li>no route to destination</li>
+</ul>
+<p><strong>71. A user issues a ping 192.135.250.103 command and receives a response that includes a code of 1 . What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">host unreachable</span></strong></li>
+<li>beyond scope of the source address</li>
+<li>address unreachable</li>
+<li>communication with the destination administratively prohibited</li>
+</ul>
+<p><strong>72. A user issues a ping fe80:65ab:dcc1::100 command and receives a response that includes a code of 3 . What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">address unreachable</span></strong></li>
+<li>communication with the destination administratively prohibited</li>
+<li>beyond scope of the source address</li>
+<li>no route to destination</li>
+</ul>
+<p><strong>73. A user issues a ping 10.10.14.67 command and receives a response that includes a code of 0 . What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">network unreachable</span></strong></li>
+<li>protocol unreachable</li>
+<li>port unreachable</li>
+<li>host unreachable</li>
+</ul>
+<p><strong>74. A user issues a ping fe80:65ab:dcc1::100 command and receives a response that includes a code of 4. What does this code represent?</strong><br />
+<strong>A user issues a ping fe80:65ab:dcc1::100 command and receives a response that includes a code of 4 . What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">port unreachable</span></strong></li>
+<li>host unreachable</li>
+<li>protocol unreachable</li>
+<li>network unreachable</li>
+</ul>
+<p><strong>75. A user issues a ping 198.133.219.8 command and receives a response that includes a code of 0 . What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">network unreachable</span></strong></li>
+<li>protocol unreachable</li>
+<li>port unreachable</li>
+<li>host unreachable</li>
+</ul>
+<p><strong>76. A user issues a ping 2001:db8:3040:114::88 command and receives a response that includes a code of 4 . What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">port unreachable</span></strong></li>
+<li>host unreachable</li>
+<li>protocol unreachable</li>
+<li>network unreachable</li>
+</ul>
+<p><strong>77. A user issues a ping 2001:db8:FACE:39::10 command and receives a response that includes a code of 2. What does this code represent?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">beyond scope of the source address</span></strong></li>
+<li>host unreachable</li>
+<li>protocol unreachable</li>
+<li>network unreachable</li>
+</ul>

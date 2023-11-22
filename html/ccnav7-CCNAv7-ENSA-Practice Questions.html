@@ -1,0 +1,537 @@
+<p><strong>1. Which QoS mechanism allows delay-sensitive data, such as voice, to be sent first before packets in other queues are sent?</strong></p>
+<ul>
+<li>FIFO</li>
+<li>FCFS</li>
+<li><span style="color: #ff0000;"><strong>LLQ</strong></span></li>
+<li>CBWFQ</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> Low latency queuing (LLQ) adds a priority queue to CBWFQ from which delay-sensitive traffic, such as voice traffic, can be transmitted ahead of packets in other queues.</p></div><br />
+<strong>2. Which QoS technique retains excess packets in a separate queue for later transmission?</strong></p>
+<ul>
+<li>marking</li>
+<li>classifying</li>
+<li><strong><span style="color: #ff0000;">shaping</span></strong></li>
+<li>queuing</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> As network traffic exits an interface it is queued and then shaped to smooth out the packet output rate. Classification and marking should occur early on to identify traffic and classify how the traffic should be treated.</p></div>
+<p><strong>3. What term describes adding a value to the packet header, as close to the source as possible, so that the packet matches a defined policy?</strong></p>
+<ul>
+<li>policing</li>
+<li><strong><span style="color: #ff0000;">traffic marking</span></strong></li>
+<li>weighted random early detection (WRED)</li>
+<li>tail drop</li>
+<li>traffic shaping</li>
+</ul>
+<p><strong>4. What is a characteristic of the distribution layer in the three layer hierarchical model?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">provides access to the rest of the network through switching, routing, and network access policies</span></strong></li>
+<li>distributes access to end users</li>
+<li>represents the network edge</li>
+<li>acts as the backbone for the network, aggregating and distributing network traffic throughout the campus</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> One of the functions of the distribution layer is aggregating large-scale wiring closet networks. Providing access to end users is a function of the access layer, which is the network edge. Acting as a backbone is a function of the core layer.</p></div>
+<p><strong>5. Which two methods help to prevent the disruption of network services? (Choose two.)</strong></p>
+<ul>
+<li>using VLANs to segment network traffic</li>
+<li>changing the routing protocols at regular intervals</li>
+<li><strong><span style="color: #ff0000;">installing duplicate equipment to provide failover services</span></strong></li>
+<li><strong><span style="color: #ff0000;">using redundant connections to provide alternate physical paths</span></strong></li>
+<li>removing switches which cause loops</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Using duplicate equipment and using redundant paths are two methods to help prevent network disruptions. The use of VLANs would not affect network availability. Changing the routing protocol could actually reduce availability during convergence. Loops, which are created by the provision of redundant paths, are managed by protocols without removing devices.</p></div>
+<p><strong>6. Which technology provides laptops the ability to function on a cellular network?</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>mobile hotspot</strong></span></li>
+<li>Bluetooth</li>
+<li>infrared</li>
+<li>802.11 Wi-Fi</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> Mobile hotspots allow a laptop to connect to a cellular network and gain WAN access. Bluetooth and infrared wireless work for short distances. 802.11 Wi-Fi technology provides laptops with access to a local network.​</p></div><br />
+<strong>7. Which two types of devices are specific to WAN environments and are not found on a LAN? (Choose two.)</strong></p>
+<ul>
+<li>access layer switch</li>
+<li><strong><span style="color: #ff0000;">broadband modem</span></strong></li>
+<li>core switch</li>
+<li><span style="color: #ff0000;"><strong>CSU/DSU</strong></span></li>
+<li>distribution layer router</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> Broadband modems and CSU/DSUs are examples of WAN devices. Core switches can be found on both WANs and LANs. Access layer switches and distribution layer routers are found only on LANs.</p></div><br />
+<strong>8. Which three traffic-related factors would influence selecting a particular WAN link type? (Choose three.)</strong></p>
+<ul>
+<li>cost of the link</li>
+<li><strong><span style="color: #ff0000;">amount of traffic</span></strong></li>
+<li>distance between sites</li>
+<li>reliability</li>
+<li><span style="color: #ff0000;"><strong>security needs</strong></span></li>
+<li><span style="color: #ff0000;"><strong>type of traffic</strong></span></li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> The traffic-related factors that influence selecting a particular WAN link type include the type of traffic, amount of traffic, quality requirements, and security requirements. Quality requirements include ensuring that traffic that cannot tolerate delay gets priority treatment as well as important business transactional traffic.</p></div><br />
+<strong>9. Which type of NAT maps a single inside local address to a single inside global address?</strong></p>
+<ul>
+<li>port address translation</li>
+<li>overloading</li>
+<li><strong><span style="color: #ff0000;">static</span></strong></li>
+<li>dynamic</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> A one-to-one mapping of an inside local address to an inside global address is accomplished through static NAT.</p></div><br />
+<strong>10. Refer to the exhibit. What has to be done in order to complete the static NAT configuration on R1?</strong></p>
+<p><img decoding="async" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-25_222653.png" /></p>
+<ul>
+<li>Interface Fa0/0 should be configured with the command no ip nat inside.</li>
+<li><strong><span style="color: #ff0000;">Interface S0/0/0 should be configured with the command ip nat outside.</span></strong></li>
+<li>R1 should be configured with the command ip nat inside source static 209.165.200.200 192.168.11.11.</li>
+<li>R1 should be configured with the command ip nat inside source static 209.165.200.1 192.168.11.11.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In order for NAT translations to work properly, both an inside and outside interface must be configured for NAT translation on the router.</p></div>
+<p><strong>11. Refer to the exhibit. R1 is configured for static NAT. What IP address will Internet hosts use to reach PC1?</strong></p>
+<p><img decoding="async" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i216440v5n1_216440.png" /></p>
+<ul>
+<li>192.168.0.1</li>
+<li>192.168.0.10</li>
+<li>209.165.201.1</li>
+<li><strong><span style="color: #ff0000;">209.165.200.225</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In static NAT a single inside local address, in this case 192.168.0.10, will be mapped to a single inside global address, in this case 209.165.200.225. Internet hosts will send packets to PC1 and use as a destination address the inside global address 209.165.200.225.</p></div>
+<p><strong>12. A network administrator is troubleshooting the dynamic NAT that is configured on router R2. Which command can the administrator use to see the total number of active NAT translations and the number of addresses that are allocated from the NAT pool?</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>R2# show ip nat statistics</strong></span></li>
+<li>R2# show ip nat translations</li>
+<li>R2# show running-config</li>
+<li>R2# clear ip nat translation</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> R2# show ip nat translations will display the current NAT translations. It will not provide the information on how many addresses are still left in the pool. R2# clear ip nat translation is used to clear the translation table of old entries so that when the R2# show ip nat translations command is issued, the current NAT translation entries are displayed. R2# show running-config will display the configuration parameters only. R2# show ip nat statistics will display information about the total number of active translations, NAT configuration parameters, the number of addresses in the pool, and the number that have been allocated.</p></div><br />
+<strong>13. What is correct in relation to NAT for IPv6?</strong></p>
+<ul>
+<li>Dual stack is an example of implementation of NAT for IPv6.</li>
+<li>NAT64 has been deprecated by IETF in favor of NAT-PT.</li>
+<li><strong><span style="color: #ff0000;">It is a temporary mechanism to assist in the migration from IPv4 to IPv6.</span></strong></li>
+<li>It is used to convert private IPv6 addresses to public IPv6 addresses.​</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Refer to curriculum topic: 9.2.5<br />
+NAT for IPv6 is a temporary measure to aid in the move from IPv4 to IPv6. NAT64 is replacing NAT-PT. Dual stack is a method for running IPv4 and IPv6 on the same network.</p></div>
+<p><strong>14. Which three statements are generally considered to be best practices in the placement of ACLs? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Filter unwanted traffic before it travels onto a low-bandwidth link.</span></strong></li>
+<li><strong><span style="color: #ff0000;">Place standard ACLs close to the destination IP address of the traffic.</span></strong></li>
+<li>Place standard ACLs close to the source IP address of the traffic.</li>
+<li>Place extended ACLs close to the destination IP address of the traffic.</li>
+<li><strong><span style="color: #ff0000;">Place extended ACLs close to the source IP address of the traffic.</span></strong></li>
+<li>For every inbound ACL placed on an interface, there should be a matching outbound ACL.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Extended ACLs should be placed as close as possible to the source IP address, so that traffic that needs to be filtered does not cross the network and use network resources. Because standard ACLs do not specify a destination address, they should be placed as close to the destination as possible. Placing a standard ACL close to the source may have the effect of filtering all traffic, and limiting services to other hosts. Filtering unwanted traffic before it enters low-bandwidth links preserves bandwidth and supports network functionality. Decisions on placing ACLs inbound or outbound are dependent on the requirements to be met.</p></div>
+<p><strong>15. Refer to the exhibit. The Gigabit interfaces on both routers have been configured with subinterface numbers that match the VLAN numbers connected to them. PCs on VLAN 10 should be able to print to the P1 printer on VLAN 12. PCs on VLAN 20 should print to the printers on VLAN 22. What interface and in what direction should you place a standard ACL that allows printing to P1 from data VLAN 10, but stops the PCs on VLAN 20 from using the P1 printer? (Choose two.)</strong></p>
+<p><img decoding="async" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215806v1n2_215806.png" /></p>
+<ul>
+<li>inbound</li>
+<li>R2 S0/0/1</li>
+<li><strong><span style="color: #ff0000;">R1 Gi0/1.12</span></strong></li>
+<li><strong><span style="color: #ff0000;">outbound</span></strong></li>
+<li>R1 S0/0/0</li>
+<li>R2 Gi0/1.20</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A standard access list is commonly placed as close to the destination network as possible because access control expressions in a standard ACL do not include information about the destination network.</p>
+<p>The destination in this example is printer VLAN 12 which has router R1 Gigabit subinterface 0/1/.12 as its gateway. A sample standard ACL that only allows printing from data VLAN 10 (192.168.10.0/24), for example, and no other VLAN would be as follows:</p>
+<pre>R1(config)# access-list 1 permit 192.168.10.0 0.0.0.255
+
+R1(config)# access-list 1 deny any
+
+R1(config)# interface gigabitethernet 0/1.12
+
+R1(config-if)# ip access-group 1 out</pre>
+<p></p></div>
+<p><strong>16. If a router has two interfaces and is routing both IPv4 and IPv6 traffic, how many ACLs could be created and applied to it?</strong></p>
+<ul>
+<li>4</li>
+<li>6</li>
+<li><strong><span style="color: #ff0000;">8</span></strong></li>
+<li>12</li>
+<li>16</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In calculating how many ACLs can be configured, use the rule of “three Ps”: one ACL per protocol, per direction, per interface. In this case, 2 interfaces x 2 protocols x 2 directions yields 8 possible ACLs.</p></div>
+<p><strong>17. Which type of Hypervisor is implemented when a user with a laptop running the Mac OS installs a Windows virtual OS instance?</strong></p>
+<ul>
+<li>virtual machine</li>
+<li>bare metal</li>
+<li><strong><span style="color: #ff0000;">type 2</span></strong></li>
+<li>type 1</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Type 2 hypervisors, also know as hosted hypervisors, are installed on top of an existing operating system, such as Mac OS, Windows, or Linux.</p></div>
+<p><strong>18. Which two layers of the OSI model are associated with SDN network control plane functions that make forwarding decisions? (Choose two.)​</strong></p>
+<ul>
+<li>Layer 1</li>
+<li><span style="color: #ff0000;"><strong>Layer 2</strong></span></li>
+<li><span style="color: #ff0000;"><strong>Layer 3</strong></span></li>
+<li>Layer 4</li>
+<li>Layer 5</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The SDN control plane uses the Layer 2 ARP table and the Layer 3 routing table to make decisions about forwarding traffic.</p></div>
+<p><strong>19. What defines a two-tier spine-leaf topology?</strong></p>
+<ul>
+<li>The APIC controller manipulates the data path directly.</li>
+<li><strong><span style="color: #ff0000;">The Cisco APICs and all other devices in the network physically attach to leaf switches.</span></strong></li>
+<li>The spine tier can be implemented with Cisco Nexus 9500 switches connected to each other and to the leaf switches.</li>
+<li>Everything is two hops from everything else.</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> In this two-tier topology, everything is one hop from everything else. The leaf switches (Cisco Nexus 9300) always attach to the spines (Cisco Nexus 9500), but never to each other. Similarly, the spine switches only attach to the leaf and core switches. The Cisco APICs and all other devices in the network physically attach to leaf switches. When compared to SDN, the APIC controller does not manipulate the data path directly.</p></div><br />
+<strong>20. Which SNMP message type informs the network management system (NMS) immediately of certain specified events?</strong></p>
+<ul>
+<li>SET request</li>
+<li><span style="color: #ff0000;"><strong>Trap</strong></span></li>
+<li>GET request</li>
+<li>GET response</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> A GET request retrieves the value of a specific MIB variable. A SET request modifies the value of an MIB variable. A GET response contains the value of the requested variable. A Trap transmits an unsolicited alarm condition immediately after the event occurs.</p></div><br />
+<strong>21. Which number represents the most severe level of syslog logging?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">0</span></strong></li>
+<li>1</li>
+<li>6</li>
+<li>7</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Syslog levels are numbered 0 through 7, with 0 being the most severe and 7 being the least severe.</p></div>
+<p><strong>22. Which command will backup the configuration that is stored in NVRAM to a TFTP server?</strong></p>
+<ul>
+<li>copy running-config tftp</li>
+<li>copy tftp running-config</li>
+<li><strong><span style="color: #ff0000;">copy startup-config tftp</span></strong></li>
+<li>copy tftp startup-config</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> The startup configuration file is stored in NVRAM, and the running configuration is stored in RAM. The copy command is followed by the source, then the destination.</p></div><br />
+<strong>23. Which statement describes a feature of site-to-site VPNs?</strong></p>
+<ul>
+<li>The VPN connection is not statically defined.</li>
+<li>VPN client software is installed on each host.</li>
+<li><strong><span style="color: #ff0000;">Internal hosts send normal, unencapsulated packets.</span></strong></li>
+<li>Individual hosts can enable and disable the VPN connection.</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> Site-to-site VPNs are statically defined VPN connections between two sites that use VPN gateways. The internal hosts do not require VPN client software and send normal, unencapsulated packets onto the network where they are encapsulated by the VPN gateway.</p></div><br />
+<strong>24. Which VPN solution allows the use of a web browser to establish a secure, remote-access VPN tunnel to the ASA?</strong></p>
+<ul>
+<li>client-based SSL</li>
+<li>site-to-site using an ACL</li>
+<li><span style="color: #ff0000;"><strong>clientless SSL</strong></span></li>
+<li>site-to-site using a preshared key</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When a web browser is used to securely access the corporate network, the browser must use a secure version of HTTP to provide SSL encryption. A VPN client is not required to be installed on the remote host, so a clientless SSL connection is used.</p></div>
+<p><strong>25. Which two types of VPNs are examples of enterprise-managed remote access VPNs? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">clientless SSL VPN</span></strong></li>
+<li><strong><span style="color: #ff0000;">client-based IPsec VPN</span></strong></li>
+<li>IPsec VPN</li>
+<li>IPsec Virtual Tunnel Interface VPN</li>
+<li>GRE over IPsec VPN</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> Enterprise managed VPNs can be deployed in two configurations:</p>
+<ul>
+<li><strong>Remote Access VPN</strong> &#8211; This VPN is created dynamically when required to establish a secure connection between a client and a VPN server. Remote access VPNs include client-based IPsec VPNs and clientless SSL VPNs.</li>
+<li><strong>Site-to-site VPN</strong> &#8211; This VPN is created when interconnecting devices are preconfigured with information to establish a secure tunnel. VPN traffic is encrypted only between the interconnecting devices, and internal hosts have no knowledge that a VPN is used. Site-to-site VPNs include IPsec, GRE over IPsec, Cisco Dynamic Multipoint (DMVPN), and IPsec Virtual Tunnel Interface (VTI) VPNs.</p></div></li>
+</ul>
+<p><strong>26. When JSON data format is being used, what characters are used to hold objects?</strong></p>
+<ul>
+<li>double quotations &#8221; &#8220;</li>
+<li>double brackets [ ]</li>
+<li><span style="color: red;"><strong>double braces { }</strong></span></li>
+<li>double colons : :</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> A JavaScript Object Notation (JSON) object is a key-value data format that is typically rendered in curly braces { }.</p></div><br />
+<strong>27. Which two statements describe remote access VPNs? (Choose two.)</strong></p>
+<ul>
+<li>Remote access VPNs are used to connect entire networks, such as a branch office to headquarters.</li>
+<li>End users are not aware that VPNs exists.</li>
+<li>A leased line is required to implement remote access VPNs.</li>
+<li><strong><span style="color: #ff0000;">Client software is usually required to be able to access the network.</span></strong></li>
+<li><strong><span style="color: #ff0000;">Remote access VPNs support the needs of telecommuters and mobile users.</span></strong></li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> Remote access VPNs are designed to provide for the needs of telecommuters and mobile users through the use of software that is installed on the client to encrypt and encapsulate the data. Remote access VPNs can be used across a variety of WAN connections. Users must access the client software to initiate the VPN connection.</p></div><br />
+<strong>28. Refer to the exhibit. If the switch reboots and all routers have to re-establish OSPF adjacencies, which routers will become the new DR and BDR?</strong></p>
+<p><img decoding="async" class="aligncenter" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i255836v1n1_255836.gif" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Router R4 will become the DR and router R1 will become the BDR.</span></strong></li>
+<li>Router R2 will become the DR and router R3 will become the BDR.</li>
+<li>Router R1 will become the DR and router R2 will become the BDR.</li>
+<li>Router R4 will become the DR and router R3 will become the BDR.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> OSPF elections of a DR are based on the following in order of precedence:</p>
+<ul>
+<li>highest pritority from 1 -255 (0 = never a DR)</li>
+<li>highest router ID</li>
+<li>highest IP address of a loopback or active interface in the absence of a manually configured router ID. Loopback IP addresses take higher precedence than other interfaces.</li>
+</ul>
+<p>In this case routers R4 and R1 have the highest router priority. Between the two, R3 has the higher router ID. Therefore, R4 will become the DR and R1 will become the BDR.</p></div>
+<p><strong>29. Refer to the exhibit. A network administrator has configured OSPFv2 on the two Cisco routers as shown. The routers are unable to form a neighbor adjacency. What should be done to fix the problem?</strong></p>
+<p><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-54959" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/08/i285130v1n1_NewImage3.png" alt="" width="607" height="287" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/08/i285130v1n1_NewImage3.png 607w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/08/i285130v1n1_NewImage3-300x142.png 300w" sizes="(max-width: 607px) 100vw, 607px" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Change the IP address on S0/0 of router R2 to 192.168.20.2.</span></strong></li>
+<li>Remove the FastEthernet0/0 passive interface configuration on router R1.</li>
+<li>Add the command network 192.168.20.1 0.0.0.0 area 0 on router R1.</li>
+<li>Add the command network 192.168.30.0 0.0.0.255 area 0 on router R1.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In order to form OSPFv2 neighbor adjacencies, two connected router interfaces must share the same subnet. Router R2 is shown in the topology with an IP address of 192.168.20.5 and does not exist on the same subnet as the 192.168.20.1 /30 IP address of S0/0 on router R1.</p></div>
+<p><strong>30. What are the two purposes of an OSPF router ID? (Choose two.)</strong></p>
+<ul>
+<li>to enable the SPF algorithm to determine the lowest cost path to remote networks</li>
+<li>to facilitate the establishment of network convergence</li>
+<li><span style="color: #ff0000;"><strong>to uniquely identify the router within the OSPF domain</strong></span></li>
+<li><span style="color: #ff0000;"><strong>to facilitate router participation in the election of the designated router</strong></span></li>
+<li>to facilitate the transition of the OSPF neighbor state to Full</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> OSPF router ID does not contribute to SPF algorithm calculations, nor does it facilitate the transition of the OSPF neighbor state to Full. Although the router ID is contained within OSPF messages when router adjacencies are being established, it has no bearing on the actual convergence process.</p></div>
+<p><strong>31. Which command will a network engineer issue to verify the configured hello and dead timer intervals on a point-to-point WAN link between two routers that are running OSPFv2?</strong></p>
+<ul>
+<li>show ipv6 ospf interface serial 0/0/0</li>
+<li>show ip ospf neighbor</li>
+<li>show ip ospf interface fastethernet 0/1</li>
+<li><span style="color: #ff0000;"><strong>show ip ospf interface serial 0/0/0</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The show ip ospf interface serial 0/0/0 command will display the configured hello and dead timer intervals on a point-to-point serial WAN link between two OSPFv2 routers. The show ipv6 ospf interface serial 0/0/0 command will display the configured hello and dead timer intervals on a point-to-point serial link between two OSPFv3 routers. The show ip ospf interface fastethernet 0/1 command will display the configured hello and dead timer intervals on a multiaccess link between two (or more) OSPFv2 routers. The show ip ospf neighbor command will display the dead interval elapsed time since the last hello message was received, but does not show the configured value of the timer.</p></div>
+<p><strong>32. Refer to the exhibit. What is the OSPF cost to reach the router A LAN 172.16.1.0/24 from B?</strong></p>
+<p><img decoding="async" class="aligncenter" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i258065v1n1_Item-isomorph-258065.png" /></p>
+<ul>
+<li>782</li>
+<li>74</li>
+<li>128</li>
+<li><strong><span style="color: #ff0000;">65</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The formula used to calculate the OSPF cost is as follows:</p>
+<p>Cost = reference bandwidth / interface bandwidth</p>
+<p>The default reference bandwidth is 10^8 (100,000,000); therefore, the formula is</p>
+<p>Cost = 100,000,000 bps / interface bandwidth in bps</p>
+<p>Thus the cost to reach the A LAN 172.16.1.0/24 from B is as follows:<br />
+Serial link (1544 Kbps) from B to A cost =&amp;gt; 100,000,000 / 1,544,000 = 64<br />
+Gigabit Ethernet link on A cost =&amp;gt; 100,000,000 / 1,000,000,000 = 1<br />
+Total cost to reach 172.16.1.0/24 = 64 + 1 = 65</p></div>
+<p><strong>33. Refer to the exhibit. Which data format is used to represent the data for network automation applications?</strong></p>
+<p><img decoding="async" class="size-full wp-image-54960 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/08/i349059v2n1_347059.png" alt="" width="237" height="128" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">YAML</span></strong></li>
+<li>JSON</li>
+<li>XML</li>
+<li>HTML</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> Common data formats that are used in many applications including network automation and programmability include these:<br />
+JavaScript Object Notation (JSON) – In JSON, the data known as an object is one or more key/value pairs enclosed in braces { }. Keys must be strings within double quotation marks ” “. Keys and values are separated by a colon.<br />
+eXtensible Markup Language (XML) – In XML, the data is enclosed within a related set of tags data.<br />
+YAML Ain’t Markup Language (YAML) – In YAML, the data known as an object is one or more key value pairs. Key value pairs are separated by a colon without the use of quotation marks. YAML uses indentation to define its structure, without the use of brackets or commas.</p></div><br />
+<strong>34. A user is reading a book from the website https://www.books-info.com/author1a/book2.html#page100 . Which part of the web link is called a fragment?</strong></p>
+<ul>
+<li>/author1a</li>
+<li>https://</li>
+<li>/book2.html</li>
+<li><strong><span style="color: #ff0000;">#page100</span></strong></li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> In the website URI https://www.books-info.com/author1a/book2.html#page100 , the components include the following:<br />
+Protocol/scheme – HTTPS, FTP, SFTP, mailto, NNTP, etc.<br />
+Hostname – www.books-info.com<br />
+Path and file name – /author1a/book2.html<br />
+Fragment – #page100</p></div><br />
+<strong>35. Refer to the exhibit. Why are routers R1 and R2 not able to establish an OSPF adjacency?</strong></p>
+<p><img decoding="async" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i219570v7n1_219570.gif" /></p>
+<ul>
+<li><strong><span style="color: #ff0000;">The serial interfaces are not in the same area.</span></strong></li>
+<li>The process numbers are not the same in both routers.</li>
+<li>A backbone router cannot establish an adjacency with an ABR router.</li>
+<li>The router ID values are not the same in both routers.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> On router R1, the network 192.168.10.0/30 is defined in the wrong area (area 1). It has to be defined in area 0 in order to establish adjacency with router R2, which has the network 192.168.10.0/30 defined in area 0.</p></div>
+<p><strong>36. A network technician has used the access-list 1 permit 172.16.0.0 0.0.0.255 command to configure NAT on an edge router to translate only four networks, 172.16.0.0 /24, 172.16.1.0 /24, 172.16.2.0 /24, and 172.16.3.0 /24. After receiving complaints about limited access to the Internet, issuing the show ip nat translations command reveals that some networks are missing from the output. Which change will resolve the problem?</strong><br />
+<em>(A network technician has used the access-llst 1 permit 172.16.0.0 0.0.0.255 command to configure NAT on an edge router to translate only four networks, 172.16.0.0 /24, 172.16.1.0 /24, 172.16.2.0 /24, and 172.16.3.0 /24. After receiving complaints about limited access to the Internet, issuing the show ip nat translations command reveals that some networks are missing from the output. Which change will resolve the problem?)</em></p>
+<ul>
+<li>The access list should be replaced with access-list 1 permit 172.16.0.0 0.0.1.255 .</li>
+<li><strong><span style="color: #ff0000;">The access list should be replaced with access-list 1 permit 172.16.0.0 0.0.3.255</span></strong></li>
+<li>The access list should be replaced with access-list 1 permit 172.16.0.0 0.0.0.255</li>
+<li>The access list should be replaced with access-list 1 permit 172.16.0.0 255.255.255.0.</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> The ACL in the original configuration will only permit the first subnet, 172.16.0.0, to be translated. The first option uses a subnet mask when it should use a wildcard mask. The second option will only permit the first two networks, 172.16.0.0 and 172.16.1.0. The third option uses an invalid wildcard mask that will allow translation of the entire 172.16.0.0 network. The fourth option is the correct option as it allows translation of just the four subnets.</p></div><br />
+<strong>37. Which type of tool would an administrator use to capture packets that are going to and from a particular device?</strong></p>
+<ul>
+<li>baselining tool</li>
+<li><strong><span style="color: #ff0000;">protocol analyzer</span></strong></li>
+<li>knowledge base</li>
+<li>NMS tool</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> Protocol analyzers capture packets as they enter or leave a device and can display those packets in real time. An NMS tool is used to monitor and configure network devices. A knowledge base is a repository of information that pertains to the operation and troubleshooting of a specific device or service. A baselining tool is used to measure network or device performance during normal operations, so that abnormal conditions can be easily spotted.</p></div><br />
+<strong>38. A user reports that the workstation cannot connect to a networked printer in the office in order to print a report created with word processing software. Which troubleshooting action by the helpdesk technician would follow the divide-and-conquer approach?</strong></p>
+<ul>
+<li>Ask the user to launch the web browser.</li>
+<li>Ask the user to unplug and reattach the network cable.</li>
+<li><strong><span style="color: #ff0000;">Ask the user to issue the ipconfig command.</span></strong></li>
+<li>Ask the user to save the working document.</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The ipconfig command can be used to check the IP settings of the workstation, an internet layer issue, so this is the divide-and-conquer approach. Based on the result, the technician can further investigate either from the lower layer (for example, looking for a network connectivity issue) or the upper layer (for example, checking whether the application is working properly). To ask the user to unplug and reattach the network cable is the bottom-up approach. Asking the user to launch a web browser (to check if an application can start normally) and to save the document (to check that the application is performing normally and to preserve the working document) is the top-down approach.</p></div>
+<p><strong>39. Match the OSPF state with the order in which it occurs. (Not all options are used.)</strong><br />
+<img decoding="async" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/2021-11-01_093631.jpg" alt="" width="650" height="1012" class="aligncenter size-full wp-image-71413" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/2021-11-01_093631.jpg 650w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2020/06/2021-11-01_093631-193x300.jpg 193w" sizes="(max-width: 650px) 100vw, 650px" /><br />
+<div class="message_box success"><p><b>Explanation:</b> The active and passive states are used by EIGRP.</p></div></p>
+<p><strong>40. When an OSPF network is converged and no network topology change has been detected by a router, how often will LSU packets be sent to neighboring routers?</strong></p>
+<ul>
+<li>every 5 minutes</li>
+<li>every 10 minutes</li>
+<li><strong><span style="color: #ff0000;">every 30 minutes</span></strong></li>
+<li>every 60 minutes</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> After all LSRs have been satisfied for a given router, the adjacent routers are considered synchronized and in a full state. Updates (LSUs) are sent to neighbors only under the following conditions:</p>
+<ul>
+<li>when a network topology change is detected (incremental updates)</li>
+<li>every 30 minutes</li>
+</ul>
+<p></p></div>
+<p><strong>41. Which type of OSPFv2 packet contains an abbreviated list of the LSDB of a sending router and is used by receiving routers to check against the local LSDB?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">database description</span></strong></li>
+<li>link-state acknowledgment</li>
+<li>link-state update</li>
+<li>link-state request</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The database description (DBD) packet contains an abbreviated list of the LSDB sent by a neighboring router and is used by receiving routers to check against the local LSDB.</p></div>
+<p><strong>42. Which step in the link-state routing process is described by a router building a link-state database based on received LSAs?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">building the topology table</span></strong></li>
+<li>executing the SPF algorithm</li>
+<li>selecting the router ID</li>
+<li>declaring a neighbor to be inaccessible</li>
+</ul>
+<p><strong>43. Refer to the exhibit. A network administrator has configured ACL 9 as shown. Users on the 172.31.1.0 /24 network cannot forward traffic through router CiscoVille. What is the most likely cause of the traffic failure?</strong></p>
+<p><img decoding="async" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i215685v4n1_ACL-item.png" /></p>
+<ul>
+<li>The established keyword is not specified.</li>
+<li><strong><span style="color: #ff0000;">The sequence of the ACEs is incorrect.</span></strong></li>
+<li>The port number for the traffic has not been identified with the eq keyword.</li>
+<li>The permit statement specifies an incorrect wildcard mask.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When verifying an ACL, the statements are always listed in a sequential order. Even though there is an explicit permit for the traffic that is sourced from network 172.31.1.0 /24, it is being denied due to the previously implemented ACE of CiscoVille(config)# access-list 9 deny 172.31.0.0 0.0.255.255. The sequence of the ACEs must be modified to permit the specific traffic that is sourced from network 172.31.1.0 /24 and then to deny 172.31.0.0 /16.</p></div>
+<p><strong>44. A technician is tasked with using ACLs to secure a router. When would the technician use the access-class 20 in configuration option or command?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">to secure administrative access to the router</span></strong></li>
+<li>to secure management traffic into the router</li>
+<li>to display all restricted traffic</li>
+<li>to remove all ACLs from the router</li>
+</ul>
+<p><strong>45. Refer to the exhibit. A network administrator is configuring a standard IPv4 ACL. What is the effect after the command no access-list 10 is entered?</strong></p>
+<p><img decoding="async" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i209863v1n1_209863.png" /></p>
+<ul>
+<li>ACL 10 is removed from both the running configuration and the interface Fa0/1.</li>
+<li><span style="color: #ff0000;"><b>ACL 10 is removed from the running configuration.</b></span></li>
+<li>ACL 10 is disabled on Fa0/1.</li>
+<li>ACL 10 will be disabled and removed after R1 restarts.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The R1(config)# <strong>no access-list</strong> <em>&lt;access-list number&gt;</em> command removes the ACL from the running-config immediately. However, to disable an ACL on an interface, the command R1(config-if)# <strong>no ip access-group</strong> should be entered.</p></div>
+<p><strong>46. An administrator has configured an access list on R1 to allow SSH administrative access from host 172.16.1.100. Which command correctly applies the ACL?</strong></p>
+<ul>
+<li>R1(config-if)# ip access-group 1 out</li>
+<li>R1(config-if)# ip access-group 1 in</li>
+<li><span style="color: #ff0000;"><b>R1(config-line)# access-class 1 in</b></span></li>
+<li>R1(config-line)# access-class 1 out</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Administrative access over SSH to the router is through the vty lines. Therefore, the ACL must be applied to those lines in the inbound direction. This is accomplished by entering line configuration mode and issuing the access-class command.</p></div>
+<p><strong>47. Refer to the exhibit. The network administrator that has the IP address of 10.0.70.23/25 needs to have access to the corporate FTP server (10.0.54.5/28). The FTP server is also a web server that is accessible to all internal employees on networks within the 10.x.x.x address. No other traffic should be allowed to this server.</strong></p>
+<p><img decoding="async" class="aligncenter" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2015/06/i209858v1n1_209858.png" /></p>
+<p><strong>Which extended ACL would be used to filter this traffic, and how would this ACL be applied? (Choose two.)</strong></p>
+<ul>
+<li>R1(config)# interface s0/0/0<br />
+R1(config-if)# ip access-group 105 outR2(config)# interface gi0/0<br />
+R2(config-if)# ip access-group 105 in</li>
+<li><span style="color: red;"><strong>access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20<br />
+access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21<br />
+access-list 105 permit tcp 10.0.0.0 0.255.255.255 host 10.0.54.5 eq www<br />
+access-list 105 deny ip any host 10.0.54.5<br />
+access-list 105 permit ip any any</strong></span></li>
+<li>access-list 105 permit ip host 10.0.70.23 host 10.0.54.5<br />
+access-list 105 permit tcp any host 10.0.54.5 eq www<br />
+access-list 105 permit ip any any</li>
+<li><span style="color: red;"><strong>R1(config)# interface gi0/0<br />
+R1(config-if)# ip access-group 105 out</strong></span></li>
+<li>access-list 105 permit tcp host 10.0.54.5 any eq www<br />
+access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20<br />
+access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The first two lines of the ACL allow host 10.0.70.23 FTP access to the server that has the IP address of 10.0.54.5. The next line of the ACL allows HTTP access to the server from any host that has an IP address that starts with the number 10. The fourth line of the ACL denies any other type of traffic to the server from any source IP address. The last line of the ACL permits anything else in case there are other servers or devices added to the 10.0.54.0/28 network. Because traffic is being filtered from all other locations and for the 10.0.70.23 host device, the best place to put this ACL is closest to the server.</p></div>
+<p><strong>48. What is a feature of an IPS?</strong></p>
+<ul>
+<li>It has no impact on latency.</li>
+<li>It is deployed in offline mode.</li>
+<li>It is primarily focused on identifying possible incidents.</li>
+<li><span style="color: red;"><strong>It can stop malicious packets.</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> An advantage of an intrusion prevention systems (IPS) is that it can identify and stop malicious packets. However, because an IPS is deployed inline, it can add latency to the network.</p></div>
+<p><strong>49. Which type of security threat can be described as software that attaches itself to another program to execute a specific unwanted function?</strong></p>
+<ul>
+<li>denial of service Trojan horse</li>
+<li>proxy Trojan horse</li>
+<li>worm</li>
+<li><span style="color: red;"><strong>virus</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Viruses can be malicious and destructive or simply change something about the computer, such as words or images, and not necessarily cause thecomputer to malfunction. Viruses can be spread through shared media such as CDs or memory sticks, but can also be delivered via the Internet and email.</p></div>
+<p><strong>50. What is the significant characteristic of worm malware?</strong></p>
+<ul>
+<li>Once installed on a host system, a worm does not replicate itself.</li>
+<li>A worm must be triggered by an event on the host system.</li>
+<li><span style="color: red;"><strong>A worm can execute independently of the host system.</strong></span></li>
+<li>Worm malware disguises itself as legitimate software.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Worm malware can execute and copy itself without being triggered by a host program. It is a significant network and Internet security threat.</p></div>
+<p><strong>51. What is the best description of Trojan horse malware?</strong></p>
+<ul>
+<li>It is software that causes annoying but not fatal computer problems.</li>
+<li><span style="color: red;"><strong>It appears as useful software but hides malicious code.</strong></span></li>
+<li>It is the most easily detected form of malware.</li>
+<li>It is malware that can only be distributed over the Internet.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The best description of Trojan horse malware, and what distinguishes it from viruses and worms, is that it appears as useful software but hides malicious code. Trojan horse malware may cause annoying computer problems, but can also cause fatal problems. Some Trojan horses may be distributed over the Internet, but they can also be distributed by USB memory sticks and other means. Specifically targeted Trojan horse malware can be some of the most difficult malware to detect.</p></div>
+<p><strong>52. What is the function of ASICs in a multilayer switch?</strong></p>
+<ul>
+<li>They aggregate multiple physical switch ports into a single logical port.</li>
+<li>They provide power to devices such as IP phones and wireless access points through Ethernet ports.</li>
+<li>They prevent Layer 2 loops by disabling redundant links between switches.</li>
+<li><span style="color: red;"><strong>They streamline forwarding of IP packets in a multilayer switch by bypassing the CPU.</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> ASICs are application-specific integrated circuits and they allow a multilayer switch to forward IP packets without calling on the CPU to make routing decisions. By using ASICs a switch can forward IP packets almost as fast as it can forward Layer 2 frames.</p></div>
+<p><strong>53. What is the port density of a switch?</strong></p>
+<ul>
+<li>the combined bandwidth of all ports on a switch</li>
+<li><span style="color: red;"><strong>the number of available ports on a switch</strong></span></li>
+<li>the throughput of a port</li>
+<li>the bandwidth of a port</li>
+</ul>
+<p><div class="message_box success"><p><b>Explanation:</b> Port density refers to the number of available ports on a switch. Bandwidth is the wire speed of a single port on a switch. The combined bandwidth of all ports on a switch is the forwarding rate.</p></div><br />
+<strong>54. What is a difference between the functions of Cloud computing and virtualization?</strong></p>
+<ul>
+<li>Cloud computing provides services on web-based access whereas virtualization provides services on data access through virtualized Internet connections.</li>
+<li><span style="color: red;"><strong>Cloud computing separates the application from the hardware whereas virtualization separates the OS from the underlying hardware.</strong></span></li>
+<li>Cloud computing requires hypervisor technology whereas virtualization is a fault tolerance technology.</li>
+<li>Cloud computing utilizes data center technology whereas virtualization is not used in data centers.</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Cloud computing separates the application from the hardware. Virtualization separates the OS from the underlying hardware. Virtualization is a typical component within cloud computing. Virtualization is also widely used in data centers. Although the implementation of virtualization facilitates an easy server fault tolerance setup, it is not a fault tolerance technology by design. The Internet connection from a data center or service provider needs redundant physical WAN connections to ISPs.</p></div>
+<p><strong>55. Why would a network administrator use the config-register 0x2102 command on a Cisco network device?</strong></p>
+<ul>
+<li>to monitor and manage network performance, find and solve network problems, and plan for network growth</li>
+<li>to back up the running configuration onto a USB drive</li>
+<li>to learn device names, IOS versions, and the number and type of interfaces of connected devices</li>
+<li><span style="color: red;"><strong>to ensure that the device loads the startup configuration file during startup</strong></span></li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> <strong>Password Recovery Procedures</strong></p>
+<p><strong>Step 1</strong>. Enter the ROMMON mode.<br />
+<strong>Step 2</strong>. Change the configuration register. (enter <strong>confreg 0x2142</strong>)<br />
+<strong>Step 3</strong>. Copy the startup-config to the running-config.<br />
+<strong>Step 4</strong>. Change the password.<br />
+<strong>Step 5</strong>. Save the running-config as the new startup-config.<br />
+<strong>Step 6</strong>. Reload the device</p>
+<p>The <strong>confreg 0x2142</strong> command allows the user to set the configuration register to 0x2142. With the configuration register at 0x2142, the device will ignore the startup config file during startup.</p>
+<p>After the new passwords are configured, change the configuration register back to 0x2102 by using the <strong>config-register 0x2102</strong> command in the global configuration mode</p></div>
+<p><strong>56. Refer to the exhibit. The network administrator that has the IP address of 10.0.70.23/25 needs to have access to the corporate FTP server (10.0.54.5/28). The FTP server is also a web server that is accessible to all internal employees on networks within the 10.x.x.x address. No other traffic should be allowed to this server. Which extended ACL would be used to filter this traffic, and how would this ACL be applied? (Choose two.)</strong></p>
+<p><img decoding="async" class="aligncenter" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2015/06/i209858v1n1_209858.png" /></p>
+<p>R1(config)# interface s0/0/0<br />
+R1(config-if)# ip access-group 105 outR2(config)# interface gi0/0<br />
+R2(config-if)# ip access-group 105 in</p>
+<p><span style="color: #ff0000;">access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20</span><br />
+<span style="color: #ff0000;">access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21</span><br />
+<span style="color: #ff0000;">access-list 105 permit tcp 10.0.0.0 0.255.255.255 host 10.0.54.5 eq www</span><br />
+<span style="color: #ff0000;">access-list 105 deny ip any host 10.0.54.5</span><br />
+<span style="color: #ff0000;">access-list 105 permit ip any any</span></p>
+<p>access-list 105 permit ip host 10.0.70.23 host 10.0.54.5<br />
+access-list 105 permit tcp any host 10.0.54.5 eq www<br />
+access-list 105 permit ip any any</p>
+<p><span style="color: #ff0000;">R1(config)# interface gi0/0</span><br />
+<span style="color: #ff0000;">R1(config-if)# ip access-group 105 out</span></p>
+<p>access-list 105 permit tcp host 10.0.54.5 any eq www<br />
+access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20<br />
+access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21</p>
+<div class="message_box success"><p><b>Explanation:</b> The first two lines of the ACL allow host 10.0.70.23 FTP access to the server that has the IP address of 10.0.54.5. The next line of the ACL allows HTTP access to the server from any host that has an IP address that starts with the number 10. The fourth line of the ACL denies any other type of traffic to the server from any source IP address. The last line of the ACL permits anything else in case there are other servers or devices added to the 10.0.54.0/28 network. Because traffic is being filtered from all other locations and for the 10.0.70.23 host device, the best place to put this ACL is closest to the server.</p></div>

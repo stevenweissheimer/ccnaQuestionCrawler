@@ -1,0 +1,687 @@
+<p><strong>1. Which Layer 2 attack will result in legitimate users not getting valid IP addresses?</strong></p>
+<ul>
+<li>ARP spoofing</li>
+<li><span style="color: #ff0000;"><strong>DHCP starvation</strong></span></li>
+<li>IP address spoofing</li>
+<li>MAC address flooding</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The DHCP starvation attack causes the exhaustion of the IP address pool of a DHCP server before legitimate users can obtain valid IP addresses.</p></div>
+<p><strong>2. What mitigation plan is best for thwarting a DoS attack that is creating a MAC address table overflow?</strong></p>
+<ul>
+<li>Disable DTP.</li>
+<li>Disable STP.</li>
+<li><span style="color: #ff0000;"><strong>Enable port security.</strong></span></li>
+<li>Place unused ports in an unused VLAN.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A MAC address (CAM) table overflow attack, buffer overflow, and MAC address spoofing can all be mitigated by configuring port security. A network administrator would typically not want to disable STP because it prevents Layer 2 loops. DTP is disabled to prevent VLAN hopping. Placing unused ports in an unused VLAN prevents unauthorized wired connectivity.</p></div>
+<p><strong>3. Which three Cisco products focus on endpoint security solutions? (Choose three.)</strong></p>
+<ul>
+<li>IPS Sensor Appliance</li>
+<li><span style="color: #ff0000;"><strong>Web Security Appliance</strong></span></li>
+<li><span style="color: #ff0000;"><strong>Email Security Appliance</strong></span></li>
+<li>SSL/IPsec VPN Appliance</li>
+<li>Adaptive Security Appliance</li>
+<li><span style="color: #ff0000;"><strong>NAC Appliance</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The primary components of endpoint security solutions are Cisco Email and Web Security appliances, and Cisco NAC appliance. ASA, SSL/IPsec VPN, and IPS sensor appliances all provide security solutions that focus on the enterprise network, not on endpoint devices.</p></div>
+<p><strong>4. True or False?</strong><br />
+<strong>In the 802.1X standard, the client attempting to access the network is referred to as the supplicant.</strong></p>
+<ul>
+<li><span style="color: #ff0000;"><strong>true</strong></span></li>
+<li>false</li>
+</ul>
+<p><strong>5. Which authentication method stores usernames and passwords in the router and is ideal for small networks?</strong></p>
+<ul>
+<li>server-based AAA over TACACS+</li>
+<li>local AAA over RADIUS</li>
+<li>server-based AAA</li>
+<li>local AAA over TACACS+</li>
+<li><strong><span style="color: #ff0000;">local AAA</span></strong></li>
+<li>server-based AAA over RADIUS</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> In a small network with a few network devices, AAA authentication can be implemented with the local database and with usernames and passwords stored on the network devices. Authentication using the TACACS+ or RADIUS protocol will require dedicated ACS servers although this authentication solution scales well in a large network.</p></div>
+<p><strong>6. What represents a best practice concerning discovery protocols such as CDP and LLDP on network devices?</strong></p>
+<ul>
+<li>Enable CDP on edge devices, and enable LLDP on interior devices.</li>
+<li>Use the open standard LLDP rather than CDP.</li>
+<li>Use the default router settings for CDP and LLDP.</li>
+<li><strong><span style="color: #ff0000;">Disable both protocols on all interfaces where they are not required.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Both discovery protocols can provide hackers with sensitive network information. They should not be enabled on edge devices, and should be disabled globally or on a per-interface basis if not required. CDP is enabled by default.​</p></div>
+<p><strong>7. Which protocol should be used to mitigate the vulnerability of using Telnet to remotely manage network devices?</strong></p>
+<ul>
+<li>SNMP</li>
+<li>TFTP</li>
+<li><strong><span style="color: #ff0000;">SSH</span></strong></li>
+<li>SCP</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Telnet uses plain text to communicate in a network. The username and password can be captured if the data transmission is intercepted. SSH encrypts data communications between two network devices. TFTP and SCP are used for file transfer over the network. SNMP is used in network management solutions.</p></div>
+<p><strong>8. Which statement describes the behavior of a switch when the MAC address table is full?</strong></p>
+<ul>
+<li>It treats frames as unknown unicast and floods all incoming frames to all ports on the switch.</li>
+<li>It treats frames as unknown unicast and floods all incoming frames to all ports across multiple switches.</li>
+<li><strong><span style="color: #ff0000;">It treats frames as unknown unicast and floods all incoming frames to all ports within the local VLAN.</span></strong></li>
+<li>It treats frames as unknown unicast and floods all incoming frames to all ports within the collision domain.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> When the MAC address table is full, the switch treats the frame as an unknown unicast and begins to flood all incoming traffic to all ports only within the local VLAN.</p></div>
+<p><strong>9. What device is considered a supplicant during the 802.1X authentication process?</strong></p>
+<ul>
+<li>the router that is serving as the default gateway</li>
+<li>the authentication server that is performing client authentication</li>
+<li><strong><span style="color: #ff0000;">the client that is requesting authentication</span></strong></li>
+<li>the switch that is controlling network access</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> The devices involved in the 802.1X authentication process are as follows:</p>
+<ul>
+<li>The supplicant, which is the client that is requesting network access</li>
+<li>The authenticator, which is the switch that the client is connecting to and that is actually controlling physical network access</li>
+<li>The authentication server, which performs the actual authentication</p></div></li>
+</ul>
+<p><strong>10. Refer to the exhibit. Port Fa0/2 has already been configured appropriately. The IP phone and PC work properly. Which switch configuration would be most appropriate for port Fa0/2 if the network administrator has the following goals?</strong></p>
+<p><img decoding="async" class="size-full wp-image-37862 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i211261v1n1_211261.jpg" alt="" width="241" height="160" /></p>
+<p>No one is allowed to disconnect the IP phone or the PC and connect some other wired device.<br />
+If a different device is connected, port Fa0/2 is shut down.<br />
+The switch should automatically detect the MAC address of the IP phone and the PC and add those addresses to the running configuration.</p>
+<ul>
+<li>SWA(config-if)# switchport port-security<br />
+SWA(config-if)# switchport port-security mac-address sticky</li>
+<li>SWA(config-if)# switchport port-security<br />
+SWA(config-if)# switchport port-security maximum 2<br />
+SWA(config-if)# switchport port-security mac-address sticky<br />
+SWA(config-if)# switchport port-security violation restrict</li>
+<li>SWA(config-if)# switchport port-security mac-address sticky<br />
+SWA(config-if)# switchport port-security maximum 2</li>
+<li><strong><span style="color: #ff0000;">SWA(config-if)# switchport port-security</span></strong><br />
+<strong><span style="color: #ff0000;">SWA(config-if)# switchport port-security maximum 2</span></strong><br />
+<strong><span style="color: #ff0000;">SWA(config-if)# switchport port-security mac-address sticky</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The default mode for a port security violation is to shut down the port so the <strong>switchport port-security violation</strong> command is not necessary. The <strong>switchport port-security</strong> command must be entered with no additional options to enable port security for the port. Then, additional port security options can be added.</p></div>
+<p><strong>11. Refer to the exhibit. Port security has been configured on the Fa 0/12 interface of switch S1. What action will occur when PC1 is attached to switch S1 with the applied configuration?</strong></p>
+<p><img fetchpriority="high" decoding="async" class="aligncenter size-full wp-image-37863" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i235949v1n1_updated94485.png" alt="" width="458" height="190" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i235949v1n1_updated94485.png 458w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i235949v1n1_updated94485-300x124.png 300w" sizes="(max-width: 458px) 100vw, 458px" /></p>
+<ul>
+<li>Frames from PC1 will be forwarded since the switchport port-security violation command is missing.</li>
+<li>Frames from PC1 will be forwarded to its destination, and a log entry will be created.</li>
+<li>Frames from PC1 will be forwarded to its destination, but a log entry will not be created.</li>
+<li><strong><span style="color: #ff0000;">Frames from PC1 will cause the interface to shut down immediately, and a log entry will be made.</span></strong></li>
+<li>Frames from PC1 will be dropped, and there will be no log of the violation.</li>
+<li>Frames from PC1 will be dropped, and a log message will be created.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Manual configuration of the single allowed MAC address has been entered for port fa0/12. PC1 has a different MAC address and when attached will cause the port to shut down (the default action), a log message to be automatically created, and the violation counter to increment. The default action of shutdown is recommended because the restrict option might fail if an attack is underway.</p></div>
+<p><strong>12. Which type of VLAN-hopping attack may be prevented by designating an unused VLAN as the native VLAN?</strong></p>
+<ul>
+<li>DHCP spoofing</li>
+<li>DHCP starvation</li>
+<li><strong><span style="color: #ff0000;">VLAN double-tagging</span></strong></li>
+<li>DTP spoofing</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Spoofing DTP messages forces a switch into trunking mode as part of a VLAN-hopping attack, but VLAN double tagging works even if trunk ports are disabled. Changing the native VLAN from the default to an unused VLAN reduces the possibility of this type of attack. DHCP spoofing and DHCP starvation exploit vulnerabilities in the DHCP message exchange.​</p></div>
+<p><strong>13. A network administrator is configuring DAI on a switch with the command ip arp inspection validate src-mac. What is the purpose of this configuration command?</strong></p>
+<ul>
+<li>It checks the source MAC address in the Ethernet header against the user-configured ARP ACLs.</li>
+<li>It checks the source MAC address in the Ethernet header against the MAC address table.</li>
+<li><strong><span style="color: #ff0000;">It checks the source MAC address in the Ethernet header against the sender MAC address in the ARP body.</span></strong></li>
+<li>It checks the source MAC address in the Ethernet header against the target MAC address in the ARP body.</li>
+</ul>
+<p><div class="message_box success"><p><strong>Explanation:</strong> DAI can be configured to check for both destination or source MAC and IP addresses:</p>
+<ul>
+<li><strong>Destination MAC</strong> &#8211; Checks the destination MAC address in the Ethernet header against the target MAC address in the ARP body.</li>
+<li><strong>Source MAC</strong> &#8211; Checks the source MAC address in the Ethernet header against the sender MAC address in the ARP body.</li>
+<li><strong>IP address</strong> &#8211; Checks the ARP body for invalid and unexpected IP addresses including addresses 0.0.0.0, 255.255.255.255, and all IP multicast addresses.</p></div></li>
+</ul>
+<p><strong>14. Which two commands can be used to enable BPDU guard on a switch? (Choose two.)</strong></p>
+<ul>
+<li>S1(config)# spanning-tree bpduguard default</li>
+<li>S1(config-if)# spanning-tree portfast bpduguard</li>
+<li><strong><span style="color: #ff0000;">S1(config)# spanning-tree portfast bpduguard default</span></strong></li>
+<li>S1(config-if)# enable spanning-tree bpduguard</li>
+<li><span style="color: #ff0000;"><strong>S1(config-if)# spanning-tree bpduguard enable</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> BPDU guard can be enabled on all PortFast-enabled ports by using the <strong>spanning-tree portfast bpduguard default</strong> global configuration command. Alternatively, BPDU guard can be enabled on a PortFast-enabled port through the use of the <strong>spanning-tree bpduguard enable</strong> interface configuration command.</p></div>
+<p><strong>15. As part of the new security policy, all switches on the network are configured to automatically learn MAC addresses for each port. All running configurations are saved at the start and close of every business day. A severe thunderstorm causes an extended power outage several hours after the close of business. When the switches are brought back online, the dynamically learned MAC addresses are retained. Which port security configuration enabled this?</strong></p>
+<ul>
+<li>auto secure MAC addresses</li>
+<li>dynamic secure MAC addresses</li>
+<li>static secure MAC addresses</li>
+<li><strong><span style="color: #ff0000;">sticky secure MAC addresses</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> With sticky secure MAC addressing, the MAC addresses can be either dynamically learned or manually configured and then stored in the address table and added to the running configuration file. In contrast, dynamic secure MAC addressing provides for dynamically learned MAC addressing that is stored only in the address table.</p></div>
+<p><strong>16. Which type of management frame may regularly be broadcast by an AP?</strong></p>
+<ul>
+<li>authentication</li>
+<li>probe request</li>
+<li>probe response</li>
+<li><strong><span style="color: #ff0000;">beacon</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Beacons are the only management frame that may regularly be broadcast by an AP. Probing, authentication, and association frames are used only during the association (or reassociation) process.</p></div>
+<p><strong>17. What are the two methods that are used by a wireless NIC to discover an AP? (Choose two.)</strong></p>
+<ul>
+<li>delivering a broadcast frame</li>
+<li><strong><span style="color: #ff0000;">receiving a broadcast beacon frame</span></strong></li>
+<li>initiating a three-way handshake</li>
+<li>sending an ARP request</li>
+<li><strong><span style="color: #ff0000;">transmitting a probe request</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Two methods can be used by a wireless device to discover and register with an access point: passive mode and active mode. In passive mode, the AP sends a broadcast beacon frame that contains the SSID and other wireless settings. In active mode, the wireless device must be manually configured for the SSID, and then the device broadcasts a probe request.</p></div>
+<p><strong>18. A technician is configuring the channel on a wireless router to either 1, 6, or 11. What is the purpose of adjusting the channel?</strong></p>
+<ul>
+<li>to enable different 802.11 standards</li>
+<li><strong><span style="color: #ff0000;">to avoid interference from nearby wireless devices</span></strong></li>
+<li>to disable broadcasting of the SSID</li>
+<li>to provide stronger security modes</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Channels 1, 6, and 11 are selected because they are 5 channels apart. thus minimizing the interference with adjacent channels. A channel frequency can interfere with channels on either side of the main frequency. All wireless devices need to be used on nonadjacent channels.</p></div>
+<p><strong>19. While attending a conference, participants are using laptops for network connectivity. When a guest speaker attempts to connect to the network, the laptop fails to display any available wireless networks. The access point must be operating in which mode?</strong></p>
+<ul>
+<li>mixed</li>
+<li>passive</li>
+<li><strong><span style="color: #ff0000;">active</span></strong></li>
+<li>open</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Active is a mode used to configure an access point so that clients must know the SSID to connect to the access point. APs and wireless routers can operate in a mixed mode meaning that that multiple wireless standards are supported. Open is an authentication mode for an access point that has no impact on the listing of available wireless networks for a client. When an access point is configured in passive mode, the SSID is broadcast so that the name of wireless network will appear in the listing of available networks for clients.</p></div>
+<p><strong>20. A network administrator is required to upgrade wireless access to end users in a building. To provide data rates up to 1.3 Gb/s and still be backward compatible with older devices, which wireless standard should be implemented?</strong></p>
+<ul>
+<li>802.11n</li>
+<li><strong><span style="color: #ff0000;">802.11ac</span></strong></li>
+<li>802.11g</li>
+<li>802.11b</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> 802.11ac provides data rates up to 1.3 Gb/s and is still backward compatible with 802.11a/b/g/n devices. 802.11g and 802.11n are older standards that cannot reach speeds over 1Gb/s. 802.11ad is a newer standard that can offer theoretical speeds of up to 7 Gb/s.</p></div>
+<p><strong>21. A technician is about to install and configure a wireless network at a small branch office. What is the first security measure the technician should apply immediately upon powering up the wireless router?</strong></p>
+<ul>
+<li>Enable MAC address filtering on the wireless router.</li>
+<li>Configure encryption on the wireless router and the connected wireless devices.</li>
+<li><strong><span style="color: #ff0000;">Change the default user-name and password of the wireless router.</span></strong></li>
+<li>Disable the wireless network SSID broadcast.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The first action a technician should do to secure a new wireless network is to change the default user-name and password of the wireless router. The next action would usually be to configure encryption. Then once the initial group of wireless hosts have connected to the network, MAC address filtering would be enabled and SSID broadcast disabled. This will prevent new unauthorized hosts from finding and connecting to the wireless network.</p></div>
+<p><strong>22. On a Cisco 3504 WLC dashboard, which option provides access to the full menu of features?</strong></p>
+<ul>
+<li>Access Points</li>
+<li>Network Summary</li>
+<li><strong><span style="color: #ff0000;">Advanced</span></strong></li>
+<li>Rogues</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The Cisco 3504 WLC dashboard displays when a user logs into the WLC. It provides some basic settings and menus that users can quickly access to implement a variety of common configurations. By clicking the <strong>Advanced</strong> button, the user will access the advanced <strong>Summary</strong> page and access all the features of the WLC.</p></div>
+<p><strong>23. Which step is required before creating a new WLAN on a Cisco 3500 series WLC?</strong></p>
+<ul>
+<li>Create a new SSID.</li>
+<li>Build or have an SNMP server available.</li>
+<li>Build or have a RADIUS server available.</li>
+<li><strong><span style="color: #ff0000;">Create a new VLAN interface.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Each new WLAN configured on a Cisco 3500 series WLC needs its own VLAN interface. Thus it is required that a new VLAN interface to be created first before a new WLAN can be created.</p></div>
+<p><strong>24. A network engineer is troubleshooting a newly deployed wireless network that is using the latest 802.11 standards. When users access high bandwidth services such as streaming video, the wireless network performance is poor. To improve performance the network engineer decides to configure a 5 Ghz frequency band SSID and train users to use that SSID for streaming media services. Why might this solution improve the wireless network performance for that type of service?</strong></p>
+<ul>
+<li>Requiring the users to switch to the 5 GHz band for streaming media is inconvenient and will result in fewer users accessing these services.</li>
+<li><strong><span style="color: #ff0000;">The 5 GHz band has more channels and is less crowded than the 2.4 GHz band, which makes it more suited to streaming multimedia.</span></strong></li>
+<li>The 5 GHz band has a greater range and is therefore likely to be interference-free.</li>
+<li>The only users that can switch to the 5 GHz band will be those with the latest wireless NICs, which will reduce usage.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Wireless range is determined by the access point antenna and output power, not the frequency band that is used. In this scenario it is stated that all users have wireless NICs that comply with the latest standard, and so all can access the 5 GHz band. Although some users may find it inconvenient to switch to the 5 Ghz band to access streaming services, it is the greater number of channels, not just fewer users, that will improve network performance.</p></div>
+<p><strong>25. A network administrator is configuring a RADIUS server connection on a Cisco 3500 series WLC. The configuration requires a shared secret password. What is the purpose for the shared secret password?</strong></p>
+<ul>
+<li>It is used by the RADIUS server to authenticate WLAN users.</li>
+<li>It is used to authenticate and encrypt user data on the WLAN.</li>
+<li><strong><span style="color: #ff0000;">It is used to encrypt the messages between the WLC and the RADIUS server.</span></strong></li>
+<li>It allows users to authenticate and access the WLAN.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The RADIUS protocol uses security features to protect communications between the RADIUS server and clients. A shared secret is the password used between the WLC and the RADIUS server. It is not for end users.</p></div>
+<p><strong>26. Which three parameters would need to be changed if best practices are being implemented for a home wireless AP? (Choose three.)</strong></p>
+<ul>
+<li>wireless client operating system password</li>
+<li>antenna frequency</li>
+<li><strong><span style="color: #ff0000;">wireless network password</span></strong></li>
+<li>wireless beacon time</li>
+<li><span style="color: #ff0000;"><strong>AP password</strong></span></li>
+<li><span style="color: #ff0000;"><strong>SSID</strong></span></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> As soon as an AP is taken out of a box, the default device password, SSID, and security parameters (wireless network password) should be set. The frequency of a wireless antenna can be adjusted, but doing so is not required. The beacon time is not normally configured. The wireless client operating system password is not affected by the configuration of a home wireless network.</p></div>
+<p><strong>27. Which access control component, implementation, or protocol is based upon usernames and passwords?</strong></p>
+<ul>
+<li>802.1X</li>
+<li>accounting</li>
+<li><strong><span style="color: #ff0000;">authentication</span></strong></li>
+<li>authorization</li>
+</ul>
+<p><strong>28. Which type of wireless network is based on the 802.11 standard and a 2.4-GHz or 5-GHz radio frequency?</strong></p>
+<ul>
+<li>wireless metropolitan-area network</li>
+<li>wireless wide-area network</li>
+<li><strong><span style="color: #ff0000;">wireless local-area network</span></strong></li>
+<li>wireless personal-area network</li>
+</ul>
+<p><strong>29. Which two Cisco solutions help prevent DHCP starvation attacks? (Choose two.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">DHCP Snooping</span></strong></li>
+<li>IP Source Guard</li>
+<li>Dynamic ARP Inspection</li>
+<li><span style="color: #ff0000;"><strong>Port Security</strong></span></li>
+<li>Web Security Appliance</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Cisco provides solutions to help mitigate Layer 2 attacks including these:</p>
+<ul>
+<li><b>IP Source Guard (IPSG)</b> &#8211; prevents MAC and IP address spoofing attacks</li>
+<li><b>Dynamic ARP Inspection (DAI)</b> &#8211; prevents ARP spoofing and ARP poisoning attacks</li>
+<li><b>DHCP Snooping</b> &#8211; prevents DHCP starvation and SHCP spoofing attacks</li>
+<li><b>Port Security</b> &#8211; prevents many types of attacks including MAC table overflow attacks and DHCP starvation attacks</li>
+</ul>
+<p>Web Security Appliance (WSA) is a mitigation technology for web-based threats.</p></div>
+<p><strong>30. What are three techniques for mitigating VLAN attacks? (Choose three.)</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Enable trunking manually.</span></strong></li>
+<li><strong><span style="color: #ff0000;">Disable DTP.</span></strong></li>
+<li>Enable Source Guard.</li>
+<li><span style="color: #ff0000;"><strong>Set the native VLAN to an unused VLAN.</strong></span></li>
+<li>Use private VLANs.</li>
+<li>Enable BPDU guard.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Mitigating a VLAN attack can be done by disabling Dynamic Trunking Protocol (DTP), manually setting ports to trunking mode, and by setting the native VLAN of trunk links to VLANs not in use.</p></div>
+<p><strong>31. Refer to the exhibit. What can be determined about port security from the information that is shown?</strong></p>
+<p><img decoding="async" class="size-full wp-image-37864 alignnone" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i211262v1n1_211262_v2.png" alt="" width="453" height="236" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i211262v1n1_211262_v2.png 453w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i211262v1n1_211262_v2-300x156.png 300w" sizes="(max-width: 453px) 100vw, 453px" /></p>
+<ul>
+<li>The port has the maximum number of MAC addresses that is supported by a Layer 2 switch port which is configured for port security.</li>
+<li>The port has been shut down.</li>
+<li><strong><span style="color: #ff0000;">The port violation mode is the default for any port that has port security enabled.</span></strong></li>
+<li>The port has two attached devices.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The <i>Port Security</i> line simply shows a state of <i>Enabled</i> if the<b> switchport port-security</b> command (with no options) has been entered for a particular switch port. If a port security violation had occurred, a different error message appears such as <i>Secure-shutdown</i>. The maximum number of MAC addresses supported is 50. The <i>Maximum MAC Addresses</i> line is used to show how many MAC addresses can be learned (2 in this case). The <i>Sticky MAC Addresses</i> line shows that only one device has been attached and learned automatically by the switch. This configuration could be used when a port is shared by two cubicle-sharing personnel who bring in separate laptops.</p></div>
+<p><strong>32. A network administrator of a college is configuring the WLAN user authentication process. Wireless users are required to enter username and password credentials that will be verified by a server. Which server would provide such service?</strong></p>
+<ul>
+<li>AAA</li>
+<li>NAT</li>
+<li><strong><span style="color: #ff0000;">RADIUS</span></strong></li>
+<li>SNMP</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Remote Authentication Dial-In User Service (RADIUS) is a protocol and server software that provides user-based authentication for an organization. When a WLAN is configured to use a RADIUS server, users will enter username and password credentials that are verified by the RADIUS server before allowing to the WLAN.</p></div>
+<p><strong>33. A technician is troubleshooting a slow WLAN that consists of 802.11b and 802.11g devices . A new 802.11n/ac dual-band router has been deployed on the network to replace the old 802.11g router. What can the technician do to address the slow wireless speed?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Split the wireless traffic between the 802.11n 2.4 GHz band and the 5 GHz band.</span></strong></li>
+<li>Update the firmware on the new router.</li>
+<li>Configure devices to use a different channel.</li>
+<li>Change the SSID.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Splitting the wireless traffic between the 802.11n 2.4 GHz band and the 5 GHz band will allow for the 802.11n to use the two bands as two separate wireless networks to help manage the traffic, thus improving wireless performance.</p></div>
+<p><strong>34. The company handbook states that employees cannot have microwave ovens in their offices. Instead, all employees must use the microwave ovens located in the employee cafeteria. What wireless security risk is the company trying to avoid?</strong></p>
+<ul>
+<li>improperly configured devices</li>
+<li>rogue access points</li>
+<li><strong><span style="color: #ff0000;">accidental interference</span></strong></li>
+<li>interception of data</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Denial of service attacks can be the result of improperly configured devices which can disable the WLAN. Accidental interference from devices such as microwave ovens and cordless phones can impact both the security and performance of a WLAN. Man-in-the-middle attacks can allow an attacker to intercept data. Rogue access points can allow unauthorized users to access the wireless network.</p></div>
+<p><strong>35. What is the function provided by CAPWAP protocol in a corporate wireless network?</strong></p>
+<ul>
+<li>CAPWAP creates a tunnel on Transmission Control Protocol (TCP) ports in order to allow a WLC to configure an autonomous access point.</li>
+<li><strong><span style="color: #ff0000;">CAPWAP provides the encapsulation and forwarding of wireless user traffic between an access point and a wireless LAN controller.</span></strong></li>
+<li>CAPWAP provides connectivity between an access point using IPv6 addressing and a wireless client using IPv4 addressing.</li>
+<li>CAPWAP provides the encryption of wireless user traffic between an access point and a wireless client.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> CAPWAP is an IEEE standard protocol that enables a WLC to manage multiple APs and WLANs. CAPWAP is also responsible for the encapsulation and forwarding of WLAN client traffic between an AP and a WLC.</p></div>
+<p><strong>36. Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.</strong></p>
+<div id="attachment_38014" style="width: 534px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-38014" class="size-full wp-image-38014" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/10-13.jpg" alt="Modules 10 – 13: L2 Security and WLANs Exam Answers" width="524" height="377" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/10-13.jpg 524w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/10-13-300x216.jpg 300w" sizes="(max-width: 524px) 100vw, 524px" /><p id="caption-attachment-38014" class="wp-caption-text">Modules 10 – 13: L2 Security and WLANs Exam Answers</p></div>
+<p><strong>Which event will take place if there is a port security violation on switch S1 interface Fa0/1?</strong></p>
+<ul>
+<li>A syslog message is logged.</li>
+<li>The interface will go into error-disabled state.</li>
+<li><strong><span style="color: #ff0000;">Packets with unknown source addresses will be dropped.</span></strong></li>
+<li>A notification is sent.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The violation mode can be viewed by issuing the <strong>show port-security interface</strong> <em>&lt;int&gt;</em>command. Interface FastEthernet 0/1 is configured with the violation mode of protect. If there is a violation, interface FastEthernet 0/1 will drop packets with unknown MAC addresses.</p></div>
+<p><strong>37. Match each functional component of AAA with its description. (Not all options are used.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-38043" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_003214.jpg" alt="" width="974" height="559" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_003214.jpg 974w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_003214-300x172.jpg 300w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/2020-01-21_003214-768x441.jpg 768w" sizes="(max-width: 974px) 100vw, 974px" /></p>
+<p><strong>38. What are two protocols that are used by AAA to authenticate users against a central database of usernames and password? (Choose two.)</strong></p>
+<ul>
+<li>SSH</li>
+<li>HTTPS</li>
+<li><span style="color: #ff0000;"><strong>TACACS+</strong></span></li>
+<li><span style="color: #ff0000;"><strong>RADIUS</strong></span></li>
+<li>CHAP</li>
+<li>NTP</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> By using TACACS+ or RADIUS, AAA can authenticate users from a database of usernames and passwords stored centrally on a server such as a Cisco ACS server.</p></div>
+<p><strong>39. What is the result of a DHCP starvation attack?</strong></p>
+<ul>
+<li>The attacker provides incorrect DNS and default gateway information to clients.</li>
+<li>The IP addresses assigned to legitimate clients are hijacked.</li>
+<li>Clients receive IP address assignments from a rogue DHCP server.</li>
+<li><strong><span style="color: #ff0000;">Legitimate clients are unable to lease IP addresses.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> DCHP starvation attacks are launched by an attacker with the intent to create a DoS for DHCP clients. To accomplish this goal, the attacker uses a tool that sends many DHCPDISCOVER messages to lease the entire pool of available IP addresses, thus denying them to legitimate hosts.</p></div>
+<p><strong>40. Which feature or configuration on a switch makes it vulnerable to VLAN double-tagging attacks?</strong></p>
+<ul>
+<li>the limited size of content-addressable memory space</li>
+<li>the automatic trunking port feature enabled for all ports by default</li>
+<li><strong><span style="color: #ff0000;">the native VLAN of the trunking port being the same as a user VLAN</span></strong></li>
+<li>mixed duplex mode enabled for all ports by default</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A double-tagging (or double-encapsulated) VLAN hopping attack takes advantage of the way that hardware on most switches operates. Most switches perform only one level of 802.1Q de-encapsulation, which allows an attacker to embed a hidden 802.1Q tag inside the frame. This tag allows the frame to be forwarded to a VLAN that the original 802.1Q tag did not specify. An important characteristic of the double-encapsulated VLAN hopping attack is that it works even if trunk ports are disabled, because a host typically sends a frame on a segment that is not a trunk link. This type of attack is unidirectional and works only when the attacker is connected to a port residing in the same VLAN as the native VLAN of the trunk port.</p></div>
+<p><strong>41. Which component of AAA allows an administrator to track individuals who access network resources and any changes that are made to those resources?</strong></p>
+<ul>
+<li>authentication</li>
+<li><strong><span style="color: #ff0000;">accounting</span></strong></li>
+<li>accessibility</li>
+<li>authorization</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> One of the components in AAA is accounting. After a user is authenticated through AAA, AAA servers keep a detailed log of exactly what actions the authenticated user takes on the device.</p></div>
+<p><strong>42. Refer to the exhibit. PC1 and PC2 should be able to obtain IP address assignments from the DHCP server. How many ports among switches should be assigned as trusted ports as part of the DHCP snooping configuration?</strong></p>
+<p><img loading="lazy" decoding="async" class="aligncenter wp-image-38073" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i279415v1n1_279415.png" alt="" width="477" height="353" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i279415v1n1_279415.png 534w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i279415v1n1_279415-300x222.png 300w" sizes="(max-width: 477px) 100vw, 477px" /></p>
+<ul>
+<li>1</li>
+<li>3</li>
+<li>5</li>
+<li><strong><span style="color: #ff0000;">7</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> The DHCP snooping configuration includes building the DHCP Snooping Binding Database and assigning necessary trusted ports on switches. A trusted port points to the legitimate DHCP servers. In this network design, because the DHCP server is attached to AS3, seven switch ports should be assigned as trusted ports, one on AS3 toward the DHCP server, one on DS1 toward AS3, one on DS2 toward AS3, and two connections on both AS1 and AS2 (toward DS1 and DS2), for a total of seven.</p></div>
+<p><strong>43. An IT security specialist enables port security on a switch port of a Cisco switch. What is the default violation mode in use until the switch port is configured to use a different violation mode?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">shutdown</span></strong></li>
+<li>disabled</li>
+<li>restrict</li>
+<li>protect</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> If no violation mode is specified when port security is enabled on a switch port, then the security violation mode defaults to shutdown.</p></div>
+<p><strong>44. A laptop cannot connect to a wireless access point. Which two troubleshooting steps should be taken first? (Choose two.)</strong></p>
+<ul>
+<li>Ensure that the correct network media is selected.</li>
+<li>Ensure that the laptop antenna is attached.</li>
+<li><span style="color: #ff0000;"><strong>Ensure that the wireless NIC is enabled.</strong></span></li>
+<li><span style="color: #ff0000;"><strong>Ensure that the wireless SSID is chosen.</strong></span></li>
+<li>Ensure that the NIC is configured for the proper frequency.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> A wireless laptop normally does not have an antenna attached unless a repair has recently been implemented. If the wireless NIC is enabled, the correct media, radio, will be used. When the NIC detects an access point, the correct frequency is automatically used.</p></div>
+<p><strong>45. What is an advantage of SSID cloaking?​</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">Clients will have to manually identify the SSID to connect to the network.​</span></strong></li>
+<li>It is the best way to secure a wireless network.</li>
+<li>SSIDs are very difficult to discover because APs do not broadcast them.​</li>
+<li>It provides free Internet access in public locations where knowing the SSID is of no concern.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> SSID cloaking is a weak security feature that is performed by APs and some wireless routers by allowing the SSID beacon frame to be disabled. Although clients have to manually identify the SSID to be connected to the network, the SSID can be easily discovered. The best way to secure a wireless network is to use authentication and encryption systems. SSID cloaking does not provide free Internet access in public locations, but an open system authentication could be used in that situation.</p></div>
+<p><strong>46. What is a wireless security mode that requires a RADIUS server to authenticate wireless users?</strong></p>
+<ul>
+<li>personal</li>
+<li>shared key</li>
+<li><strong><span style="color: #ff0000;">enterprise</span></strong></li>
+<li>WEP</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> WPA and WPA2 come in two types: personal and enterprise. Personal is used in home and small office networks. Shared key allows three different authentication techniques: (1) WEP, (2) WPA, and (3) 802.11i/WPA2. WEP is an encryption method.</p></div>
+<p><strong>47. A company has recently implemented an 802.11n wireless network. Some users are complaining that the wireless network is too slow. Which solution is the best method to enhance the performance of the wireless network?</strong></p>
+<ul>
+<li>Disable DHCP on the access point and assign static addresses to the wireless clients.</li>
+<li>Upgrade the firmware on the wireless access point.</li>
+<li><strong><span style="color: #ff0000;">Split the traffic between the 2.4 GHz and 5 GHz frequency bands.</span></strong></li>
+<li>Replace the wireless NICs on the computers that are experiencing slow connections.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Because some users are complaining about the network being too slow, the correct option would be to split the traffic so that there are two networks using different frequencies at the same time. Replacing the wireless NICs will not necessarily correct the network being slow and it could be expensive for the company. DHCP versus static addressing should have no impact of the network being slow and it would be a huge task to have all users assigned static addressing for their wireless connection. Upgrading the firmware on the wireless access point is always a good idea. However, if some of the users are experiencing a slow network connection, it is likely that this would not substantially improve network performance.</p></div>
+<p><strong>48. Which protocol can be used to monitor the network?</strong></p>
+<ul>
+<li>DHCP</li>
+<li><strong><span style="color: #ff0000;">SNMP</span></strong></li>
+<li>RADIUS</li>
+<li>AAA</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Simple Network Management Protocol (SNMP) is used to monitor the network.</p></div>
+<p><strong>49. A network administrator deploys a wireless router in a small law firm. Employee laptops join the WLAN and receive IP addresses in the 10.0.10.0/24 network. Which service is used on the wireless router to allow the employee laptops to access the internet?</strong></p>
+<ul>
+<li>DHCP</li>
+<li>RADIUS</li>
+<li>DNS</li>
+<li><strong><span style="color: #ff0000;">NAT</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Any address with the 10 in the first octet is a private IPv4 address and cannot be routed on the internet. The wireless router will use a service called Network Address Translation (NAT) to convert private IPv4 addresses to internet-routable IPv4 addresses for wireless devices to gain access to the internet.</p></div>
+<p><strong>50. Which service can be used on a wireless router to prioritize network traffic among different types of applications so that voice and video data are prioritized over email and web data?</strong></p>
+<ul>
+<li><strong><span style="color: #ff0000;">QoS</span></strong></li>
+<li>DNS</li>
+<li>DHCP</li>
+<li>NAT</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation:</strong> Many wireless routers have an option for configuring quality of service (QoS). By configuring QoS, certain time-sensitive traffic types, such as voice and video, are prioritized over traffic that is not as time-sensitive, such as email and web browsing.</p></div>
+<p><strong>51. Which access control component, implementation, or protocol is based on device roles of supplicant, authenticator, and authentication server?</strong></p>
+<ul>
+<li>accounting</li>
+<li>authentication</li>
+<li>authorization</li>
+<li><strong><span style="color: #ff0000;">802.1X</span></strong></li>
+</ul>
+<p><strong>52. Which type of wireless network is suitable for national and global communications?</strong></p>
+<ul>
+<li>wireless metropolitan-area network</li>
+<li>wireless local-area network</li>
+<li>wireless personal-area network</li>
+<li><strong><span style="color: #ff0000;">wireless wide-area network</span></strong></li>
+</ul>
+<p><strong>53. Which feature on a switch makes it vulnerable to VLAN hopping attacks?</strong></p>
+<ul>
+<li>the mixed duplex mode enabled for all ports by default</li>
+<li>the limited size of content-addressable memory space</li>
+<li>mixed port bandwidth support enabled for all ports by default</li>
+<li><strong><span style="color: #ff0000;">the automatic trunking port feature enabled for all ports by default</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation: </strong>A VLAN hopping attack enables traffic from one VLAN to be seen by another VLAN without routing. In a basic VLAN hopping attack, the attacker takes advantage of the automatic trunking port feature enabled by default on most switch ports.</p></div>
+<p><strong>54. Which component of AAA is used to determine which resources a user can access and which operations the user is allowed to perform?</strong></p>
+<ul>
+<li>accounting</li>
+<li>authentication</li>
+<li>auditing</li>
+<li><strong><span style="color: #ff0000;">authorization</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation: </strong>One of the components in AAA is authorization. After a user is authenticated through AAA, authorization services determine which resources the user can access and which operations the user is allowed to perform.</p></div>
+<p><strong>55. Refer to the exhibit. The Fa0/2 interface on switch S1 has been configured with the switchport port-security mac-address 0023.189d.6456 command and a workstation has been connected. What could be the reason that the Fa0/2 interface is shutdown?</strong></p>
+<div id="attachment_38132" style="width: 602px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" aria-describedby="caption-attachment-38132" class="size-full wp-image-38132" src="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i179950v1n1_updated179950.png" alt="CCNA 2 v7 Modules 10 - 13: L2 Security and WLANs Exam Answers 55" width="592" height="266" srcset="https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i179950v1n1_updated179950.png 592w, https://a5m9a8c3.rocketcdn.me/wp-content/uploads/2019/12/i179950v1n1_updated179950-300x135.png 300w" sizes="(max-width: 592px) 100vw, 592px" /><p id="caption-attachment-38132" class="wp-caption-text">CCNA 2 v7 Modules 10 &#8211; 13: L2 Security and WLANs Exam Answers 55</p></div>
+<ul>
+<li>The Fa0/24 interface of S1 is configured with the same MAC address as the Fa0/2 interface.</li>
+<li>The connection between S1 and PC1 is via a crossover cable.</li>
+<li>S1 has been configured with a <code>switchport port-security aging</code> command.</li>
+<li><strong><span style="color: #ff0000;">The MAC address of PC1 that connects to the Fa0/2 interface is not the configured MAC address.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation: </strong>The security violation counter for Fa0/2 has been incremented (evidenced by the 1 in the SecurityViolation column). The most secure addresses allowed on port Fa0/2 is 1 and that address was manually entered. Therefore, PC1 must have a different MAC address than the one configured for port Fa0/2. Connections between end devices and the switch, as well as connections between a router and a switch, are made with a straight-through cable.</p></div>
+<p><strong>56. A network administrator enters the following commands on the switch SW1.</strong></p>
+<pre>SW1(config)# interface range fa0/5 - 10
+
+SW1(config-if)# ip dhcp snooping limit rate 6</pre>
+<p><strong>What is the effect after these commands are entered?</strong></p>
+<ul>
+<li>If any of the FastEthernet ports 5 through 10 receive more than 6 DHCP messages per second, the port will be shut down.</li>
+<li>FastEthernet ports 5 through 10 can receive up to 6 DHCP messages per second of any type.</li>
+<li>If any of the FastEthernet ports 5 through 10 receive more than 6 DHCP messages per second, the port will continue to operate and an error message will be sent to the network administrator.</li>
+<li><strong><span style="color: #ff0000;">FastEthernet ports 5 through 10 can receive up to 6 DHCP discovery messages per second.</span></strong></li>
+</ul>
+<div class="message_box success"><p><strong>Explanation: </strong>When DHCP snooping is being configured, the number of DHCP discovery messages that untrusted ports can receive per second should be rate-limited by using the ip dhcp snooping limit rate interface configuration command. When a port receives more messages than the rate allows, the extra messages will be dropped.</p></div>
+<p><strong>57. A network administrator is configuring port security on a Cisco switch. The company security policy specifies that when a violation occurs, packets with unknown source addresses should be dropped and no notification should be sent. Which violation mode should be configured on the interfaces?</strong></p>
+<ul>
+<li>off</li>
+<li>restrict</li>
+<li><span style="color: #ff0000;"><strong>protect</strong></span></li>
+<li>shutdown</li>
+</ul>
+<div class="message_box success"><p><strong>Explain:</strong> On a Cisco switch, an interface can be configured for one of three violation modes, specifying the action to be taken if a violation occurs:Protect – Packets with unknown source addresses are dropped until a sufficient number of secure MAC addresses are removed, or the number of maximum allowable addresses is increased. There is no notification that a security violation has occurred.<br />
+Restrict – Packets with unknown source addresses are dropped until a sufficient number of secure MAC addresses are removed, or the number of maximum allowable addresses is increased. In this mode, there is a notification that a security violation has occurred.<br />
+Shutdown – The interface immediately becomes error-disabled and the port LED is turned off.</p></div>
+<p><strong>58. A network administrator is working to improve WLAN performance on a dual-band wireless router. What is a simple way to achieve a split-the-traffic result?</strong></p>
+<ul>
+<li>Add a Wi-Fi range extender to the WLAN and set the AP and the range extender to serve different bands.</li>
+<li>Check and keep the firmware of the wireless router updated.</li>
+<li><strong><span style="color: #ff0000;">Make sure that different SSIDs are used for the 2.4 GHz and 5 GHz bands.</span></strong></li>
+<li>Require all wireless devices to use the 802.11n standard.</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation: </strong>By default, dual-band routers and APs use the same network name on both the 2.4 GHz band and the 5 GHz band. The simplest way to segment traffic is to rename one of the wireless networks.</p></div>
+<p><strong>59. Which access control component, implementation, or protocol controls what users can do on the network?</strong></p>
+<ul>
+<li>accounting</li>
+<li>802.1X</li>
+<li><strong><span style="color: #ff0000;">authorization</span></strong></li>
+<li>authentication</li>
+</ul>
+<p><strong>60. Which type of wireless network is suitable for providing wireless access to a city or district?</strong></p>
+<ul>
+<li>wireless wide-area network</li>
+<li>wireless personal-area network</li>
+<li>wireless local-area network</li>
+<li><strong><span style="color: #ff0000;">wireless metropolitan-area network</span></strong></li>
+</ul>
+<p><strong>61. On a Cisco 3504 WLC Summary page ( Advanced &gt; Summary ), which tab allows a network administrator to access and configure a WLAN for a specific security option such as WPA2?</strong></p>
+<ul>
+<li>MANAGEMENT</li>
+<li>WIRELESS</li>
+<li><strong><span style="color: #ff0000;">WLANs</span></strong></li>
+<li>SECURITY</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> The <b>WLANs</b> tab in the Cisco 3504 WLC advanced <b>Summary</b> page allows a user to access the configuration of WLANs including security, QoS, and policy-mapping.</p></div>
+<p><strong>62. What type of wireless antenna is best suited for providing coverage in large open spaces, such as hallways or large conference rooms?</strong></p>
+<ul>
+<li>Yagi</li>
+<li><strong><span style="color: #ff0000;">omnidirectional</span></strong></li>
+<li>dish</li>
+<li>directional</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Omnidirectional antennas send the radio signals in a 360 degree pattern around the antenna. This provides coverage to devices situated anywhere around the access point. Dishes, directional, and Yagi antennas focus the radio signals in a single direction, making them less suitable for covering large, open areas.</p></div>
+<p><strong>64. What security benefit is gained from enabling BPDU guard on PortFast enabled interfaces?</strong></p>
+<ul>
+<li>preventing buffer overflow attacks</li>
+<li><strong><span style="color: #ff0000;">preventing rogue switches from being added to the network</span></strong></li>
+<li>protecting against Layer 2 loops</li>
+<li>enforcing the placement of root bridges</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation: </strong>BPDU guard immediately error-disables a port that receives a BPDU. This prevents rogue switches from being added to the network. BPDU guard should only be applied to all end-user ports.</p></div>
+<p><strong>65. Which access control component, implementation, or protocol logs EXEC and configuration commands configured by a user?</strong></p>
+<ul>
+<li>authentication</li>
+<li>authorization</li>
+<li>802.1X</li>
+<li><strong><span style="color: #ff0000;">accounting</span></strong></li>
+</ul>
+<p><strong>66. Which type of wireless network uses transmitters to provide coverage over an extensive geographic area?</strong></p>
+<ul>
+<li>wireless metropolitan-area network</li>
+<li>wireless local-area network</li>
+<li>wireless personal-area network</li>
+<li><span style="color: #ff0000;"><strong>wireless wide-area network</strong></span></li>
+</ul>
+<p><strong>67. Which access control component, implementation, or protocol controls who is permitted to access a network?</strong></p>
+<ul>
+<li>authorization</li>
+<li>802.1X</li>
+<li>accounting</li>
+<li><span style="color: red;"><strong>authentication</strong></span></li>
+</ul>
+<p><strong>68. What two IEEE 802.11 wireless standards operate only in the 5 GHz range? (Choose two.)</strong></p>
+<ul>
+<li>802.11g</li>
+<li>802.11ad</li>
+<li><span style="color: #ff0000;"><strong>802.11ac</strong></span></li>
+<li><span style="color: #ff0000;"><strong>802.11a</strong></span></li>
+<li>802.11n</li>
+<li>802.11b</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation: </strong>The 802.11a and 802.11ac standards operate only in the 5 GHZ range. The 802.11b and 802.11g standards operate only in the 2.4 GHz range. The 802.11n standard operates in both the 2.4 and 5 GHz ranges. The 802.11ad standard operates in the 2.4, 5, and 60 GHz ranges.</p></div>
+<p><strong>69. Which type of wireless network uses low powered transmitters for a short-range network, usually 20 to 30 ft. (6 to 9 meters)?</strong></p>
+<ul>
+<li>wireless metropolitan-area network</li>
+<li><span style="color: #ff0000;"><strong>wireless personal-area network</strong></span></li>
+<li>wireless local-area network</li>
+<li>wireless wide-area network</li>
+</ul>
+<p><strong>71. Which wireless network topology would be used by network engineers to provide a wireless network for an entire college building?</strong></p>
+<ul>
+<li>ad hoc</li>
+<li>hotspot</li>
+<li><span style="color: #ff0000;"><strong>infrastructure</strong></span></li>
+<li>mixed mode</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> Ad hoc mode (also known as independent basic service set or IBSS) is used in a peer-to-peer wireless network such as when Bluetooth is used. A variation of the ad hoc topology exists when a smart phone or tablet with cellular data access is enabled to create a personal wireless hotspot. Mixed mode allows older wireless NICs to attach to an access point that can use a newer wireless standard.</p></div>
+<p><strong>72. Which type of wireless network uses transmitters to provide wireless service over a large urban region?</strong></p>
+<ul>
+<li>wireless wide-area network</li>
+<li>wireless personal-area network</li>
+<li><span style="color: #ff0000;"><strong>wireless metropolitan-area network</strong></span></li>
+<li>wireless local-area network.</li>
+</ul>
+<p><strong>73. Which type of wireless network is suitable for use in a home or office?</strong></p>
+<ul>
+<li>wireless wide-area network</li>
+<li>wireless personal-area network</li>
+<li><span style="color: red;"><strong>wireless local-area network</strong></span></li>
+<li>wireless metropolitan-area network</li>
+</ul>
+<p><strong>74. Which access control component, implementation, or protocol indicates success or failure of a client-requested service with a PASS or FAIL message?</strong></p>
+<ul>
+<li>accounting</li>
+<li>authentication</li>
+<li>802.1X</li>
+<li><span style="color: red;"><strong>authorization</strong></span></li>
+</ul>
+<p><strong>75. Which type of wireless network often makes use of devices mounted on buildings?</strong></p>
+<ul>
+<li>wireless local-area network</li>
+<li><span style="color: red;"><strong>wireless metropolitan-area network</strong></span></li>
+<li>wireless personal-area network</li>
+<li>wireless wide-area network</li>
+</ul>
+<p><strong>76. A network administrator is configuring DAI on a switch with the command ip arp inspection validate src-mac . What is the purpose of this configuration command?</strong></p>
+<ul>
+<li>It checks the source MAC address in the Ethernet header against the user-configured ARP ACLs.</li>
+<li>It checks the source MAC address in the Ethernet header against the MAC address table.</li>
+<li><span style="color: red;"><strong>It checks the source MAC address in the Ethernet header against the sender MAC address in the ARP body.</strong></span></li>
+<li>It checks the source MAC address in the Ethernet header against the target MAC address in the ARP body.</li>
+</ul>
+<div class="message_box success"><p><b>Explanation:</b> DAI can be configured to check for both destination or source MAC and IP addresses:<br />
+<b>Destination MAC</b> &#8211; Checks the destination MAC address in the Ethernet header against the target MAC address in the ARP body.<br />
+<b>Source MAC</b> &#8211; Checks the source MAC address in the Ethernet header against the sender MAC address in the ARP body.<br />
+<b>IP address</b> &#8211; Checks the ARP body for invalid and unexpected IP addresses including addresses 0.0.0.0, 255.255.255.255, and all IP multicast addresses.</p></div>
+<p><strong>77. Which access control component, implementation, or protocol collects and reports usage data?</strong></p>
+<ul>
+<li><span style="color: red;"><strong>accounting</strong></span></li>
+<li>authentication</li>
+<li>authorization</li>
+<li>802.1X</li>
+</ul>
+<p><strong>78. Which type of wireless network uses transmitters to cover a medium-sized network, usually up to 300 feet (91.4 meters)?</strong></p>
+<ul>
+<li><span style="color: red;"><strong>Wireless LANs (WLAN)</strong></span></li>
+</ul>
+<p><b>79. Which access control component, implementation, or protocol audits what users actions are performed on the network?</b></p>
+<ul>
+<li><span style="color: red;"><strong>Accounting</strong></span></li>
+<li>Authorization</li>
+<li>Authentication</li>
+<li>802.1X</li>
+</ul>
+<div class="message_box success"><p><strong>Explanation: </strong><br />
+The final plank in the AAA framework is accounting, which measures the resources a user consumes during access. This can include the amount of system time or the amount of data a user has sent and/or received during a session. Accounting is carried out by logging of session statistics and usage information and is used for authorization control, billing, trend analysis, resource utilization, and capacity planning activities.</p></div>
+<p><b>80. Which type of wireless network commonly uses Bluetooth or ZigBee devices?</b></p>
+<ul>
+<li>wireless wide-area network</li>
+<li><span style="color: #ff0000;"><strong>wireless personal-area network</strong></span></li>
+<li>wireless local-area network</li>
+<li>wireless metropolitan-area network</li>
+</ul>
+<p><b>81. Which access control component, implementation, or protocol is implemented either locally or as a server-based solution?</b></p>
+<ul>
+<li>authorization</li>
+<li>802.1X</li>
+<li>accounting</li>
+<li><span style="color: #ff0000;"><strong>authentication</strong></span></li>
+</ul>
+<p><strong>82. A technician is troubleshooting a slow WLAN and decides to use the split-the-traffic approach. Which two parameters would have to be configured to do this? (Choose two.)</strong></p>
+<ul>
+<li><span style="color: red;"><strong>Configure the 5 GHz band for streaming multimedia and time sensitive traffic.</strong></span></li>
+<li>Configure the security mode to WPA Personal TKIP/AES for one network and WPA2 Personal AES for the other network</li>
+<li><span style="color: red;"><strong>Configure the 2.4 GHz band for basic internet traffic that is not time sensitive.</strong></span></li>
+<li>Configure the security mode to WPA Personal TKIP/AES for both networks.</li>
+<li>Configure a common SSID for both split networks.</li>
+</ul>
+<p><strong>83. Which access control component, implementation, or protocol restricts LAN access through publicly accessible switch ports?</strong></p>
+<ul>
+<li><span style="color: red;"><strong>802.1X</strong></span></li>
+<li>authorization</li>
+<li>accounting</li>
+<li>authentication</li>
+</ul>
+<p><strong>84. A network administrator is required to upgrade wireless access to end users in a building. To provide data rates up to 1.3Gb/s and still be backward compatible with older devices, which wireless standard should be implemented?</strong></p>
+<ul>
+<li>802.11g</li>
+<li>802.11n</li>
+<li class="correct_answer">802.11ac</li>
+<li>802.11b</li>
+</ul>
