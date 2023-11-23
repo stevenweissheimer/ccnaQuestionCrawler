@@ -75,6 +75,7 @@ app.post('/addQuestion', upload.fields([
     const timestamp = new Date(); // Aktuelles Datum und Uhrzeit
 
     const newQuestion = {
+        questionId: Math.floor(1000000000000000 + Math.random() * 9000000000000000), // 16-stellige zufällige Zahl
         courseId: selectedCourse.courseId,
         subCourseId: selectedSubcourse.subCourseId,
         categoryId: selectedCategory.categoryId,

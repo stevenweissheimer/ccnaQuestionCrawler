@@ -590,7 +590,7 @@
     "categoryId": 3123446799,
     "questionType": 3719829076,
     "timestamp": "2023-11-22T16:28:24.134Z",
-    "question": "18. Refer to the exhibit. A network administrator is configuring access control to switch SW1. If the administrator uses a console connection to connect to the switch, which password is needed to access user EXEC mode?",
+    "question": "Refer to the exhibit. A network administrator is configuring access control to switch SW1. If the administrator uses a console connection to connect to the switch, which password is needed to access user EXEC mode?",
     "questionText": "",
     "answersDescription": "Telnet accesses a network device through the virtual interface configured with the line VTY command. The password configured under this is required to access the user EXEC mode. The password configured under the line console 0 command is required to gain entry through the console port, and the enable and enable secret passwords are used to allow entry into the privileged EXEC mode.",
     "questionImage": "7003835997.jpg",
@@ -1739,7 +1739,7 @@
     "questionText": "Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.",
     "answersDescription": "After the enable command is issued, the show running-configuration command or the show ip interfaces brief command will display the IP address of the switch virtual interface (SVI).",
     "questionImage": "9290229582.jpg",
-    "questionFile" : "9290229582.pka",
+    "questionFile": "9290229582.pka",
     "answers": [
       {
         "id": 7296328171,
@@ -4376,7 +4376,7 @@
     "questionText": "Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.",
     "answersDescription": "Issuing the command ipconfig /all from the PC0 command prompt displays the IPv4 address and MAC address. When the IPv4 address 10.1.1.5 is pinged from PC0, the switch stores the source MAC address (from PC0) along with the port to which PC0 is connected. When the destination reply is received, the switch takes the destination MAC address and compares to MAC addresses stored in the MAC address table. Issuing the show mac-address-table on the PC0 Terminal application displays two dynamic MAC address entries. The MAC address and port entry that does not belong to PC0 must be the MAC address and port of the destination with the IPv4 address 10.1.1.5.",
     "questionImage": "7581728453.jpg",
-    "questionFile" : "7581728453.pka",
+    "questionFile": "7581728453.pka",
     "answers": [
       {
         "id": 4534198747,
@@ -7123,7 +7123,7 @@
     "questionText": "Open the PT activity. Perform the tasks in the activity instructions and then answer the question.",
     "answersDescription": "The command to use for this activity is show ip interface brief in each router. The active and operational interfaces are represented by the value “up” in the “Status” and “Protocol” columns. The interfaces in R1 with these characteristics are G0/0 and S0/0/0. In R2 they are G0/1 and S0/0/0.",
     "questionImage": "9582665020.jpg",
-    "questionFile" : "",
+    "questionFile": "9582665020.pka",
     "answers": [
       {
         "id": 8885494307,
@@ -8131,6 +8131,572 @@
       {
         "id": 1537832038,
         "title": "192.168.200.80",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:16:05.875Z",
+    "question": "What is the prefix length notation for the subnet mask 255.255.255.224?",
+    "questionText": "",
+    "answersDescription": "The binary format for 255.255.255.224 is 11111111.11111111.11111111.11100000. The prefix length is the number of consecutive 1s in the subnet mask. Therefore, the prefix length is /27.",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 7811504180,
+        "title": "/25",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2858764794,
+        "title": "/26",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7635656666,
+        "title": "/27",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5908231155,
+        "title": "/28",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:16:39.191Z",
+    "question": "How many valid host addresses are available on an IPv4 subnet that is configured with a /26 mask?",
+    "questionText": "",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 5039778286,
+        "title": "254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2964670689,
+        "title": "190",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9889767352,
+        "title": "192",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9672940273,
+        "title": "62",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 4990477366,
+        "title": "64",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:17:16.907Z",
+    "question": "Which subnet mask would be used if 5 host bits are available?",
+    "questionText": "",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 5729475862,
+        "title": "255.255.255.0",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6238588505,
+        "title": "255.255.255.128",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1390759332,
+        "title": "255.255.255.224",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 9400639411,
+        "title": "255.255.255.240",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:17:45.301Z",
+    "question": "A network administrator subnets the 192.168.10.0/24 network into subnets with /26 masks. How many equal-sized subnets are created?",
+    "questionText": "",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 1132361542,
+        "title": "1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7851309380,
+        "title": "2",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4684866663,
+        "title": "4",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 7037285572,
+        "title": "8",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7317250724,
+        "title": "16",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1170533897,
+        "title": "64",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:19:09.538Z",
+    "question": "An administrator wants to create four subnetworks from the network address 192.168.1.0/24. What is the network address and subnet mask of the second useable subnet?",
+    "questionText": "",
+    "answersDescription": "The number of bits that are borrowed would be two, thus giving a total of 4 useable subnets:\r\n192.168.1.0\r\n192.168.1.64\r\n192.168.1.128\r\n192.168.1.192\r\nBecause 2 bits are borrowed, the new subnet mask would be /26 or 255.255.255.192",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 5379101892,
+        "title": "subnetwork 192.168.1.64\r\nsubnet mask 255.255.255.192\r\n",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 6775152055,
+        "title": "subnetwork 192.168.1.32\r\nsubnet mask 255.255.255.240",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1303401628,
+        "title": "subnetwork 192.168.1.64\r\nsubnet mask 255.255.255.240",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7099214560,
+        "title": "subnetwork 192.168.1.128\r\nsubnet mask 255.255.255.192",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1785933054,
+        "title": "subnetwork 192.168.1.8\r\nsubnet mask 255.255.255.224",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:19:48.956Z",
+    "question": "How many bits must be borrowed from the host portion of an address to accommodate a router with five connected networks?",
+    "questionText": "",
+    "answersDescription": "Each network that is directly connected to an interface on a router requires its own subnet. The formula 2n, where n is the number of bits borrowed, is used to calculate the available number of subnets when borrowing a specific number of bits.",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 4810370632,
+        "title": "two",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7278168088,
+        "title": "three",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 5417357533,
+        "title": "four",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2112556497,
+        "title": "five",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:20:21.721Z",
+    "question": "How many host addresses are available on the 192.168.10.128/26 network?",
+    "questionText": "",
+    "answersDescription": "A /26 prefix gives 6 host bits, which provides a total of 64 addresses, because 26 = 64. Subtracting the network and broadcast addresses leaves 62 usable host addresses.",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 9909894538,
+        "title": "30",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4280478684,
+        "title": "32",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1771428750,
+        "title": "60",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5672988317,
+        "title": "62",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 7435498278,
+        "title": "64",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:21:14.183Z",
+    "question": "How many host addresses are available on the network 172.16.128.0 with a subnet mask of 255.255.252.0?",
+    "questionText": "",
+    "answersDescription": "A mask of 255.255.252.0 is equal to a prefix of /22. A /22 prefix provides 22 bits for the network portion and leaves 10 bits for the host portion. The 10 bits in the host portion will provide 1022 usable IP addresses (210 – 2 = 1022).",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 5455824341,
+        "title": "510",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7226979403,
+        "title": "512",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5033001380,
+        "title": "1022",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 2677163755,
+        "title": "1024",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3777487591,
+        "title": "2046",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1720009458,
+        "title": "2048",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:22:31.778Z",
+    "question": "What three blocks of addresses are defined by RFC 1918 for private network use? (Choose three.)",
+    "questionText": "",
+    "answersDescription": "RFC 1918, Address Allocation for Private Internets, defines three blocks of IPv4 address for private networks that should not be routable on the public Internet.\r\n\r\n10.0.0.0/8\r\n172.16.0.0/12\r\n192.168.0.0/16",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 8119771019,
+        "title": "10.0.0.0/8",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 6158428988,
+        "title": "172.16.0.0/12",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 3250716369,
+        "title": "192.168.0.0/16",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 4885787415,
+        "title": "100.64.0.0/14",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 8100159065,
+        "title": "169.254.0.0/16",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3615559260,
+        "title": "239.0.0.0/8",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T09:03:43.469Z",
+    "question": "Refer to the exhibit. An administrator must send a message to everyone on the router A network. What is the broadcast address for network 172.16.16.0/22?",
+    "questionText": "",
+    "answersDescription": "The 172.16.16.0/22 network has 22 bits in the network portion and 10 bits in the host portion. Converting the network address to binary yields a subnet mask of 255.255.252.0. The range of addresses in this network will end with the last address available before 172.16.20.0. Valid host addresses for this network range from 172.16.16.1-172.16.19.254, making 172.16.19.255 the broadcast address.",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 2319352488,
+        "title": "172.16.16.255",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3255597434,
+        "title": "172.16.20.255",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9761711061,
+        "title": "172.16.19.255",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 9670666909,
+        "title": "172.16.23.255",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9466498968,
+        "title": "172.16.255.255",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T09:04:30.943Z",
+    "question": "A site administrator has been told that a particular network at the site must accommodate 126 hosts. Which subnet mask would be used that contains the required number of host bits?",
+    "questionText": "",
+    "answersDescription": "The subnet mask of 255.255.255.0 has 8 host bits. The mask of 255.255.255.128 results in 7 host bits. The mask of 255.255.255.224 has 5 host bits. Finally, 255.255.255.240 represents 4 host bits.",
+    "questionImage": "9154048863.png",
+    "answers": [
+      {
+        "id": 3806831191,
+        "title": "255.255.255.0",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5450157857,
+        "title": "255.255.255.128",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 1879305531,
+        "title": "255.255.255.224",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4800072241,
+        "title": "255.255.255.240",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T09:06:11.668Z",
+    "question": "Refer to the exhibit. Considering the addresses already used and having to remain within the 10.16.10.0/24 network range, which subnet address could be assigned to the network containing 25 hosts?",
+    "questionText": "",
+    "answersDescription": "Addresses 10.16.10.0 through 10.16.10.63 are taken for the leftmost network. Addresses 10.16.10.192 through 10.16.10.207 are used by the center network.The address space from 208-255 assumes a /28 mask, which does not allow enough host bits to accommodate 25 host addresses.The address ranges that are available include 10.16.10.64/26 and10.16.10.128/26. To accommodate 25 hosts, 5 host bits are needed, so a /27 mask is necessary. Four possible /27 subnets could be created from the available addresses between 10.16.10.64 and 10.16.10.191:\r\n10.16.10.64/27\r\n10.16.10.96/27\r\n10.16.10.128/27\r\n10.16.10.160/27",
+    "questionImage": "7114044860.png",
+    "answers": [
+      {
+        "id": 3528169240,
+        "title": "10.16.10.160/26",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2492769213,
+        "title": "10.16.10.128/28",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4724592704,
+        "title": "10.16.10.64/27",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9303173562,
+        "title": "10.16.10.224/26",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4573298799,
+        "title": "10.16.10.240/27",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3732346760,
+        "title": "10.16.10.240/28",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "questionId": 4551071671899945,
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T09:15:44.957Z",
+    "question": "15. What is the usable number of host IP addresses on a network that has a /26 mask?",
+    "questionText": "",
+    "answersDescription": "A /26 mask is the same as 255.255.255.192. The mask leaves 6 host bits. With 6 host bits, 64 IP addresses are possible. One address represents the subnet number and one address represents the broadcast address, which means that 62 addresses can then be used to assign to network devices.",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 6940832228,
+        "title": "256",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4197707690,
+        "title": "254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7793570017,
+        "title": "64",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4763023312,
+        "title": "62",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 6576348167,
+        "title": "32",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5969706803,
+        "title": "16",
         "image": "",
         "correct": false
       }

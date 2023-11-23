@@ -32,12 +32,20 @@ def convert_question_format(question, courses):
     question_image_url = f"https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/{question.get('questionImage', '')}"
 
     # Generate the question HTML
-    question_html = f"<p style='font-size: 20px;'>{question['question']}</p>"
+    question_html = f"<p style='font-size: 22px;'>{question['question']}</p>"
     if question_text:
-        question_html += f"<p>{question_text}</p>"
-        # Append the URL to the image, if it exists
-        if question.get('questionImage'):
-            question_html += f"<p><img src='{question_image_url}' alt='Question Image'></p>"
+        question_html += f"<p style='font-size: 16px;'>{question_text}</p>"
+    # Append the URL to the image, if it exists
+    if question.get('questionImage'):
+        question_html += f"<p><img src='{question_image_url}' alt='Question Image'></p>"
+
+    # Check if questionFile exists and add the link if it does
+    question_file_link = ""
+    if question.get('questionFile'):
+        question_file_link = f"<br><br><a href='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/files/{question['questionFile']}'>Link to Question File</a>"
+
+    # Append the link to the question file
+    question_html += question_file_link
 
     # Generate the answer HTML
     answer_html = f"<div>{question.get('answersDescription', '')}</div>"

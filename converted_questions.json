@@ -1,6 +1,6 @@
 [
    {
-      "question": "<p style='font-size: 24px;'>During a routine inspection, a technician discovered that software that was installed on a computer was secretly collecting data about websites that were visited by users of the computer. Which type of threat is affecting this computer?</p>",
+      "question": "<p style='font-size: 22px;'>During a routine inspection, a technician discovered that software that was installed on a computer was secretly collecting data about websites that were visited by users of the computer. Which type of threat is affecting this computer?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -30,7 +30,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which term refers to a network that provides secure access to the corporate offices by suppliers, customers and collaborators?</p>",
+      "question": "<p style='font-size: 22px;'>Which term refers to a network that provides secure access to the corporate offices by suppliers, customers and collaborators?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -60,7 +60,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A large corporation has modified its network to allow users to access network resources from their personal laptops and smart phones. Which networking trend does this describe?</p>",
+      "question": "<p style='font-size: 22px;'>A large corporation has modified its network to allow users to access network resources from their personal laptops and smart phones. Which networking trend does this describe?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -90,7 +90,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is an ISP?</p>",
+      "question": "<p style='font-size: 22px;'>What is an ISP?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -120,7 +120,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>An employee at a branch office is creating a quote for a customer. In order to do this, the employee needs to access confidential pricing information from internal servers at the Head Office. What type of network would the employee access?</p>",
+      "question": "<p style='font-size: 22px;'>An employee at a branch office is creating a quote for a customer. In order to do this, the employee needs to access confidential pricing information from internal servers at the Head Office. What type of network would the employee access?</p>",
       "answer": "<div>Intranet is a term used to refer to a private connection of LANs and WANs that belongs to an organization. An intranet is designed to be accessible only by the organization’s members, employees, or others with authorization.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -150,7 +150,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which statement describes the use of powerline networking technology?</p>",
+      "question": "<p style='font-size: 22px;'>Which statement describes the use of powerline networking technology?</p>",
       "answer": "<div>Powerline networking adds the ability to connect a device to the network using an adapter wherever there is an electrical outlet.​ The network uses existing electrical wiring to send data. It is not a replacement for physical cabling, but it can add functionality in places where wireless access points cannot be used or cannot reach devices.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -180,7 +180,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A networking technician is working on the wireless network at a medical clinic. The technician accidentally sets up the wireless network so that patients can see the medical records data of other patients. Which of the four network characteristics has been violated in this situation?</p>",
+      "question": "<p style='font-size: 22px;'>A networking technician is working on the wireless network at a medical clinic. The technician accidentally sets up the wireless network so that patients can see the medical records data of other patients. Which of the four network characteristics has been violated in this situation?</p>",
       "answer": "<div>Network security includes protecting the confidentiality of data that is on the network. In this case, because confidential data has been made available to unauthorized users, the security characteristic of the network has failed.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -215,7 +215,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What two criteria are used to help select a network medium from various network media? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>What two criteria are used to help select a network medium from various network media? (Choose two.)</p>",
       "answer": "<div>Criteria for choosing a network medium are the distance the selected medium can successfully carry a signal, the environment in which the selected medium is to be installed, the amount of data and the speed at which the data must be transmitted, and the cost of the medium and its installation.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -250,7 +250,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What type of network traffic requires QoS?</p>",
+      "question": "<p style='font-size: 22px;'>What type of network traffic requires QoS?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -280,7 +280,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A user is implementing security on a small office network. Which two actions would provide the minimum security requirements for this network? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>A user is implementing security on a small office network. Which two actions would provide the minimum security requirements for this network? (Choose two.)</p>",
       "answer": "<div>Technically complex security measures such as intrusion prevention and intrusion prevention systems are usually associated with business networks rather than home networks. Installing antivirus software, antimalware software, and implementing a firewall will usually be the minimum requirements for home networks. Installing a home wireless network will not improve network security, and will require further security actions to be taken.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -315,7 +315,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Passwords can be used to restrict access to all or parts of the Cisco IOS. Select the modes and interfaces that can be protected with passwords. (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>Passwords can be used to restrict access to all or parts of the Cisco IOS. Select the modes and interfaces that can be protected with passwords. (Choose three.)</p>",
       "answer": "<div>Access to the VTY and console interfaces can be restricted using passwords. Out-of-band management of the router can be restricted in both user EXEC and privileged EXEC modes.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -355,7 +355,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which interface allows remote management of a Layer 2 switch?</p>",
+      "question": "<p style='font-size: 22px;'>Which interface allows remote management of a Layer 2 switch?</p>",
       "answer": "<div>In a Layer 2 switch, there is a switch virtual interface (SVI) that provides a means for remotely managing the device.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -385,7 +385,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What function does pressing the Tab key have when entering a command in IOS?</p>",
+      "question": "<p style='font-size: 22px;'>What function does pressing the Tab key have when entering a command in IOS?</p>",
       "answer": "<div>Pressing the Tab key after a command has been partially typed will cause the IOS to complete the rest of the command.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -415,7 +415,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>While trying to solve a network issue, a technician made multiple changes to the current router configuration file. The changes did not solve the problem and were not saved. What action can the technician take to discard the changes and work with the file in NVRAM?</p>",
+      "question": "<p style='font-size: 22px;'>While trying to solve a network issue, a technician made multiple changes to the current router configuration file. The changes did not solve the problem and were not saved. What action can the technician take to discard the changes and work with the file in NVRAM?</p>",
       "answer": "<div>The technician does not want to make any mistakes trying to remove all the changes that were done to the running configuration file. The solution is to reboot the router without saving the running configuration. The copy startup-config running-config command does not overwrite the running configuration file with the configuration file stored in NVRAM, but rather it just has an additive effect.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -445,7 +445,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>An administrator uses the Ctrl-Shift-6 key combination on a switch after issuing the ping command. What is the purpose of using these keystrokes?</p>",
+      "question": "<p style='font-size: 22px;'>An administrator uses the Ctrl-Shift-6 key combination on a switch after issuing the ping command. What is the purpose of using these keystrokes?</p>",
       "answer": "<div>To interrupt an IOS process such as ping or traceroute, a user enters the Ctrl-Shift-6 key combination. Tab completes the remainder of parameters or arguments within a command. To exit from configuration mode to privileged mode use the Ctrl-Z keystroke. CTRL-R will redisplay the line just typed, thus making it easier for the user to press Enter and reissue the ping command.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -475,7 +475,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>18. Refer to the exhibit. A network administrator is configuring access control to switch SW1. If the administrator uses a console connection to connect to the switch, which password is needed to access user EXEC mode?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is configuring access control to switch SW1. If the administrator uses a console connection to connect to the switch, which password is needed to access user EXEC mode?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/7003835997.jpg' alt='Question Image'></p>",
       "answer": "<div>Telnet accesses a network device through the virtual interface configured with the line VTY command. The password configured under this is required to access the user EXEC mode. The password configured under the line console 0 command is required to gain entry through the console port, and the enable and enable secret passwords are used to allow entry into the privileged EXEC mode.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -505,7 +505,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A technician configures a switch with these commands:</p><p>SwitchA(config)# interface vlan 1<br>SwitchA(config-if)# ip address 192.168.1.1 255.255.255.0<br>SwitchA(config-if)# no shutdown</p>",
+      "question": "<p style='font-size: 22px;'>A technician configures a switch with these commands:</p><p style='font-size: 16px;'>SwitchA(config)# interface vlan 1<br>SwitchA(config-if)# ip address 192.168.1.1 255.255.255.0<br>SwitchA(config-if)# no shutdown</p>",
       "answer": "<div>For a switch to have an IP address, a switch virtual interface must be configured. This allows the switch to be managed remotely over the network.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -535,7 +535,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which command or key combination allows a user to return to the previous level in the command hierarchy?</p>",
+      "question": "<p style='font-size: 22px;'>Which command or key combination allows a user to return to the previous level in the command hierarchy?</p>",
       "answer": "<div>End and CTRL-Z return the user to the privileged EXEC mode. Ctrl-C ends a command in process. The exit command returns the user to the previous level.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -565,7 +565,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are two characteristics of RAM on a Cisco device? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>What are two characteristics of RAM on a Cisco device? (Choose two.)</p>",
       "answer": "<div>RAM stores data that is used by the device to support network operations. The running configuration is stored in RAM. This type of memory is considered volatile memory because data is lost during a power cycle. Flash memory stores the IOS and delivers a copy of the IOS into RAM when a device is powered on. Flash memory is nonvolatile since it retains stored contents during a loss of power.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -600,7 +600,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two host names follow the guidelines for naming conventions on Cisco IOS devices? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two host names follow the guidelines for naming conventions on Cisco IOS devices? (Choose two.)</p>",
       "answer": "<div>Some guidelines for naming conventions are that names should:\r\nStart with a letter\r\nContain no spaces\r\nEnd with a letter or digit\r\nUse only letters, digits, and dashes\r\nBe less than 64 characters in length</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -635,7 +635,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>How is SSH different from Telnet?</p>",
+      "question": "<p style='font-size: 22px;'>How is SSH different from Telnet?</p>",
       "answer": "<div>SSH is the preferred protocol for connecting to a device operating system over the network because it is much more secure than Telnet. Both SSH and Telnet are used to connect to devices over the network, and so are both used in-band. PuTTY and Terra Term can be used to make both SSH and Telnet connections.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -665,7 +665,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are three characteristics of an SVI? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>What are three characteristics of an SVI? (Choose three.)</p>",
       "answer": "<div>Switches have one or more switch virtual interfaces (SVIs). SVIs are created in software since there is no physical hardware associated with them. Virtual interfaces provide a means to remotely manage a switch over a network that is using IP. Each switch comes with one SVI appearing in the default configuration “out-of-the-box.” The default SVI interface is VLAN1.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -705,7 +705,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What command is used to verify the condition of the switch interfaces, including the status of the interfaces and a configured IP address?</p>",
+      "question": "<p style='font-size: 22px;'>What command is used to verify the condition of the switch interfaces, including the status of the interfaces and a configured IP address?</p>",
       "answer": "<div>The show ip interface brief command is used to display a brief synopsis of the condition of the device interfaces. The ipconfig command is used to verify TCP/IP properties on a host. The ping command is used to verify Layer 3 connectivity. The traceroute command is used to trace the network path from source to destination.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -735,7 +735,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>In the show running-config command, which part of the syntax is represented by running-config ?</p>",
+      "question": "<p style='font-size: 22px;'>In the show running-config command, which part of the syntax is represented by running-config ?</p>",
       "answer": "<div>The first part of the syntax, show, is the command, and the second part of the syntax, running-config, is the keyword. The keyword specifies what should be displayed as the output of the show command.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -765,7 +765,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>30. After making configuration changes on a Cisco switch, a network administrator issues a copy running-config startup-config command. What is the result of issuing this command?</p>",
+      "question": "<p style='font-size: 22px;'>30. After making configuration changes on a Cisco switch, a network administrator issues a copy running-config startup-config command. What is the result of issuing this command?</p>",
       "answer": "<div>With the copy <code>running-config startup-config<code> command, the content of the current operating configuration replaces the startup configuration file stored in NVRAM. The configuration file saved in NVRAM will be loaded when the device is restarted.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -795,7 +795,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What command will prevent all unencrypted passwords from displaying in plain text in a configuration file?</p>",
+      "question": "<p style='font-size: 22px;'>What command will prevent all unencrypted passwords from displaying in plain text in a configuration file?</p>",
       "answer": "<div>To prevent all configured passwords from appearing in plain text in configuration files, an administrator can execute the service password-encryption command. This command encrypts all configured passwords in the configuration file.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -830,7 +830,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A network administrator enters the service password-encryption command into the configuration mode of a router. What does this command accomplish?</p>",
+      "question": "<p style='font-size: 22px;'>A network administrator enters the service password-encryption command into the configuration mode of a router. What does this command accomplish?</p>",
       "answer": "<div>The startup-config and running-config files display most passwords in plaintext. Use the service password-encryption global config command to encrypt all plaintext passwords in these files.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -865,7 +865,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What method can be used by two computers to ensure that packets are not dropped because too much data is being sent too quickly?</p>",
+      "question": "<p style='font-size: 22px;'>What method can be used by two computers to ensure that packets are not dropped because too much data is being sent too quickly?</p>",
       "answer": "<div>In order for two computers to be able to communicate effectively, there must be a mechanism that allows both the source and destination to set the timing of the transmission and receipt of data. Flow control allows for this by ensuring that data is not sent too fast for it to be received properly.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -895,7 +895,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which statement accurately describes a TCP/IP encapsulation process when a PC is sending data to the network?</p>",
+      "question": "<p style='font-size: 22px;'>Which statement accurately describes a TCP/IP encapsulation process when a PC is sending data to the network?</p>",
       "answer": "<div>When the data is traveling from the PC to the network, the transport layer sends segments to the internet layer. The internet layer sends packets to the network access layer, which creates frames and then converts the frames to bits. The bits are released to the network media.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -925,7 +925,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What three application layer protocols are part of the TCP/IP protocol suite? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>What three application layer protocols are part of the TCP/IP protocol suite? (Choose three.)</p>",
       "answer": "<div>DNS, DHCP, and FTP are all application layer protocols in the TCP/IP protocol suite. ARP and PPP are network access layer protocols, and NAT is an internet layer protocol in the TCP/IP protocol suite.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -965,7 +965,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>37. Which name is assigned to the transport layer PDU?</p>",
+      "question": "<p style='font-size: 22px;'>37. Which name is assigned to the transport layer PDU?</p>",
       "answer": "<div>Application data is passed down the protocol stack on its way to be transmitted across the network media. During the process, various protocols add information to it at each level. At each stage of the process, a PDU (protocol data unit) has a different name to reflect its new functions. The PDUs are named according to the protocols of the TCP/IP suite:\r\nData – The general term for the PDU used at the application layer.\r\nSegment – transport layer PDU\r\nPacket – network layer PDU\r\nFrame – data link layer PDU\r\nBits – A physical layer PDU used when physically transmitting data over the medium</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1000,7 +1000,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>When IPv4 addressing is manually configured on a web server, which property of the IPv4 configuration identifies the network and host portion for an IPv4 address?</p>",
+      "question": "<p style='font-size: 22px;'>When IPv4 addressing is manually configured on a web server, which property of the IPv4 configuration identifies the network and host portion for an IPv4 address?</p>",
       "answer": "<div>There are several components that need to be entered when configuring IPv4 for an end device:\r\nIPv4 address – uniquely identifies an end device on the network\r\nSubnet mask – determines the network address portion and host portion for an IPv4 address\r\nDefault gateway – the IP address of the router interface used for communicating with hosts in another network\r\nDNS server address – the IP address of the Domain Name System (DNS) server\r\nDHCP server address (if DHCP is used) is not configured manually on end devices. It will be provided by a DHCP server when an end device requests an IP address.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1030,7 +1030,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What process involves placing one PDU inside of another PDU?</p>",
+      "question": "<p style='font-size: 22px;'>What process involves placing one PDU inside of another PDU?</p>",
       "answer": "<div>When a message is placed inside of another message, this is known as encapsulation. On networks, encapsulation takes place when one protocol data unit is carried inside of the data field of the next lower protocol data unit.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1060,7 +1060,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What layer is responsible for routing messages through an internetwork in the TCP/IP model?</p>",
+      "question": "<p style='font-size: 22px;'>What layer is responsible for routing messages through an internetwork in the TCP/IP model?</p>",
       "answer": "<div>The TCP/IP model consists of four layers: application, transport, internet, and network access. Of these four layers, it is the internet layer that is responsible for routing messages. The session layer is not part of the TCP/IP model but is rather part of the OSI model.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1090,7 +1090,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which PDU format is used when bits are received from the network medium by the NIC of a host?</p>",
+      "question": "<p style='font-size: 22px;'>Which PDU format is used when bits are received from the network medium by the NIC of a host?</p>",
       "answer": "<div>When received at the physical layer of a host, the bits are formatted into a frame at the data link layer. A packet is the PDU at the network layer. A segment is the PDU at the transport layer. A file is a data structure that may be used at the application layer.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1120,7 +1120,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. ServerB is attempting to contact HostA. Which two statements correctly identify the addressing that ServerB will generate in the process? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. ServerB is attempting to contact HostA. Which two statements correctly identify the addressing that ServerB will generate in the process? (Choose two.)</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/4355230735.png' alt='Question Image'></p>",
       "answer": "<div>In order to send data to HostA, ServerB will generate a packet that contains the IP address of the destination device on the remote network and a frame that contains the MAC address of the default gateway device on the local network.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1160,7 +1160,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which method allows a computer to react accordingly when it requests data from a server and the server takes too long to respond?</p>",
+      "question": "<p style='font-size: 22px;'>Which method allows a computer to react accordingly when it requests data from a server and the server takes too long to respond?</p>",
       "answer": "<div>If a computer makes a request and does not hear a response within an acceptable amount of time, the computer assumes that no answer is coming and reacts accordingly.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1190,7 +1190,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A web client is receiving a response for a web page from a web server. From the perspective of the client, what is the correct order of the protocol stack that is used to decode the received transmission?</p>",
+      "question": "<p style='font-size: 22px;'>A web client is receiving a response for a web page from a web server. From the perspective of the client, what is the correct order of the protocol stack that is used to decode the received transmission?</p>",
       "answer": "<div>1. HTTP governs the way that a web server and client interact.\r\n2. TCP manages individual conversations between web servers and clients.\r\n3. IP is responsible for delivery across the best path to the destination.\r\n4. Ethernet takes the packet from IP and formats it for transmission.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1220,7 +1220,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two OSI model layers have the same functionality as a single layer of the TCP/IP model? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two OSI model layers have the same functionality as a single layer of the TCP/IP model? (Choose two.)</p>",
       "answer": "<div>The OSI data link and physical layers together are equivalent to the TCP/IP network access layer. The OSI transport layer is functionally equivalent to the TCP/IP transport layer, and the OSI network layer is equivalent to the TCP/IP internet layer. The OSI application, presentation, and session layers are functionally equivalent to the application layer within the TCP/IP model.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1255,7 +1255,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which layer of the OSI model would a logical address be added during encapsulation?</p>",
+      "question": "<p style='font-size: 22px;'>At which layer of the OSI model would a logical address be added during encapsulation?</p>",
       "answer": "<div>Logical addresses, also known as IP addresses, are added at the network layer. Physical addresses are edded at the data link layer. Port addresses are added at the transport layer. No addresses are added at the physical layer.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1285,7 +1285,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is a characteristic of multicast messages?</p>",
+      "question": "<p style='font-size: 22px;'>What is a characteristic of multicast messages?</p>",
       "answer": "<div>Multicast is a one-to-many type of communication. Multicast messages are addressed to a specific multicast group.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1315,7 +1315,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which statement is correct about network protocols?</p>",
+      "question": "<p style='font-size: 22px;'>Which statement is correct about network protocols?</p>",
       "answer": "<div>Network protocols are implemented in hardware, or software, or both. They interact with each other within different layers of a protocol stack. Protocols have nothing to do with the installation of the network equipment. Network protocols are required to exchange information between source and destination devices in both local and remote networks.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1345,7 +1345,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is an advantage of network devices using open standard protocols?</p>",
+      "question": "<p style='font-size: 22px;'>What is an advantage of network devices using open standard protocols?</p>",
       "answer": "<div>An advantage of network devices implementing open standard protocols, such as from the TCP/IP suite, is that clients and servers running different operating systems can communicate with each other. Open standard protocols facilitate innovation and competition between vendors and across markets, and can reduce the occurrence of monopolies in networking markets.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1375,7 +1375,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which device performs the function of determining the path that messages should take through internetworks?</p>",
+      "question": "<p style='font-size: 22px;'>Which device performs the function of determining the path that messages should take through internetworks?</p>",
       "answer": "<div>A router is used to determine the path that the messages should take through the network. A firewall is used to filter incoming and outgoing traffic. A DSL modem is used to provide Internet connection for a home or an organization.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1405,7 +1405,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is the IP address of the switch virtual interface (SVI) on Switch0?</p><p>Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/9290229582.jpg' alt='Question Image'></p>",
+      "question": "<p style='font-size: 22px;'>What is the IP address of the switch virtual interface (SVI) on Switch0?</p><p style='font-size: 16px;'>Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/9290229582.jpg' alt='Question Image'></p><br><br><a href='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/files/9290229582.pka'>Link to Question File</a>",
       "answer": "<div>After the enable command is issued, the show running-configuration command or the show ip interfaces brief command will display the IP address of the switch virtual interface (SVI).</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1435,7 +1435,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Why would a Layer 2 switch need an IP address?</p>",
+      "question": "<p style='font-size: 22px;'>Why would a Layer 2 switch need an IP address?</p>",
       "answer": "<div>A switch, as a Layer 2 device, does not need an IP address to transmit frames to attached devices. However, when a switch is accessed remotely through the network, it must have a Layer 3 address. The IP address must be applied to a virtual interface rather than to a physical interface. Routers, not switches, function as default gateways.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1465,7 +1465,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. An administrator is trying to configure the switch but receives the error message that is displayed in the exhibit. What is the problem?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. An administrator is trying to configure the switch but receives the error message that is displayed in the exhibit. What is the problem?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/2381240887.png' alt='Question Image'></p>",
       "answer": "<div>In order to enter global configuration mode, the command configure terminal, or a shortened version such as config t, must be entered from privileged EXEC mode. In this scenario the administrator is in user EXEC mode, as indicated by the > symbol after the hostname. The administrator would need to use the enable command to move into privileged EXEC mode before entering the configure terminal command.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1495,7 +1495,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes a network owned by one organization that provides safe and secure access to individuals who work for a different organization?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes a network owned by one organization that provides safe and secure access to individuals who work for a different organization?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1525,7 +1525,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes storing personal files on servers over the internet to provide access anywhere, anytime, and on any device?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes storing personal files on servers over the internet to provide access anywhere, anytime, and on any device?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1555,7 +1555,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes a network where one computer can be both client and server?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes a network where one computer can be both client and server?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1585,7 +1585,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes a type of network used by people who work from home or from a small remote office?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes a type of network used by people who work from home or from a small remote office?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1615,7 +1615,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes a computing model where server software runs on dedicated computers?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes a computing model where server software runs on dedicated computers?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1645,7 +1645,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes a technology that allows devices to connect to the LAN using an electrical outlet?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes a technology that allows devices to connect to the LAN using an electrical outlet?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1675,7 +1675,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes a policy that allows network devices to manage the flow of data to give priority to voice and video?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes a policy that allows network devices to manage the flow of data to give priority to voice and video?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1705,7 +1705,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes a private collection of LANs and WANs that belongs to an organization?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes a private collection of LANs and WANs that belongs to an organization?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1735,7 +1735,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What term describes the ability to use personal devices across a business or campus network?</p>",
+      "question": "<p style='font-size: 22px;'>What term describes the ability to use personal devices across a business or campus network?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1765,7 +1765,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which OSI layer is a source IP address added to a PDU during the encapsulation process?</p>",
+      "question": "<p style='font-size: 22px;'>At which OSI layer is a source IP address added to a PDU during the encapsulation process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1795,7 +1795,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which OSI layer is a destination port number added to a PDU during the encapsulation process?</p>",
+      "question": "<p style='font-size: 22px;'>At which OSI layer is a destination port number added to a PDU during the encapsulation process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1825,7 +1825,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which OSI layer is data added to a PDU during the encapsulation process?</p>",
+      "question": "<p style='font-size: 22px;'>At which OSI layer is data added to a PDU during the encapsulation process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1855,7 +1855,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which OSI layer is a source IP address added to a PDU during the encapsulation process?</p>",
+      "question": "<p style='font-size: 22px;'>At which OSI layer is a source IP address added to a PDU during the encapsulation process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1885,7 +1885,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which of the following is the name for all computers connected to a network that participate directly in network communication?</p>",
+      "question": "<p style='font-size: 22px;'>Which of the following is the name for all computers connected to a network that participate directly in network communication?</p>",
       "answer": "<div>Hosts are all computers connected to a network that participate directly in network communication.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1915,7 +1915,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which OSI layer is a destination IP address added to a PDU during the encapsulation process?</p>",
+      "question": "<p style='font-size: 22px;'>At which OSI layer is a destination IP address added to a PDU during the encapsulation process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1945,7 +1945,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which OSI layer is a source MAC address added to a PDU during the encapsulation process?</p>",
+      "question": "<p style='font-size: 22px;'>At which OSI layer is a source MAC address added to a PDU during the encapsulation process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -1975,7 +1975,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which OSI layer is a source port number added to a PDU during the encapsulation process?</p>",
+      "question": "<p style='font-size: 22px;'>At which OSI layer is a source port number added to a PDU during the encapsulation process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -2010,7 +2010,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>At which OSI layer is a destination MAC address added to a PDU during the encapsulation process?</p>",
+      "question": "<p style='font-size: 22px;'>At which OSI layer is a destination MAC address added to a PDU during the encapsulation process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -2040,7 +2040,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>When data is encoded as pulses of light, which media is being used to transmit the data?</p>",
+      "question": "<p style='font-size: 22px;'>When data is encoded as pulses of light, which media is being used to transmit the data?</p>",
       "answer": "<div>Fiber-optic cable is the media is being used to transmit the data when data is encoded as pulses of light.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -2065,7 +2065,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two devices are intermediary devices? (Choose two)</p>",
+      "question": "<p style='font-size: 22px;'>Which two devices are intermediary devices? (Choose two)</p>",
       "answer": "<div>Routers and switches are intermediary devices.</div>",
       "categories": [
          "ITN - Basic Network Connectivity and Communications",
@@ -2095,7 +2095,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is the purpose of the OSI physical layer?</p>",
+      "question": "<p style='font-size: 22px;'>What is the purpose of the OSI physical layer?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2125,7 +2125,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Why are two strands of fiber used for a single fiber optic connection?</p>",
+      "question": "<p style='font-size: 22px;'>Why are two strands of fiber used for a single fiber optic connection?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2155,7 +2155,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which characteristic describes crosstalk?</p>",
+      "question": "<p style='font-size: 22px;'>Which characteristic describes crosstalk?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2185,7 +2185,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which procedure is used to reduce the effect of crosstalk in copper cables?</p>",
+      "question": "<p style='font-size: 22px;'>Which procedure is used to reduce the effect of crosstalk in copper cables?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2220,7 +2220,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A network administrator is measuring the transfer of bits across the company backbone for a mission critical financial application. The administrator notices that the network throughput appears lower than the bandwidth expected. Which three factors could influence the differences in throughput? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>A network administrator is measuring the transfer of bits across the company backbone for a mission critical financial application. The administrator notices that the network throughput appears lower than the bandwidth expected. Which three factors could influence the differences in throughput? (Choose three.)</p>",
       "answer": "<div>Throughput usually does not match the specified bandwidth of physical links due to multiple factors. These factors include, the amount of traffic, type of traffic, and latency created by the network devices the data has to cross.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2260,7 +2260,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are two characteristics of fiber-optic cable? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>What are two characteristics of fiber-optic cable? (Choose two.)</p>",
       "answer": "<div>Fiber-optic cabling supports higher bandwidth than UTP for longer distances. Fiber is immune to EMI and RFI, but costs more, requires more skill to install, and requires more safety precautions.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2295,7 +2295,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>It is more expensive than UTP cabling is.</p>",
+      "question": "<p style='font-size: 22px;'>It is more expensive than UTP cabling is.</p>",
       "answer": "<div>The OSI physical layer provides the means to transport the bits that make up a frame across the network media. This layer accepts a complete frame from the data link layer and encodes it as a series of signals that are transmitted to the local media.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2325,7 +2325,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>With the use of unshielded twisted-pair copper wire in a network, what causes crosstalk within the cable pairs?</p>",
+      "question": "<p style='font-size: 22px;'>With the use of unshielded twisted-pair copper wire in a network, what causes crosstalk within the cable pairs?</p>",
       "answer": "<div>Crosstalk is a type of noise, or interference that occurs when signal transmission on one wire interferes with another wire. When current flows through a wire a magnetic field is produced. The produced magnetic field will interface the signal carried in the adjacent wire.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2355,7 +2355,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the graphic. What type of cabling is shown?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the graphic. What type of cabling is shown?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/9891699745.jpg' alt='Question Image'></p>",
       "answer": "<div>Network cabling include different types of cables:\r\n\r\nUTP cable consists of four pairs of color-coded wires that have been twisted together and then encased in a flexible plastic sheath.\r\nSTP cable uses four pairs of wires, each wrapped in a foil shield, which are then wrapped in an overall metallic braid or foil.\r\nCoaxial cable uses a copper conductor and a layer of flexible plastic insulation surrounds the copper conductor.\r\nFiber cable is a flexible, extremely thin, transparent strand of glass surrounded by plastic insulation.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2385,7 +2385,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>In addition to the cable length, what two factors could interfere with the communication carried over UTP cables? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>In addition to the cable length, what two factors could interfere with the communication carried over UTP cables? (Choose two.)</p>",
       "answer": "<div>Copper media is widely used in network communications. However, copper media is limited by distance and signal interference. Data is transmitted on copper cables as electrical pulses. The electrical pulses are susceptible to interference from two sources:\r\n\r\nElectromagnetic interference (EMI) or radio frequency interference (RFI) – EMI and RFI signals can distort and corrupt the data signals being carried by copper media.\r\nCrosstalk – Crosstalk is a disturbance caused by the electric or magnetic fields of a signal on one wire interfering with the signal in an adjacent wire.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2420,7 +2420,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the graphic. What type of cabling is shown?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the graphic. What type of cabling is shown?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/4273296541.jpg' alt='Question Image'></p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2450,7 +2450,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two devices commonly affect wireless networks? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two devices commonly affect wireless networks? (Choose two.)</p>",
       "answer": "<div>Radio Frequency Interference (RFI) is the interference that is caused by radio transmitters and other devices that are transmitting in the same frequency.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2490,7 +2490,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two statements describe the services provided by the data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two statements describe the services provided by the data link layer? (Choose two.)</p>",
       "answer": "<div>The data link layer is divided into two sub layers, namely Logical Link Control (LLC) and Media Access Control (MAC). LLC forms a frame from the network layer PDU into a format that conforms to the requirements of the network interface and media. A network layer PDU might be for IPv4 or IPv6. The MAC sub layer defines the media access processes performed by the hardware. It manages the frame access to the network media according to the physical signaling requirements (copper cable, fiber optic, wireless, etc.)</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2530,7 +2530,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is the function of the CRC value that is found in the FCS field of a frame?</p>",
+      "question": "<p style='font-size: 22px;'>What is the function of the CRC value that is found in the FCS field of a frame?</p>",
       "answer": "<div>The CRC value in the FCS field of the received frame is compared to the computed CRC value of that frame, in order to verify the integrity of the frame. If the two values do not match, then the frame is discarded.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2560,7 +2560,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is contained in the trailer of a data-link frame?</p>",
+      "question": "<p style='font-size: 22px;'>What is contained in the trailer of a data-link frame?</p>",
       "answer": "<div>The trailer in a data-link frame contains error detection information that is pertinent to the frame included in the FCS field. The header contains control information, such as the addressing, while the area that is indicated by the word “data” includes the data, transport layer PDU, and the IP header.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2590,7 +2590,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which statement describes a characteristic of the frame header fields of the data link layer?</p>",
+      "question": "<p style='font-size: 22px;'>Which statement describes a characteristic of the frame header fields of the data link layer?</p>",
       "answer": "<div>All data link layer protocols encapsulate the Layer 3 PDU within the data field of the frame. However, the structure of the frame and the fields that are contained in the header vary according to the protocol. Different data link layer protocols may use different fields, like priority/quality of service, logical connection control, physical link control, flow control, and congestion control.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2620,7 +2620,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'> A network team is comparing physical WAN topologies for connecting remote sites to a headquarters building. Which topology provides high availability and connects some, but not all, remote sites?</p>",
+      "question": "<p style='font-size: 22px;'> A network team is comparing physical WAN topologies for connecting remote sites to a headquarters building. Which topology provides high availability and connects some, but not all, remote sites?</p>",
       "answer": "<div>Partial mesh topologies provide high availability by interconnecting multiple remote sites, but do not require a connection between all remote sites. A mesh topology requires point-to-point links with every system being connected to every other system. A point-to-point topology is where each device is connected to one other device. A hub and spoke uses a central device in a star topology that connects to other point-to-point devices.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2650,7 +2650,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two fields or features does Ethernet examine to determine if a received frame is passed to the data link layer or discarded by the NIC? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two fields or features does Ethernet examine to determine if a received frame is passed to the data link layer or discarded by the NIC? (Choose two.)</p>",
       "answer": "<div>An Ethernet frame is not processed and is discarded if it is smaller than the minimum (64 bytes) or if the calculated frame check sequence (FCS) value does not match the received FCS value. Auto-MDIX (automatic medium-dependent interface crossover) is Layer 1 technology that detects cable straight-through or crossover types. The source MAC address is not used to determine how the frame is received. CEF (Cisco Express Forwarding) is a technology used to expedite Layer 3 switching.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2685,7 +2685,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which media communication type does not require media arbitration in the data link layer?</p>",
+      "question": "<p style='font-size: 22px;'>Which media communication type does not require media arbitration in the data link layer?</p>",
       "answer": "<div>Half-duplex communication occurs when both devices can both transmit and receive on the medium but cannot do so simultaneously. Full-duplex communication occurs when both devices can transmit and receive on the medium at the same time and therefore does not require media arbitration. Half-duplex communication is typically contention-based, whereas controlled (deterministic) access is applied in technologies where devices take turns to access the medium.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2715,7 +2715,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which statement describes an extended star topology?</p>",
+      "question": "<p style='font-size: 22px;'>Which statement describes an extended star topology?</p>",
       "answer": "<div>In an extended star topology, central intermediate devices interconnect other star topologies.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2745,7 +2745,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is a characteristic of the LLC sublayer?</p>",
+      "question": "<p style='font-size: 22px;'>What is a characteristic of the LLC sublayer?</p>",
       "answer": "<div>The Logical Link Control (LLC) defines the software processes that provide services to the network layer protocols. The information is placed by LLC in the frame and identifies which network layer protocol is being used for the frame. This information allows multiple Layer 3 protocols, such as IPv4 and IPv6, to utilize the same network interface and media.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2775,7 +2775,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are three ways that media access control is used in networking? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>What are three ways that media access control is used in networking? (Choose three.)</p>",
       "answer": "<div>Wired Ethernet networks use CSMA/CD for media access control. IEEE 802.11 wireless networks use CSMA/CA, a similar method. Media access control defines the way data frames get placed on the media. The controlled access method is deterministic, not a contention-based access to networks. Because each device has its own time to use the medium, controlled access networks such as legacy Token Ring do not have collisions.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2815,7 +2815,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>During the encapsulation process, what occurs at the data link layer for a PC connected to an Ethernet network?</p>",
+      "question": "<p style='font-size: 22px;'>During the encapsulation process, what occurs at the data link layer for a PC connected to an Ethernet network?</p>",
       "answer": "<div>The Ethernet frame includes the source and destination physical address. The trailer includes a CRC value in the Frame Check Sequence field to allow the receiving device to determine if the frame has been changed (has errors) during the transmission.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2845,7 +2845,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What three items are contained in an Ethernet header and trailer? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>What three items are contained in an Ethernet header and trailer? (Choose three.)</p>",
       "answer": "<div>Layer 2 headers contain the following:\r\n\r\nFrame start and stop indicator flags at the beginning and end of a frame\r\nAddressing – for Ethernet networks this part of the header contains source and destination MAC addresses\r\nType field to indicate what Layer 3 protocol is being used\r\nError detection to determine if the frame arrived without error</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2880,7 +2880,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What type of communication rule would best describe CSMA/CD?</p>",
+      "question": "<p style='font-size: 22px;'>What type of communication rule would best describe CSMA/CD?</p>",
       "answer": "<div>Carrier sense multiple access collision detection (CSMA/CD) is the access method used with Ethernet. The access method rule of communication dictates how a network device is able to place a signal on the carrier. CSMA/CD dictates those rules on an Ethernet network and CSMA/CA dictates those rules on an 802.11 wireless LAN.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2910,7 +2910,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which three basic parts are common to all frame types supported by the data link layer? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>Which three basic parts are common to all frame types supported by the data link layer? (Choose three.)</p>",
       "answer": "<div>The data link protocol is responsible for NIC-to-NIC communications within the same network. Although there are many different data link layer protocols that describe data link layer frames, each frame type has three basic parts:\r\n\r\nHeader\r\nData\r\nTrailer</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2950,7 +2950,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which statement is true about the CSMA/CD access method that is used in Ethernet?</p>",
+      "question": "<p style='font-size: 22px;'>Which statement is true about the CSMA/CD access method that is used in Ethernet?</p>",
       "answer": "<div>Legacy bus-topology Ethernet LAN uses CSMA/CD as network media access control protocol. It works by detecting a collision in the medium and backing off (after transmitting a jam signal) as necessary. When one host wants to transmit a frame, it listens on the medium to check if the medium is busy. After it senses that no one else is transmitting, the host starts transmitting the frame, it also monitors the current level to detect a collision. If it detects a collision, it transmits a special jam signal so that all other hosts can know there was a collision. The other host will receive this jam signal and stop transmitting. After this, both hosts enter an exponential backoff phase and retry transmission.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -2980,7 +2980,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is the auto-MDIX feature on a switch?</p>",
+      "question": "<p style='font-size: 22px;'>What is the auto-MDIX feature on a switch?</p>",
       "answer": "<div>The auto-MDIX enables a switch to use a crossover or a straight-through Ethernet cable to connect to a device regardless of the device on the other end of the connection.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3010,7 +3010,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. What is the destination MAC address of the Ethernet frame as it leaves the web server if the final destination is PC1?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. What is the destination MAC address of the Ethernet frame as it leaves the web server if the final destination is PC1?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/8161119512.png' alt='Question Image'></p>",
       "answer": "<div>The destination MAC address is used for local delivery of Ethernet frames. The MAC (Layer 2) address changes at each network segment along the path. As the frame leaves the web server, it will be delivered by using the MAC address of the default gateway.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3040,7 +3040,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A Layer 2 switch is used to switch incoming frames from a 1000BASE-T port to a port connected to a 100Base-T network. Which method of memory buffering would work best for this task?</p>",
+      "question": "<p style='font-size: 22px;'>A Layer 2 switch is used to switch incoming frames from a 1000BASE-T port to a port connected to a 100Base-T network. Which method of memory buffering would work best for this task?</p>",
       "answer": "<div>With shared memory buffering, the number of frames stored in the buffer is restricted only by the of the entire memory buffer and not limited to a single port buffer. This permits larger frames to be transmitted with fewer dropped frames. This is important to asymmetric switching, which applies to this scenario, where frames are being exchanged between ports of different rates. With port-based memory buffering, frames are stored in queues that are linked to specific incoming and outgoing ports making it possible for a single frame to delay the transmission of all the frames in memory because of a busy destination port. Level 1 cache is memory used in a CPU. Fixed configuration refers to the port arrangement in switch hardware.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3070,7 +3070,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are two examples of the cut-through switching method? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>What are two examples of the cut-through switching method? (Choose two.)</p>",
       "answer": "<div>Store-and forward switching accepts the entire frame and performs error checking using CRC before forwarding the frame. Store-and-forward is often required for QOS analysis. Fast-forward and fragment-free are both variations of the cut-through switching method where only part of the frame is received before the switch begins to forward it.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3105,7 +3105,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which frame forwarding method receives the entire frame and performs a CRC check to detect errors before forwarding the frame?</p>",
+      "question": "<p style='font-size: 22px;'>Which frame forwarding method receives the entire frame and performs a CRC check to detect errors before forwarding the frame?</p>",
       "answer": "<div>Fast-forward and fragment-free switching are variations of cut-through switching, which begins to forward the frame before the entire frame is received.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3135,7 +3135,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is the purpose of the FCS field in a frame?</p>",
+      "question": "<p style='font-size: 22px;'>What is the purpose of the FCS field in a frame?</p>",
       "answer": "<div>The FCS field in a frame is used to detect any errors in the transmission and receipt of a frame. This is done by comparing the CRC value within the frame against a computed CRC value of the frame. If the two values do not match, then the frame is discarded.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3165,7 +3165,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which switching method has the lowest level of latency?</p>",
+      "question": "<p style='font-size: 22px;'>Which switching method has the lowest level of latency?</p>",
       "answer": "<div>Fast-forward switching begins to forward a frame after reading the destination MAC address, resulting in the lowest latency. Fragment-free reads the first 64 bytes before forwarding. Store-and-forward has the highest latency because it reads the entire frame before beginning to forward it. Both fragment-free and fast-forward are types of cut-through switching.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3195,7 +3195,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A network administrator is connecting two modern switches using a straight-through cable. The switches are new and have never been configured. Which three statements are correct about the final result of the connection? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>A network administrator is connecting two modern switches using a straight-through cable. The switches are new and have never been configured. Which three statements are correct about the final result of the connection? (Choose three.)</p>",
       "answer": "<div>Modern switches can negotiate to work in full-duplex mode if both switches are capable. They will negotiate to work using the fastest possible speed and the auto-MDIX feature is enabled by default, so a cable change is not needed.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3235,7 +3235,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which advantage does the store-and-forward switching method have compared with the cut-through switching method?</p>",
+      "question": "<p style='font-size: 22px;'>Which advantage does the store-and-forward switching method have compared with the cut-through switching method?</p>",
       "answer": "<div>A switch using the store-and-forward switching method performs an error check on an incoming frame by comparing the FCS value against its own FCS calculations after the entire frame is received. In comparison, a switch using the cut-through switching method makes quick forwarding decisions and starts the forwarding process without waiting for the entire frame to be received. Thus a switch using cut-through switching may send invalid frames to the network. The performance of store-and-forward switching is slower compared to cut-through switching performance. Collision detection is monitored by the sending device. Store-and-forward switching does not use IPv4 Layer 3 and 4 information for its forwarding decisions.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3265,7 +3265,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>When the store-and-forward method of switching is in use, what part of the Ethernet frame is used to perform an error check?</p>",
+      "question": "<p style='font-size: 22px;'>When the store-and-forward method of switching is in use, what part of the Ethernet frame is used to perform an error check?</p>",
       "answer": "<div>The cyclic redundancy check (CRC) part of the trailer is used to determine if the frame has been modified during transit.​ If the integrity of the frame is verified, the frame is forwarded. If the integrity of the frame cannot be verified, then the frame is dropped.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3295,7 +3295,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which switching method uses the CRC value in a frame?</p>",
+      "question": "<p style='font-size: 22px;'>Which switching method uses the CRC value in a frame?</p>",
       "answer": "<div>When the store-and-forward switching method is used, the switch receives the complete frame before forwarding it on to the destination. The cyclic redundancy check (CRC) part of the trailer is used to determine if the frame has been modified during transit.​​ In contrast, a cut-through switch forwards the frame once the destination Layer 2 address is read. Two types of cut-through switching methods are fast-forward and fragment-free.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3325,7 +3325,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are two actions performed by a Cisco switch? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>What are two actions performed by a Cisco switch? (Choose two.)</p>",
       "answer": "<div>Important actions that a switch performs are as follows:\r\n\r\nWhen a frame comes in, the switch examines the Layer 2 source address to build and maintain the Layer 2 MAC address table.\r\nIt examines the Layer 2 destination address to determine how to forward the frame. When the destination address is in the MAC address table, then the frame is sent out a particular port. When the address is unknown, the frame is sent to all ports that have devices connected to that network.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3360,7 +3360,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two statements describe features or functions of the logical link control sublayer in Ethernet standards? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two statements describe features or functions of the logical link control sublayer in Ethernet standards? (Choose two.)</p>",
       "answer": "<div>Logical link control is implemented in software and enables the data link layer to communicate with the upper layers of the protocol suite. Logical link control is specified in the IEEE 802.2 standard. IEEE 802.3 is a suite of standards that define the different Ethernet types. The MAC (Media Access Control) sublayer is responsible for the placement and retrieval of frames on and off the media. The MAC sublayer is also responsible for adding a header and a trailer to the network layer protocol data unit (PDU).</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3395,7 +3395,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is the auto-MDIX feature?</p>",
+      "question": "<p style='font-size: 22px;'>What is the auto-MDIX feature?</p>",
       "answer": "<div>The auto-MDIX feature allows the device to configure its network port according to the cable type that is used (straight-through or crossover) and the type of device that is connected to that port. When a port of a switch is configured with auto-MDIX, this switch can be connected to another switch by the use of either a straight-through cable or a crossover cable.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3425,7 +3425,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is one advantage of using the cut-through switching method instead of the store-and-forward switching method?</p>",
+      "question": "<p style='font-size: 22px;'>What is one advantage of using the cut-through switching method instead of the store-and-forward switching method?</p>",
       "answer": "<div>Cut-through switching provides lower latency switching for high-performance computing (HPC) applications. Cut-through switching allows more invalid frames to cross the network than store-and-forward switching. The cut-through switching method can make a forwarding decision as soon as it looks up the destination MAC address of the frame.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3455,7 +3455,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which is a multicast MAC address?</p>",
+      "question": "<p style='font-size: 22px;'>Which is a multicast MAC address?</p>",
       "answer": "<div>Multicast MAC addresses begin with the special value of 01-00-5E.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3485,7 +3485,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. What is wrong with the displayed termination?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. What is wrong with the displayed termination?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/4435225819.png' alt='Question Image'></p>",
       "answer": "<div>When a cable to an RJ-45 connector is terminated, it is important to ensure that the untwisted wires are not too long and that the flexible plastic sheath surrounding the wires is crimped down and not the bare wires. None of the colored wires should be visible from the bottom of the jack.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3515,7 +3515,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. The PC is connected to the console port of the switch. All the other connections are made through FastEthernet links. Which types of UTP cables can be used to connect the devices?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. The PC is connected to the console port of the switch. All the other connections are made through FastEthernet links. Which types of UTP cables can be used to connect the devices?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/5397234115.png' alt='Question Image'></p>",
       "answer": "<div>A straight-through cable is commonly used to interconnect a host to a switch and a switch to a router. A crossover cable is used to interconnect similar devices together like switch to a switch, a host to a host, or a router to a router. If a switch has the MDIX capability, a crossover could be used to connect the switch to the router; however, that option is not available. A rollover cable is used to connect to a router or switch console port.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3545,7 +3545,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which port does Switch0 use to send frames to the host with the IPv4 address 10.1.1.5?</p><p>Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/7581728453.jpg' alt='Question Image'></p>",
+      "question": "<p style='font-size: 22px;'>Which port does Switch0 use to send frames to the host with the IPv4 address 10.1.1.5?</p><p style='font-size: 16px;'>Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/7581728453.jpg' alt='Question Image'></p><br><br><a href='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/files/7581728453.pka'>Link to Question File</a>",
       "answer": "<div>Issuing the command ipconfig /all from the PC0 command prompt displays the IPv4 address and MAC address. When the IPv4 address 10.1.1.5 is pinged from PC0, the switch stores the source MAC address (from PC0) along with the port to which PC0 is connected. When the destination reply is received, the switch takes the destination MAC address and compares to MAC addresses stored in the MAC address table. Issuing the show mac-address-table on the PC0 Terminal application displays two dynamic MAC address entries. The MAC address and port entry that does not belong to PC0 must be the MAC address and port of the destination with the IPv4 address 10.1.1.5.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3575,7 +3575,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What does the term “attenuation” mean in data communication?</p>",
+      "question": "<p style='font-size: 22px;'>What does the term “attenuation” mean in data communication?</p>",
       "answer": "<div>Data is transmitted on copper cables as electrical pulses. A detector in the network interface of a destination device must receive a signal that can be successfully decoded to match the signal sent. However, the farther the signal travels, the more it deteriorates. This is referred to as signal attenuation.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3605,7 +3605,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What makes fiber preferable to copper cabling for interconnecting buildings? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>What makes fiber preferable to copper cabling for interconnecting buildings? (Choose three.)</p>",
       "answer": "<div>Optical fiber cable transmits data over longer distances and at higher bandwidths than any other networking media. Unlike copper wires, fiber-optic cable can transmit signals with less attenuation and is completely immune to EMI and RFI.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3645,7 +3645,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the process by which one wave modifies another wave?</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the process by which one wave modifies another wave?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3675,7 +3675,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the capacity at which a medium can carry data?</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the capacity at which a medium can carry data?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3705,7 +3705,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the measure of the transfer of bits across a medium over a given period of time?</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the measure of the transfer of bits across a medium over a given period of time?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3735,7 +3735,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the amount of time, including delays, for data to travel from one point to another?</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the amount of time, including delays, for data to travel from one point to another?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3765,7 +3765,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the amount of time, including delays, for data to travel from one point to another?</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the amount of time, including delays, for data to travel from one point to another?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3795,7 +3795,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the measure of usable data transferred over a given period of time?</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the measure of usable data transferred over a given period of time?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3825,7 +3825,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the physical medium which uses electrical pulses?</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the physical medium which uses electrical pulses?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3855,7 +3855,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the physical medium that uses the propagation of light?</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the physical medium that uses the propagation of light?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3865,36 +3865,6 @@
          {
             "answerNbr": 0,
             "answer": "<div>fiber-optic cable</div>",
-            "correct": 1
-         },
-         {
-            "answerNbr": 1,
-            "answer": "<div>goodput</div>",
-            "correct": 0
-         },
-         {
-            "answerNbr": 2,
-            "answer": "<div>latency</div>",
-            "correct": 0
-         },
-         {
-            "answerNbr": 3,
-            "answer": "<div>throughput</div>",
-            "correct": 0
-         }
-      ]
-   },
-   {
-      "question": "<p style='font-size: 24px;'>What OSI physical layer term describes the physical medium for microwave transmissions?</p>",
-      "answer": "<div></div>",
-      "categories": [
-         "ITN - Ethernet Concepts",
-         "ITN"
-      ],
-      "mchoice": [
-         {
-            "answerNbr": 0,
-            "answer": "<div>air</div>",
             "correct": 1
          },
          {
@@ -3915,7 +3885,37 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>What OSI physical layer term describes the physical medium for microwave transmissions?</p>",
+      "answer": "<div></div>",
+      "categories": [
+         "ITN - Ethernet Concepts",
+         "ITN"
+      ],
+      "mchoice": [
+         {
+            "answerNbr": 0,
+            "answer": "<div>air</div>",
+            "correct": 1
+         },
+         {
+            "answerNbr": 1,
+            "answer": "<div>goodput</div>",
+            "correct": 0
+         },
+         {
+            "answerNbr": 2,
+            "answer": "<div>latency</div>",
+            "correct": 0
+         },
+         {
+            "answerNbr": 3,
+            "answer": "<div>throughput</div>",
+            "correct": 0
+         }
+      ]
+   },
+   {
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3950,7 +3950,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -3985,7 +3985,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4020,7 +4020,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4055,7 +4055,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4090,7 +4090,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4110,7 +4110,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4145,7 +4145,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4180,7 +4180,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4215,7 +4215,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4250,7 +4250,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What action will occur if a switch receives a frame with the destination MAC address FF:FF:FF:FF:FF:FF?</p>",
+      "question": "<p style='font-size: 22px;'>What action will occur if a switch receives a frame with the destination MAC address FF:FF:FF:FF:FF:FF?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4280,7 +4280,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What action will occur if a switch receives a frame with the destination MAC address 01:00:5E:00:00:D9?</p>",
+      "question": "<p style='font-size: 22px;'>What action will occur if a switch receives a frame with the destination MAC address 01:00:5E:00:00:D9?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4310,7 +4310,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What action will occur if a host receives a frame with a destination MAC address of FF:FF:FF:FF:FF:FF?</p>",
+      "question": "<p style='font-size: 22px;'>What action will occur if a host receives a frame with a destination MAC address of FF:FF:FF:FF:FF:FF?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4340,7 +4340,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What action will occur if a switch receives a frame and does have the source MAC address in the MAC table?</p>",
+      "question": "<p style='font-size: 22px;'>What action will occur if a switch receives a frame and does have the source MAC address in the MAC table?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4370,7 +4370,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What action will occur if a host receives a frame with a destination MAC address of FF:FF:FF:FF:FF:FF?</p>",
+      "question": "<p style='font-size: 22px;'>What action will occur if a host receives a frame with a destination MAC address of FF:FF:FF:FF:FF:FF?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4400,7 +4400,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What action will occur if a host receives a frame with a destination MAC address it does not recognize?</p>",
+      "question": "<p style='font-size: 22px;'>What action will occur if a host receives a frame with a destination MAC address it does not recognize?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4430,7 +4430,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which type of UTP cable is used to connect a PC to a switch port?</p>",
+      "question": "<p style='font-size: 22px;'>Which type of UTP cable is used to connect a PC to a switch port?</p>",
       "answer": "<div>A rollover cable is a Cisco proprietary cable used to connect to a router or switch console port. A straight-through (also called patch) cable is usually used to interconnect a host to a switch and a switch to a router. A crossover cable is used to interconnect similar devices together, for example, between two switches, two routers, and two hosts.</div>",
       "categories": [
          "ITN - Ethernet Concepts",
@@ -4460,7 +4460,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which information is used by routers to forward a data packet toward its destination?</p>",
+      "question": "<p style='font-size: 22px;'>Which information is used by routers to forward a data packet toward its destination?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4490,7 +4490,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A computer has to send a packet to a destination host in the same LAN. How will the packet be sent?</p>",
+      "question": "<p style='font-size: 22px;'>A computer has to send a packet to a destination host in the same LAN. How will the packet be sent?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4520,7 +4520,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A router receives a packet from the Gigabit 0/0 interface and determines that the packet needs to be forwarded out the Gigabit 0/1 interface. What will the router do next?</p>",
+      "question": "<p style='font-size: 22px;'>A router receives a packet from the Gigabit 0/0 interface and determines that the packet needs to be forwarded out the Gigabit 0/1 interface. What will the router do next?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4550,7 +4550,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which IPv4 address can a host use to ping the loopback interface?</p>",
+      "question": "<p style='font-size: 22px;'>Which IPv4 address can a host use to ping the loopback interface?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4580,7 +4580,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?</p>",
+      "question": "<p style='font-size: 22px;'>A computer can access devices on the same network but cannot access devices on other networks. What is the probable cause of this problem?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4610,7 +4610,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which statement describes a feature of the IP protocol?</p>",
+      "question": "<p style='font-size: 22px;'>Which statement describes a feature of the IP protocol?</p>",
       "answer": "<div>IP protocol is a connection-less protocol, considered unreliable in terms of end-to-end delivery. It does not provide error control in the cases where receiving packets are out-of-order or in cases of missing packets. It relies on upper layer services, such as TCP, to resolve these issues.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4640,7 +4640,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Why is NAT not needed in IPv6?</p>",
+      "question": "<p style='font-size: 22px;'>Why is NAT not needed in IPv6?</p>",
       "answer": "<div>The large number of public IPv6 addresses eliminates the need for NAT. Sites from the largest enterprises to single households can get public IPv6 network addresses. This avoids some of the NAT-induced application problems that are experienced by applications that require end-to-end connectivity.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4670,7 +4670,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which parameter does the router use to choose the path to the destination when there are multiple routes available?</p>",
+      "question": "<p style='font-size: 22px;'>Which parameter does the router use to choose the path to the destination when there are multiple routes available?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4700,7 +4700,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are two services provided by the OSI network layer? (Choose two.)</p><p>The OSI network layer provides several services to allow communication between devices:<br><br>addressing<br>encapsulation<br>routing<br>de-encapsulation<br>Error detection, placing frames on the media, and collision detection are all functions of the data ink layer</p>",
+      "question": "<p style='font-size: 22px;'>What are two services provided by the OSI network layer? (Choose two.)</p><p style='font-size: 16px;'>The OSI network layer provides several services to allow communication between devices:<br><br>addressing<br>encapsulation<br>routing<br>de-encapsulation<br>Error detection, placing frames on the media, and collision detection are all functions of the data ink layer</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4735,7 +4735,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Within a production network, what is the purpose of configuring a switch with a default gateway address?</p>",
+      "question": "<p style='font-size: 22px;'>Within a production network, what is the purpose of configuring a switch with a default gateway address?</p>",
       "answer": "<div>A default gateway address allows a switch to forward packets that originate on the switch to remote networks. A default gateway address on a switch does not provide Layer 3 routing for PCs that are connected on that switch. A switch can still be accessible from Telnet as long as the source of the Telnet connection is on the local network.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4765,7 +4765,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is a basic characteristic of the IP protocol?</p>",
+      "question": "<p style='font-size: 22px;'>What is a basic characteristic of the IP protocol?</p>",
       "answer": "<div>Internet Protocol (IP) is a network layer protocol that does not require initial exchange of control information to establish an end-to-end connection before packets are forwarded. Thus, IP is connectionless and does not provide reliable end-to-end delivery by itself. IP is media independent. User data segmentation is a service provided at the transport layer.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4795,7 +4795,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly?</p>",
+      "question": "<p style='font-size: 22px;'>Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly?</p>",
       "answer": "<div>The value of the Time-to-Live (TTL) field in the IPv4 header is used to limit the lifetime of a packet. The sending host sets the initial TTL value; which is decreased by one each time the packet is processed by a router. If the TTL field decrements to zero, the router discards the packet and sends an Internet Control Message Protocol (ICMP) Time Exceeded message to the source IP address. The Differentiated Services (DS) field is used to determine the priority of each packet. Sequence Number and Acknowledgment Number are two fields in the TCP header.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4825,7 +4825,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is one advantage that the IPv6 simplified header offers over IPv4?</p>",
+      "question": "<p style='font-size: 22px;'>What is one advantage that the IPv6 simplified header offers over IPv4?</p>",
       "answer": "<div>The IPv6 simplified header offers several advantages over IPv4:\r\n\r\nBetter routing efficiency and efficient packet handling for performance and forwarding-rate scalability\r\nNo requirement for processing checksums\r\nSimplified and more efficient extension header mechanisms (as opposed to the IPv4 Options field)\r\nA Flow Label field for per-flow processing with no need to open the transport inner packet to identify the various traffic flows</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4855,7 +4855,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What IPv4 header field identifies the upper layer protocol carried in the packet?</p>",
+      "question": "<p style='font-size: 22px;'>What IPv4 header field identifies the upper layer protocol carried in the packet?</p>",
       "answer": "<div>It is the Protocol field in the IP header that identifies the upper-layer protocol the packet is carrying. The Version field identifies the IP version. The Differential Services field is used for setting packet priority. The Identification field is used to reorder fragmented packets.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4885,7 +4885,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What information does the loopback test provide?</p>",
+      "question": "<p style='font-size: 22px;'>What information does the loopback test provide?</p>",
       "answer": "<div>Because the loopback test sends packets back to the host device, it does not provide information about network connectivity to other hosts. The loopback test verifies that the host NIC, drivers, and TCP/IP stack are functioning.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4920,7 +4920,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>17. What routing table entry has a next hop address associated with a destination network?</p>",
+      "question": "<p style='font-size: 22px;'>17. What routing table entry has a next hop address associated with a destination network?</p>",
       "answer": "<div>Routing table entries for remote routes will have a next hop IP address. The next hop IP address is the address of the router interface of the next device to be used to reach the destination network. Directly-connected and local routes have no next hop, because they do not require going through another router to be reached.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4950,7 +4950,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>How do hosts ensure that their packets are directed to the correct network destination?</p>",
+      "question": "<p style='font-size: 22px;'>How do hosts ensure that their packets are directed to the correct network destination?</p>",
       "answer": "<div>Hosts must maintain their own local routing table to ensure that network layer packets are directed to the correct destination network. This local table typically contains a route to the loopback interface, a route to the network that the host is connected to, and a local default route, which represents the route that packets must take to reach all remote network addresses.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -4980,7 +4980,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>When transporting data from real-time applications, such as streaming audio and video, which field in the IPv6 header can be used to inform the routers and switches to maintain the same path for the packets in the same conversation?</p>",
+      "question": "<p style='font-size: 22px;'>When transporting data from real-time applications, such as streaming audio and video, which field in the IPv6 header can be used to inform the routers and switches to maintain the same path for the packets in the same conversation?</p>",
       "answer": "<div>The Flow Label in IPv6 header is a 20-bit field that provides a special service for real-time applications. This field can be used to inform routers and switches to maintain the same path for the packet flow so that packets will not be reordered.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5010,7 +5010,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What statement describes the function of the Address Resolution Protocol?</p>",
+      "question": "<p style='font-size: 22px;'>What statement describes the function of the Address Resolution Protocol?</p>",
       "answer": "<div>When a PC wants to send data on the network, it always knows the IP address of the destination. However, it also needs to discover the MAC address of the destination. ARP is the protocol that is used to discover the MAC address of a host that belongs to the same network.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5040,7 +5040,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Under which two circumstances will a switch flood a frame out of every port except the port that the frame was received on? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Under which two circumstances will a switch flood a frame out of every port except the port that the frame was received on? (Choose two.)</p>",
       "answer": "<div>A switch will flood a frame out of every port, except the one that the frame was received from, under two circumstances. Either the frame has the broadcast address as the destination address, or the destination address is unknown to the switch.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5075,7 +5075,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which statement describes the treatment of ARP requests on the local link?</p>",
+      "question": "<p style='font-size: 22px;'>Which statement describes the treatment of ARP requests on the local link?</p>",
       "answer": "<div>One of the negative issues with ARP requests is that they are sent as a broadcast. This means all devices on the local link must receive and process the request.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5105,7 +5105,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which destination address is used in an ARP request frame?</p>",
+      "question": "<p style='font-size: 22px;'>Which destination address is used in an ARP request frame?</p>",
       "answer": "<div>The purpose of an ARP request is to find the MAC address of the destination host on an Ethernet LAN. The ARP process sends a Layer 2 broadcast to all devices on the Ethernet LAN. The frame contains the IP address of the destination and the broadcast MAC address, FFFF.FFFF.FFFF. The host with the IP address that matches the IP address in the ARP request will reply with a unicast frame that includes the MAC address of the host. Thus the original sending host will obtain the destination IP and MAC address pair to continue the encapsulation process for data transmission.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5140,7 +5140,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A network technician issues the arp -d * command on a PC after the router that is connected to the LAN is reconfigured. What is the result after this command is issued?</p>",
+      "question": "<p style='font-size: 22px;'>A network technician issues the arp -d * command on a PC after the router that is connected to the LAN is reconfigured. What is the result after this command is issued?</p>",
       "answer": "<div>Issuing the arp –d * command on a PC will clear the ARP cache content. This is helpful when a network technician wants to ensure the cache is populated with updated information.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5170,7 +5170,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. The exhibit shows a small switched network and the contents of the MAC address table of the switch. PC1 has sent a frame addressed to PC3. What will the switch do with the frame?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. The exhibit shows a small switched network and the contents of the MAC address table of the switch. PC1 has sent a frame addressed to PC3. What will the switch do with the frame?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/8753639040.png' alt='Question Image'></p>",
       "answer": "<div>The MAC address of PC3 is not present in the MAC table of the switch. Because the switch does not know where to send the frame that is addressed to PC3, it will forward the frame to all the switch ports, except for port 4, which is the incoming port.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5205,7 +5205,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two types of IPv6 messages are used in place of ARP for address resolution?</p>",
+      "question": "<p style='font-size: 22px;'>Which two types of IPv6 messages are used in place of ARP for address resolution?</p>",
       "answer": "<div>IPv6 does not use ARP. Instead, ICMPv6 neighbor discovery is used by sending neighbor solicitation and neighbor advertisement messages.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5245,7 +5245,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is the aim of an ARP spoofing attack?</p>",
+      "question": "<p style='font-size: 22px;'>What is the aim of an ARP spoofing attack?</p>",
       "answer": "<div>In an ARP spoofing attack, a malicious host intercepts ARP requests and replies to them so that network hosts will map an IP address to the MAC address of the malicious host.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5275,7 +5275,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. PC1 attempts to connect to File_server1 and sends an ARP request to obtain a destination MAC address. Which MAC address will PC1 receive in the ARP reply?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. PC1 attempts to connect to File_server1 and sends an ARP request to obtain a destination MAC address. Which MAC address will PC1 receive in the ARP reply?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/7956788775.jpg' alt='Question Image'></p>",
       "answer": "<div>PC1 must have a MAC address to use as a destination Layer 2 address. PC1 will send an ARP request as a broadcast and R1 will send back an ARP reply with its G0/0 interface MAC address. PC1 can then forward the packet to the MAC address of the default gateway, R1.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5310,7 +5310,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Where are IPv4 address to Layer 2 Ethernet address mappings maintained on a host computer?</p>",
+      "question": "<p style='font-size: 22px;'>Where are IPv4 address to Layer 2 Ethernet address mappings maintained on a host computer?</p>",
       "answer": "<div>The ARP cache is used to store IPv4 addresses and the Ethernet physical addresses or MAC addresses to which the IPv4 addresses are mapped. Incorrect mappings of IP addresses to MAC addresses can result in loss of end-to-end connectivity.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5340,7 +5340,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What important information is examined in the Ethernet frame header by a Layer 2 device in order to forward the data onward?</p>",
+      "question": "<p style='font-size: 22px;'>What important information is examined in the Ethernet frame header by a Layer 2 device in order to forward the data onward?</p>",
       "answer": "<div>The Layer 2 device, such as a switch, uses the destination MAC address to determine which path (interface or port) should be used to send the data onward to the destination device.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5375,7 +5375,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A new network administrator has been asked to enter a banner message on a Cisco device. What is the fastest way a network administrator could test whether the banner is properly configured?</p>",
+      "question": "<p style='font-size: 22px;'>A new network administrator has been asked to enter a banner message on a Cisco device. What is the fastest way a network administrator could test whether the banner is properly configured?</p>",
       "answer": "<div>While at the privileged mode prompt such as Router#, type exit,press Enter, and the banner message appears. Power cycling a network device that has had the banner motd command issued will also display the banner message, but this is not a quick way to test the configuration.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5410,7 +5410,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are two functions of NVRAM? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>What are two functions of NVRAM? (Choose two.)</p>",
       "answer": "<div>NVRAM is permanent memory storage, so the startup configuration file is preserved even if the router loses power.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5445,7 +5445,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>A router boots and enters setup mode. What is the reason for this?</p>",
+      "question": "<p style='font-size: 22px;'>A router boots and enters setup mode. What is the reason for this?</p>",
       "answer": "<div>If a router cannot locate the startup-config file in NVRAM, it will enter setup mode to allow the configuration to be entered from the console device.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5475,7 +5475,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>The global configuration command ip default-gateway 172.16.100.1 is applied to a switch. What is the effect of this command?</p>",
+      "question": "<p style='font-size: 22px;'>The global configuration command ip default-gateway 172.16.100.1 is applied to a switch. What is the effect of this command?</p>",
       "answer": "<div>A default gateway address is typically configured on all devices to allow them to communicate beyond just their local network.In a switch this is achieved using the command ip default-gateway <ip address>.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5505,7 +5505,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What happens when the transport input ssh command is entered on the switch vty lines?</p>",
+      "question": "<p style='font-size: 22px;'>What happens when the transport input ssh command is entered on the switch vty lines?</p>",
       "answer": "<div>The transport input ssh command when entered on the switch vty (virtual terminal lines) will encrypt all inbound controlled telnet connections.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5535,7 +5535,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A user PC has successfully transmitted packets to www.cisco.com. Which IP address does the user PC target in order to forward its data off the local network?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A user PC has successfully transmitted packets to www.cisco.com. Which IP address does the user PC target in order to forward its data off the local network?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/2022845856.png' alt='Question Image'></p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5570,7 +5570,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which three commands are used to set up secure access to a router through a connection to the console interface? (Choose three.)</p>",
+      "question": "<p style='font-size: 22px;'>Which three commands are used to set up secure access to a router through a connection to the console interface? (Choose three.)</p>",
       "answer": "<div>The three commands needed to password protect the console port are as follows:\r\n\r\nline console 0\r\npassword cisco\r\nlogin\r\nThe interface fastethernet 0/0 command is commonly used to access the configuration mode used to apply specific parameters such as the IP address to the Fa0/0 port. The line vty 0 4 command is used to access the configuration mode for Telnet. The0and 4 parameters specify ports 0 through 4, or a maximum of five simultaneous Telnet connections. The enable secret command is used to apply a password used on the router to access the privileged mode.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5610,7 +5610,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. Consider the IP address configuration shown from PC1. What is a description of the default gateway address?</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. Consider the IP address configuration shown from PC1. What is a description of the default gateway address?</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/7273729039.webp' alt='Question Image'></p>",
       "answer": "<div>The default gateway is used to route packets destined for remote networks. The default gateway IP address is the address of the first Layer 3 device (the router interface) that connects to the same network.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5640,7 +5640,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which two functions are primary functions of a router? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>Which two functions are primary functions of a router? (Choose two.)</p>",
       "answer": "<div>A router accepts a packet and accesses its routing table to determine the appropriate exit interface based on the destination address. The router then forwards the packet out of that interface.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5675,7 +5675,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What is the effect of using the Router# copy running-config startup-config command on a router?</p>",
+      "question": "<p style='font-size: 22px;'>What is the effect of using the Router# copy running-config startup-config command on a router?</p>",
       "answer": "<div>The command copy running-config startup-config copies the running-configuration file from RAM into NVRAM and saves it as the startup-configuration file. Since NVRAM is none-volatile memory it will be able to retain the configuration details when the router is powered off.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5705,7 +5705,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What will happen if the default gateway address is incorrectly configured on a host?</p>",
+      "question": "<p style='font-size: 22px;'>What will happen if the default gateway address is incorrectly configured on a host?</p>",
       "answer": "<div>When a host needs to send a message to another host located on the same network, it can forward the message directly. However, when a host needs to send a message to a remote network, it must use the router, also known as the default gateway. This is because the data link frame address of the remote destination host cannot be used directly. Instead, the IP packet has to be sent to the router (default gateway) and the router will forward the packet toward its destination. Therefore, if the default gateway is incorrectly configured, the host can communicate with other hosts on the same network, but not with hosts on remote networks.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5740,7 +5740,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What are two potential network problems that can result from ARP operation? (Choose two.)</p>",
+      "question": "<p style='font-size: 22px;'>What are two potential network problems that can result from ARP operation? (Choose two.)</p>",
       "answer": "<div>Large numbers of ARP broadcast messages could cause momentary data communications delays. Network attackers could manipulate MAC address and IP address mappings in ARP messages with the intent to intercept network traffic. ARP requests and replies cause entries to be made into the ARP table, not the MAC address table. ARP table overflows are very unlikely. Manually configuring static ARP associations is a way to prevent, not facilitate, ARP poisoning and MAC address spoofing. Multiple ARP replies resulting in the switch MAC address table containing entries that match the MAC addresses of connected nodes and are associated with the relevant switch port are required for normal switch frame forwarding operations. It is not an ARP caused network problem.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5775,7 +5775,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which interfaces in each router are active and operational?</p><p>Open the PT activity. Perform the tasks in the activity instructions and then answer the question.</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/9582665020.jpg' alt='Question Image'></p>",
+      "question": "<p style='font-size: 22px;'>Which interfaces in each router are active and operational?</p><p style='font-size: 16px;'>Open the PT activity. Perform the tasks in the activity instructions and then answer the question.</p><p><img src='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/images/9582665020.jpg' alt='Question Image'></p><br><br><a href='https://raw.githubusercontent.com/stevenweissheimer/ccnaQuestionCrawler/main/public/files/9582665020.pka'>Link to Question File</a>",
       "answer": "<div>The command to use for this activity is show ip interface brief in each router. The active and operational interfaces are represented by the value “up” in the “Status” and “Protocol” columns. The interfaces in R1 with these characteristics are G0/0 and S0/0/0. In R2 they are G0/1 and S0/0/0.</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5805,7 +5805,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which term describes a field in the IPv4 packet header used to identify the next level protocol?</p>",
+      "question": "<p style='font-size: 22px;'>Which term describes a field in the IPv4 packet header used to identify the next level protocol?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5835,7 +5835,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which term describes a field in the IPv4 packet header that contains an 8-bit binary value used to determine the priority of each packet?</p>",
+      "question": "<p style='font-size: 22px;'>Which term describes a field in the IPv4 packet header that contains an 8-bit binary value used to determine the priority of each packet?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5865,7 +5865,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which term describes a field in the IPv4 packet header that contains a 32-bit binary value associated with an interface on the sending device?</p>",
+      "question": "<p style='font-size: 22px;'>Which term describes a field in the IPv4 packet header that contains a 32-bit binary value associated with an interface on the sending device?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5895,7 +5895,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which term describes a field in the IPv4 packet header used to detect corruption in the IPv4 header?</p>",
+      "question": "<p style='font-size: 22px;'>Which term describes a field in the IPv4 packet header used to detect corruption in the IPv4 header?</p>",
       "answer": "<div>The header checksum is used to determine if any errors have been introduced during transmission</div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5925,7 +5925,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Payroll LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>RTR1(config)# interface gi0/1<br>RTR1(config-if)# description Connects to the Marketing LAN<br>RTR1(config-if)# ip address 10.27.15.17 255.255.255.0<br>RTR1(config-if)# no shutdown<br>RTR1(config-if)# interface gi0/0<br>RTR1(config-if)# description Connects to the Payroll LAN<br>RTR1(config-if)# ip address 10.27.14.148 255.255.255.0<br>RTR1(config-if)# no shutdown<br>RTR1(config-if)# interface s0/0/0<br>RTR1(config-if)# description Connects to the ISP<br>RTR1(config-if)# ip address 10.14.15.254 255.255.255.0<br>RTR1(config-if)# no shutdown<br>RTR1(config-if)# interface s0/0/1<br>RTR1(config-if)# description Connects to the Head Office WAN<br>RTR1(config-if)# ip address 203.0.113.39 255.255.255.0<br>RTR1(config-if)# no shutdown<br>RTR1(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Payroll LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>RTR1(config)# interface gi0/1<br>RTR1(config-if)# description Connects to the Marketing LAN<br>RTR1(config-if)# ip address 10.27.15.17 255.255.255.0<br>RTR1(config-if)# no shutdown<br>RTR1(config-if)# interface gi0/0<br>RTR1(config-if)# description Connects to the Payroll LAN<br>RTR1(config-if)# ip address 10.27.14.148 255.255.255.0<br>RTR1(config-if)# no shutdown<br>RTR1(config-if)# interface s0/0/0<br>RTR1(config-if)# description Connects to the ISP<br>RTR1(config-if)# ip address 10.14.15.254 255.255.255.0<br>RTR1(config-if)# no shutdown<br>RTR1(config-if)# interface s0/0/1<br>RTR1(config-if)# description Connects to the Head Office WAN<br>RTR1(config-if)# ip address 203.0.113.39 255.255.255.0<br>RTR1(config-if)# no shutdown<br>RTR1(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5960,7 +5960,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which term describes a field in the IPv4 packet header that contains a unicast, multicast, or broadcast address?</p>",
+      "question": "<p style='font-size: 22px;'>Which term describes a field in the IPv4 packet header that contains a unicast, multicast, or broadcast address?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -5990,7 +5990,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which term describes a field in the IPv4 packet header used to limit the lifetime of a packet?</p>",
+      "question": "<p style='font-size: 22px;'>Which term describes a field in the IPv4 packet header used to limit the lifetime of a packet?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6020,7 +6020,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Which term describes a field in the IPv4 packet header that contains a 4-bit binary value set to 0100?</p>",
+      "question": "<p style='font-size: 22px;'>Which term describes a field in the IPv4 packet header that contains a 4-bit binary value set to 0100?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6050,7 +6050,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What property of ARP causes cached IP-to-MAC mappings to remain in memory longer?</p>",
+      "question": "<p style='font-size: 22px;'>What property of ARP causes cached IP-to-MAC mappings to remain in memory longer?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6080,7 +6080,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What property of ARP allows MAC addresses of frequently used servers to be fixed in the ARP table?</p>",
+      "question": "<p style='font-size: 22px;'>What property of ARP allows MAC addresses of frequently used servers to be fixed in the ARP table?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6110,7 +6110,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What property of ARP allows hosts on a LAN to send traffic to remote networks?</p>",
+      "question": "<p style='font-size: 22px;'>What property of ARP allows hosts on a LAN to send traffic to remote networks?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6140,7 +6140,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Registrar LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>Floor(config)# interface gi0/1<br>Floor(config-if)# description Connects to the Registrar LAN<br>Floor(config-if)# ip address 192.168.235.234 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface gi0/0<br>Floor(config-if)# description Connects to the Manager LAN<br>Floor(config-if)# ip address 192.168.234.114 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/0<br>Floor(config-if)# description Connects to the ISP<br>Floor(config-if)# ip address 10.234.235.254 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/1<br>Floor(config-if)# description Connects to the Head Office WAN<br>Floor(config-if)# ip address 203.0.113.3 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Registrar LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>Floor(config)# interface gi0/1<br>Floor(config-if)# description Connects to the Registrar LAN<br>Floor(config-if)# ip address 192.168.235.234 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface gi0/0<br>Floor(config-if)# description Connects to the Manager LAN<br>Floor(config-if)# ip address 192.168.234.114 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/0<br>Floor(config-if)# description Connects to the ISP<br>Floor(config-if)# ip address 10.234.235.254 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/1<br>Floor(config-if)# description Connects to the Head Office WAN<br>Floor(config-if)# ip address 203.0.113.3 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6175,7 +6175,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What property of ARP forces all Ethernet NICs to process an ARP request?</p>",
+      "question": "<p style='font-size: 22px;'>What property of ARP forces all Ethernet NICs to process an ARP request?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6205,7 +6205,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What property of ARP causes a reply only to the source sending an ARP request?</p>",
+      "question": "<p style='font-size: 22px;'>What property of ARP causes a reply only to the source sending an ARP request?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6235,7 +6235,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What property of ARP causes the request to be flooded out all ports of a switch except for the port receiving the ARP request?</p>",
+      "question": "<p style='font-size: 22px;'>What property of ARP causes the request to be flooded out all ports of a switch except for the port receiving the ARP request?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6265,7 +6265,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What property of ARP causes the NICs receiving an ARP request to pass the data portion of the Ethernet frame to the ARP process?</p>",
+      "question": "<p style='font-size: 22px;'>What property of ARP causes the NICs receiving an ARP request to pass the data portion of the Ethernet frame to the ARP process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6295,7 +6295,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>What property of ARP causes the NICs receiving an ARP request to pass the data portion of the Ethernet frame to the ARP process?</p>",
+      "question": "<p style='font-size: 22px;'>What property of ARP causes the NICs receiving an ARP request to pass the data portion of the Ethernet frame to the ARP process?</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6325,7 +6325,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Service LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>Main(config)# interface gi0/1<br>Main(config-if)# description Connects to the Service LAN<br>Main(config-if)# ip address 172.29.157.156 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface gi0/0<br>Main(config-if)# description Connects to the Engineering LAN<br>Main(config-if)# ip address 172.29.156.36 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface s0/0/0<br>Main(config-if)# description Connects to the ISP<br>Main(config-if)# ip address 10.156.157.254 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface s0/0/1<br>Main(config-if)# description Connects to the Head Office WAN<br>Main(config-if)# ip address 198.51.100.177 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Service LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>Main(config)# interface gi0/1<br>Main(config-if)# description Connects to the Service LAN<br>Main(config-if)# ip address 172.29.157.156 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface gi0/0<br>Main(config-if)# description Connects to the Engineering LAN<br>Main(config-if)# ip address 172.29.156.36 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface s0/0/0<br>Main(config-if)# description Connects to the ISP<br>Main(config-if)# ip address 10.156.157.254 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface s0/0/1<br>Main(config-if)# description Connects to the Head Office WAN<br>Main(config-if)# ip address 198.51.100.177 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6360,7 +6360,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Medical LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>BldgA(config)# interface gi0/1<br>BldgA(config-if)# description Connects to the Medical LAN<br>BldgA(config-if)# ip address 192.168.191.189 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface gi0/0<br>BldgA(config-if)# description Connects to the Client LAN<br>BldgA(config-if)# ip address 192.168.190.70 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface s0/0/0<br>BldgA(config-if)# description Connects to the ISP<br>BldgA(config-if)# ip address 10.190.191.254 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface s0/0/1<br>BldgA(config-if)# description Connects to the Head Office WAN<br>BldgA(config-if)# ip address 198.51.100.213 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Medical LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>BldgA(config)# interface gi0/1<br>BldgA(config-if)# description Connects to the Medical LAN<br>BldgA(config-if)# ip address 192.168.191.189 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface gi0/0<br>BldgA(config-if)# description Connects to the Client LAN<br>BldgA(config-if)# ip address 192.168.190.70 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface s0/0/0<br>BldgA(config-if)# description Connects to the ISP<br>BldgA(config-if)# ip address 10.190.191.254 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface s0/0/1<br>BldgA(config-if)# description Connects to the Head Office WAN<br>BldgA(config-if)# ip address 198.51.100.213 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6395,7 +6395,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Registrar LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>Floor(config)# interface gi0/1<br>Floor(config-if)# description Connects to the Registrar LAN<br>Floor(config-if)# ip address 192.168.225.223 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface gi0/0<br>Floor(config-if)# description Connects to the Manager LAN<br>Floor(config-if)# ip address 192.168.224.103 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/0<br>Floor(config-if)# description Connects to the ISP<br>Floor(config-if)# ip address 10.224.225.254 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/1<br>Floor(config-if)# description Connects to the Head Office WAN<br>Floor(config-if)# ip address 203.0.113.246 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Registrar LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>Floor(config)# interface gi0/1<br>Floor(config-if)# description Connects to the Registrar LAN<br>Floor(config-if)# ip address 192.168.225.223 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface gi0/0<br>Floor(config-if)# description Connects to the Manager LAN<br>Floor(config-if)# ip address 192.168.224.103 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/0<br>Floor(config-if)# description Connects to the ISP<br>Floor(config-if)# ip address 10.224.225.254 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/1<br>Floor(config-if)# description Connects to the Head Office WAN<br>Floor(config-if)# ip address 203.0.113.246 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6430,7 +6430,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Manager LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>Floor(config)# interface gi0/1<br>Floor(config-if)# description Connects to the Registrar LAN<br>Floor(config-if)# ip address 10.118.63.65 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface gi0/0<br>Floor(config-if)# description Connects to the Manager LAN<br>Floor(config-if)# ip address 10.118.62.196 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/0<br>Floor(config-if)# description Connects to the ISP<br>Floor(config-if)# ip address 10.62.63.254 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/1<br>Floor(config-if)# description Connects to the Head Office WAN<br>Floor(config-if)# ip address 209.165.200.87 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Manager LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>Floor(config)# interface gi0/1<br>Floor(config-if)# description Connects to the Registrar LAN<br>Floor(config-if)# ip address 10.118.63.65 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface gi0/0<br>Floor(config-if)# description Connects to the Manager LAN<br>Floor(config-if)# ip address 10.118.62.196 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/0<br>Floor(config-if)# description Connects to the ISP<br>Floor(config-if)# ip address 10.62.63.254 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# interface s0/0/1<br>Floor(config-if)# description Connects to the Head Office WAN<br>Floor(config-if)# ip address 209.165.200.87 255.255.255.0<br>Floor(config-if)# no shutdown<br>Floor(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6465,7 +6465,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Store LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>HQ(config)# interface gi0/1<br>HQ(config-if)# description Connects to the Branch LAN<br>HQ(config-if)# ip address 172.19.99.99 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface gi0/0<br>HQ(config-if)# description Connects to the Store LAN<br>HQ(config-if)# ip address 172.19.98.230 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface s0/0/0<br>HQ(config-if)# description Connects to the ISP<br>HQ(config-if)# ip address 10.98.99.254 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface s0/0/1<br>HQ(config-if)# description Connects to the Head Office WAN<br>HQ(config-if)# ip address 209.165.200.120 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Store LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>HQ(config)# interface gi0/1<br>HQ(config-if)# description Connects to the Branch LAN<br>HQ(config-if)# ip address 172.19.99.99 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface gi0/0<br>HQ(config-if)# description Connects to the Store LAN<br>HQ(config-if)# ip address 172.19.98.230 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface s0/0/0<br>HQ(config-if)# description Connects to the ISP<br>HQ(config-if)# ip address 10.98.99.254 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface s0/0/1<br>HQ(config-if)# description Connects to the Head Office WAN<br>HQ(config-if)# ip address 209.165.200.120 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6500,7 +6500,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Store LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>HQ(config)# interface gi0/1<br>HQ(config-if)# description Connects to the Branch LAN<br>HQ(config-if)# ip address 172.20.133.132 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface gi0/0<br>HQ(config-if)# description Connects to the Store LAN<br>HQ(config-if)# ip address 172.20.132.13 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface s0/0/0<br>HQ(config-if)# description Connects to the ISP<br>HQ(config-if)# ip address 10.132.133.254 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface s0/0/1<br>HQ(config-if)# description Connects to the Head Office WAN<br>HQ(config-if)# ip address 198.51.100.156 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Store LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>HQ(config)# interface gi0/1<br>HQ(config-if)# description Connects to the Branch LAN<br>HQ(config-if)# ip address 172.20.133.132 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface gi0/0<br>HQ(config-if)# description Connects to the Store LAN<br>HQ(config-if)# ip address 172.20.132.13 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface s0/0/0<br>HQ(config-if)# description Connects to the ISP<br>HQ(config-if)# ip address 10.132.133.254 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# interface s0/0/1<br>HQ(config-if)# description Connects to the Head Office WAN<br>HQ(config-if)# ip address 198.51.100.156 255.255.255.0<br>HQ(config-if)# no shutdown<br>HQ(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6535,7 +6535,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Service LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>Main(config)# interface gi0/1<br>Main(config-if)# description Connects to the Service LAN<br>Main(config-if)# ip address 192.168.167.166 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface gi0/0<br>Main(config-if)# description Connects to the Engineering LAN<br>Main(config-if)# ip address 192.168.166.46 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface s0/0/0<br>Main(config-if)# description Connects to the ISP<br>Main(config-if)# ip address 10.166.167.254 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface s0/0/1<br>Main(config-if)# description Connects to the Head Office WAN<br>Main(config-if)# ip address 198.51.100.189 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Service LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>Main(config)# interface gi0/1<br>Main(config-if)# description Connects to the Service LAN<br>Main(config-if)# ip address 192.168.167.166 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface gi0/0<br>Main(config-if)# description Connects to the Engineering LAN<br>Main(config-if)# ip address 192.168.166.46 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface s0/0/0<br>Main(config-if)# description Connects to the ISP<br>Main(config-if)# ip address 10.166.167.254 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# interface s0/0/1<br>Main(config-if)# description Connects to the Head Office WAN<br>Main(config-if)# ip address 198.51.100.189 255.255.255.0<br>Main(config-if)# no shutdown<br>Main(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
@@ -6570,7 +6570,7 @@
       ]
    },
    {
-      "question": "<p style='font-size: 24px;'>Refer to the exhibit. A network administrator is connecting a new host to the Medical LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p>BldgA(config)# interface gi0/1<br>BldgA(config-if)# description Connects to the Medical LAN<br>BldgA(config-if)# ip address 192.168.201.200 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface gi0/0<br>BldgA(config-if)# description Connects to the Client LAN<br>BldgA(config-if)# ip address 192.168.200.80 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface s0/0/0<br>BldgA(config-if)# description Connects to the ISP<br>BldgA(config-if)# ip address 10.200.201.254 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface s0/0/1<br>BldgA(config-if)# description Connects to the Head Office WAN<br>BldgA(config-if)# ip address 203.0.113.222 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# end</p>",
+      "question": "<p style='font-size: 22px;'>Refer to the exhibit. A network administrator is connecting a new host to the Medical LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?</p><p style='font-size: 16px;'>BldgA(config)# interface gi0/1<br>BldgA(config-if)# description Connects to the Medical LAN<br>BldgA(config-if)# ip address 192.168.201.200 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface gi0/0<br>BldgA(config-if)# description Connects to the Client LAN<br>BldgA(config-if)# ip address 192.168.200.80 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface s0/0/0<br>BldgA(config-if)# description Connects to the ISP<br>BldgA(config-if)# ip address 10.200.201.254 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# interface s0/0/1<br>BldgA(config-if)# description Connects to the Head Office WAN<br>BldgA(config-if)# ip address 203.0.113.222 255.255.255.0<br>BldgA(config-if)# no shutdown<br>BldgA(config-if)# end</p>",
       "answer": "<div></div>",
       "categories": [
          "ITN - Communicating Between Networks Exam Answers",
