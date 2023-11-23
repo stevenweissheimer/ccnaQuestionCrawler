@@ -1,0 +1,78 @@
+[
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 3633686239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T18:07:00.409Z",
+    "question": "Refer to the graphic. What type of cabling is shown?",
+    "questionText": "",
+    "answersDescription": "Network cabling include different types of cables:\r\n\r\nUTP cable consists of four pairs of color-coded wires that have been twisted together and then encased in a flexible plastic sheath.\r\nSTP cable uses four pairs of wires, each wrapped in a foil shield, which are then wrapped in an overall metallic braid or foil.\r\nCoaxial cable uses a copper conductor and a layer of flexible plastic insulation surrounds the copper conductor.\r\nFiber cable is a flexible, extremely thin, transparent strand of glass surrounded by plastic insulation.",
+    "questionImage": "9891699745.jpg",
+    "answers": [
+      {
+        "id": 4672344217,
+        "title": "STP",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4798329799,
+        "title": "UTP",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4798947175,
+        "title": "coax",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5224287655,
+        "title": "fiber",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 1697699593585458
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T08:16:05.875Z",
+    "question": "What is the prefix length notation for the subnet mask 255.255.255.224?",
+    "questionText": "",
+    "answersDescription": "The binary format for 255.255.255.224 is 11111111.11111111.11111111.11100000. The prefix length is the number of consecutive 1s in the subnet mask. Therefore, the prefix length is /27.",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 7811504180,
+        "title": "/25",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2858764794,
+        "title": "/26",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7635656666,
+        "title": "/27",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5908231155,
+        "title": "/28",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 7370491061748729
+  }
+]
