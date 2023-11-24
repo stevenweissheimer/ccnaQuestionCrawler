@@ -57,11 +57,32 @@ app.post('/addQuestion', upload.fields([
     { name: 'answers[4][image]', maxCount: 1 },
     { name: 'answers[5][image]', maxCount: 1 }
 ]), (req, res) => {
-    const { courseId, subCourseId, categoryId, question, answersDescription, questionText, answers } = req.body;
+    const { courseId, subCourseId, categoryId, question, answersDescription, questionText, customAnswers, answers } = req.body;
 
-    // Überprüfen, ob die Antwortfelder befüllt sind
-    const validAnswers = answers.filter(answer => answer.title.trim() !== '');
+    // Verarbeite benutzerdefinierte Antworten
+    let validAnswers;
 
+    if (customAnswers.trim() !== '') {
+        const customAnswerLines = customAnswers.split('\n');
+        validAnswers = customAnswerLines.map(line => {
+            const trimmedLine = line.trim();
+            const isCorrect = trimmedLine.endsWith('*');
+            return {
+                title: isCorrect ? trimmedLine.slice(0, -1).trim() : trimmedLine,
+                correct: isCorrect
+            };
+        });
+    } else {
+        // Verarbeite einzelne Antwortfelder
+        validAnswers = answers
+            .map((answer, index) => ({
+                title: answer.title.trim(),
+                correct: answer.correct === 'on'
+            }))
+            .filter(answer => answer.title !== ''); // Filtere leere Antworten aus
+    }
+
+    // Überprüfen, ob mindestens eine Antwort befüllt ist
     if (validAnswers.length === 0) {
         return res.status(400).send('Mindestens eine Antwort muss befüllt sein.');
     }
@@ -71,7 +92,7 @@ app.post('/addQuestion', upload.fields([
     const selectedCourse = courses.find(course => course.courseId === parseInt(courseId));
     const selectedSubcourse = selectedCourse.subcourses.find(subcourse => subcourse.subCourseId === parseInt(subCourseId));
     const selectedCategory = selectedSubcourse.categories.find(category => category.categoryId === parseInt(categoryId));
-    
+
     const timestamp = new Date(); // Aktuelles Datum und Uhrzeit
 
     const newQuestion = {
@@ -89,7 +110,7 @@ app.post('/addQuestion', upload.fields([
             id: Math.floor(1000000000 + Math.random() * 9000000000),
             title: answer.title,
             image: req.files[`answers[${index}][image]`] ? req.files[`answers[${index}][image]`][0].filename : '',
-            correct: answer.correct === 'on'
+            correct: answer.correct
         }))
     };
 
@@ -99,6 +120,7 @@ app.post('/addQuestion', upload.fields([
 
     res.redirect('/');
 });
+
 
 // Endpunkt, um die Kursdaten zu senden
 app.get('/courses', (req, res) => {

@@ -74,5 +74,131 @@
       }
     ],
     "questionId": 7370491061748729
+  },
+  {
+    "questionId": 1402866329690565,
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T11:27:14.489Z",
+    "question": "Match each description with an appropriate IP address. (Not all options are used.)",
+    "questionText": "",
+    "answersDescription": "Link-Local addresses are assigned automatically by the OS environment and are located in the block 169.254.0.0/16. The private addresses ranges are 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16. TEST-NET addresses belong to the range 192.0.2.0/24. The addresses in the block 240.0.0.0 to 255.255.255.254 are reserved as experimental addresses. Loopback addresses belong to the block 127.0.0.0/8.",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 6560357335,
+        "title": "64.102.90.23 - \r\n169.254.1.5 - a link-local address\r\n192.0.2.123 - a TEST-NET address\r\n240.2.6.255 - an experimental address\r\n172.19.20.5 - a private address\r\n127.0.0.1 - a loopback address",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9191603108,
+        "title": "64.102.90.23 - an experimental address\r\n169.254.1.5 - a private address\r\n192.0.2.123 - a loopback address\r\n240.2.6.255 - \r\n172.19.20.5 - a TEST-NET address\r\n127.0.0.1 - a link-local address",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2007768604,
+        "title": "64.102.90.23 - \r\n169.254.1.5 - a loopback address\r\n192.0.2.123 - a private address\r\n240.2.6.255 - an experimental address\r\n172.19.20.5 - a link-local address\r\n127.0.0.1 - a TEST-NET address",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9820204083,
+        "title": "64.102.90.23 - a TEST-NET address\r\n169.254.1.5 - a loopback address\r\n192.0.2.123 - a link-local address\r\n240.2.6.255 - \r\n172.19.20.5 - a private address\r\n127.0.0.1 - an experimental address",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3227314785,
+        "title": "64.102.90.23 - a TEST-NET address\r\n169.254.1.5 - \r\n192.0.2.123 - an experimental address\r\n240.2.6.255 - a loopback address\r\n172.19.20.5 - a link-local address\r\n127.0.0.1 - a private address",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2510212351,
+        "title": "64.102.90.23 - a loopback address\r\n169.254.1.5 - \r\n192.0.2.123 - a private address\r\n240.2.6.255 - an experimental address\r\n172.19.20.5 - a link-local address\r\n127.0.0.1 - a TEST-NET address",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "questionId": 2872429339132288,
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T11:47:06.258Z",
+    "question": "Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?",
+    "questionText": "",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 8119533767,
+        "title": "2001:db8::a0b0:8:1!",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2816736042,
+        "title": "2001:db8::ab8:1:0:1000",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5982485902,
+        "title": "2001:db80:0:1::80:1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 8743573243,
+        "title": "2001:db8:0:1::8:1",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "questionId": 1148774539908142,
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T11:48:26.702Z",
+    "question": "Which is the compressed format of the IPv6 address fe80:09ea:0000:2200:0000:0000:0fe0:0290?",
+    "questionText": "",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 3795455827,
+        "title": "fe80:9ea:0:2200::fe0:290!",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6672404200,
+        "title": "fe80:9ea0::2020:0:bf:e0:9290",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5186783004,
+        "title": "fe80::220:b3f:f0e0:29",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1286478021,
+        "title": "fe80::0220:0b3f:f0e0:0029",
+        "image": "",
+        "correct": false
+      }
+    ]
   }
 ]

@@ -127,8 +127,13 @@
             <label for="questionImage">Question Image:</label>
             <input type="file" name="questionImage" class="form-control-file">
         </div>
-
+        
         <h3 class="mt-4">Answers</h3>
+        <div class="form-group">
+            <label for="customAnswers">Custom Answers (One answer per line, mark correct with '*'):</label>
+            <textarea name="customAnswers" class="form-control"></textarea>
+        </div>
+        <br>
         <% for(let i=0; i<6; i++) { %>
         <div class="form-group">
             <label for="answer<%= i+1 %>">Answer <%= i+1 %>:</label>
@@ -142,7 +147,6 @@
         <% } %>
 
         <button type="submit" class="btn btn-primary">Add Question</button>
-    </form>
 
     <h2 class="mb-4">Questions</h2>
     <table class="table">
