@@ -147,6 +147,39 @@
         <% } %>
 
         <button type="submit" class="btn btn-primary">Add Question</button>
+
+    <h2 class="mb-4">Questions</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>SubCourse</th>
+                <th>Category</th>
+                <th>Question</th>
+                <% for (let i = 1; i <= maxAnswers; i++) { %>
+                <th>Answer <%= i %></th>
+                <% } %>
+            </tr>
+        </thead>
+        <tbody>
+            <% questions.forEach(question => { %>
+            <tr>
+                <td><%= question.courseId %></td>
+                <td><%= question.subCourseId %></td>
+                <td><%= question.categoryId %></td>
+                <td><%= question.question %></td>
+                <% question.answers.forEach(answer => { %>
+                <td class="<%= answer.correct ? 'text-success' : 'text-danger' %>">
+                    <%= answer.title %>
+                </td>
+                <% }) %>
+                <% for (let i = question.answers.length + 1; i <= maxAnswers; i++) { %>
+                <td></td>
+                <% } %>
+            </tr>
+            <% }) %>
+        </tbody>
+    </table>
 </body>
 <script>
     // Funktion zum Setzen des Werts im Session Storage und Aktualisieren des Dropdowns
