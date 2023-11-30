@@ -1,0 +1,688 @@
+[
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:01:09.391Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Payroll LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "RTR1(config)# interface gi0/1\r\nRTR1(config-if)# description Connects to the Marketing LAN\r\nRTR1(config-if)# ip address 10.27.15.17 255.255.255.0\r\nRTR1(config-if)# no shutdown\r\nRTR1(config-if)# interface gi0/0\r\nRTR1(config-if)# description Connects to the Payroll LAN\r\nRTR1(config-if)# ip address 10.27.14.148 255.255.255.0\r\nRTR1(config-if)# no shutdown\r\nRTR1(config-if)# interface s0/0/0\r\nRTR1(config-if)# description Connects to the ISP\r\nRTR1(config-if)# ip address 10.14.15.254 255.255.255.0\r\nRTR1(config-if)# no shutdown\r\nRTR1(config-if)# interface s0/0/1\r\nRTR1(config-if)# description Connects to the Head Office WAN\r\nRTR1(config-if)# ip address 203.0.113.39 255.255.255.0\r\nRTR1(config-if)# no shutdown\r\nRTR1(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 6403379081,
+        "title": "10.27.14.148",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 2360249452,
+        "title": "10.27.14.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1809894789,
+        "title": "10.14.15.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9528772099,
+        "title": "203.0.113.39",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5112579120,
+        "title": "10.27.15.17",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 7994061544556877
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:06:13.784Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Registrar LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "Floor(config)# interface gi0/1\r\nFloor(config-if)# description Connects to the Registrar LAN\r\nFloor(config-if)# ip address 192.168.235.234 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface gi0/0\r\nFloor(config-if)# description Connects to the Manager LAN\r\nFloor(config-if)# ip address 192.168.234.114 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface s0/0/0\r\nFloor(config-if)# description Connects to the ISP\r\nFloor(config-if)# ip address 10.234.235.254 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface s0/0/1\r\nFloor(config-if)# description Connects to the Head Office WAN\r\nFloor(config-if)# ip address 203.0.113.3 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 2097893034,
+        "title": "192.168.235.234",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 4064854325,
+        "title": "192.168.235.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6058369163,
+        "title": "10.234.235.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9989936517,
+        "title": "203.0.113.3",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7983307889,
+        "title": "192.168.234.114",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 6991746486410479
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:13:30.318Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Service LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "Main(config)# interface gi0/1\r\nMain(config-if)# description Connects to the Service LAN\r\nMain(config-if)# ip address 172.29.157.156 255.255.255.0\r\nMain(config-if)# no shutdown\r\nMain(config-if)# interface gi0/0\r\nMain(config-if)# description Connects to the Engineering LAN\r\nMain(config-if)# ip address 172.29.156.36 255.255.255.0\r\nMain(config-if)# no shutdown\r\nMain(config-if)# interface s0/0/0\r\nMain(config-if)# description Connects to the ISP\r\nMain(config-if)# ip address 10.156.157.254 255.255.255.0\r\nMain(config-if)# no shutdown\r\nMain(config-if)# interface s0/0/1\r\nMain(config-if)# description Connects to the Head Office WAN\r\nMain(config-if)# ip address 198.51.100.177 255.255.255.0\r\nMain(config-if)# no shutdown\r\nMain(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 4427397615,
+        "title": "172.29.157.156",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 4540516262,
+        "title": "172.29.157.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3749693712,
+        "title": "10.156.157.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6492095163,
+        "title": "198.51.100.177",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9251476167,
+        "title": "172.29.156.36",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 8092606338830964
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:14:31.007Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Medical LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "BldgA(config)# interface gi0/1\r\nBldgA(config-if)# description Connects to the Medical LAN\r\nBldgA(config-if)# ip address 192.168.191.189 255.255.255.0\r\nBldgA(config-if)# no shutdown\r\nBldgA(config-if)# interface gi0/0\r\nBldgA(config-if)# description Connects to the Client LAN\r\nBldgA(config-if)# ip address 192.168.190.70 255.255.255.0\r\nBldgA(config-if)# no shutdown\r\nBldgA(config-if)# interface s0/0/0\r\nBldgA(config-if)# description Connects to the ISP\r\nBldgA(config-if)# ip address 10.190.191.254 255.255.255.0\r\nBldgA(config-if)# no shutdown\r\nBldgA(config-if)# interface s0/0/1\r\nBldgA(config-if)# description Connects to the Head Office WAN\r\nBldgA(config-if)# ip address 198.51.100.213 255.255.255.0\r\nBldgA(config-if)# no shutdown\r\nBldgA(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 9167458181,
+        "title": "192.168.191.189",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 2583269727,
+        "title": "192.168.191.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 8902674117,
+        "title": "10.190.191.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 8426627050,
+        "title": "198.51.100.213",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9392840001,
+        "title": "192.168.190.70",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 6856189129446744
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:15:35.552Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Registrar LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "Floor(config)# interface gi0/1\r\nFloor(config-if)# description Connects to the Registrar LAN\r\nFloor(config-if)# ip address 192.168.225.223 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface gi0/0\r\nFloor(config-if)# description Connects to the Manager LAN\r\nFloor(config-if)# ip address 192.168.224.103 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface s0/0/0\r\nFloor(config-if)# description Connects to the ISP\r\nFloor(config-if)# ip address 10.224.225.254 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface s0/0/1\r\nFloor(config-if)# description Connects to the Head Office WAN\r\nFloor(config-if)# ip address 203.0.113.246 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 9543062956,
+        "title": "192.168.225.223",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 3102492612,
+        "title": "192.168.225.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2840487823,
+        "title": "10.224.225.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4673120457,
+        "title": "203.0.113.246",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6725552793,
+        "title": "192.168.224.103",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 6235065800105114
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:16:23.892Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Manager LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "Floor(config)# interface gi0/1\r\nFloor(config-if)# description Connects to the Registrar LAN\r\nFloor(config-if)# ip address 10.118.63.65 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface gi0/0\r\nFloor(config-if)# description Connects to the Manager LAN\r\nFloor(config-if)# ip address 10.118.62.196 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface s0/0/0\r\nFloor(config-if)# description Connects to the ISP\r\nFloor(config-if)# ip address 10.62.63.254 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# interface s0/0/1\r\nFloor(config-if)# description Connects to the Head Office WAN\r\nFloor(config-if)# ip address 209.165.200.87 255.255.255.0\r\nFloor(config-if)# no shutdown\r\nFloor(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 8492728484,
+        "title": "10.118.62.196",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 3047135202,
+        "title": "10.118.62.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4776105601,
+        "title": "10.62.63.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7577282814,
+        "title": "209.165.200.87",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6534730042,
+        "title": "10.118.63.65",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 3060370005622509
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:17:12.112Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Store LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "HQ(config)# interface gi0/1\r\nHQ(config-if)# description Connects to the Branch LAN\r\nHQ(config-if)# ip address 172.19.99.99 255.255.255.0\r\nHQ(config-if)# no shutdown\r\nHQ(config-if)# interface gi0/0\r\nHQ(config-if)# description Connects to the Store LAN\r\nHQ(config-if)# ip address 172.19.98.230 255.255.255.0\r\nHQ(config-if)# no shutdown\r\nHQ(config-if)# interface s0/0/0\r\nHQ(config-if)# description Connects to the ISP\r\nHQ(config-if)# ip address 10.98.99.254 255.255.255.0\r\nHQ(config-if)# no shutdown\r\nHQ(config-if)# interface s0/0/1\r\nHQ(config-if)# description Connects to the Head Office WAN\r\nHQ(config-if)# ip address 209.165.200.120 255.255.255.0\r\nHQ(config-if)# no shutdown\r\nHQ(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 2320395724,
+        "title": "172.19.98.230",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 2113693580,
+        "title": "172.19.98.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 7499363136,
+        "title": "10.98.99.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1947124202,
+        "title": "209.165.200.120",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9609288340,
+        "title": "172.19.99.99",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 5478468102213547
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:17:56.043Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Store LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "HQ(config)# interface gi0/1\r\nHQ(config-if)# description Connects to the Branch LAN\r\nHQ(config-if)# ip address 172.20.133.132 255.255.255.0\r\nHQ(config-if)# no shutdown\r\nHQ(config-if)# interface gi0/0\r\nHQ(config-if)# description Connects to the Store LAN\r\nHQ(config-if)# ip address 172.20.132.13 255.255.255.0\r\nHQ(config-if)# no shutdown\r\nHQ(config-if)# interface s0/0/0\r\nHQ(config-if)# description Connects to the ISP\r\nHQ(config-if)# ip address 10.132.133.254 255.255.255.0\r\nHQ(config-if)# no shutdown\r\nHQ(config-if)# interface s0/0/1\r\nHQ(config-if)# description Connects to the Head Office WAN\r\nHQ(config-if)# ip address 198.51.100.156 255.255.255.0\r\nHQ(config-if)# no shutdown\r\nHQ(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 7243601484,
+        "title": "172.20.132.13",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 9760456993,
+        "title": "172.20.132.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2790851390,
+        "title": "10.132.133.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1105119832,
+        "title": "198.51.100.156",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6545280111,
+        "title": "172.20.133.132",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 6308388640748877
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:18:44.582Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Service LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "Main(config)# interface gi0/1\r\nMain(config-if)# description Connects to the Service LAN\r\nMain(config-if)# ip address 192.168.167.166 255.255.255.0\r\nMain(config-if)# no shutdown\r\nMain(config-if)# interface gi0/0\r\nMain(config-if)# description Connects to the Engineering LAN\r\nMain(config-if)# ip address 192.168.166.46 255.255.255.0\r\nMain(config-if)# no shutdown\r\nMain(config-if)# interface s0/0/0\r\nMain(config-if)# description Connects to the ISP\r\nMain(config-if)# ip address 10.166.167.254 255.255.255.0\r\nMain(config-if)# no shutdown\r\nMain(config-if)# interface s0/0/1\r\nMain(config-if)# description Connects to the Head Office WAN\r\nMain(config-if)# ip address 198.51.100.189 255.255.255.0\r\nMain(config-if)# no shutdown\r\nMain(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 5629265429,
+        "title": "192.168.167.166",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 2934971504,
+        "title": "192.168.167.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 2425430594,
+        "title": "10.166.167.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4577106034,
+        "title": "198.51.100.189",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6759508418,
+        "title": "192.168.166.46",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 6930391227248703
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 6653876239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-22T21:19:27.398Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Medical LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "BldgA(config)# interface gi0/1\r\nBldgA(config-if)# description Connects to the Medical LAN\r\nBldgA(config-if)# ip address 192.168.201.200 255.255.255.0\r\nBldgA(config-if)# no shutdown\r\nBldgA(config-if)# interface gi0/0\r\nBldgA(config-if)# description Connects to the Client LAN\r\nBldgA(config-if)# ip address 192.168.200.80 255.255.255.0\r\nBldgA(config-if)# no shutdown\r\nBldgA(config-if)# interface s0/0/0\r\nBldgA(config-if)# description Connects to the ISP\r\nBldgA(config-if)# ip address 10.200.201.254 255.255.255.0\r\nBldgA(config-if)# no shutdown\r\nBldgA(config-if)# interface s0/0/1\r\nBldgA(config-if)# description Connects to the Head Office WAN\r\nBldgA(config-if)# ip address 203.0.113.222 255.255.255.0\r\nBldgA(config-if)# no shutdown\r\nBldgA(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 1059129598,
+        "title": "192.168.201.200",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 1228551721,
+        "title": "192.168.201.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3382529309,
+        "title": "10.200.201.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5769196969,
+        "title": "203.0.113.222",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 1537832038,
+        "title": "192.168.200.80",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 1757619087951127
+  },
+  {
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 7683274839,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T09:03:43.469Z",
+    "question": "Refer to the exhibit. An administrator must send a message to everyone on the router A network. What is the broadcast address for network 172.16.16.0/22?",
+    "questionText": "",
+    "answersDescription": "The 172.16.16.0/22 network has 22 bits in the network portion and 10 bits in the host portion. Converting the network address to binary yields a subnet mask of 255.255.252.0. The range of addresses in this network will end with the last address available before 172.16.20.0. Valid host addresses for this network range from 172.16.16.1-172.16.19.254, making 172.16.19.255 the broadcast address.",
+    "questionImage": "1453655751",
+    "answers": [
+      {
+        "id": 2319352488,
+        "title": "172.16.16.255",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3255597434,
+        "title": "172.16.20.255",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9761711061,
+        "title": "172.16.19.255",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 9670666909,
+        "title": "172.16.23.255",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9466498968,
+        "title": "172.16.255.255",
+        "image": "",
+        "correct": false
+      }
+    ],
+    "questionId": 5207255708860321
+  },
+  {
+    "questionId": 1684535944416577,
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 3623348239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-23T22:47:41.961Z",
+    "question": "Refer to the exhibit. A network administrator is connecting a new host to the Registrar LAN. The host needs to communicate with remote networks. What IP address would be configured as the default gateway on the new host?",
+    "questionText": "Floor(config)# interface gi0/1 \r\nFloor(config-if)# description Connects to the Registrar LAN \r\nFloor(config-if)# ip address 192.168.235.234 255.255.255.0 \r\nFloor(config-if)# no shutdown \r\nFloor(config-if)# interface gi0/0 \r\nFloor(config-if)# description Connects to the Manager LAN \r\nFloor(config-if)# ip address 192.168.234.114 255.255.255.0 \r\nFloor(config-if)# no shutdown \r\nFloor(config-if)# interface s0/0/0 \r\nFloor(config-if)# description Connects to the ISP \r\nFloor(config-if)# ip address 10.234.235.254 255.255.255.0 \r\nFloor(config-if)# no shutdown \r\nFloor(config-if)# interface s0/0/1 \r\nFloor(config-if)# description Connects to the Head Office WAN \r\nFloor(config-if)# ip address 203.0.113.3 255.255.255.0 \r\nFloor(config-if)# no shutdown \r\nFloor(config-if)# end",
+    "answersDescription": "",
+    "questionImage": "",
+    "answers": [
+      {
+        "id": 4746461098,
+        "title": "192.168.235.234",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 7825925541,
+        "title": "203.0.113.3",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6124323012,
+        "title": "192.168.235.1",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6244468329,
+        "title": "10.234.235.254",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 4958064448,
+        "title": "192.168.234.114",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "questionId": 1206217474940174,
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 3683446239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-24T07:32:31.646Z",
+    "question": "Refer to the exhibit. On the basis of the output, which two statements about network connectivity are correct? (Choose two.)",
+    "questionText": "",
+    "answersDescription": "The output displays a successful Layer 3 connection between a host computer and a host at 19.168.100.1. It can be determined that 4 hops exist between them and the average transmission time is 1 milliseconds. Layer 3 connectivity does not necessarily mean that an application can run between the hosts.",
+    "questionImage": "8384443728.jpg",
+    "answers": [
+      {
+        "id": 4542266486,
+        "title": "This host does not have a default gateway configured.",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9209569669,
+        "title": "There are 4 hops between this device and the device at 192.168.100.1.",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 5301885567,
+        "title": "There is connectivity between this device and the device at 192.168.100.1.",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 2223871257,
+        "title": "The connectivity between these two hosts allows for videoconferencing calls.",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5353889494,
+        "title": "The average transmission time between the two hosts is 2 milliseconds.",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "questionId": 6635624074148119,
+    "courseId": 7836270919,
+    "subCourseId": 8273629076,
+    "categoryId": 3683446239,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-24T07:35:40.828Z",
+    "question": "Refer to the exhibit. If PC1 is sending a packet to PC2 and routing has been configured between the two routers, what will R1 do with the Ethernet frame header attached by PC1?",
+    "questionText": "",
+    "answersDescription": "When PC1 forms the various headers attached to the data one of those headers is the Layer 2 header. Because PC1 connects to an Ethernet network, an Ethernet header is used. The source MAC address will be the MAC address of PC1 and the destination MAC address will be that of G0/0 on R1. When R1 gets that information, the router removes the Layer 2 header and creates a new one for the type of network the data will be placed onto (the serial link).",
+    "questionImage": "9616772951.png",
+    "answers": [
+      {
+        "id": 1779774626,
+        "title": "nothing, because the router has a route to the destination network",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9250991375,
+        "title": "open the header and use it to determine whether the data is to be sent out S0/0/0",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 5150499090,
+        "title": "open the header and replace the destination MAC address with a new one",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 8881119177,
+        "title": "remove the Ethernet header and configure a new Layer 2 header before sending it out S0/0/0",
+        "image": "",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "questionId": 4090242605443380,
+    "courseId": 7836270919,
+    "subCourseId": 7147581853,
+    "categoryId": 9323413997,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-27T19:11:55.650Z",
+    "question": "Refer to the exhibit. A network administrator has deployed QoS and has configured the network to mark traffic on the VoIP phones as well as the Layer 2 and Layer 3 switches. Where should initial marking occur to establish the trust boundary?",
+    "questionText": "",
+    "answersDescription": "Traffic should be classified and marked as close to its source as possible. The trust boundary identifies at which device marked traffic should be trusted. Traffic marked on VoIP phones would be considered trusted as it moves into the enterprise network.",
+    "questionImage": "3371890776.jpg",
+    "answers": [
+      {
+        "id": 5441367943,
+        "title": "Trust Boundary 4",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3259136047,
+        "title": "Trust Boundary 3",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 9216764757,
+        "title": "Trust Boundary 1",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 6257965698,
+        "title": "Trust Boundary 2",
+        "image": "",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "questionId": 7764646539114198,
+    "courseId": 7836270919,
+    "subCourseId": 7147581853,
+    "categoryId": 9323413997,
+    "questionType": 3719829076,
+    "timestamp": "2023-11-27T19:42:05.549Z",
+    "question": "Refer to the exhibit. A network administrator needs to add an ACE to the TRAFFIC-CONTROL ACL that will deny IP traffic from the subnet 172.23.16.0/20. Which ACE will meet this requirement?",
+    "questionText": "",
+    "answersDescription": "The only filtering criteria specified for a standard access list is the source IPv4 address. The wild card mask is written to identify what parts of the address to match, with a 0 bit, and what parts of the address should be ignored, which a 1 bit. The router will parse the ACE entries from lowest sequence number to highest. If an ACE must be added to an existing access list, the sequence number should be specified so that the ACE is in the correct place during the ACL evaluation process.",
+    "questionImage": "2025497752.jpg",
+    "answers": [
+      {
+        "id": 3027879640,
+        "title": "5 deny 172.23.16.0 0.0.15.255",
+        "image": "",
+        "correct": true
+      },
+      {
+        "id": 4470326359,
+        "title": "5 deny 172.23.16.0 0.0.255.255",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 6855719317,
+        "title": "15 deny 172.23.16.0 0.0.15.255",
+        "image": "",
+        "correct": false
+      },
+      {
+        "id": 3228000502,
+        "title": "30 deny 172.23.16.0 0.0.15.255",
+        "image": "",
+        "correct": false
+      }
+    ]
+  }
+]

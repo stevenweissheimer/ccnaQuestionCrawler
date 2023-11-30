@@ -8749,7 +8749,7 @@
     "question": "Refer to the exhibit. An administrator must send a message to everyone on the router A network. What is the broadcast address for network 172.16.16.0/22?",
     "questionText": "",
     "answersDescription": "The 172.16.16.0/22 network has 22 bits in the network portion and 10 bits in the host portion. Converting the network address to binary yields a subnet mask of 255.255.252.0. The range of addresses in this network will end with the last address available before 172.16.20.0. Valid host addresses for this network range from 172.16.16.1-172.16.19.254, making 172.16.19.255 the broadcast address.",
-    "questionImage": "",
+    "questionImage": "1453655751.jpg",
     "answers": [
       {
         "id": 2319352488,
@@ -19864,7 +19864,7 @@
     "question": "Refer to the exhibit. On the basis of the output, which two statements about network connectivity are correct? (Choose two.)",
     "questionText": "",
     "answersDescription": "The output displays a successful Layer 3 connection between a host computer and a host at 19.168.100.1. It can be determined that 4 hops exist between them and the average transmission time is 1 milliseconds. Layer 3 connectivity does not necessarily mean that an application can run between the hosts.",
-    "questionImage": "",
+    "questionImage": "8384443728.jpg",
     "answers": [
       {
         "id": 4542266486,
@@ -20040,7 +20040,7 @@
     "question": "Refer to the exhibit. If PC1 is sending a packet to PC2 and routing has been configured between the two routers, what will R1 do with the Ethernet frame header attached by PC1?",
     "questionText": "",
     "answersDescription": "When PC1 forms the various headers attached to the data one of those headers is the Layer 2 header. Because PC1 connects to an Ethernet network, an Ethernet header is used. The source MAC address will be the MAC address of PC1 and the destination MAC address will be that of G0/0 on R1. When R1 gets that information, the router removes the Layer 2 header and creates a new one for the type of network the data will be placed onto (the serial link).",
-    "questionImage": "",
+    "questionImage": "9616772951.png",
     "answers": [
       {
         "id": 1779774626,
@@ -27370,7 +27370,7 @@
     "question": "Refer to the exhibit. A network administrator has deployed QoS and has configured the network to mark traffic on the VoIP phones as well as the Layer 2 and Layer 3 switches. Where should initial marking occur to establish the trust boundary?",
     "questionText": "",
     "answersDescription": "Traffic should be classified and marked as close to its source as possible. The trust boundary identifies at which device marked traffic should be trusted. Traffic marked on VoIP phones would be considered trusted as it moves into the enterprise network.",
-    "questionImage": "",
+    "questionImage": "3371890776.jpg",
     "answers": [
       {
         "id": 5441367943,
@@ -29014,7 +29014,7 @@
     "question": "Refer to the exhibit. A network administrator needs to add an ACE to the TRAFFIC-CONTROL ACL that will deny IP traffic from the subnet 172.23.16.0/20. Which ACE will meet this requirement?",
     "questionText": "",
     "answersDescription": "The only filtering criteria specified for a standard access list is the source IPv4 address. The wild card mask is written to identify what parts of the address to match, with a 0 bit, and what parts of the address should be ignored, which a 1 bit. The router will parse the ACE entries from lowest sequence number to highest. If an ACE must be added to an existing access list, the sequence number should be specified so that the ACE is in the correct place during the ACL evaluation process.",
-    "questionImage": "",
+    "questionImage": "2025497752.jpg",
     "answers": [
       {
         "id": 3027879640,
