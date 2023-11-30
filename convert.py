@@ -37,7 +37,7 @@ def convert_question_format(question, courses):
         question_html += f"<p style='font-size: 16px;'>{question_text}</p>"
     # Append the URL to the image, if it exists
     if question.get('questionImage'):
-        question_html += f"<p><img src='{question_image_url}' alt='Question Image'></p>"
+        question_html += f"<p><img style='width: 100%;' src='{question_image_url}' alt='Question Image'></p>"
 
     # Check if questionFile exists and add the link if it does
     question_file_link = ""

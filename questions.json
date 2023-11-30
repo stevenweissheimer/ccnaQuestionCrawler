@@ -8749,7 +8749,7 @@
     "question": "Refer to the exhibit. An administrator must send a message to everyone on the router A network. What is the broadcast address for network 172.16.16.0/22?",
     "questionText": "",
     "answersDescription": "The 172.16.16.0/22 network has 22 bits in the network portion and 10 bits in the host portion. Converting the network address to binary yields a subnet mask of 255.255.252.0. The range of addresses in this network will end with the last address available before 172.16.20.0. Valid host addresses for this network range from 172.16.16.1-172.16.19.254, making 172.16.19.255 the broadcast address.",
-    "questionImage": "1453655751.jpg",
+    "questionImage": "1453655751.png",
     "answers": [
       {
         "id": 2319352488,
