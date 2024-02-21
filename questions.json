@@ -24916,13 +24916,13 @@
         "id": 1375890630,
         "title": "a network infrastructure that provides access to other networks over a large geographic area",
         "image": "",
-        "correct": false
+        "correct": true
       },
       {
         "id": 7495038992,
         "title": "a network infrastructure that provides access in a small geographic area",
         "image": "",
-        "correct": true
+        "correct": false
       },
       {
         "id": 8355972586,
@@ -25251,7 +25251,7 @@
     "timestamp": "2023-11-27T18:32:20.158Z",
     "question": "What are two characteristics of video traffic? (Choose two.)",
     "questionText": "",
-    "answersDescription": "",
+    "answersDescription": "Video traffic consumes less network resources than voice traffic consumes. Video traffic latency should not exceed 400 ms. Video traffic is more resilient to loss than voice traffic is. Video traffic requires a minimum of 30 kbs of bandwidth. Video traffic is unpredictable and inconsistent.",
     "questionImage": "",
     "answers": [
       {
@@ -25293,7 +25293,7 @@
     "categoryId": 9323413997,
     "questionType": 3719829076,
     "timestamp": "2023-11-27T18:32:56.043Z",
-    "question": "Video traffic consumes less network resources than voice traffic consumes. Video traffic latency should not exceed 400 ms. Video traffic is more resilient to loss than voice traffic is. Video traffic requires a minimum of 30 kbs of bandwidth. Video traffic is unpredictable and inconsistent.",
+    "question": "Refer to the exhibit. A technician is configuring R2 for static NAT to allow the client to access the web server. What is a possible reason that the client PC cannot access the web server?",
     "questionText": "",
     "answersDescription": "Interface S0/0/0 should be identified as the outside NAT interface. The command to do this would be R2(config-if)# ip nat outside.",
     "questionImage": "6713449940.jpg",
@@ -27532,7 +27532,7 @@
     "questionType": 3719829076,
     "timestamp": "2023-11-27T19:13:58.268Z",
     "question": " An ACL is applied inbound on a router interface. The ACL consists of a single entry:",
-    "questionText": "",
+    "questionText": "access-list 101 permit tcp 10.1.1.0 0.0.0.255 host 192.31.7.45 eq dns .",
     "answersDescription": "access-list 101 permit tcp 10.1.1.0 0.0.0.255 host 192.31.7.45 eq dns .\r\n\r\nIf a packet with a source address of 10.1.1.201, a destination address of 192.31.7.45, and a protocol of 23 is received on the interface, is the packet permitted or denied?",
     "questionImage": "",
     "answers": [
@@ -27603,7 +27603,7 @@
     "timestamp": "2023-11-27T19:19:52.631Z",
     "question": "flash memory NVRAM? RAM ROM a TFTP server",
     "questionText": "",
-    "answersDescription": "The common data formats that are used in many applications including network automation and programmability are as follows:\r\n\r\nJavaScript Object Notation (JSON) – In JSON, the data known as an object is one or more key/value pairs enclosed in braces { }. Keys must be strings within double quotation marks ” “. Keys and values are separated by a colon.\r\neXtensible Markup Language (XML) – In XML, the data is enclosed within a related set of tags <tag>data</tag>.\r\nYAML Ain’t Markup Language (YAML) – In YAML, the data known as an object is one or more key value pairs. Key value pairs are separated by a colon without the use of quotation marks. YAML uses indentation to define its structure, without the use of brackets or commas.",
+    "answersDescription": "Refer to the exhibit. Which data format is used to represent the data for network automation applications?",
     "questionImage": "5021101233.webp",
     "answers": [
       {
@@ -27759,7 +27759,7 @@
     "categoryId": 9323413997,
     "questionType": 3719829076,
     "timestamp": "2023-11-27T19:21:34.393Z",
-    "question": "Ethernet WAN uses many Ethernet standards and it connects easily to existing Ethernet LANs. It provides a switched, high-bandwidth Layer 2 network capable of managing data, voice, and video all on the same infrastructure. ISDN, while capable of supporting both voice and data, does not provide high bandwidth. VSAT uses satellite connectivity to establish a private WAN connection but with relatively low bandwidth. Use of VSAT, ISDN, and Frame Relay require specific network devices for the WAN connection and data conversion between LAN and WAN.",
+    "question": "Refer to the exhibit. As traffic is forwarded out an egress interface with QoS treatment, which congestion avoidance technique is used?",
     "questionText": "",
     "answersDescription": "Traffic shaping buffers excess packets in a queue and then forwards the traffic over increments of time, which creates a smoothed packet output rate. Traffic policing drops traffic when the amount of traffic reaches a configured maximum rate, which creates an output rate that appears as a saw-tooth with crests and troughs.",
     "questionImage": "2444507674.webp",
